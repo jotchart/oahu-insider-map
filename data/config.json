@@ -1,0 +1,29 @@
+{
+  "SPOT_CATEGORIES": {
+    "restaurant":  { "color": "#ff6b6b", "label": "Food",       "icon": "🍽" },
+    "beach":       { "color": "#4ecdc4", "label": "Beaches",    "icon": "🏖" },
+    "snorkel":     { "color": "#45b7d1", "label": "Snorkel",    "icon": "🤿" },
+    "hike":        { "color": "#96ceb4", "label": "Hikes",      "icon": "🥾" },
+    "kids":        { "color": "#feca57", "label": "Kids",       "icon": "👶" },
+    "shave-ice":   { "color": "#ff9ff3", "label": "Shave Ice",  "icon": "🍧" },
+    "coffee":      { "color": "#c8a879", "label": "Coffee",     "icon": "☕" }
+  },
+  "TIER_CONFIG": {
+    "S": { "label": "S-Tier", "color": "#ffd700", "desc": "The Canon — iconic, irreplaceable, every local knows it" },
+    "A": { "label": "A-Tier", "color": "#c0c0c0", "desc": "Strong Recommend — excellent, worth a detour" },
+    "B": { "label": "B-Tier", "color": "#cd7f32", "desc": "Solid Local Pick — reliable, not remarkable" },
+    "C": { "label": "C-Tier", "color": "#888888", "desc": "Fine if Nearby — known but not sought out" }
+  },
+  "SCORE_COLORS": {
+    "1": "#c62828",
+    "2": "#ef5350",
+    "3": "#ff8a65",
+    "4": "#ffb74d",
+    "5": "#fff176",
+    "6": "#dce775",
+    "7": "#a5d6a7",
+    "8": "#69f0ae",
+    "9": "#2ee67a",
+    "10": "#00c853"
+  }
+}

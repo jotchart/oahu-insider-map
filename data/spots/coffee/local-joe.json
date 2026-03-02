@@ -1,0 +1,21 @@
+{
+  "name": "Local Joe",
+  "tier": "S",
+  "lat": 21.3095,
+  "lng": -157.8597,
+  "category": "coffee",
+  "subcategory": "roaster",
+  "tagline": "Downtown Honolulu's best espresso with latte art on every single cup — no extra charge.",
+  "area": "Chinatown",
+  "price": "$",
+  "mustOrder": [
+    "honey lavender latte",
+    "cortado",
+    "matcha latte"
+  ],
+  "parking": "Metered street parking or the Chinatown municipal lot on Smith St",
+  "talkStory": "This is the downtown office workers' secret weapon — the morning rush is real professionals getting their fix before work. The owner is passionate about making specialty coffee accessible.",
+  "cashOnly": false,
+  "insiderTips": "Pair with a Chinatown walking tour — you're right on the edge of Chinatown's best food stalls, lei shops, and the historic district. Weekend hours are shorter so don't sleep in. If you're a coffee geek, ask about their current bean rotation.",
+  "kamaaina": null
+}

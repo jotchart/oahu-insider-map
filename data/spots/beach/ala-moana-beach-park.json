@@ -1,0 +1,17 @@
+{
+  "name": "Ala Moana Beach Park",
+  "tier": "S",
+  "lat": 21.2886,
+  "lng": -157.8453,
+  "category": "beach",
+  "subcategory": "kid-friendly",
+  "tagline": "The locals' beach in the heart of Honolulu — Magic Island Lagoon is toddler paradise.",
+  "area": "Honolulu",
+  "price": "Free",
+  "parking": "Large free parking lot (fills weekends by 10am)",
+  "hours": "Open daily, 4:00 AM – 10:00 PM",
+  "bestTime": "Weekday mornings for space; sunset at Magic Island for golden light",
+  "kidFriendly": true,
+  "insiderTips": "Magic Island east end has calm, shallow water perfect for toddlers. Shaded picnic areas fill fast on weekends — claim one early. Combine with a walk to the Ala Moana Bowls surf break viewpoint on the peninsula tip.",
+  "kamaaina": null
+}

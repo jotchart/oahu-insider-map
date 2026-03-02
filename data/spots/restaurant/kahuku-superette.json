@@ -1,0 +1,21 @@
+{
+  "name": "Kahuku Superette",
+  "tier": "S",
+  "lat": 21.68,
+  "lng": -157.9501,
+  "category": "restaurant",
+  "subcategory": "poke",
+  "tagline": "A five-generation family recipe in a tiny convenience store on the North Shore — the shoyu poke here will ruin you for all others.",
+  "area": "Kahuku / North Shore",
+  "price": "$",
+  "mustOrder": [
+    "Shoyu ahi poke bowl — five-generation family recipe, the reason this place exists",
+    "Spicy ahi poke — creamy-spicy with fresh ahi",
+    "Plate lunch specials — surprisingly solid comfort food from a convenience store"
+  ],
+  "parking": "Small gravel lot right in front of the store",
+  "talkStory": "A family-owned country store in Kahuku town that has been serving the community for generations. Their poke recipe has been passed down through five generations, making it one of the oldest continuously family-made poke preparations on Oahu.",
+  "cashOnly": false,
+  "insiderTips": "Go early — the poke is made fresh daily and sells out fast, especially on weekends when the North Shore surf crowd rolls through. Grab it before noon for best selection. Combine with a Kahuku shrimp truck stop.",
+  "kamaaina": null
+}

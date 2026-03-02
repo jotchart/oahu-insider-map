@@ -1,0 +1,17 @@
+{
+  "name": "Pupukea Grill",
+  "tier": "S",
+  "lat": 21.6438,
+  "lng": -158.0562,
+  "category": "restaurant",
+  "subcategory": "poke",
+  "tagline": "Parked across from Banzai Pipeline since 2008 — the surfers lining up here aren't wrong, this is the North Shore's best poke bowl.",
+  "area": "Pupukea / North Shore",
+  "price": "$",
+  "mustOrder": ["spicy tuna poke bowl", "fish plate lunch"],
+  "parking": "Between Pupukea Beach Park and Sharks Cove",
+  "talkStory": "Started as a food truck parked across from Pipeline around 2008, built a loyal following among North Shore surfers and locals for fresh, no-frills poke bowls at beach prices.",
+  "cashOnly": false,
+  "insiderTips": "Tue–Sun 11am–5pm, closed Mon.",
+  "kamaaina": null
+}

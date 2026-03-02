@@ -1,0 +1,21 @@
+{
+  "name": "Ken's Fresh Fish",
+  "tier": "S",
+  "lat": 21.6452,
+  "lng": -157.9236,
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "tagline": "Takeout-only, tiny, and almost impossible to find — the ahi katsu here is possibly the single best dish on the entire North Shore.",
+  "area": "Laie / North Shore",
+  "price": "$",
+  "mustOrder": [
+    "Ahi katsu — panko-crusted seared ahi, rare inside, possibly the best thing on the North Shore",
+    "Fresh poke — made daily from locally caught fish",
+    "Marlin tacos — unique preparation you won't find anywhere else"
+  ],
+  "parking": "Small gravel lot next to the shop",
+  "talkStory": "Run by fisherman Ken, who catches much of what he serves. This tiny takeout window in Laie started as a way to sell his daily catch directly to the community, and word spread through the North Shore surf network.",
+  "cashOnly": false,
+  "insiderTips": "Tue/Wed/Fri 11am–4pm, Sat 11am–5pm. No seating — takeout only. Call ahead to check if they're open and what's fresh. The menu changes based on the catch. Go early — once it's gone, it's gone.",
+  "kamaaina": null
+}

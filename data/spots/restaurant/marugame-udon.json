@@ -1,0 +1,20 @@
+{
+  "name": "Marugame Udon",
+  "tier": "S",
+  "lat": 21.2793,
+  "lng": -157.8282,
+  "category": "restaurant",
+  "subcategory": "noodles",
+  "tagline": "Locals genuinely love it despite the Waikiki address — watch them pull fresh noodles through the glass.",
+  "area": "Waikiki",
+  "price": "$",
+  "mustOrder": [
+    "kamaage udon ($5–7, the purist's choice — plain dipping noodles, taste the quality)",
+    "nikutama ($8–10, beef + egg)"
+  ],
+  "parking": "Don't drive — no parking in Waikiki",
+  "talkStory": "Toridoll Holdings franchise from Kobe, Japan — modeled after Kagawa Prefecture self-serve udon shops.",
+  "cashOnly": false,
+  "insiderTips": "Cafeteria-style: tray, order base udon, pick tempura, pay at register. Total bill can be under $10 — best value in Waikiki. Go at 10am opening or 2–4pm for shortest lines.",
+  "kamaaina": null
+}

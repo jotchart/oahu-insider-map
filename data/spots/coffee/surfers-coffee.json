@@ -1,0 +1,21 @@
+{
+  "name": "Surfers Coffee",
+  "tier": "S",
+  "lat": 21.5038,
+  "lng": -158.0239,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Non-profit coffee shop run by Surfing The Nations — great espresso with an even better mission.",
+  "area": "Wahiawa",
+  "price": "$",
+  "mustOrder": [
+    "espresso",
+    "drip coffee",
+    "mocha"
+  ],
+  "parking": "Free parking lot",
+  "talkStory": "Surfing The Nations has done humanitarian work across the Pacific — tsunami relief, youth outreach in underserved communities, surf therapy programs. Every cup you buy funds something real. The vibe is warm and community-oriented.",
+  "cashOnly": false,
+  "insiderTips": "This is the perfect pit stop if you're driving between Honolulu and the North Shore — Wahiawa is dead center. Fill up on caffeine before hitting the beaches.",
+  "kamaaina": null
+}

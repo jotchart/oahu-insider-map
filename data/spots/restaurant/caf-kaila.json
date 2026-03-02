@@ -1,0 +1,21 @@
+{
+  "name": "Café Kaila",
+  "tier": "S",
+  "lat": 21.2843,
+  "lng": -157.829,
+  "category": "restaurant",
+  "subcategory": "breakfast",
+  "tagline": "Four-time Honolulu Magazine gold medalist for Best Breakfast — the meatloaf loco moco is a hangover cure and a life choice all at once.",
+  "area": "Moiliili / Kapiolani",
+  "price": "$",
+  "mustOrder": [
+    "Meatloaf loco moco — housemade meatloaf with rich gravy, the signature dish",
+    "Macadamia nut pancakes — fluffy with local mac nuts and tropical fruit",
+    "Eggs Benedict — perfectly poached with hollandaise on point"
+  ],
+  "parking": "Upper level of Market City Shopping Center",
+  "talkStory": "Opened in 2008 by Chef Christi Kaila Sei in Market City Shopping Center, quickly winning Honolulu Magazine's Best Breakfast award four times and becoming a local institution.",
+  "cashOnly": false,
+  "insiderTips": "Weekday mornings are way less crowded than weekends. Get there by 7:30am on Saturdays or expect a 30+ minute wait. The daily specials board is always worth checking.",
+  "kamaaina": null
+}

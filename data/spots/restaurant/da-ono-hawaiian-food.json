@@ -1,0 +1,21 @@
+{
+  "name": "Da Ono Hawaiian Food",
+  "tier": "S",
+  "lat": 21.2765,
+  "lng": -157.8135,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "The original Ono Hawaiian Foods closed after 57 years, but Da Ono carries the torch at the same Kapahulu address — kalua pig still hits.",
+  "area": "Kapahulu",
+  "price": "$",
+  "mustOrder": [
+    "Kalua pig plate — smoky, tender, and authentic as it gets",
+    "Lomi salmon — fresh tomato and salmon, served cold the traditional way",
+    "Pipikaula short ribs — Hawaiian-style dried beef, salty and chewy"
+  ],
+  "parking": "Street parking on Kapahulu Ave, small lot behind building",
+  "talkStory": "The original Ono Hawaiian Foods was founded in 1962 and served traditional Hawaiian plates for 57 years before closing in 2019. Da Ono opened in the same Kapahulu location, carrying forward the legacy of one of Honolulu's most beloved Hawaiian food spots.",
+  "cashOnly": false,
+  "insiderTips": "Wed–Sun only. Get there before 2pm for best selection — popular items sell out. Order the combo plate to try multiple Hawaiian dishes. The poi is legit.",
+  "kamaaina": null
+}

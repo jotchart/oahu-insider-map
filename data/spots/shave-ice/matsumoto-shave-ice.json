@@ -1,0 +1,23 @@
+{
+  "name": "Matsumoto Shave Ice",
+  "tier": "S",
+  "lat": 21.5911,
+  "lng": -158.1028,
+  "category": "shave-ice",
+  "subcategory": "classic",
+  "tagline": "The North Shore icon since 1951 — the rainbow combo is non-negotiable.",
+  "area": "Haleiwa",
+  "price": "$",
+  "mustOrder": [
+    "rainbow combo (strawberry-lemon-pineapple)",
+    "lilikoi",
+    "li hing mui",
+    "coconut",
+    "azuki beans + ice cream on the bottom"
+  ],
+  "parking": "Street parking — fills fast on weekends",
+  "talkStory": "The original wooden building and vintage sign are historic landmarks. Open since 1951. The T-shirt they sell ($15–20) is a legit souvenir.",
+  "cashOnly": false,
+  "insiderTips": "If the line is insane, walk 50 feet to Aoki's instead. ALWAYS add azuki beans + ice cream on the bottom ($1–2 extra) — that's the real order. Lines can hit 30+ min on weekends so go early or late.",
+  "kamaaina": null
+}

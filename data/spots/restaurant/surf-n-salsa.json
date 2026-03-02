@@ -1,0 +1,21 @@
+{
+  "name": "Surf N Salsa",
+  "tier": "S",
+  "lat": 21.5955,
+  "lng": -158.1034,
+  "category": "restaurant",
+  "subcategory": "mexican",
+  "tagline": "Handmade corn tortillas and house-made salsa in a food truck on Kamehameha Highway — the fish tacos here make you question why you ever ate elsewhere.",
+  "area": "Haleiwa / North Shore",
+  "price": "$",
+  "mustOrder": [
+    "Fish tacos — fresh catch in handmade corn tortillas with house salsa",
+    "Carnitas tacos — slow-cooked pork, tender and well-seasoned",
+    "Housemade salsa — get the hot if you can handle it"
+  ],
+  "parking": "Dirt pulloff lot right next to the truck",
+  "talkStory": "A roadside food truck on Kamehameha Highway near Haleiwa that built a cult following among North Shore surfers and locals by making real-deal Mexican food with handmade tortillas and fresh-caught fish.",
+  "cashOnly": false,
+  "insiderTips": "Closed Sundays. The fish changes based on what's fresh — ask what they're using today. Lines build up around lunchtime so going slightly off-peak pays off. The green salsa is the sleeper hit.",
+  "kamaaina": null
+}

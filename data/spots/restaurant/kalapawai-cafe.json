@@ -1,0 +1,22 @@
+{
+  "name": "Kalapawai Cafe",
+  "tier": "S",
+  "lat": 21.3924,
+  "lng": -157.7349,
+  "category": "restaurant",
+  "subcategory": "cafe",
+  "tagline": "Kailua's neighborhood anchor since 1932 — sunrise coffee to dinner wine, go every day and never get bored.",
+  "area": "Kailua",
+  "price": "$$",
+  "mustOrder": [
+    "Kailua Club",
+    "Hot Pastrami",
+    "Bacon Wrapped Figs",
+    "Fish Tacos"
+  ],
+  "parking": "Small lot behind cafe on Kailua Rd; additional street parking on surrounding blocks",
+  "talkStory": "An iconic Kailua brand since 1932, paying homage to plantation-era corner-store heritage.",
+  "cashOnly": false,
+  "insiderTips": "Locally sourced ingredients, wine program focused on small family-owned wineries and breweries. Multiple locations — the Kailua Town cafe at 750 Kailua Rd is the flagship.",
+  "kamaaina": null
+}

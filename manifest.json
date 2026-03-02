@@ -1,0 +1,24 @@
+{
+  "name": "Oahu Neighborhoods — Real Talk Map",
+  "short_name": "Oahu Map",
+  "description": "55 Oahu neighborhoods scored 1-10 by real residents",
+  "start_url": "/oahu-insider-map/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Bar MAZE",
+  "tier": "S",
+  "lat": 21.2992,
+  "lng": -157.8629,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "James Beard-nominated omakase in Kakaako — intimate counter seating where every course is theater.",
+  "area": "Kakaako",
+  "price": "$$$",
+  "mustOrder": [
+    "seasonal tasting menu ($125)",
+    "cocktail pairing ($200 with pairing)"
+  ],
+  "parking": "Street parking on Auahi St and surrounding Kakaako blocks; metered spots free after 6pm",
+  "talkStory": "Created by Justin and Tom Park (the duo behind award-winning Bar Leather Apron) with head chef Ki Chung (2024/2025 James Beard nominee). Justin Park won the 2023 James Beard Award for bartending. Opened 2021.",
+  "cashOnly": false,
+  "insiderTips": "Reservations essential weeks in advance. Wed–Sun from 5pm. The cocktail or non-alcoholic pairings are designed to match each course — worth the upgrade.",
+  "kamaaina": null
+}

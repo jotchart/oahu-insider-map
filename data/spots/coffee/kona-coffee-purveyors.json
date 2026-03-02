@@ -1,0 +1,21 @@
+{
+  "name": "Kona Coffee Purveyors",
+  "tier": "S",
+  "lat": 21.2794,
+  "lng": -157.8307,
+  "category": "coffee",
+  "subcategory": "roaster",
+  "tagline": "100% Kona paired with SF's b.Patisserie pastries — the best coffee in Waikiki, full stop.",
+  "area": "Waikiki",
+  "price": "$$",
+  "mustOrder": [
+    "100% Kona pour-over ($8–10)",
+    "iced Kona latte",
+    "b.Patisserie pastries"
+  ],
+  "parking": "Validated parking at International Market Place garage (3 hrs free with purchase)",
+  "talkStory": "Brandon personally visits every farm he sources from. They partnered with Belinda Leong of b.Patisserie (James Beard-nominated SF bakery) for the pastry program.",
+  "cashOnly": false,
+  "insiderTips": "Go before 9am to beat the Waikiki brunch crowd. Ask the baristas which estate the current pour-over comes from. The upstairs location means most tourists walk right past it.",
+  "kamaaina": null
+}

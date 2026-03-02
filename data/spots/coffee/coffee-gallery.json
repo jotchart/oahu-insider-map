@@ -1,0 +1,21 @@
+{
+  "name": "Coffee Gallery",
+  "tier": "S",
+  "lat": 21.5943,
+  "lng": -158.1045,
+  "category": "coffee",
+  "subcategory": "roaster",
+  "tagline": "North Shore roastery with Oahu, Maui, and Kona beans — the real locals' coffee stop in Haleiwa.",
+  "area": "Haleiwa",
+  "price": "$",
+  "mustOrder": [
+    "Waialua estate coffee",
+    "bag of Waialua beans ($12–16)",
+    "iced mocha"
+  ],
+  "parking": "Parking in the North Shore Marketplace lot — easy",
+  "talkStory": "They've been a Haleiwa fixture for years and the staff knows every regular by name and order. They roast beans from multiple Hawaiian estates: Waialua (grown right here on Oahu's North Shore), Maui, Kona, and Kauai. The Waialua estate is on the Dole Plantation side of the North Shore.",
+  "cashOnly": false,
+  "insiderTips": "Grab a bag of Waialua beans as a souvenir — it's genuinely local and most visitors don't know Oahu grows coffee. The Waialua estate coffee is the move — you're literally drinking coffee grown 10 miles from where you're sitting. Good pastry case too. Great first stop before a North Shore beach day.",
+  "kamaaina": null
+}

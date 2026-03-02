@@ -1,0 +1,21 @@
+{
+  "name": "Fête",
+  "tier": "S",
+  "lat": 21.3085,
+  "lng": -157.8617,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Hawaii's first James Beard Best Chef winner in 19 years — seasonal New American meets local soul food in a Chinatown bistro.",
+  "area": "Chinatown / Downtown",
+  "price": "$$$",
+  "mustOrder": [
+    "carbonara with Portuguese sausage",
+    "twice-fried chicken with grits and collard greens",
+    "duck fat fries"
+  ],
+  "parking": "Street parking on Smith/Bethel; paid lots on Maunakea St",
+  "talkStory": "Opened 2016 by Chef Robynne Maii — first Native Hawaiian woman to win a James Beard Award (Best Chef Northwest & Pacific, 2022). The menu bridges Southern comfort, French technique, and Hawaiian ingredients.",
+  "cashOnly": false,
+  "insiderTips": "Mon–Sat 11am–10pm. Ask for a seat near the open kitchen. Great combined with a Chinatown walk — galleries, Maunakea Marketplace, Local Joe coffee all nearby.",
+  "kamaaina": null
+}

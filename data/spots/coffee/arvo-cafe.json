@@ -1,0 +1,21 @@
+{
+  "name": "Arvo Cafe",
+  "tier": "S",
+  "lat": 21.2978,
+  "lng": -157.8601,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Aussie-inspired at SALT Kakaako — the ube bread alone is worth the trip.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "ube (purple yam) toast",
+    "flat white",
+    "cold brew"
+  ],
+  "parking": "SALT has street parking and a lot behind the complex",
+  "talkStory": "Arvo means 'afternoon' in Australian slang. Jess built this into one of the most Instagrammed cafes in Hawaii — the pink/coral interior is designed for it.",
+  "cashOnly": false,
+  "insiderTips": "Go right at 8am opening on weekdays. The pastry case sells out early. Walk around SALT afterward — great murals, boutiques, and Moku Kitchen is in the same complex.",
+  "kamaaina": null
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Helena's Hawaiian Food",
+  "tier": "S",
+  "lat": 21.3282,
+  "lng": -157.8642,
+  "category": "restaurant",
+  "subcategory": "hawaiian",
+  "tagline": "James Beard Award winner in a Kalihi strip mall — the pipikaula short ribs will ruin you for all other beef.",
+  "area": "Kalihi",
+  "price": "$$",
+  "mustOrder": [
+    "Hawaiian plate (pipikaula short ribs, lomi salmon, poi, haupia)"
+  ],
+  "parking": "Strip mall parking lot on N. School St in Kalihi",
+  "talkStory": "Founded 1946 by Helen 'Helena' Chock. Won the James Beard America's Classics Award in 2000 — the only traditional Hawaiian food restaurant ever honored.",
+  "cashOnly": true,
+  "insiderTips": "Eat poi with two fingers, never a fork. Don't make a face at poi — it's sacred.",
+  "kamaaina": null
+}

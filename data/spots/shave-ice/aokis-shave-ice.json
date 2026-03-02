@@ -1,0 +1,23 @@
+{
+  "name": "Aoki's Shave Ice",
+  "tier": "S",
+  "lat": 21.5908,
+  "lng": -158.1022,
+  "category": "shave-ice",
+  "subcategory": "classic",
+  "tagline": "Directly across from Matsumoto with a fraction of the line — locals' quiet favorite since 1981.",
+  "area": "Haleiwa",
+  "price": "$",
+  "mustOrder": [
+    "lychee",
+    "lilikoi",
+    "tiger's blood",
+    "green tea",
+    "azuki beans + condensed milk combo"
+  ],
+  "parking": "Street spots fill fast — same parking situation as Matsumoto",
+  "talkStory": "The Aoki family are Haleiwa OGs — while tourists mob Matsumoto, locals quietly slip into Aoki's. Open since 1981.",
+  "cashOnly": false,
+  "insiderTips": "If you want to compare the two (and you should), get a small at each. The azuki beans + condensed milk combo is the local move.",
+  "kamaaina": null
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Kapa Hale",
+  "tier": "S",
+  "lat": 21.275,
+  "lng": -157.7851,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "James Beard semifinalist in Kaimuki — hyper-seasonal Hawaiian ingredients in a cozy neighborhood room.",
+  "area": "Kaimuki",
+  "price": "$$$",
+  "mustOrder": [
+    "seasonal tasting menu"
+  ],
+  "parking": "Street parking on Waialae Ave and Kaimuki side streets (9th-12th Ave)",
+  "talkStory": "James Beard semifinalist for Best Chef Northwest & Pacific. Modern take on Hawaii Regional Cuisine — local products combined with ethnic influences showcasing flavors unique to today's Hawaii.",
+  "cashOnly": false,
+  "insiderTips": "Ask for a seat near the open kitchen if available. Reservations recommended.",
+  "kamaaina": null
+}

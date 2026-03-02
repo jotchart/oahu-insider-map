@@ -1,0 +1,21 @@
+{
+  "name": "Waiola Shave Ice",
+  "tier": "S",
+  "lat": 21.2919,
+  "lng": -157.8358,
+  "category": "shave-ice",
+  "subcategory": "classic",
+  "tagline": "Honolulu institution since 1979 — cloud-soft ice that soaks up syrup better than anywhere.",
+  "area": "Moiliili",
+  "price": "$",
+  "mustOrder": [
+    "any flavor — the ice texture is the star here",
+    "azuki beans",
+    "li hing mui"
+  ],
+  "parking": "Street parking on Waiola St or in the small lot behind the shop",
+  "talkStory": "This is where UH Manoa students and Moiliili families have come for decades — no tourists, just neighborhood people. The owner is there most days. Won Hawaii's Best Shave Ice multiple years running.",
+  "cashOnly": false,
+  "insiderTips": "It's in a residential area so don't blast music or take up the whole sidewalk. Known for having the softest, finest-shaved ice on the island — it's almost powdery, which means the syrup absorbs completely instead of pooling at the bottom.",
+  "kamaaina": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Kailua Beach Park",
+  "tier": "S",
+  "lat": 21.3976,
+  "lng": -157.7271,
+  "category": "beach",
+  "subcategory": "swimming",
+  "tagline": "The beach Honolulu locals make the drive for — powder-white sand, gentle clear water, views of the Mokes.",
+  "area": "Kailua",
+  "price": "Free",
+  "parking": "3 free lots — arrive before 9am on weekends",
+  "hours": "Open daily, 5:00 AM – 10:00 PM",
+  "bestTime": "Arrive before 9am weekends; weekday mornings are uncrowded",
+  "kidFriendly": true,
+  "insiderTips": "Rent kayaks to paddle to the Mokulua Islands (Na Mokulua) — land on Moku Nui's hidden beach. The section near Kalama Beach Park is less crowded than the main park. Wind picks up after noon most days, great for kite sports but choppy for swimming.",
+  "kamaaina": null
+}

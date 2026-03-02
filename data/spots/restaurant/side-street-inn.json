@@ -1,0 +1,17 @@
+{
+  "name": "Side Street Inn",
+  "tier": "S",
+  "lat": 21.2946,
+  "lng": -157.8472,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "Where Honolulu chefs eat on their day off — the fried rice feeds four and costs sixteen bucks.",
+  "area": "Ala Moana",
+  "price": "$$",
+  "mustOrder": ["pan-fried pork chops ($16–20, THE signature dish)", "signature fried rice ($14–16, enormous portions)"],
+  "parking": "Street parking",
+  "talkStory": "Founded by Colin Nishida, James Beard semifinalist and one of Hawaii's most respected chefs.",
+  "cashOnly": false,
+  "insiderTips": "After Honolulu's best chefs close their own restaurants at 10–11pm, they come here for Colin's pork chops and cold beer. Order family-style — 3–4 dishes for 2 people, split everything. Go late night (after 10pm) for the authentic chef crowd.",
+  "kamaaina": null
+}

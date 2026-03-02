@@ -1,0 +1,20 @@
+{
+  "name": "Koko Head Cafe",
+  "tier": "S",
+  "lat": 21.2814,
+  "lng": -157.7996,
+  "category": "restaurant",
+  "subcategory": "breakfast",
+  "tagline": "Lee Anne Wong's brunch spot — Cornflake French Toast and kimchi fried rice are mandatory.",
+  "area": "Kaimuki",
+  "price": "$$",
+  "mustOrder": [
+    "Cornflake French Toast ($16–18, battered in cornflake cereal — cult following)",
+    "breakfast bibimbap ($17–19)"
+  ],
+  "parking": "Park on Kaimuki side streets (12th Ave, Harding Ave)",
+  "talkStory": "Opened 2014 by Chef Lee Anne Wong — Top Chef Season 1 alum, James Beard nominee. She also opened Papa Kurt's (smash burgers) nearby.",
+  "cashOnly": false,
+  "insiderTips": "Rotating scones and pastries at the counter — don't skip. No reservations for brunch — walk-in waitlist only. The move: weekday mornings right at 7am opening for zero wait. Walk Waialae Ave after for Kaimuki's boutiques.",
+  "kamaaina": null
+}

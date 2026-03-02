@@ -1,0 +1,17 @@
+{
+  "name": "Diamond Head Summit",
+  "tier": "S",
+  "lat": 21.2613,
+  "lng": -157.8047,
+  "category": "hike",
+  "subcategory": "sunrise",
+  "tagline": "Oahu's most iconic crater climb — tunnels, stairs, and 360-degree views that justify the hype.",
+  "area": "Waikiki",
+  "price": "$",
+  "parking": "$10/vehicle inside the crater; $5/person entry (reservations required)",
+  "hours": "Gate opens 6am; last entry 4pm",
+  "bestTime": "Sunrise — book the 6am slot weeks in advance; it sells out",
+  "kidFriendly": true,
+  "insiderTips": "Reservations required at gostateparks.hawaii.gov — walk-ups are turned away. Bring a flashlight for the dark tunnel sections. About 1.6 miles round trip with 560 ft elevation gain and steep stairs near the top. Bring water — no shade. The 6am sunrise slot is magical but the 6:30am is nearly as good with shorter lines.",
+  "kamaaina": "Hawaii residents free entry with valid state ID; $5 parking (vs $10 non-resident)"
+}

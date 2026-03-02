@@ -1,0 +1,17 @@
+{
+  "name": "Tokkuri Tei",
+  "tier": "S",
+  "lat": 21.275,
+  "lng": -157.8156,
+  "category": "restaurant",
+  "subcategory": "izakaya",
+  "tagline": "Honolulu's original izakaya — the garlic ahi belly and tofu steak are why reservations fill a week out.",
+  "area": "Kapahulu",
+  "price": "$$",
+  "mustOrder": ["ika yaki (squid pancake, $12–14 — THE signature dish)", "maguro tataki ($14–16)", "garlic edamame", "nasu dengaku (miso eggplant)", "black sesame ice cream"],
+  "parking": "Street parking on side streets mauka of Kapahulu",
+  "talkStory": "Opened early 1990s by chef/owner Hide Yoshimoto (Hide-san) — one of the first authentic izakayas in Hawaii, helped spark the island's izakaya boom.",
+  "cashOnly": false,
+  "insiderTips": "Order multiple small plates to share — izakaya style means rounds of dishes throughout the evening, not one entree per person. Sake pairing is the proper move — ask staff to guide you. Go Tue/Wed for walk-in seating. Say 'kampai' before your first drink.",
+  "kamaaina": null
+}

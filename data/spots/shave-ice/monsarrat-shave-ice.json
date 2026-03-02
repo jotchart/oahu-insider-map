@@ -1,0 +1,21 @@
+{
+  "name": "Monsarrat Shave Ice",
+  "tier": "S",
+  "lat": 21.2702,
+  "lng": -157.813,
+  "category": "shave-ice",
+  "subcategory": "gourmet",
+  "tagline": "All-natural organic fruit purees — syrups so thick they layer them in as they build your cone.",
+  "area": "Diamond Head",
+  "price": "$",
+  "mustOrder": [
+    "strawberry-lychee",
+    "mango-lilikoi",
+    "guava-coconut"
+  ],
+  "parking": "Street parking on Monsarrat — look for spots near the Kapiolani Park side",
+  "talkStory": "This is a labor-of-love operation, tiny setup. The owner is passionate about using only Hawaiian-grown ingredients when possible.",
+  "cashOnly": true,
+  "insiderTips": "Pair with a Diamond Head hike — finish the trail, walk down Monsarrat, reward yourself. Limited hours: Fri–Sun 11am–4pm typically, but check their Instagram @monsarratshaveice before going — they close for rain and sometimes take random weeks off.",
+  "kamaaina": null
+}

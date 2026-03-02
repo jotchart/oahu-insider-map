@@ -1,0 +1,21 @@
+{
+  "name": "ChadLou's Coffee",
+  "tier": "S",
+  "lat": 21.397,
+  "lng": -157.7387,
+  "category": "coffee",
+  "subcategory": "roaster",
+  "tagline": "Kailua's most serious roastery — artisan small-batch with cult-following seasonal lattes.",
+  "area": "Kailua",
+  "price": "$$",
+  "mustOrder": [
+    "seasonal latte",
+    "single-origin pour-over",
+    "house roast bag ($14–18)"
+  ],
+  "parking": "Street parking on Hoolai or in the nearby municipal lot",
+  "talkStory": "Chad is a certified Q Grader (the sommelier equivalent for coffee) and sources beans directly from Hawaiian farms. They supply beans to several restaurants around the island.",
+  "cashOnly": false,
+  "insiderTips": "Buy a bag of their house roast to take home — it's some of the best roasted-in-Hawaii coffee you'll find. Ask what single-origin they're pouring that week.",
+  "kamaaina": null
+}

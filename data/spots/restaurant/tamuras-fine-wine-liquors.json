@@ -1,0 +1,17 @@
+{
+  "name": "Tamura's Fine Wine & Liquors",
+  "tier": "S",
+  "lat": 21.4234,
+  "lng": -157.7486,
+  "category": "restaurant",
+  "subcategory": "poke",
+  "tagline": "Walk into a wine shop, walk out with the best poke in Kailua — trust the process.",
+  "area": "Kailua",
+  "price": "$",
+  "mustOrder": ["spicy ahi (top seller)", "garlic shrimp poke (hard to find elsewhere)", "furikake salmon poke"],
+  "parking": "Ample parking at Aikahi Park Shopping Center",
+  "talkStory": "The Tamura family started as a legit wine/liquor store, then added a poke counter that became equally famous.",
+  "cashOnly": false,
+  "insiderTips": "You can taste before buying. The move: grab a pound of poke + a bottle of wine, drive to Kailua Beach or Lanikai for sunset. Best selection before 1pm.",
+  "kamaaina": null
+}

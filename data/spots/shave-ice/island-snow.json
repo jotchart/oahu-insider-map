@@ -1,0 +1,21 @@
+{
+  "name": "Island Snow",
+  "tier": "S",
+  "lat": 21.3946,
+  "lng": -157.7384,
+  "category": "shave-ice",
+  "subcategory": "classic",
+  "tagline": "Obama's Kailua go-to — every presidential visit = a stop here. Also a legit surf shop.",
+  "area": "Kailua",
+  "price": "$",
+  "mustOrder": [
+    "any flavor with vanilla ice cream on the bottom (the Island Snow signature)",
+    "li hing mui powder on top",
+    "passion orange guava (POG)"
+  ],
+  "parking": "Parking in the Kailua Shopping Center lot next door",
+  "talkStory": "A Kailua institution way before the Obama fame, doubling as a surf/skate shop since the '90s. The shop sponsors local surf groms and is deeply embedded in the Kailua community.",
+  "cashOnly": false,
+  "insiderTips": "Combine with a Kailua Beach day — it's a 5-minute walk. Every order comes with a scoop of vanilla ice cream buried at the bottom of the cone — that's the Island Snow signature. Add li hing mui powder on top for the local move.",
+  "kamaaina": null
+}

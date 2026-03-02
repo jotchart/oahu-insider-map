@@ -1,0 +1,17 @@
+{
+  "name": "Ono Seafood",
+  "tier": "S",
+  "lat": 21.2811,
+  "lng": -157.8139,
+  "category": "restaurant",
+  "subcategory": "poke",
+  "tagline": "Made-to-order poke that locals will wait 30 minutes for — the shoyu ahi is non-negotiable.",
+  "area": "Kapahulu",
+  "price": "$",
+  "mustOrder": ["shoyu ahi ($14–16)", "spicy ahi"],
+  "parking": "Only 5–6 parking spots behind shop; park on side streets off Kapahulu",
+  "talkStory": "Founded by the Ono family — 'ono' means 'delicious' in Hawaiian.",
+  "cashOnly": false,
+  "insiderTips": "They cut fish to order, never pre-mixed. Tiny shop, no seating — take your bowl to Kapiolani Park (5 min walk) and eat with a Diamond Head view. Go Tue–Fri at 9am opening — sells out by early afternoon. Know your order before you reach the counter — line moves fast and staff expect efficiency.",
+  "kamaaina": null
+}

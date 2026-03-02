@@ -1,0 +1,17 @@
+{
+  "name": "Shige's Saimin Stand",
+  "tier": "S",
+  "lat": 21.5028,
+  "lng": -158.0211,
+  "category": "restaurant",
+  "subcategory": "saimin",
+  "tagline": "Townies willingly make the 30-minute drive to Wahiawa because nobody else makes saimin noodles in-house like Shige's does.",
+  "area": "Wahiawa / Central Oahu",
+  "price": "$",
+  "mustOrder": ["saimin", "teri cheeseburger"],
+  "parking": "Strip mall parking lot",
+  "talkStory": "Open since 1990, Shige's is one of the last places on Oahu making saimin noodles from scratch in-house — the handmade noodle texture is noticeably different from anywhere else.",
+  "cashOnly": false,
+  "insiderTips": "Tue–Sat 10am–9pm.",
+  "kamaaina": null
+}
