@@ -1255,8 +1255,13 @@ body {
     border-radius: 50%;
     backdrop-filter: blur(4px);
   }
-  /* Lift popup pane above controls when fullscreen popup is open */
+  /* Lift popup pane above controls when fullscreen popup is open
+     and reset transforms so position:fixed escapes to the viewport */
+  .leaflet-map-pane:has(.mobile-fullscreen) {
+    transform: none !important;
+  }
   .leaflet-popup-pane:has(.mobile-fullscreen) {
+    transform: none !important;
     z-index: 10000 !important;
   }
   /* Hide map chrome when fullscreen popup is open */
