@@ -1054,25 +1054,25 @@ body {
   /* Full-screen popup cards on mobile */
   .mobile-fullscreen {
     position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    right: 0 !important;
-    bottom: 0 !important;
-    width: 100vw !important;
-    height: 100dvh !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 100% !important;
     transform: none !important;
     margin: 0 !important;
+    padding: 0 !important;
     z-index: 10000 !important;
-    background: var(--surface) !important;
   }
   .mobile-fullscreen .leaflet-popup-content-wrapper {
-    position: relative;
+    position: absolute;
+    inset: 0;
     width: 100% !important;
     max-width: 100% !important;
-    max-height: 100dvh !important;
+    max-height: 100% !important;
     height: 100% !important;
     border-radius: 0 !important;
     border: none !important;
+    box-shadow: none !important;
     overflow-y: auto;
     -webkit-overflow-scrolling: touch;
   }
@@ -1087,8 +1087,7 @@ body {
   .mobile-fullscreen .popup-inner {
     max-width: 100% !important;
     min-width: 100% !important;
-    padding: 20px 20px 40px;
-    min-height: 60vh;
+    padding: max(20px, env(safe-area-inset-top)) 20px max(40px, env(safe-area-inset-bottom));
   }
   .mobile-fullscreen .popup-details {
     max-height: none;
@@ -1103,7 +1102,7 @@ body {
     font-size: 13px;
   }
   .mobile-fullscreen .leaflet-popup-close-button {
-    position: absolute !important;
+    position: fixed !important;
     width: 44px !important;
     height: 44px !important;
     font-size: 28px !important;
@@ -1111,9 +1110,9 @@ body {
     align-items: center;
     justify-content: center;
     padding: 0 !important;
-    top: 8px !important;
-    right: 8px !important;
-    z-index: 10 !important;
+    top: max(8px, env(safe-area-inset-top)) !important;
+    right: max(8px, env(safe-area-inset-right)) !important;
+    z-index: 10001 !important;
     color: #fff !important;
     background: rgba(255,255,255,0.15) !important;
     border-radius: 50%;
@@ -1124,9 +1123,8 @@ body {
     z-index: 10000 !important;
   }
   /* Hide map chrome when fullscreen popup is open */
-  .map-popup-open .leaflet-control-container {
-    display: none !important;
-  }
+  .map-popup-open .leaflet-control-container,
+  .map-popup-open .top-bar,
   .map-popup-open .right-now-bar {
     display: none !important;
   }
