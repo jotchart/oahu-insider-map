@@ -5,6 +5,7 @@
   "lng": -157.8233,
   "category": "restaurant",
   "subcategory": "dim-sum",
+  "genre": "chinese",
   "tagline": "Legit dim sum with rolling carts — the har gow and char siu bao are Chinatown quality without the Chinatown parking.",
   "area": "Moiliili",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Siu mai — pork and shrimp dumplings, a dim sum staple"
   ],
   "parking": "Parking lot in the McCully Shopping Center. Usually can find a spot.",
-  "talkStory": "Fook Yuen is where the Chinese aunties and uncles go for dim sum on weekends, and if that doesn't tell you it's legit, nothing will. They still do the traditional cart service — flag down the cart ladies and point at what looks good. Weekend dim sum gets packed by 10am so go early, especially for a big group. Weekday dim sum is the local hack — same food, no wait. The dinner seafood menu is solid too but dim sum is the main event.",
+  "talkStory": "Fook Yuen is where Honolulu's Chinese aunties and uncles go for weekend dim sum — the ultimate credibility marker. They still do traditional rolling cart service: flag down the cart ladies and point at what looks good. Operating since the early 1990s in McCully Shopping Center, it's one of the few remaining cart-style dim sum spots on Oahu. Weekend dim sum packs out by 10am; weekday dim sum is the local hack — same food, zero wait. Dinner seafood is solid but dim sum is the event.",
   "cashOnly": false,
   "kamaaina": null
 }

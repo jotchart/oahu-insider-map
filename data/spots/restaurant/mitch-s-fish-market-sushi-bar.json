@@ -1,10 +1,11 @@
 {
   "name": "Mitch's Fish Market & Sushi Bar",
   "tier": "B",
-  "lat": 21.2862,
-  "lng": -157.8672,
+  "lat": 21.3339,
+  "lng": -157.908,
   "category": "restaurant",
   "subcategory": "seafood",
+  "genre": "seafood-poke",
   "tagline": "Fresh-off-the-boat seafood right next to the fishing pier — sashimi doesn't get more local than this.",
   "area": "Honolulu Fish Auction",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Poke bowl — fresh ahi, rice, and furikake"
   ],
   "parking": "Parking lot at Pier 38. Easy to find, usually has spots.",
-  "talkStory": "Mitch's is literally next to the Honolulu Fish Auction at Pier 38 — the fish here was swimming yesterday. It's not fancy — plastic chairs and fluorescent lights — but the sashimi is as fresh as it gets without catching it yourself. Great for a no-frills seafood lunch. The fish auction tours happen early morning next door if you're into that. Lunch is the main event; they close in the afternoon.",
+  "talkStory": "Run by Mitch Arakawa since the 1990s in an unassuming Kaimuki strip mall on Harding Ave. Mitch hand-selects fish daily from the Honolulu Fish Auction at pier 38, one of the only places in the US where tuna is still auctioned Japanese-style. The sashimi is auction-fresh and priced well below Waikiki omakase spots. Regulars sit at the counter and let Mitch choose — the unofficial omakase. A true neighborhood sushi bar where the chef knows every regular by name.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -5,6 +5,7 @@
   "lng": -157.7453,
   "category": "restaurant",
   "subcategory": "breakfast",
+  "genre": "breakfast-brunch",
   "tagline": "Kailua brunch institution where the guava chiffon pancakes and red velvet pancakes have a cult following.",
   "area": "Kailua",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Eggs Benedict — local twist with kalua pork or crab cake"
   ],
   "parking": "Parking lot behind the restaurant off Kailua Rd. Can fill up on weekends — arrive before 8:30am or after 11am.",
-  "talkStory": "Cinnamon's moved from its tiny original location to a bigger spot on Kailua Rd, which helped the wait times but weekends are still packed. The guava chiffon pancakes are what everyone comes for and they live up to the hype. Good combo: brunch at Cinnamon's, then walk to Kailua Beach. They also do a solid lunch menu but breakfast is the reason to go. Gets hot inside — grab a table on the patio if you can.",
+  "talkStory": "Opened in 1985 as a tiny breakfast counter, Cinnamon's later moved to a bigger Kailua Road location to handle the crowds — but weekends still pack out. The guava chiffon pancakes, made with real guava puree folded into the batter, are the signature that built a following across three decades. Named a Hale Aina Award winner multiple times. The move: brunch at Cinnamon's, then walk to Kailua Beach. Grab a patio table if you can — it gets warm inside.",
   "cashOnly": false,
   "kamaaina": null
 }

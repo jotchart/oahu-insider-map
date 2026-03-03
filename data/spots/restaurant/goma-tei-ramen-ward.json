@@ -5,6 +5,7 @@
   "lng": -157.8581,
   "category": "restaurant",
   "subcategory": "ramen",
+  "genre": "ramen-noodles",
   "tagline": "A local mini-chain that consistently beats out the trendy newcomers — the sesame-rich tonkotsu broth is what keeps Honolulu coming back.",
   "area": "Kakaako / Ward",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Gyoza — crispy pan-fried dumplings, perfect starter"
   ],
   "parking": "Ward Centre parking structure, validated with purchase",
-  "talkStory": "Goma Tei originated in Japan and opened its first Hawaii location in 2005, building a loyal following with its signature sesame-based broth that you won't find at most ramen shops. Now has multiple locations across Oahu. The sesame ramen is the move — it's what sets them apart from every other ramen shop. Weekday lunch is less packed than dinner. You can customize spice level and noodle firmness.",
+  "talkStory": "Goma Tei originated in Sapporo, Japan and brought its signature sesame-based tonkotsu to Honolulu in 2005 — the 'goma' in the name literally means sesame. The ground sesame broth is their proprietary recipe and you genuinely cannot get it anywhere else on the island. Now with multiple Oahu locations, the Ward spot stays packed with locals who consider it their everyday ramen over trendier newcomers. Customize your noodle firmness and spice level at ordering — weekday lunch beats the dinner rush.",
   "cashOnly": false,
   "kamaaina": null
 }

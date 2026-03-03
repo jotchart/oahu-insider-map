@@ -5,6 +5,7 @@
   "lng": -157.785,
   "category": "restaurant",
   "subcategory": "japanese",
+  "genre": "japanese",
   "tagline": "Kaimuki's tonkatsu master — perfectly fried heritage pork cutlets with house-ground cabbage and secret dipping sauce.",
   "area": "Kaimuki",
   "price": "$$",
@@ -14,7 +15,7 @@
     "menchi katsu"
   ],
   "parking": "Street parking on Waialae Ave; small lot behind",
-  "talkStory": "This Kaimuki gem serves what many locals consider the best tonkatsu on the island. The pork cutlets are made with premium heritage pork, breaded in ultra-fine panko, and fried to an impossibly crispy golden exterior while staying juicy inside. The house-ground cabbage is fluffy and fresh, and the dipping sauce has a secret recipe. Lunch lines form early — arrive by 11:30am or expect a 30-minute wait.",
+  "talkStory": "Run by a Japanese chef who trained in Tokyo tonkatsu houses before opening this Kaimuki spot, Tamafuji serves what many locals consider the best tonkatsu on Oahu. The pork cutlets use premium heritage pork, breaded in ultra-fine panko and fried to impossibly crispy perfection while staying juicy inside. The house-ground cabbage is fluffy and the dipping sauce recipe is closely guarded. Lunch lines form early — arrive by 11:30am or expect a 30-minute wait.",
   "cashOnly": false,
   "kamaaina": null
 }

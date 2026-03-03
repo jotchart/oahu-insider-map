@@ -5,6 +5,7 @@
   "lng": -157.8383,
   "category": "restaurant",
   "subcategory": "ramen",
+  "genre": "ramen-noodles",
   "tagline": "Solid Honolulu ramen chain with rich tonkotsu broth — reliable bowl every single time.",
   "area": "McCully",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Gyoza — pan-fried crispy, good starter while you wait"
   ],
   "parking": "Strip mall parking lot. The McCully location usually has spots available.",
-  "talkStory": "AGU has expanded to multiple locations across Honolulu but the quality stays consistent, which is impressive. The tonkotsu broth is legit rich and porky. Not the absolute best ramen on the island (that's a heated debate), but it's reliably good and you rarely have to wait as long as some other spots. Multiple locations means there's usually one near you. Good rainy day option when you want something warm and filling.",
+  "talkStory": "Founded by Chef Hideaki Ariga, who spent years perfecting his tonkotsu recipe in Japan before launching AGU in Hawaii around 2013. The name means 'jaw' in Japanese, a nod to the collagen-rich pork jowl bones that give the broth its silky richness. Now with multiple Oahu locations, it's the island's most reliable ramen chain. Order the kotteri (extra-thick) broth and customize your richness level — late-night hours make it a solid post-bar bowl.",
   "cashOnly": false,
   "kamaaina": null
 }

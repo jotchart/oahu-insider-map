@@ -1,0 +1,21 @@
+{
+  "name": "Seasons Taiwanese Eatery",
+  "tier": "A",
+  "lat": 21.3128,
+  "lng": -157.8613,
+  "category": "restaurant",
+  "subcategory": "taiwanese",
+  "genre": "chinese",
+  "tagline": "Chinatown's top-rated Taiwanese spot — popcorn chicken, beef noodle soup, and huge portions at prices that feel like Taipei.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "popcorn chicken — crispy, five-spice seasoned",
+    "beef noodle soup — rich braised broth, tender beef shank",
+    "lu rou fan — braised pork belly over rice"
+  ],
+  "parking": "Chinatown Cultural Plaza parking",
+  "talkStory": "Expanded from a shaved ice and boba shop into a full Taiwanese eatery in the Chinatown Cultural Plaza. The owner is passionate and the portions are enormous — you'll struggle to finish a bowl of beef noodle soup. The popcorn chicken is addictive and the lu rou fan (braised pork rice) is textbook comfort food. Prices are shockingly reasonable. The top-rated Taiwanese restaurant on Oahu for good reason. Lunch and dinner Mon-Sat, Sunday lunch only.",
+  "cashOnly": false,
+  "kamaaina": null
+}

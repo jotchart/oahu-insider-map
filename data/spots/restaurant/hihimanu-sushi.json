@@ -5,6 +5,7 @@
   "lng": -157.8247,
   "category": "restaurant",
   "subcategory": "japanese",
+  "genre": "japanese",
   "tagline": "High-end omakase sushi on Waialae — named for the Hawaiian eagle ray, blending island identity with Japanese craft.",
   "area": "Kaimuki",
   "price": "$$$",
@@ -14,7 +15,7 @@
     "the full counter experience"
   ],
   "parking": "Street parking on Waialae Ave",
-  "talkStory": "The name 'hihimanu' is Hawaiian for eagle ray or manta ray — a nice touch that blends Hawaiian identity with serious sushi craft. $100+ omakase in a local Kaimuki neighborhood setting, not Waikiki. The crowd is local sushi aficionados willing to pay for quality. Reserve ahead. Dinner only, opens at 2pm Tue–Sun.",
+  "talkStory": "Opened by Chef Jordan Keao on Waialae Ave in Kaimuki, the name 'hihimanu' is Hawaiian for eagle ray — a nod to blending Hawaiian identity with serious Edomae-style sushi craft. This is a $100+ omakase experience in a humble neighborhood setting, not a Waikiki hotel, which is exactly what makes it special. The fish is sourced from local auction and flown in from Tsukiji. Reserve well in advance — only a handful of counter seats. Dinner only, closed Mondays.",
   "cashOnly": false,
   "kamaaina": null
 }

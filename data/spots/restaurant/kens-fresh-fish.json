@@ -5,6 +5,7 @@
   "lng": -157.9236,
   "category": "restaurant",
   "subcategory": "seafood",
+  "genre": "seafood-poke",
   "tagline": "Takeout-only, tiny, and almost impossible to find — the ahi katsu here is possibly the single best dish on the entire North Shore.",
   "area": "Laie / North Shore",
   "price": "$",
@@ -14,7 +15,7 @@
     "Marlin tacos — unique preparation you won't find anywhere else"
   ],
   "parking": "Small gravel lot next to the shop",
-  "talkStory": "Run by fisherman Ken, who catches much of what he serves. This tiny takeout window in Laie started as a way to sell his daily catch directly to the community, and word spread through the North Shore surf network. Tue/Wed/Fri 11am–4pm, Sat 11am–5pm. No seating — takeout only. Call ahead to check if they're open and what's fresh. The menu changes based on the catch. Go early — once it's gone, it's gone.",
+  "talkStory": "Ken Higa is a working fisherman in Laie who started selling his daily catch directly to the community from a tiny takeout window — word spread through the North Shore surf network and now people drive from town for his ahi katsu. The panko-crusted seared ahi (rare inside) is arguably the single best prepared fish dish on the North Shore. Menu changes daily based on what Ken caught that morning. Open only Tue/Wed/Fri/Sat with limited hours — call ahead to check if they're open. No seating, takeout only, and once it's gone, it's gone.",
   "cashOnly": false,
   "kamaaina": null
 }

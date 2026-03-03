@@ -1,0 +1,21 @@
+{
+  "name": "Forty Niner Restaurant",
+  "tier": "A",
+  "lat": 21.386,
+  "lng": -157.9384,
+  "category": "restaurant",
+  "subcategory": "diner",
+  "genre": "breakfast-brunch",
+  "tagline": "Aiea's 50-year-old diner where locals go for banana pancakes, loco moco, and the kind of breakfast that doesn't exist on Instagram.",
+  "area": "Aiea",
+  "price": "$",
+  "mustOrder": [
+    "banana pancakes — fluffy, loaded with banana",
+    "loco moco — classic diner version",
+    "corned beef hash — homemade, not canned"
+  ],
+  "parking": "Lot in front of the restaurant",
+  "talkStory": "A no-frills Aiea diner that's been serving breakfast and lunch since opening in 1973 — over 50 years of banana pancakes, loco moco, and homemade corned beef hash. Three generations of central Oahu families have made this their Saturday morning ritual. The waitresses know regulars by name and start pouring coffee before they sit down. Featured on local 'Best Breakfast' lists for decades. Cash only, no Instagram presence, and nobody is photographing their food here.",
+  "cashOnly": true,
+  "kamaaina": null
+}

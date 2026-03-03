@@ -5,6 +5,7 @@
   "lng": -157.9557,
   "category": "restaurant",
   "subcategory": "food-truck",
+  "genre": "food-truck",
   "tagline": "North Shore taco truck with fresh fish tacos that rival the shrimp trucks without the crazy lines.",
   "area": "North Shore (Kahuku)",
   "price": "$",
@@ -14,7 +15,7 @@
     "Burrito bowl — rice, beans, fresh fish, and all the fixings"
   ],
   "parking": "Roadside pull-off area on Kamehameha Hwy near the other Kahuku food trucks.",
-  "talkStory": "While everyone lines up at the famous shrimp trucks, Taco Kahuku quietly serves some of the best fish tacos on the North Shore. The fish is fresh and local, the portions are generous, and the wait is usually way shorter than Giovanni's or Romy's next door. It's a great alternative if someone in your group doesn't want shrimp. Located in the same Kahuku food truck strip so you can mix and match.",
+  "talkStory": "While everyone queues 45 minutes at Giovanni's and Romy's shrimp trucks, Taco Kahuku quietly serves some of the best fish tacos on the North Shore with almost no wait. Located in the same Kahuku food truck strip, it's the smart local move — fresh-caught fish, generous portions, and you can mix and match with shrimp from next door. Great alternative if someone in your group doesn't want shrimp.",
   "cashOnly": false,
   "kamaaina": null
 }

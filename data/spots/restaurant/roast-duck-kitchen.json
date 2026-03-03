@@ -1,0 +1,21 @@
+{
+  "name": "Roast Duck Kitchen",
+  "tier": "A",
+  "lat": 21.3893,
+  "lng": -157.9395,
+  "category": "restaurant",
+  "subcategory": "chinese-bbq",
+  "genre": "chinese",
+  "tagline": "Aiea's roast duck legend — voted #1 on Oahu by Honolulu Magazine readers, with crispy skin and juicy meat that sells out daily.",
+  "area": "Aiea",
+  "price": "$",
+  "mustOrder": [
+    "roast duck — the signature, crispy skin shatters on contact",
+    "char siu — sweet and caramelized",
+    "roast pork — crackling skin, tender meat"
+  ],
+  "parking": "Aiea Shopping Center lot",
+  "talkStory": "When Honolulu Magazine asked readers for their best roast duck, 10 out of 18 respondents named Roast Duck Kitchen — it wasn't even close. A no-frills counter-serve spot in Aiea Shopping Center turning out some of the best Chinese roast meats on the island. The duck has impossibly crispy skin and juicy, flavorful meat. Popular items sell out by early afternoon, so go for lunch. The crowd is almost entirely local Chinese families who know exactly what they're getting. Cash preferred.",
+  "cashOnly": true,
+  "kamaaina": null
+}

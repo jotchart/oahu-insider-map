@@ -5,6 +5,7 @@
   "lng": -157.8233,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Old-guard plate lunch drive-inn near Chaminade — formica tables, walk-up counter, and food that tastes like someone's tutu made it.",
   "area": "Kaimuki / St. Louis Heights",
   "price": "$",
@@ -14,7 +15,7 @@
     "loco moco — classic drive-inn execution"
   ],
   "parking": "Small lot on Waialae Ave; street parking available",
-  "talkStory": "One of the old-guard drive-inns that defined the plate lunch genre in Honolulu. Decades old, no-frills, two scoops rice, mac salad, protein — the formula that built Hawaii's lunch culture. The crowd is Chaminade students, Kaimuki workers, and families who've been coming for generations. Rainbow Drive-In gets the fame; St. Louis Drive Inn is the quieter neighborhood equivalent. Opens early, closes mid-afternoon.",
+  "talkStory": "Operating since the 1960s near Chaminade University, St. Louis Drive Inn is old-guard plate lunch at its purest — walk-up counter, formica tables, two scoops rice, mac salad, and protein. The fried chicken is crispy perfection and the beef stew is grandma-level comfort food. While Rainbow Drive-In gets all the tourist fame, locals know St. Louis is the quieter, equally good neighborhood equivalent. Chaminade students and Kaimuki families have been eating here for generations.",
   "cashOnly": false,
   "kamaaina": null
 }

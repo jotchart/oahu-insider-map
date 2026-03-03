@@ -1,0 +1,21 @@
+{
+  "name": "Maui Mike's Fire-Roasted Chicken",
+  "tier": "A",
+  "lat": 21.5023,
+  "lng": -158.0186,
+  "category": "restaurant",
+  "subcategory": "chicken",
+  "genre": "american",
+  "tagline": "Wahiawa's fire-roasted chicken joint — smoky, juicy birds cooked over kiawe wood that people drive across the island for.",
+  "area": "Wahiawa",
+  "price": "$",
+  "mustOrder": [
+    "half chicken plate — kiawe-smoked, impossibly juicy",
+    "garlic rice — the perfect sidekick",
+    "corn on the cob — charred and buttery"
+  ],
+  "parking": "Small lot on California Ave",
+  "talkStory": "Founded by Mike Nishida (not from Maui — the name is a play on words) in Wahiawa around 2000, cooking whole chickens over kiawe wood in a custom rotisserie. Kiawe is Hawaii's mesquite, giving the birds a sweet, smoky flavor you can't replicate with gas or charcoal. Military families from nearby Schofield Barracks helped build the early following. Featured on local TV and won 'Best Chicken' in multiple Honolulu Magazine polls. The garlic rice recipe is a closely guarded secret.",
+  "cashOnly": false,
+  "kamaaina": null
+}

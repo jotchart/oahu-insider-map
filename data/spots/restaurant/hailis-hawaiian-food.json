@@ -5,6 +5,7 @@
   "lng": -157.8413,
   "category": "restaurant",
   "subcategory": "hawaiian",
+  "genre": "hawaiian",
   "tagline": "Family-recipe Hawaiian food since 1950 — laulau, kalua pig, and squid luau that rival Helena's without the hype.",
   "area": "Palama / Kalihi",
   "price": "$",
@@ -20,5 +21,5 @@
   "kidFriendly": true,
   "kamaaina": null,
   "cashOnly": false,
-  "talkStory": "Operating since 1950, Haili's is the less-hyped sibling to Helena's Hawaiian Food — but locals will argue it's just as good. The recipes come from Aunty Haili's family and haven't changed in decades. The laulau is excellent — tender pork with butterfish wrapped in taro leaves — and the kalua pig is properly smoky. It's a no-frills plate lunch spot in a part of town most tourists never visit. If Helena's line is too long or they're closed (they're only open limited days), Haili's is the backup the locals know about."
+  "talkStory": "Founded in 1950 by the Haili family on North King Street in Palama, this is one of the oldest continuously operating Hawaiian food restaurants on Oahu. The recipes — laulau, kalua pig, squid luau, haupia — are unchanged family originals passed down through generations. Locals consider it the 'no-line alternative' to Helena's, with food that's just as authentic. The neighborhood is deep local Honolulu that tourists never see, which is exactly the point."
 }

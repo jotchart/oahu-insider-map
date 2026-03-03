@@ -1,10 +1,11 @@
 {
   "name": "The Hibachi (Kailua)",
   "tier": "B",
-  "lat": 21.3978,
-  "lng": -157.7449,
+  "lat": 21.3933,
+  "lng": -157.7397,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "Windward side's hidden poke gem — assembled fresh to order right in front of you, with variety that puts the tourist spots to shame.",
   "area": "Kailua",
   "price": "$",
@@ -14,7 +15,7 @@
     "Daily specials — ask what's new, they rotate preparations regularly"
   ],
   "parking": "Shopping center lot with ample parking",
-  "talkStory": "A neighborhood poke and grill counter in Kailua that earned a loyal Windward side following by keeping prices fair, fish fresh, and preparations simple — the kind of spot regulars visit multiple times a week. Check hours as they can vary. Lunch rush is the busiest — going mid-afternoon is the sweet spot. Watch them build your bowl and ask for recommendations on what fish came in fresh that day.",
+  "talkStory": "A neighborhood poke and grill counter in a Kailua shopping center that earned a fiercely loyal Windward side following by keeping fish fresh and prices honest. They build your bowl right in front of you — ask what fish came in fresh that day. Regulars come multiple times a week. The sweet spot is mid-afternoon when the lunch rush has cleared but the selection is still good. Check hours as they can vary.",
   "cashOnly": false,
   "kamaaina": null
 }

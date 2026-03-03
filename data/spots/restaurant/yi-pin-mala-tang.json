@@ -1,0 +1,21 @@
+{
+  "name": "Yi Pin Mala Tang",
+  "tier": "B",
+  "lat": 21.2770,
+  "lng": -157.8145,
+  "category": "restaurant",
+  "subcategory": "malatang",
+  "genre": "chinese",
+  "tagline": "Kapahulu's pick-your-own malatang shop — choose your ingredients, pick your spice level, and get a customized bowl of numbing-spicy soup.",
+  "area": "Kapahulu",
+  "price": "$",
+  "mustOrder": [
+    "build your own bowl — pick proteins, veggies, noodles, and spice level",
+    "add extra chili oil and Sichuan peppercorn",
+    "pair with a cold drink — you'll need it"
+  ],
+  "parking": "Street parking on Kapahulu Ave",
+  "talkStory": "Malatang is China's customizable street food soup — you pick your raw ingredients from a display (meat, tofu, vegetables, mushrooms, noodles), choose your spice level, and it's all cooked together in a spicy numbing broth. Yi Pin on Kapahulu is the best version on Oahu. 4.6 stars, friendly owner, open late (until 11:30pm most nights). Different from hot pot because someone else cooks it for you. A great solo meal or late-night option after a Kapahulu dinner crawl.",
+  "cashOnly": false,
+  "kamaaina": null
+}

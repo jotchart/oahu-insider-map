@@ -1,0 +1,20 @@
+{
+  "name": "Dee Lite Bakery",
+  "tier": "A",
+  "lat": 21.3335,
+  "lng": -157.8733,
+  "category": "bakery",
+  "subcategory": "local-bakery",
+  "tagline": "A Kalihi hole-in-the-wall turning out some of Honolulu's best pies, pastries, and cakes — the coconut cake is a local legend.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "coconut cake — the signature, towering and moist",
+    "apple pie — classic and flaky",
+    "fruit tart — seasonal and beautiful"
+  ],
+  "parking": "Small strip mall lot on Dillingham Blvd",
+  "talkStory": "The Kim family has run this unassuming Kalihi bakery for decades, building a reputation through word-of-mouth alone. The coconut cake -- towering layers of moist sponge covered in fresh shredded coconut -- is legendary for birthdays, graduations, and baby luaus. Celebrity chef Guy Fieri visited and featured their pies. Despite the fame, prices remain remarkably affordable and the strip-mall storefront has never been renovated. That's exactly how the regulars like it.",
+  "cashOnly": false,
+  "kamaaina": null
+}

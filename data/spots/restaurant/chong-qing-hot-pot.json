@@ -1,0 +1,21 @@
+{
+  "name": "Chong Qing Hot Pot",
+  "tier": "A",
+  "lat": 21.2938,
+  "lng": -157.8530,
+  "category": "restaurant",
+  "subcategory": "hot-pot",
+  "genre": "chinese",
+  "tagline": "Sichuan-style hot pot at Ward Village — bubbling split pots of spicy and mild broth, an all-you-can-eat option, and a serious sauce bar.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "split pot — half spicy Sichuan, half mild bone broth",
+    "thinly sliced lamb — the hot pot essential",
+    "build your own sauce — sesame, garlic, cilantro, chili oil"
+  ],
+  "parking": "Ward Village parking",
+  "talkStory": "The best hot pot on Oahu. Chongqing-style Sichuan spicy broth alongside a milder option in a split pot. The all-you-can-eat option is solid value — meat, seafood, vegetables, noodles, and tofu for a fixed price. The sauce bar lets you build your own dipping sauce from a dozen-plus ingredients. Great for groups and rainy evenings. The Ward Village location is the more popular of their two spots. Dinner nightly, lunch on weekends.",
+  "cashOnly": false,
+  "kamaaina": null
+}

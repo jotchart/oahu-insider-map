@@ -5,6 +5,7 @@
   "lng": -157.8617,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "fine-dining",
   "tagline": "Hawaii's first James Beard Best Chef winner in 19 years — seasonal New American meets local soul food in a Chinatown bistro.",
   "area": "Chinatown / Downtown",
   "price": "$$$",
@@ -14,7 +15,7 @@
     "duck fat fries"
   ],
   "parking": "Street parking on Smith/Bethel; paid lots on Maunakea St",
-  "talkStory": "Opened 2016 by Chef Robynne Maii — won the James Beard Award for Best Chef Northwest & Pacific in 2022, the first Hawaii-based chef to win the regional award since Alan Wong in 2003. The menu bridges Southern comfort, French technique, and Hawaiian ingredients. Mon–Sat 11am–10pm. Ask for a seat near the open kitchen. Great combined with a Chinatown walk — galleries, Maunakea Marketplace, Local Joe coffee all nearby.",
+  "talkStory": "Opened 2016 by Chef Robynne Maii — won the James Beard Award for Best Chef Northwest & Pacific in 2022, the first Hawaii-based chef to win the regional award since Alan Wong in 2003. The menu bridges Southern comfort, French technique, and Hawaiian ingredients. Mon–Sat 11am–10pm. Ask for a seat near the open kitchen. Great combined with a Chinatown walk — galleries, Maunakea Marketplace, and Manifest coffee/cocktails all nearby.",
   "cashOnly": false,
   "kamaaina": null
 }

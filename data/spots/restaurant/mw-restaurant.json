@@ -5,6 +5,7 @@
   "lng": -157.8515,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "fine-dining",
   "tagline": "Chef Wade Ueoka's elevated take on local comfort food — the ahi cake and foie gras loco moco are iconic Honolulu dishes.",
   "area": "Kakaako",
   "price": "$$$",
@@ -14,7 +15,7 @@
     "fried kalo"
   ],
   "parking": "Validated parking in building garage",
-  "talkStory": "Chef Wade Ueoka (formerly of Alan Wong's) takes classic local dishes and elevates them with fine-dining technique. The ahi cake stacks layers of seared ahi, avocado, and won ton crisps; the foie gras loco moco is a decadent riff on the plate-lunch staple. The dining room is upscale but welcoming. Lunch is a better value than dinner. Reservations recommended.",
+  "talkStory": "Husband-and-wife team Chef Wade Ueoka and pastry chef Michelle Karr-Ueoka opened MW in 2013 after both spent years at Alan Wong's flagship. Wade's ahi cake — layers of seared ahi, avocado, and wontons — won 'Best Dish' at multiple Hale 'Aina awards. Michelle, who also does Senia's pastry program, trained at Thomas Keller's Per Se and French Laundry. The foie gras loco moco is a $30 riff on a $5 plate-lunch staple that somehow works perfectly. James Beard semifinalists.",
   "cashOnly": false,
   "kamaaina": null
 }

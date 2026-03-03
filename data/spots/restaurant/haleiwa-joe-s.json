@@ -5,6 +5,7 @@
   "lng": -158.1035,
   "category": "restaurant",
   "subcategory": "seafood",
+  "genre": "seafood-poke",
   "tagline": "North Shore's sit-down seafood spot with a chill surfer vibe and solid fresh fish plates.",
   "area": "Haleiwa",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Joe's salad — mixed greens with macadamia nuts and lilikoi dressing"
   ],
   "parking": "Parking lot at Haleiwa Town Center, right in front of the restaurant.",
-  "talkStory": "Haleiwa Joe's has been in Haleiwa forever and it's the default 'nice dinner' option on the North Shore. Nothing mind-blowing, but reliably good fish in a laid-back setting. Good for families or when you want something more substantial than a food truck after a beach day. There used to be a Kaneohe location too (Haiku Gardens) — that one closed. The North Shore location is the OG. Sunset time on their patio is a vibe.",
+  "talkStory": "Opened in 1992 in Haleiwa Town, Haleiwa Joe's became the North Shore's first real sit-down seafood restaurant — before that, your post-surf options were basically food trucks and plate lunch counters. The Haiku Gardens location in Kaneohe eventually closed, making this the sole survivor. Fresh catch is sourced from local harbor boats, and the lilikoi dressing on Joe's salad has a quiet cult following. Sunset on the patio after a North Shore beach day is the move.",
   "cashOnly": false,
   "kamaaina": null
 }

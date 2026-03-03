@@ -5,6 +5,7 @@
   "lng": -157.8135,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Japanese-Hawaiian fusion plate lunches on Monsarrat Ave — the garlic ahi and curry are legendary neighborhood favorites.",
   "area": "Kapahulu / Diamond Head",
   "price": "$$",
@@ -14,7 +15,7 @@
     "SPAM musubi"
   ],
   "parking": "Street parking on Monsarrat Ave; arrive early",
-  "talkStory": "This tiny Monsarrat Avenue joint near Diamond Head serves Japanese-Hawaiian fusion plate lunches that punch way above their weight. The garlic ahi steak plate is the signature — seared rare with a rich garlic butter sauce over rice. The Japanese curry is thick, fragrant, and homestyle. A perfect post-Diamond Head hike meal. The line moves fast but seating is limited; many locals take it to nearby Kapiolani Park.",
+  "talkStory": "Owner Guy Ogawa opened Pioneer Saloon in 2013 on Monsarrat Ave near Diamond Head, blending Japanese precision with Hawaiian plate-lunch culture. The garlic ahi steak — seared rare with a rich garlic butter sauce — became the signature dish that regulars order every single visit. Ogawa previously worked in Tokyo restaurants and brings that discipline to everything including the Japanese curry, made from scratch daily. Perfect post-Diamond Head hike refuel. The tiny space seats maybe 20 — most locals grab and go to Kapiolani Park.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -5,6 +5,7 @@
   "lng": -157.7954,
   "category": "restaurant",
   "subcategory": "mediterranean",
+  "genre": "mediterranean",
   "tagline": "The only legit Greek food on Oahu — cash only, BYOB, counter service, and a 20-year local cult following.",
   "area": "Kahala",
   "price": "$",
@@ -14,7 +15,7 @@
     "fresh fish special — ask what's available"
   ],
   "parking": "Small lot on Kilauea Ave; street parking on side streets",
-  "talkStory": "Open 20+ years and still the only Greek restaurant on Oahu worth visiting. Counter service, no frills, cash only, and BYOB — bring a bottle of wine and make an evening of it. The food quality is well above what the casual format suggests. Locals have been coming weekly for decades. Located next to Kapa Hale on Kilauea Ave. Dinner only, 5pm–9pm. Expect a wait on weekends — no reservations.",
+  "talkStory": "Opened in the late 1990s by Savas Mojarrad, an Iranian-born chef who brought Mediterranean flavors to Kahala. Over 25 years later, it remains the only dedicated Greek restaurant on Oahu. Cash only, BYOB with no corkage, counter service — the format hasn't changed because regulars won't let it. The fresh fish specials use whatever is best at the Honolulu Fish Auction that morning. Zagat-rated and consistently voted Honolulu's best Mediterranean. Located next to Kapa Hale, making a two-stop dinner easy.",
   "cashOnly": true,
   "kamaaina": null
 }

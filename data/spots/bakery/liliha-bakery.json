@@ -1,0 +1,20 @@
+{
+  "name": "Liliha Bakery",
+  "tier": "S",
+  "lat": 21.3247,
+  "lng": -157.8519,
+  "category": "bakery",
+  "subcategory": "hawaiian",
+  "genre": "hawaiian",
+  "tagline": "Coco puffs since 1950 — the green chiffon cake and butter rolls are the real insider order.",
+  "area": "Liliha",
+  "price": "$",
+  "mustOrder": [
+    "coco puffs (non-negotiable)",
+    "butter rolls ($1)"
+  ],
+  "parking": "Dedicated lot at the original Kuakini St location; Nimitz Hwy location has larger lot",
+  "talkStory": "Founded in 1950 by Takeo and Sumie Takakuwa, a Japanese-American couple who built a neighborhood bakery that became a Honolulu institution. The Coco Puff — choux pastry filled with chocolate pudding and topped with Chantilly frosting — is arguably Hawaii's most iconic pastry. Locals just say 'I brought puffs' and everyone on Oahu knows exactly what that means. A box is the standard omiyage (gift) when visiting someone's home. Go before 7am weekdays for fresh batches and zero line — the butter rolls for a dollar are the quiet insider pick.",
+  "cashOnly": false,
+  "kamaaina": null
+}

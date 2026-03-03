@@ -5,6 +5,7 @@
   "lng": -157.8362,
   "category": "restaurant",
   "subcategory": "chinese",
+  "genre": "chinese",
   "tagline": "Xinjiang-style lamb skewers heavy on cumin and charcoal — the only spot on Oahu doing this regional Chinese BBQ right.",
   "area": "McCully / Mōʻiliʻili",
   "price": "$$",
@@ -14,7 +15,7 @@
     "cold dishes — cucumber salad, wood ear mushroom"
   ],
   "parking": "Street parking on Isenberg St; side streets toward University",
-  "talkStory": "One of the most genuinely local spots on this map. Isenberg Street near UH has zero tourist foot traffic — the clientele is overwhelmingly local Asian community who know exactly what Xinjiang BBQ should taste like. The lamb skewers are cumin-heavy and charcoal-grilled in the authentic Northwest Chinese style. Nobody else on Oahu fills this niche. Open for dinner, closed Tuesdays.",
+  "talkStory": "The only authentic Xinjiang-style BBQ restaurant on Oahu, tucked on Isenberg Street near UH Manoa with zero tourist foot traffic. The lamb skewers are cumin-crusted and charcoal-grilled in the Northwest Chinese tradition — the same style you'd find at night markets in Urumqi or Xi'an. The clientele is overwhelmingly local Chinese and Asian community who know exactly what this food should taste like. Hand-pulled noodles and cold cucumber salad round out the order. Open for dinner, closed Tuesdays.",
   "cashOnly": false,
   "kamaaina": null
 }

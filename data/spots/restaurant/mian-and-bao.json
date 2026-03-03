@@ -1,0 +1,21 @@
+{
+  "name": "Mian & Bao",
+  "tier": "A",
+  "lat": 21.2938,
+  "lng": -157.8545,
+  "category": "restaurant",
+  "subcategory": "shanghai-sichuan",
+  "genre": "chinese",
+  "tagline": "Soup dumplings and Sichuan noodles at Ward Village — James Beard semi-finalist Chef Tony Xu bridges Shanghai and Chengdu.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "xiao long bao — soup dumplings, the star of the menu",
+    "sheng jian bao — pan-fried pork buns with crispy bottoms",
+    "chili oil wontons — numbing, spicy, addictive"
+  ],
+  "parking": "Ward Village parking",
+  "talkStory": "Chef Tony Xu (James Beard semi-finalist) brings serious Shanghai and Sichuan cooking to Ward Village. The xiao long bao are the draw — delicate wrappers filled with hot soup and pork. The sheng jian bao (pan-fried buns) have a crispy bottom that shatters into soupy filling. Also offers a daily yum cha dim sum tea service. If you've been to Din Tai Fung on the mainland and wished Honolulu had something comparable, this is your spot. Lunch and dinner.",
+  "cashOnly": false,
+  "kamaaina": null
+}

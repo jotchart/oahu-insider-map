@@ -5,6 +5,7 @@
   "lng": -157.8619,
   "category": "restaurant",
   "subcategory": "gastropub",
+  "genre": "fine-dining",
   "tagline": "Sophisticated British gastropub by the Senia team — emerald booths, $30 cocktails, and everything made from scratch.",
   "area": "Chinatown / Downtown",
   "price": "$$$",
@@ -14,7 +15,7 @@
     "craft cocktails — the real draw"
   ],
   "parking": "Street parking on Merchant St; downtown parking garages",
-  "talkStory": "By the same team behind Senia (Chef Anthony Rush and Katherine Nomura). Styled like an elegant London lounge — emerald green booths, brass accents. British-inspired food (fish and chips, bangers and mash, pot pie) all made in-house with local ingredients. The cocktails (~$30) are serious. Small and intimate. A unique concept for Honolulu — nobody else is doing this. Dinner only, Tue–Sat.",
+  "talkStory": "Opened in 2022 by Chef Anthony Rush, Katherine Nomura, and the Senia team as a British gastropub concept — named after a street in London. The emerald-green booths and brass fixtures evoke a Mayfair lounge. Fish and chips uses local catch battered in Kona Brewing ale; the pot pie has a from-scratch puff pastry lid. Cocktails run $25-30 and are meticulously crafted. A completely unique concept for Honolulu — nobody else is doing elevated British food in Hawaii. Same hospitality DNA as Senia next door.",
   "cashOnly": false,
   "kamaaina": null
 }

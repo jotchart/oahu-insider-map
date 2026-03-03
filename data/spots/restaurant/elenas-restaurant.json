@@ -1,0 +1,21 @@
+{
+  "name": "Elena's Restaurant",
+  "tier": "A",
+  "lat": 21.3876,
+  "lng": -158.0098,
+  "category": "restaurant",
+  "subcategory": "filipino",
+  "genre": "filipino",
+  "tagline": "Waipahu's Filipino food institution — the crispy pata is legendary and the portions are built for sharing with family.",
+  "area": "Waipahu",
+  "price": "$",
+  "mustOrder": [
+    "crispy pata — the signature dish, crackling skin and tender meat",
+    "pork adobo — textbook version",
+    "pancit — loaded with shrimp and pork"
+  ],
+  "parking": "Strip mall parking lot — easy",
+  "talkStory": "Elena Suguitan opened her namesake restaurant in Waipahu — heart of Oahu's Filipino community, one of the largest outside the Philippines. The crispy pata (whole fried pork leg with skin so crispy it shatters) is the must-order that draws people from across the island. Featured on local TV and 'Best of' lists for years. Portions are enormous and priced for local families. If you've never tried Filipino food, Elena's pork adobo and pancit are a proper introduction.",
+  "cashOnly": false,
+  "kamaaina": null
+}

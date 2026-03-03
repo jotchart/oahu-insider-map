@@ -5,6 +5,7 @@
   "lng": -157.8622,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "fine-dining",
   "tagline": "Three-Michelin-star trained chef running two experiences under one roof — casual a la carte downstairs, elite 8-seat Chef's Counter upstairs.",
   "area": "Chinatown / Downtown",
   "price": "$$$",
@@ -14,7 +15,7 @@
     "any dessert — pastry chef Michelle Karr-Ueoka trained at Per Se and French Laundry"
   ],
   "parking": "Street parking on King/Nuuanu; paid lots on Smith St",
-  "talkStory": "Opened 2016 by Chef Anthony Rush and pastry chef Michelle Karr-Ueoka, both with decades under Alan Wong. Anthony trained in multiple three-Michelin-starred kitchens. The a la carte dining room is approachable and buzzy — come here on a weeknight for a great meal without the ceremony. The real move is the 8-seat Chef's Counter (Fri–Sat only) — a multi-course tasting menu that's one of the best dining experiences in Hawaii. Book weeks in advance. Won Hale 'Aina Gold for Best Tasting Menu. Tue–Sat dinner only.",
+  "talkStory": "Opened in 2016 by Chef Chris Kajioka and pastry chef Michelle Karr-Ueoka, both Alan Wong alumni. Kajioka trained at Per Se under Thomas Keller and at Vintage Cave. The 8-seat Chef's Counter (Fri-Sat only) is a multi-course tasting menu ranked among Hawaii's best dining experiences — book 3-4 weeks ahead. Won Hale 'Aina Gold for Best Restaurant and Best Tasting Menu multiple years. The a la carte dining room downstairs is more approachable for a weeknight. Michelle's desserts draw on French Laundry precision with local Hawaiian flavors.",
   "cashOnly": false,
   "kamaaina": null
 }

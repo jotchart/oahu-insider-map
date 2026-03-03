@@ -1,0 +1,20 @@
+{
+  "name": "Fendu Boulangerie",
+  "tier": "A",
+  "lat": 21.2832,
+  "lng": -157.8148,
+  "category": "bakery",
+  "subcategory": "french-bakery",
+  "tagline": "Kaimuki's French-inspired bakery — croissants, kouign-amann, and naturally leavened breads that rival mainland artisan bakeries.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "kouign-amann — buttery, caramelized, flaky",
+    "croissant — perfectly laminated",
+    "seasonal fruit danish — whatever's fresh"
+  ],
+  "parking": "Street parking on Waialae Ave",
+  "talkStory": "Opened by pastry chef Pono Bumatay, 'fendu' refers to a traditional French bread-shaping technique. Bumatay trained at top pastry programs before returning to his hometown of Honolulu to open on Waialae Ave. The naturally leavened breads use a sourdough starter he's maintained for years, and the kouign-amann rivals b. Patisserie's at a lower price point. Popular items sell out by 10am, so serious pastry people arrive at opening.",
+  "cashOnly": false,
+  "kamaaina": null
+}

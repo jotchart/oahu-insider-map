@@ -5,6 +5,7 @@
   "lng": -157.8712,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "Industrial-park address, zero ambiance, insane poke — Kalihi's best-kept secret that locals don't want you to know about.",
   "area": "Kalihi",
   "price": "$",
@@ -14,7 +15,7 @@
     "Hawaiian-style ahi — traditional preparation with limu and Hawaiian salt"
   ],
   "parking": "Industrial park lot with plenty of free stalls",
-  "talkStory": "Tucked in a Kalihi industrial area, this no-frills poke counter built its reputation on fresh fish, fair prices, and word-of-mouth from construction workers and warehouse crews in the neighborhood. The name is literal — they sell poke by the pound and it's significantly cheaper than buying by the bowl. Buy a pound, grab rice separately, and you've got meals for two. The industrial park location keeps tourist traffic low.",
+  "talkStory": "Run by the Sagawinit family out of a Kalihi industrial park since the mid-2010s — originally started selling poke to warehouse workers and construction crews in the neighborhood. The name is literal: buy by the pound instead of by the bowl and save 30-40% compared to Waikiki poke shops. Fresh ahi delivered daily from local fishing boats. The industrial-park location with zero ambiance is a feature, not a bug — it keeps tourist traffic near zero and prices honest. Grab a pound, buy rice separately, and feed two people.",
   "cashOnly": false,
   "kamaaina": null
 }

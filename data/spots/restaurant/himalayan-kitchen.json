@@ -1,0 +1,21 @@
+{
+  "name": "Himalayan Kitchen",
+  "tier": "A",
+  "lat": 21.2842,
+  "lng": -157.8159,
+  "category": "restaurant",
+  "subcategory": "indian-nepali",
+  "genre": "indian",
+  "tagline": "Kaimuki's beloved Indian and Nepali restaurant — the butter chicken and momos are standouts on an island starved for good South Asian food.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "butter chicken — rich, creamy, perfectly spiced",
+    "momos — Nepali-style dumplings, get the jhol sauce",
+    "garlic naan — fresh from the tandoor"
+  ],
+  "parking": "Street parking on Waialae Ave",
+  "talkStory": "Run by Nawa Gurung and family, Himalayan Kitchen fills a genuine gap on Oahu — the island has very few quality Indian-Nepali restaurants and this Kaimuki spot delivers the real thing. The momos (Nepali dumplings) with jhol dipping sauce are addictive, the butter chicken rivals mainland standouts, and the garlic naan comes fresh from the tandoor. BYOB-friendly, which locals love. A Kaimuki neighborhood staple since the mid-2010s — closed Tuesdays.",
+  "cashOnly": false,
+  "kamaaina": null
+}

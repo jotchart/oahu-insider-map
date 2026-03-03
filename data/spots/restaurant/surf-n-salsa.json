@@ -5,6 +5,7 @@
   "lng": -158.1034,
   "category": "restaurant",
   "subcategory": "mexican",
+  "genre": "mexican",
   "tagline": "Handmade corn tortillas and house-made salsa in a food truck on Kamehameha Highway — the fish tacos here make you question why you ever ate elsewhere.",
   "area": "Haleiwa / North Shore",
   "price": "$",
@@ -14,7 +15,7 @@
     "Housemade salsa — get the hot if you can handle it"
   ],
   "parking": "Dirt pulloff lot right next to the truck",
-  "talkStory": "A roadside food truck on Kamehameha Highway near Haleiwa that built a cult following among North Shore surfers and locals by making real-deal Mexican food with handmade tortillas and fresh-caught fish. Closed Sundays. The fish changes based on what's fresh — ask what they're using today. Lines build up around lunchtime so going slightly off-peak pays off. The green salsa is the sleeper hit.",
+  "talkStory": "A roadside food truck on Kamehameha Highway near Haleiwa run by a Mexican-American family that built a cult following with North Shore surfers. The tortillas are handmade daily, the fish changes based on the morning catch, and the green salsa is the sleeper hit. Lines build at lunchtime so going slightly off-peak pays off. Closed Sundays. One of the few spots doing real-deal Mexican food on the North Shore.",
   "cashOnly": false,
   "kamaaina": null
 }

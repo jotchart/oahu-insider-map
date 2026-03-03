@@ -1,0 +1,20 @@
+{
+  "name": "Royal Kitchen",
+  "tier": "A",
+  "lat": 21.312,
+  "lng": -157.862,
+  "category": "bakery",
+  "subcategory": "chinese-bakery",
+  "tagline": "Chinatown's legendary baked manapua — the char siu pork buns have been a local staple since 1975.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "baked char siu manapua — the signature, golden and sweet",
+    "pepeiao — a local-style sweet bread ear pastry",
+    "curry chicken manapua — savory alternative"
+  ],
+  "parking": "Chinatown Cultural Plaza parking; metered street parking",
+  "talkStory": "Inside Chinatown Cultural Plaza since 1975, Royal Kitchen created what many consider Hawaii's definitive baked manapua. Unlike the steamed Chinese original, Royal Kitchen's char siu bao has a sweet, golden baked crust -- a distinctly local adaptation that became its own tradition. Founder Henry Chang's recipe hasn't changed in nearly 50 years. The pepeiao (ear-shaped pastry) is an old-school Honolulu treat that's almost impossible to find elsewhere. Cash only, and regulars buy by the dozen.",
+  "cashOnly": true,
+  "kamaaina": null
+}

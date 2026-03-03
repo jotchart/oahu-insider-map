@@ -1,0 +1,21 @@
+{
+  "name": "New Char Siu House",
+  "tier": "A",
+  "lat": 21.3130,
+  "lng": -157.8638,
+  "category": "restaurant",
+  "subcategory": "chinese-bbq",
+  "genre": "chinese",
+  "tagline": "Chinatown's takeout-only roast meat institution — 4.6 stars, legendary char siu and roast duck, sold out by afternoon.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "roast duck — crispy skin, succulent meat",
+    "char siu — glistening, caramelized pork",
+    "roast pork belly — crackling perfection"
+  ],
+  "parking": "Metered street parking on Maunakea St",
+  "talkStory": "A Chinatown institution on Maunakea St — takeout only, no seats, just a glass case of glistening roast meats and a line out the door. The char siu is deeply caramelized with that perfect balance of sweet and savory. The roast duck rivals Roast Duck Kitchen in Aiea. Opens early (7:30am) and popular items sell out by early afternoon. Point at what you want, it gets chopped and bagged. This is how Chinatown has operated for generations. Cash only.",
+  "cashOnly": true,
+  "kamaaina": null
+}

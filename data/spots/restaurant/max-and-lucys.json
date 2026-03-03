@@ -5,6 +5,7 @@
   "lng": -157.8567,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "The chef is also your server — weekday-only, sells out daily, and the lemon bars are famous.",
   "area": "Kakaako",
   "price": "$",
@@ -14,7 +15,7 @@
     "lemon bars — famous for a reason, grab one before they're gone"
   ],
   "parking": "Street parking on Halekauwila St; Kakaako side streets",
-  "talkStory": "The kind of place that only exists in Honolulu — the chef cooks your food and then walks it to your table himself. Weekday only (Mon–Fri, 5am–2pm), closed weekends. Items sell out daily — the popular plates go fast by noon. Home-style comfort food: kalbi, teriyaki salmon, fried chicken, lasagna. The lemon bars are an institution. This is a working person's lunch spot in Kakaako, zero tourist presence.",
+  "talkStory": "Run by Max and Lucy Bolosan — Max cooks everything himself and then personally walks each plate to your table. Named after the couple, operating from a tiny Kakaako kitchen since the mid-2000s, Mon-Fri 5am-2pm only. The lemon bars became so famous that people order trays for office parties island-wide. Max sources kalbi from a specific local supplier and marinates overnight. There's no website, no social media push — just three decades of Kakaako construction workers and office employees spreading the word.",
   "cashOnly": false,
   "kamaaina": null
 }

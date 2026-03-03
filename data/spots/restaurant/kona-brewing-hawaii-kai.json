@@ -5,6 +5,7 @@
   "lng": -157.7075,
   "category": "restaurant",
   "subcategory": "seafood",
+  "genre": "seafood-poke",
   "tagline": "Hawaii Kai's waterfront brewpub — solid food, great beer, and sunset views over the marina.",
   "area": "Hawaii Kai",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Poke nachos — ahi poke on won ton chips, great pupu"
   ],
   "parking": "Koko Marina Center parking lot. Plenty of spaces.",
-  "talkStory": "Yes, Kona Brewing is a big brand now, but the Hawaii Kai brewpub is their original Oahu location and it's actually a great spot. The marina-side patio is perfect for sunset beers after a Hanauma Bay or Hawaii Kai day. Food is solid pub fare — not life-changing but reliably good. The beer is always fresher here than anywhere else. Good family spot too. Skip the indoor seating and grab a patio table.",
+  "talkStory": "Kona Brewing Company was founded in 1998 on the Big Island by father-son duo Cameron Healy and Spoon Khalsa. The Hawaii Kai brewpub in Koko Marina Center is their Oahu flagship and the beer is always fresher here on draft than anywhere else. The marina-side patio is perfect for sunset beers after a Hanauma Bay or Koko Head hike day. The wood-fired pizza is better than expected for a brewpub, and the poke nachos (ahi on won ton chips) are the best pupu on the menu. Good family spot.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -5,6 +5,7 @@
   "lng": -157.8226,
   "category": "restaurant",
   "subcategory": "pizza",
+  "genre": "pizza",
   "tagline": "Neapolitan wood-fired pizza with Hawaiian twists — kalua pig pizza, craft cocktails, and a loyal Kaimuki following.",
   "area": "Kaimuki",
   "price": "$$",
@@ -14,7 +15,7 @@
     "craft cocktails — the bar program is legit"
   ],
   "parking": "Street parking on Waialae Ave; side streets toward Wilhelmina Rise",
-  "talkStory": "Kaimuki's neighborhood pizzeria since ~2017, using a wood-fired oven and local ingredients in creative ways. The kalua pig pizza is the kind of thing that could only come from Hawaii. The cocktail program adds another dimension — this is as much a bar as a pizza spot. Well outside the tourist zone, the crowd is Kaimuki regulars and east Honolulu date-nighters. Opens 11am Tue–Sun. Reservations recommended for dinner.",
+  "talkStory": "Opened around 2016 by pizza obsessive Erick Garza, who spent months sourcing a custom wood-fired oven from Italy and mastering Neapolitan technique before adding Hawaiian twists. The kalua pig pizza — smoky pulled pork on a perfectly charred, leopard-spotted crust — could only come from Hawaii. The craft cocktail program is equally serious. Kaimuki regulars and east Honolulu date-nighters dominate the crowd. Reservations recommended for dinner; Tue-Sun from 11am.",
   "cashOnly": false,
   "kamaaina": null
 }

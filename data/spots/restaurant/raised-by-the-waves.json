@@ -5,6 +5,7 @@
   "lng": -157.9521,
   "category": "restaurant",
   "subcategory": "vegan",
+  "genre": "american",
   "tagline": "Kahuku Sugar Mill's plant-based gem — when North Shore surf culture goes vegan and does it exactly right, this is what you get.",
   "area": "Kahuku / North Shore",
   "price": "$",
@@ -14,7 +15,7 @@
     "veggie sandwiches"
   ],
   "parking": "Located at Kahuku Sugar Mill",
-  "talkStory": "Born from North Shore surf culture, set up inside the historic Kahuku Sugar Mill complex alongside other small local vendors — proof that plant-based food belongs in Hawaii's food scene. Hours vary — check Instagram before going.",
+  "talkStory": "Founded by North Shore surfer and plant-based advocate Brie Witte inside the historic Kahuku Sugar Mill, which operated from 1890 to 1971. The mill complex now houses small local vendors, and Raised by the Waves fits the surf-culture-meets-sustainability ethos perfectly. Acai bowls use locally sourced honey and fruit; smoothies feature Waialua-grown cacao and North Shore bananas. Popular refuel stop for surfers and cyclists doing the North Shore loop. Hours are irregular — check their Instagram before making the drive.",
   "cashOnly": false,
   "kamaaina": null
 }

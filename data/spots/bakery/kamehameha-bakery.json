@@ -1,0 +1,20 @@
+{
+  "name": "Kamehameha Bakery",
+  "tier": "A",
+  "lat": 21.3323,
+  "lng": -157.8723,
+  "category": "bakery",
+  "subcategory": "local-bakery",
+  "tagline": "Kalihi's legendary bakery — the poi glazed donuts sell out before dawn and the butter rolls have been a local staple for decades.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "poi glazed donut — the icon, purple and perfect",
+    "butter rolls — soft, sweet, addictive",
+    "apple turnover — old-school flaky goodness"
+  ],
+  "parking": "Small lot on King St — arrive very early",
+  "talkStory": "The Kamehameha Bakery family has been baking in Kalihi since the 1980s, but the poi glazed donut put them on the national map when food media discovered it. Made with real taro poi, the donut has a distinctive purple hue and an earthy-sweet chewiness unlike anything else. They open at midnight for commercial orders, and the public line starts forming by 3am. Cash only, and the poi donuts routinely sell out by 5-6am -- this is not an exaggeration.",
+  "cashOnly": true,
+  "kamaaina": null
+}

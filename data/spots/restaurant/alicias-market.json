@@ -5,6 +5,7 @@
   "lng": -157.8658,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "30+ poke varieties in a Kalihi market — the OG that every other poke shop tries to imitate.",
   "area": "Kalihi",
   "price": "$",
@@ -14,7 +15,7 @@
     "Hawaiian-style poke — simple limu and sea salt, old-school preparation"
   ],
   "parking": "Small lot in front of the store on Dillingham Blvd",
-  "talkStory": "Named after founder Alicia — one of Kalihi's most beloved poke counters with a huge selection. Ask staff what's freshest today. Best selection before noon. Combine with Bishop Museum (also in Kalihi).",
+  "talkStory": "Founded by the Sniffen family and named after matriarch Alicia, this Kalihi market has been serving 30+ varieties of fresh poke since the 1970s — long before poke bowls became a mainland trend. The shoyu ahi and spicy ahi are legendary, but ask the counter staff what came in freshest that morning. Best selection before 11am; popular flavors sell out by afternoon. Cash only. Pair with a Bishop Museum visit five minutes away.",
   "cashOnly": true,
   "kamaaina": null
 }

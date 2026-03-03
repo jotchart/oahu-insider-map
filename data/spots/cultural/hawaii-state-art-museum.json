@@ -1,0 +1,17 @@
+{
+  "name": "Hawaii State Art Museum",
+  "tier": "B",
+  "lat": 21.308,
+  "lng": -157.8595,
+  "category": "cultural",
+  "subcategory": "museum",
+  "tagline": "Free museum showcasing Hawaii's best contemporary art in a beautifully restored 1928 Spanish Colonial building downtown.",
+  "area": "Downtown",
+  "price": "Free",
+  "parking": "Metered street parking on Hotel St",
+  "hours": "Tue-Sat 10am-4pm",
+  "bestTime": "Weekday afternoons for the quietest experience; First Friday evenings",
+  "kidFriendly": true,
+  "talkStory": "Housed in a beautifully restored 1928 Spanish Colonial building (the former YMCA Armed Services building), HiSAM showcases Hawaii's best contemporary art across multiple galleries — all for free. The permanent collection features works by Hawaii's leading artists, and rotating exhibitions highlight emerging talent. The sculpture garden courtyard is a peaceful surprise. Most tourists walk right past without realizing this free gem exists.",
+  "kamaaina": null
+}

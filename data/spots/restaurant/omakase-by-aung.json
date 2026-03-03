@@ -5,6 +5,7 @@
   "lng": -157.8135,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "fine-dining",
   "tagline": "Burmese-Japanese chef, 8 seats, no menu — just trust and exceptional fish.",
   "area": "Kapahulu",
   "price": "$$$",
@@ -12,7 +13,7 @@
     "omakase — there is no menu, the chef decides based on what's fresh"
   ],
   "parking": "Street parking on Kapahulu Ave; side streets off Winam Ave",
-  "talkStory": "Chef Aung brings a Burmese-Japanese perspective to edomae-style sushi in an intimate counter setting. About 8–10 seats, direct interaction with the chef throughout the meal. More personal and more 'insider' than Sushi Ginza Onodera (which is a global chain). Reserve ahead — seatings fill up. The experience runs $100–200+ depending on the day's catch. Kapahulu location keeps it off the tourist radar. If you want world-class omakase without Waikiki prices and crowds, this is the move.",
+  "talkStory": "Chef Aung Thein Hlaing, born in Myanmar and trained in Tokyo, opened this 8-seat Kapahulu counter around 2021. His edomae-style sushi incorporates Burmese spice knowledge — subtle heat and fermented flavors that differentiate his nigiri from traditional Japanese preparation. Fish sourced daily from Honolulu Fish Auction. The intimate format means direct chef-diner conversation throughout the 15-20 course meal ($150-250). No signage outside — you have to know the address. Book via Instagram DM weeks ahead.",
   "cashOnly": false,
   "kamaaina": null
 }

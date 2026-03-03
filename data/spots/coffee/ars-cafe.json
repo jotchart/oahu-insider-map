@@ -1,7 +1,7 @@
 {
   "name": "Ars Cafe",
   "tier": "B",
-  "lat": 21.2660,
+  "lat": 21.266,
   "lng": -157.8105,
   "category": "coffee",
   "subcategory": "cafe",
@@ -14,7 +14,7 @@
     "Affogato — espresso poured over gelato"
   ],
   "parking": "Street parking on Monsarrat Ave. Can be tight on weekends",
-  "talkStory": "Tucked on Monsarrat Ave near the base of Diamond Head, Ars Cafe is a tiny Italian-style cafe that doubles as an art gallery. The homemade gelato is the star — made fresh daily with tropical flavors you won't find on the mainland. The espresso is solid and the affogato (espresso over gelato) is the perfect post-hike reward. The space is small and charming with rotating art on the walls. Great combined with Diamond Head sunrise hike or a walk through Kapiolani Park.",
+  "talkStory": "Run by a Japanese-Italian couple who make authentic gelato in-house daily using local tropical fruits like lilikoi, guava, and haupia coconut. The espresso is pulled on a proper Italian machine, and the affogato — a shot of espresso poured over their homemade gelato — is the best post-Diamond Head hike reward on the island. The rotating art on the walls is from local Honolulu artists and actually for sale. Monsarrat Ave locals treat this as their secret neighborhood gem.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -5,6 +5,7 @@
   "lng": -157.8628,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "vietnamese",
   "tagline": "Vietnamese-Hawaiian fusion that put Chinatown dining on the map — Chef Andrew Le's pho French dip is genius.",
   "area": "Chinatown",
   "price": "$$$",
@@ -14,7 +15,7 @@
     "Smoked meat pho — rich bone broth with brisket and all the fixings"
   ],
   "parking": "Street parking on Smith or Hotel St. Chinatown garage at 1130 N Nimitz Hwy is cheapest. Meter parking free after 6pm.",
-  "talkStory": "Chef Andrew Le started at the KCC Farmers Market and blew up from there. The dinner menu is creative Vietnamese-meets-local, and the Saturday farmers market booth still has lines. Dinner reservations recommended — walk-ins can try the bar. The Chinatown location has serious energy on Friday and Saturday nights. If you want the more casual lunch vibe, they do a killer weekday lunch too.",
+  "talkStory": "Chef Andrew Le, son of Vietnamese refugees, started selling pho at the KCC Farmers Market and blew up from there. His Chinatown restaurant earned a James Beard semifinalist nomination for Best Chef West. The pho French dip — prime rib dipped in pho broth — is genius-level fusion. Saturday farmers market booth still has lines. Dinner reservations recommended; the bar takes walk-ins. Friday and Saturday nights have serious energy in the Chinatown dining room.",
   "cashOnly": false,
   "kamaaina": null
 }

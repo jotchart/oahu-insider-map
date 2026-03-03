@@ -1,0 +1,20 @@
+{
+  "name": "Leonard's Malasada Mobile",
+  "tier": "B",
+  "lat": 21.3132,
+  "lng": -157.8636,
+  "category": "bakery",
+  "subcategory": "bakery",
+  "genre": "bakery-sweets",
+  "tagline": "Can't make it to Kapahulu? The Malasada Mobile brings the magic to you — same recipe, same dangerous habit-forming quality.",
+  "area": "Roaming / Metro Honolulu",
+  "price": "$",
+  "mustOrder": [
+    "original malasadas",
+    "custard-filled malasadas"
+  ],
+  "parking": "Varies by location — usually parks near shopping centers or event venues with adjacent parking",
+  "talkStory": "An extension of the Leonard's Bakery legacy (est. 1952), the Malasada Mobile is a food truck that brings the same Portuguese doughnuts to events, festivals, and neighborhoods across Oahu. Same family recipes as the Kapahulu mothership — rolled in sugar, fried to order, impossibly light inside. The truck's schedule rotates, so check their Instagram @leonardsbakery for locations. Pro tip: they're best eaten within five minutes of frying while the outside is still crackling. Cash only at the truck.",
+  "cashOnly": true,
+  "kamaaina": null
+}

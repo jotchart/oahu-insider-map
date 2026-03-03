@@ -5,6 +5,7 @@
   "lng": -157.7349,
   "category": "restaurant",
   "subcategory": "cafe",
+  "genre": "breakfast-brunch",
   "tagline": "Kailua's neighborhood anchor since 1932 — sunrise coffee to dinner wine, go every day and never get bored.",
   "area": "Kailua",
   "price": "$$",
@@ -15,7 +16,7 @@
     "Fish Tacos"
   ],
   "parking": "Small lot behind cafe on Kailua Rd; additional street parking on surrounding blocks",
-  "talkStory": "An iconic Kailua brand since 1932, paying homage to plantation-era corner-store heritage. Locally sourced ingredients, wine program focused on small family-owned wineries and breweries. Multiple locations — the Kailua Town cafe at 750 Kailua Rd is the flagship.",
+  "talkStory": "The Kalapawai brand dates back to 1932 as a plantation-era corner store in Kailua — the name comes from the Hawaiian word for the area near Kalapawai Beach. The modern cafe at 750 Kailua Road is the flagship, run by the Becker family with a focus on locally sourced ingredients and a wine program featuring small family-owned wineries. The Kailua Club sandwich and bacon-wrapped figs are local favorites. Open breakfast through dinner, making it Kailua's all-day neighborhood anchor.",
   "cashOnly": false,
   "kamaaina": null
 }

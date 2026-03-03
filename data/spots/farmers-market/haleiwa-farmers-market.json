@@ -1,0 +1,17 @@
+{
+  "name": "Haleiwa Farmers Market",
+  "tier": "A",
+  "lat": 21.5794,
+  "lng": -158.1047,
+  "category": "farmers-market",
+  "subcategory": "weekend-market",
+  "tagline": "The North Shore's best farmers market — local produce, prepared food stalls, and the laid-back surf town energy that defines Haleiwa.",
+  "area": "North Shore",
+  "price": "$",
+  "parking": "Waimea Valley parking area",
+  "hours": "Thursdays 2-6pm at Waimea Valley",
+  "bestTime": "Arrive at 2pm for the best produce selection",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "talkStory": "Run by the Hawaii Farm Bureau Foundation at Waimea Valley, this Thursday afternoon market started as a small community gathering and grew into the North Shore's essential weekly ritual. Many vendors are small family farms from Waialua, Kahuku, and Pupukea who sell direct only here. The setting at the mouth of Waimea Valley gives it a lush backdrop no other market can match. Surfers in board shorts buying papayas next to farm families is the quintessential North Shore scene."
+}

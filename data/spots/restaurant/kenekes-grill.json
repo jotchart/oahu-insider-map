@@ -1,0 +1,21 @@
+{
+  "name": "Keneke's Grill",
+  "tier": "A",
+  "lat": 21.3467,
+  "lng": -157.7139,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
+  "tagline": "Waimanalo's go-to plate lunch spot — kalua pig, laulau, and honest Hawaiian food steps from the best beach on the island.",
+  "area": "Waimanalo",
+  "price": "$",
+  "mustOrder": [
+    "kalua pig plate — smoky, tender, classic",
+    "laulau — pork and butterfish wrapped in taro leaf",
+    "spam musubi — grab one for the beach"
+  ],
+  "parking": "Small lot off Kalanianaole Hwy",
+  "talkStory": "The heart of Waimanalo's food scene — Keneke's has been the community plate lunch stop for decades, feeding construction crews, beach families, and mailmen alike from a no-frills counter off Kalanianaole Highway. The kalua pig and laulau are done in the traditional Hawaiian style, portions are generous, and prices stay local-friendly. Grab a plate before or after Waimanalo Beach (often called the best beach on Oahu) — spam musubi travels well for the sand. Not gourmet, just honest everyday Hawaiian food.",
+  "cashOnly": false,
+  "kamaaina": null
+}

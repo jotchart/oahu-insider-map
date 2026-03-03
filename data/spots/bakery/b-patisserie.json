@@ -1,0 +1,20 @@
+{
+  "name": "b. Patisserie",
+  "tier": "A",
+  "lat": 21.2794,
+  "lng": -157.8307,
+  "category": "bakery",
+  "subcategory": "french-bakery",
+  "tagline": "San Francisco's award-winning French bakery lands in Honolulu — the kouign-amann and cruffins are worth every calorie.",
+  "area": "Waikiki (International Market Place)",
+  "price": "$$",
+  "mustOrder": [
+    "kouign-amann — the signature, caramelized butter pastry",
+    "cruffin — croissant-muffin hybrid with seasonal fillings",
+    "almond croissant — twice-baked perfection"
+  ],
+  "parking": "International Market Place validated parking on Kuhio Ave side",
+  "talkStory": "Belinda Leong, who trained under Pierre Herme in Paris, opened b. Patisserie in San Francisco in 2013 and earned a James Beard nomination for Outstanding Pastry Chef. Her Honolulu outpost brings the same exacting standards -- the kouign-amann uses 72 layers of laminated dough and took two years to perfect. The cruffin (her invention) went viral and spawned imitators worldwide. Every pastry here is engineered with a precision that borders on obsessive.",
+  "cashOnly": false,
+  "kamaaina": null
+}

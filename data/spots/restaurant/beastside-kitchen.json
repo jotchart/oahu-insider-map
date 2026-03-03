@@ -5,6 +5,7 @@
   "lng": -157.7421,
   "category": "restaurant",
   "subcategory": "hawaiian-fusion",
+  "genre": "hawaiian",
   "tagline": "Covid pop-up turned Hawaii Kai neighborhood gem — live music nightly, garlic shrimp that rivals the North Shore trucks.",
   "area": "Hawaii Kai",
   "price": "$$",
@@ -14,7 +15,7 @@
     "BBQ bao buns — crowd favorite"
   ],
   "parking": "Lot on Kalanianaole Hwy; ample compared to town restaurants",
-  "talkStory": "Founded by James Kiko and Grandma Nette as a roadside pop-up tent in Waimanalo in September 2021. Grew into a brick-and-mortar on Kalanianaole Hwy in Hawaii Kai. Live music every night except Tuesdays, bingo nights on 2nd and 4th Mondays — this is as much a community gathering spot as a restaurant. The east side location means zero tourists. Happy hour until 6pm. Open late (midnight most nights).",
+  "talkStory": "Born as a pandemic pop-up tent in Waimanalo in September 2021 by James Kiko and his grandmother Nette, bEASTside grew into a Hawaii Kai brick-and-mortar that became the east side's living room. Live music nightly (except Tue), bingo on 2nd and 4th Mondays, and a crowd that's 100% local families. The umami garlic shrimp rivals any North Shore truck. Happy hour until 6pm, kitchen open until midnight most nights — zero tourists, pure community.",
   "cashOnly": false,
   "kamaaina": null
 }

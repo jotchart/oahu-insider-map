@@ -5,6 +5,7 @@
   "lng": -157.8472,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Where Honolulu chefs eat on their day off — the fried rice feeds four and costs sixteen bucks.",
   "area": "Ala Moana",
   "price": "$$",
@@ -13,7 +14,7 @@
     "signature fried rice ($14–16, enormous portions)"
   ],
   "parking": "Street parking",
-  "talkStory": "Founded by Colin Nishida, James Beard semifinalist and one of Hawaii's most respected chefs. After Honolulu's best chefs close their own restaurants at 10–11pm, they come here for Colin's pork chops and cold beer. Order family-style — 3–4 dishes for 2 people, split everything. Go late night (after 10pm) for the authentic chef crowd.",
+  "talkStory": "Colin Nishida opened Side Street Inn in 1992 as a neighborhood bar, then his pan-fried pork chops got so famous he earned a James Beard semifinalist nod. After Honolulu's top chefs close their own kitchens at 10-11pm, they come here — this is literally where the restaurant industry eats. Anthony Bourdain visited and called it essential. Order family-style, 3-4 dishes for two people. The fried rice portion feeds a small army for $16.",
   "cashOnly": false,
   "kamaaina": null
 }

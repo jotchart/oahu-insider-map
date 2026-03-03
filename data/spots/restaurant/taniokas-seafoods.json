@@ -5,6 +5,7 @@
   "lng": -158.0011,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "West-side pilgrimage spot — the smoked meat counter alone is worth the drive from town.",
   "area": "Waipahu",
   "price": "$",
@@ -14,7 +15,7 @@
     "the smoked marlin"
   ],
   "parking": "Strip mall lot, decent parking",
-  "talkStory": "Multi-generational family business rooted in Waipahu's plantation community — 'Grandma Tanioka's' recipes are the foundation. You can taste before buying a pound. Bring a cooler for the drive home. Great party platters for local gatherings. Best selection before 1pm.",
+  "talkStory": "The Tanioka family has been rooted in Waipahu's plantation community since the 1970s, and Grandma Tanioka's original recipes still form the foundation. Their poke counter is elite, but the sleeper hits are the ahi patties ($3-4 each, crispy outside, tender inside) and the smoked marlin that tourists walk right past. You can taste before buying a pound. Bring a cooler if you're driving back to town — the smoked meats are incredible take-home.",
   "cashOnly": false,
   "kamaaina": null
 }

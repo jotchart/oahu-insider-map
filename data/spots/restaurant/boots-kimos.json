@@ -5,6 +5,7 @@
   "lng": -157.7396,
   "category": "restaurant",
   "subcategory": "breakfast",
+  "genre": "breakfast-brunch",
   "tagline": "Banana macadamia nut pancakes with mac nut sauce — worth the hour wait if you get there by 7:30am.",
   "area": "Kailua",
   "price": "$$",
@@ -12,7 +13,7 @@
     "banana mac nut pancakes ($13–15) — do NOT add butter or syrup, the sauce is everything"
   ],
   "parking": "Enchanted Lake Shopping Center has shared parking lot",
-  "talkStory": "Founded by Jesse 'Boots' Maragos and Kimo McVay — Kimo was a legendary Hawaii entertainment manager who managed Don Ho. Loco moco and fried rice are legit secondary orders. The move: Tue/Wed right at 7:30am opening for walk-in seating.",
+  "talkStory": "Founded in 1989 by Jesse 'Boots' Maragos (a Windward Oahu waterman) and Kimo McVay, the legendary entertainment manager who handled Don Ho's career for decades. Their banana macadamia nut pancakes with homemade mac nut sauce became an island-wide obsession. Pro tip: never add butter or syrup — the sauce IS the dish. Tuesday/Wednesday right at the 7:30am opening is the hack to avoid the brutal weekend wait that can stretch past 90 minutes.",
   "cashOnly": false,
   "kamaaina": null
 }

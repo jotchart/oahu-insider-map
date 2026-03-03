@@ -1,10 +1,11 @@
 {
   "name": "Over Easy",
   "tier": "B",
-  "lat": 21.3976,
-  "lng": -157.7432,
+  "lat": 21.3951,
+  "lng": -157.7427,
   "category": "restaurant",
   "subcategory": "breakfast",
+  "genre": "breakfast-brunch",
   "tagline": "Kailua locals' go-to morning spot — no-fuss, no-gimmick breakfast done exceptionally well with a relaxed neighborhood vibe.",
   "area": "Kailua Town",
   "price": "$",
@@ -14,7 +15,7 @@
     "Seasonal specials — always worth asking about, changes frequently"
   ],
   "parking": "Street parking on Kailua Rd and side streets, small lot nearby",
-  "talkStory": "A homegrown Kailua breakfast spot that quickly became the Windward side's favorite morning ritual, known for using local ingredients and keeping the menu simple but executed perfectly. Tue–Sun, closed Monday. Weekday mornings are chill but weekends get packed by 8:30am. Call ahead to get on the waitlist if going on Saturday. The outdoor seating is the move on a nice Kailua morning.",
+  "talkStory": "Opened around 2014 by husband-and-wife team Ryan and Erica Arakaki in downtown Kailua. Ryan, a former line cook at several Honolulu restaurants, wanted a simple breakfast spot using local eggs and produce. The brunch bowl — rice, eggs, local greens, and choice of protein — became the Windward side's signature breakfast. Named one of Honolulu Magazine's best breakfast spots. The relaxed vibe matches Kailua's surf-town energy. Weekday mornings are mellow; weekends pack out by 8:30am — call ahead for the waitlist.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -5,6 +5,7 @@
   "lng": -157.7142,
   "category": "restaurant",
   "subcategory": "seafood",
+  "genre": "seafood-poke",
   "tagline": "Old-school Kailua steakhouse steps from Lanikai Beach — the kiawe-grilled ahi steak is a local institution.",
   "area": "Lanikai",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Coconut shrimp — crispy and sweet, classic pupu"
   ],
   "parking": "Small parking lot in front, plus street parking on Kawailoa Rd. Beach traffic makes weekends tough — go weekday evenings.",
-  "talkStory": "Buzz's has been here since the '60s and it looks like it — wood-paneled walls, tiki vibes, zero pretension. It's the kind of place where sandy-footed families sit next to couples on date night. The kiawe-grilled fish is the star — they use real local kiawe wood. Perfect post-beach dinner after a Lanikai day. BYOB used to be the move but they have a full bar now. Reservations don't exist — just show up and wait.",
+  "talkStory": "Founded by Buzz Schneider in 1962, making it one of Oahu's oldest continuously operating restaurants. The wood-paneled, tiki-era dining room hasn't changed much in 60 years — sandy-footed families sit next to couples on date night. The kiawe-grilled ahi steak, seared over real local kiawe wood, is the star. Perfect post-beach dinner after a Lanikai day. No reservations, no pretension — just show up and put your name in. Full bar now available.",
   "cashOnly": false,
   "kamaaina": null
 }

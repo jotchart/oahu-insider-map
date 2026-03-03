@@ -1,0 +1,21 @@
+{
+  "name": "Lucky Belly",
+  "tier": "A",
+  "lat": 21.3108,
+  "lng": -157.8614,
+  "category": "restaurant",
+  "subcategory": "ramen",
+  "genre": "ramen-noodles",
+  "tagline": "Chinatown's modern ramen and small-plates spot — the belly bowl is a tonkotsu-style revelation with pork belly and a poached egg.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "belly bowl — rich pork broth, pork belly, poached egg",
+    "pork belly bao — perfectly steamed",
+    "seasonal small plates — Asian-fusion creativity"
+  ],
+  "parking": "Street parking on Hotel St; paid lots nearby",
+  "talkStory": "Opened in 2012 by Jesse Cruz and Dusty Grable — the same duo behind Livestock Tavern next door. Chef Kris Kitazaki runs the kitchen, turning out a belly bowl with 18-hour pork bone broth that became an instant Honolulu icon. The pork belly bao started as a special and became permanent after customer demand. Part of the trio (with Livestock and Tchin Tchin bar) that anchored Chinatown's food revival on Hotel Street. The small plates rotate seasonally and often outshine the ramen.",
+  "cashOnly": false,
+  "kamaaina": null
+}

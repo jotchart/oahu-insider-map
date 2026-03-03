@@ -5,6 +5,7 @@
   "lng": -157.8353,
   "category": "restaurant",
   "subcategory": "izakaya",
+  "genre": "japanese",
   "tagline": "The ultimate late-night salvation — kushi katsu (deep-fried skewers) until 3:30am, perfect for when the clubs close and you need real food.",
   "area": "Moiliili / S. King St",
   "price": "$$",
@@ -14,7 +15,7 @@
     "mapo tofu"
   ],
   "parking": "Small lot behind restaurant off S. King St; street parking on side streets in Moiliili",
-  "talkStory": "A Moiliili institution since the 1980s, Fujiyama Texas fuses Japanese izakaya with Texas-sized portions. The name itself captures Hawaii's cultural mash-up spirit — Japanese craft meets American excess. Open until 3:30am (except Tue). Midnight Diner menu kicks in at 11pm.",
+  "talkStory": "A Moiliili institution since the 1980s, Fujiyama Texas was founded by a Japanese chef who fell in love with Texas barbecue — the name itself captures Hawaii's cultural mash-up spirit. The kushi katsu (deep-fried skewers dipped in house sauce) are the real draw, served until 3:30am most nights (closed Tue). The late-night 'Midnight Diner' menu kicks in at 11pm and draws a loyal crowd of service industry workers, insomniacs, and post-bar revelers seeking real food.",
   "cashOnly": false,
   "kamaaina": null
 }

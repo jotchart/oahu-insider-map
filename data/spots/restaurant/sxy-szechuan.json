@@ -1,0 +1,21 @@
+{
+  "name": "SXY Szechuan",
+  "tier": "B",
+  "lat": 21.2910,
+  "lng": -157.8450,
+  "category": "restaurant",
+  "subcategory": "sichuan",
+  "genre": "chinese",
+  "tagline": "Sichuan specialist inside Ala Moana Center — bold, spicy dishes and strong ratings make it an easy stop after shopping.",
+  "area": "Ala Moana",
+  "price": "$$",
+  "mustOrder": [
+    "mapo tofu — silky tofu in fiery chili-bean sauce",
+    "spicy chicken with dried chilies — la zi ji",
+    "shredded pork with garlic sauce — a milder option"
+  ],
+  "parking": "Ala Moana Center parking (free)",
+  "talkStory": "A Sichuan-focused restaurant inside Ala Moana Center that punches above the typical mall food court. Featured in Honolulu Magazine as 'Spicy is the New Sexy.' The mapo tofu and dry-fried chicken with chilies are legit spicy — not toned down for a mall crowd. Convenient location makes it easy to combine with Ala Moana shopping. Not as deep a menu as Chengdu Taste, but more accessible and easier to park. Lunch and dinner daily.",
+  "cashOnly": false,
+  "kamaaina": null
+}

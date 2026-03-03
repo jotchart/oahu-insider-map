@@ -1,0 +1,21 @@
+{
+  "name": "Youpo Noodles HI",
+  "tier": "A",
+  "lat": 21.3125,
+  "lng": -157.8635,
+  "category": "restaurant",
+  "subcategory": "hand-pulled-noodles",
+  "genre": "chinese",
+  "tagline": "Chinatown's hand-pulled biang biang noodle shop — thick, chewy, ripped-to-order noodles with bold Northwestern Chinese flavors.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "cumin lamb noodles — the signature, aromatic and spicy",
+    "youpo noodles — hot oil poured over hand-pulled noodles",
+    "beef noodle soup — rich broth, tender beef"
+  ],
+  "parking": "Metered street parking on Maunakea St",
+  "talkStory": "Started as a farmers market stand and grew into a Chinatown brick-and-mortar — that trajectory tells you the noodles are legit. Specializes in biang biang noodles from Northwestern China — thick, wide, hand-pulled noodles ripped to order. The youpo (hot oil) technique pours sizzling oil over chili flakes and noodles tableside. Flavors are bold — cumin lamb, chili oil, black vinegar. Featured in Honolulu Magazine. A completely different experience from the Cantonese noodle shops that dominate Chinatown.",
+  "cashOnly": false,
+  "kamaaina": null
+}

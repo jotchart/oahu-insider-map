@@ -5,6 +5,7 @@
   "lng": -157.8135,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "The original Ono Hawaiian Foods closed after 57 years, but Da Ono carries the torch at the same Kapahulu address — kalua pig still hits.",
   "area": "Kapahulu",
   "price": "$",
@@ -14,7 +15,7 @@
     "Pipikaula short ribs — Hawaiian-style dried beef, salty and chewy"
   ],
   "parking": "Street parking on Kapahulu Ave, small lot behind building",
-  "talkStory": "The original Ono Hawaiian Foods was founded in 1962 and served traditional Hawaiian plates for 57 years before closing in 2019. Da Ono opened in the same Kapahulu location, carrying forward the legacy of one of Honolulu's most beloved Hawaiian food spots. Wed–Sun only. Get there before 2pm for best selection — popular items sell out. Order the combo plate to try multiple Hawaiian dishes. The poi is legit.",
+  "talkStory": "The original Ono Hawaiian Foods was founded by Sueko Ono in 1962 and ran for 57 years, becoming one of Obama's favorite Honolulu stops (he'd order the kalua pig and lomi salmon). After it closed in 2019, Da Ono opened at the same Kapahulu address, carrying the torch of traditional Hawaiian plate lunches. Wed-Sun only, and popular items sell out by 2pm. Order the combo plate to try multiple dishes — the poi is hand-pounded and the pipikaula is legit.",
   "cashOnly": false,
   "kamaaina": null
 }

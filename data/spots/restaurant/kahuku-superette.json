@@ -5,6 +5,7 @@
   "lng": -157.9501,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "A five-generation family recipe in a tiny convenience store on the North Shore — the shoyu poke here will ruin you for all others.",
   "area": "Kahuku / North Shore",
   "price": "$",
@@ -14,7 +15,7 @@
     "Plate lunch specials — surprisingly solid comfort food from a convenience store"
   ],
   "parking": "Small gravel lot right in front of the store",
-  "talkStory": "A family-owned country store in Kahuku town that has been serving the community for generations. Their poke recipe has been passed down through five generations, making it one of the oldest continuously family-made poke preparations on Oahu. Go early — the poke is made fresh daily and sells out fast, especially on weekends when the North Shore surf crowd rolls through. Grab it before noon for best selection. Combine with a Kahuku shrimp truck stop.",
+  "talkStory": "A five-generation family-owned country store in Kahuku town — the Tanioka family has been making poke here with the same recipe since the plantation era, making it one of the oldest continuously family-made poke preparations on Oahu. It looks like a convenience store because it is one, but the poke counter in the back is the real reason people drive out here. The shoyu ahi poke is the signature — simple, clean, and perfect. Go before noon on weekends because it sells out. Pair with a Kahuku shrimp truck stop nearby.",
   "cashOnly": false,
   "kamaaina": null
 }

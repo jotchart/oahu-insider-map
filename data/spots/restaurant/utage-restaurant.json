@@ -5,6 +5,7 @@
   "lng": -157.8564,
   "category": "restaurant",
   "subcategory": "japanese",
+  "genre": "japanese",
   "tagline": "Family-run Okinawan restaurant in Kalihi that literally calls regulars when specials are coming — 25 years of that kind of aloha.",
   "area": "Kalihi",
   "price": "$$",
@@ -14,7 +15,7 @@
     "daily specials — whatever the kitchen is excited about"
   ],
   "parking": "City Square Shopping Center lot on Kalani St",
-  "talkStory": "Run by the Kishimoto family since 2001 — daughter Edna handles front of house, son Ivan runs the kitchen. They keep a handwritten call list of regulars and phone them when favorite specials are available. That detail alone tells you everything about this place. Okinawan and Japanese cuisine in Kalihi's City Square Shopping Center, far from any tourist path. The Okinawan dishes connect to Hawaii's deep cultural ties with Okinawa. Lunch and dinner, closed Mondays.",
+  "talkStory": "Run by the Kishimoto family since 2001 — daughter Edna handles front of house, son Ivan runs the kitchen. They keep a handwritten call list of regulars and phone them when favorite specials are available. That detail alone tells you everything about this place. Okinawan and Japanese cuisine in Kalihi's City Square Shopping Center, far from any tourist path. The ahi nori tempura is the signature. Konbu maki is only made twice a year — ask when the next batch is coming.",
   "cashOnly": false,
   "kamaaina": null
 }

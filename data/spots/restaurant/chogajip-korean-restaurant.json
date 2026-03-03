@@ -5,6 +5,7 @@
   "lng": -157.837,
   "category": "restaurant",
   "subcategory": "late-night",
+  "genre": "korean",
   "tagline": "Open until 4am every single day — the chive pancakes and kimchi stew are why Honolulu's night owls know exactly where to end up.",
   "area": "Ala Moana / Kapiʻolani",
   "price": "$$",
@@ -14,7 +15,7 @@
     "galbi"
   ],
   "parking": "Small shared lot off Kapiolani Blvd; street parking on side streets",
-  "talkStory": "A long-running late-night Korean spot on Kapiolani Blvd, beloved by Honolulu's restaurant and bar industry workers for decades as the go-to post-shift meal destination. Daily 8am–4am. The 2am crowd is its own subculture — service industry workers, night owls, post-bar hunger.",
+  "talkStory": "A Kapiolani Blvd fixture for over two decades, Chogajip is the unofficial canteen of Honolulu's restaurant and bar industry — the place chefs and bartenders go after their own kitchens close. Open daily 8am to 4am, the 2am crowd is its own subculture of night-shift workers, post-club survivors, and insomniacs craving kimchi jjigae. The chive pancakes (buchujeon) are crispy-edged perfection at any hour. No frills, fluorescent lights, and exactly right.",
   "cashOnly": false,
   "kamaaina": null
 }

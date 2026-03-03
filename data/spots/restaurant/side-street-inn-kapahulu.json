@@ -5,6 +5,7 @@
   "lng": -157.8139,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Where Honolulu's best chefs eat on their nights off — the pan-fried pork chops and signature fried rice are legendary for a reason.",
   "area": "Kapahulu",
   "price": "$$",
@@ -14,7 +15,7 @@
     "signature fried rice"
   ],
   "parking": "Small lot behind building, street parking on side streets",
-  "talkStory": "Second location of Colin Nishida's legendary Side Street Inn, opened on Kapahulu Ave to be closer to the Kaimuki/Kapahulu dining crowd. Same massive portions and chef-industry following as the original. Mon–Fri from 4pm, dine-in. Weekends get busy.",
+  "talkStory": "Colin Nishida opened this second Side Street Inn on Kapahulu in 2010 to serve the Kaimuki/Kapahulu crowd. Same legendary pork chops and massive fried rice as the original Hopaka St location, but with a bigger dining room and easier parking. The Kapahulu spot draws more families early evening while the original stays late-night chef territory. Same menu, same portions that could feed a football team.",
   "cashOnly": false,
   "kamaaina": null
 }

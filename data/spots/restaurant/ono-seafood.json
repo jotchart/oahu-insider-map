@@ -5,6 +5,7 @@
   "lng": -157.8139,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "Made-to-order poke that locals will wait 30 minutes for — the shoyu ahi is non-negotiable.",
   "area": "Kapahulu",
   "price": "$",
@@ -13,7 +14,7 @@
     "spicy ahi"
   ],
   "parking": "Only 5–6 parking spots behind shop; park on side streets off Kapahulu",
-  "talkStory": "Founded by the Ono family — 'ono' means 'delicious' in Hawaiian. They cut fish to order, never pre-mixed. Tiny shop, no seating — take your bowl to Kapiolani Park (5 min walk) and eat with a Diamond Head view. Go Tue–Fri at 9am opening — sells out by early afternoon. Know your order before you reach the counter — line moves fast and staff expect efficiency.",
+  "talkStory": "Founded by the Ono family in 1995 on Kapahulu Ave — 'ono' means 'delicious' in Hawaiian, and the name delivers. They cut and season fish to order, never pre-mixed, using a shoyu-sesame marinade recipe that hasn't changed in nearly 30 years. Featured on countless 'Best Poke' lists including Travel Channel, Food Network, and Bon Appetit. The tiny shop has no seating — the local move is to walk your bowl to Kapiolani Park for a Diamond Head view picnic. Sells out by early afternoon most days.",
   "cashOnly": false,
   "kamaaina": null
 }

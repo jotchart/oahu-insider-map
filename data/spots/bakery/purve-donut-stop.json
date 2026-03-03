@@ -1,0 +1,21 @@
+{
+  "name": "Purvé Donut Stop",
+  "tier": "A",
+  "lat": 21.2832,
+  "lng": -157.8167,
+  "category": "bakery",
+  "subcategory": "bakery",
+  "genre": "bakery-sweets",
+  "tagline": "Small-batch Hawaiian-flavored donuts that sell out by mid-morning — ube, lilikoi, haupia, and rotating seasonal specials.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "ube donut — purple yam glaze, iconic",
+    "lilikoi donut — tart and sweet passionfruit",
+    "haupia donut — coconut cream filling"
+  ],
+  "parking": "Street parking on Waialae Ave; Kahala Mall parking nearby",
+  "talkStory": "Tiny Kaimuki donut shop on Waialae Ave with a 4.9 Google rating — one of the highest-rated food spots on Oahu. Everything is small-batch and made fresh daily with Hawaiian flavors. They sell out early, especially weekends — arrive by 7am to get the full selection. Leonard's has malasadas covered; Purvé is the donut move. Opens at 6am.",
+  "cashOnly": false,
+  "kamaaina": null
+}

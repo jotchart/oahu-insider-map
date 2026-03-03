@@ -5,6 +5,7 @@
   "lng": -157.862,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "fine-dining",
   "tagline": "Glass-walled waterfront dining at Kewalo Basin — panoramic ocean views and spectacular sunsets for special occasions.",
   "area": "Kakaako",
   "price": "$$$$",
@@ -14,7 +15,7 @@
     "sunset cocktail"
   ],
   "parking": "Validated valet parking available",
-  "talkStory": "The crescent-shaped glass dining room sits right on the waterfront at Kewalo Basin, offering panoramic ocean views and spectacular sunsets. The contemporary Continental menu emphasizes beautifully presented seafood and steaks. Locals come here for anniversaries and proposals — request a window table facing west for sunset. Arrive 30 minutes before sunset for the best light. Reservations essential, especially weekends.",
+  "talkStory": "Built in the 1990s by Japanese conglomerate Suntory, 53 By The Sea was later transformed by local restaurateur Shawn Ching into the sleek glass-walled showpiece on Kewalo Basin it is today. The name comes from its address at Pier 53. This is Honolulu's premier proposal spot — request a west-facing window table and arrive 30 minutes before sunset. The lounge menu offers the same jaw-dropping ocean views at half the dining room price.",
   "cashOnly": false,
   "kamaaina": null
 }

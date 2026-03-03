@@ -5,6 +5,7 @@
   "lng": -157.8568,
   "category": "restaurant",
   "subcategory": "hawaiian",
+  "genre": "hawaiian",
   "tagline": "Traditional Hawaiian plate lunch since 1947 — the poi, laulau, and pipikaula are as real as it gets.",
   "area": "Kakaako",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Poi — fresh-pounded, the real deal, order it with your plate"
   ],
   "parking": "Parking lot at SALT at Our Kakaako. Some street parking on Coral St.",
-  "talkStory": "Highway Inn started in Waipahu in 1947, back when it was literally on the highway between the plantations. The Kakaako location in SALT is the newer, hipper spot but the food is still old-school Hawaiian. This is where locals go when they want real Hawaiian food in a nicer setting than a takeout window. The original Waipahu location is still open too if you want the OG experience. Lunch gets crowded — 11am or after 1:30pm is your sweet spot.",
+  "talkStory": "Founded in 1947 by Seiichi and Nancy Toguchi on the old Waipahu highway connecting sugar plantation camps — hence the name. Now in its fourth generation under Monica Toguchi, who opened the sleek Kakaako location in SALT while keeping the original Waipahu spot alive. The poi is fresh-pounded, the laulau uses traditional taro and ti leaf wrapping, and the pipikaula is smoky perfection. A James Beard semifinalist, Highway Inn bridges old Hawaiian traditions with a modern setting without compromising the recipes.",
   "cashOnly": false,
   "kamaaina": null
 }

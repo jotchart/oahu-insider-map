@@ -1,8 +1,8 @@
 {
   "name": "Pauoa Flats Trail",
   "tier": "B",
-  "lat": 21.3460,
-  "lng": -157.8130,
+  "lat": 21.346,
+  "lng": -157.813,
   "category": "hike",
   "subcategory": "moderate",
   "tagline": "A misty forest trail to a rare flat overlook above Nu'uanu Valley — the trailhead most people walk right past.",
@@ -13,5 +13,5 @@
   "bestTime": "Early morning when the mist hangs in the valley — bring a rain layer",
   "kidFriendly": true,
   "kamaaina": null,
-  "talkStory": "About 2 miles round trip with 500 ft of moderate climbing through native forest to Pauoa Flats — a rare level clearing in the Ko'olaus with views into Nu'uanu Valley and out to the Pali. The trail connects to Aihualama and Nu'uanu Trail for longer loops through the Tantalus trail network. It's well-maintained and shaded the whole way. The upper section has some of the best native Hawaiian forest accessible from Honolulu — look for 'ohi'a lehua and koa trees. Almost always cooler and wetter than town."
+  "talkStory": "Pauoa Flats is one of the only level clearings in the Ko'olau Range — ancient Hawaiians used it as a resting point on the footpath connecting Honolulu to the windward side. The native 'ohi'a lehua and koa forest here is some of the most accessible old-growth near any city in the state. In Hawaiian mythology, the lehua blossom embodies a lover separated from the tree by Pele — picking the flowers brings rain. Connects to the Tantalus network for loops."
 }

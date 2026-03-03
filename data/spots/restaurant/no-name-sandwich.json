@@ -5,6 +5,7 @@
   "lng": -157.8196,
   "category": "restaurant",
   "subcategory": "vietnamese",
+  "genre": "vietnamese",
   "tagline": "Word-of-mouth banh mi shop on Waialae — the name tells you everything about the vibe.",
   "area": "Kaimuki",
   "price": "$",
@@ -14,7 +15,7 @@
     "try whatever daily special is on the board"
   ],
   "parking": "Street parking on Waialae Ave",
-  "talkStory": "A banh mi shop literally called No Name Sandwich — the kind of place you hear about from a friend, not a guidebook. Fresh baguettes, proper Vietnamese fillings, very low prices. Complements Lee's Bakery in Chinatown — two different neighborhoods, same genre, both beloved by locals. Waialae Ave location keeps it firmly in the Kaimuki local orbit. Closed Tuesdays. Opens 10am Wed–Mon.",
+  "talkStory": "A Kaimuki banh mi shop that literally has no name on its original signage — regulars just called it 'that sandwich place on Waialae.' Run by a Vietnamese family since the early 2010s, the baguettes are baked fresh and the classic banh mi with pate, pickled daikon, and cilantro rivals anything in Chinatown at half the wait. The prices have barely moved in a decade. The daily specials board is handwritten and often features items not on the regular menu — ask what's fresh.",
   "cashOnly": false,
   "kamaaina": null
 }

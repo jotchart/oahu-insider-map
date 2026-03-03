@@ -1,0 +1,17 @@
+{
+  "name": "First Friday Art Walk",
+  "tier": "A",
+  "lat": 21.312,
+  "lng": -157.862,
+  "category": "cultural",
+  "subcategory": "cultural-event",
+  "tagline": "Chinatown transforms into a block party every first Friday — galleries, street performers, food, and the creative pulse of Honolulu.",
+  "area": "Chinatown / Downtown",
+  "price": "Free",
+  "parking": "Street parking fills fast; take the bus or rideshare",
+  "hours": "First Friday of each month, 5-9pm",
+  "bestTime": "Start at Hotel Street around 5:30pm and wander; galleries close around 9pm",
+  "kidFriendly": true,
+  "talkStory": "On the first Friday of every month, Honolulu's Chinatown transforms into a block party centered on the arts. Galleries on Nu'uanu Avenue open their doors late, street performers and musicians set up on corners, restaurants and bars offer special menus, and the streets fill with a creative, diverse crowd. This is where locals go to see and be seen, discover new artists, and enjoy Chinatown's vibrant food and drink scene all in one evening.",
+  "kamaaina": null
+}

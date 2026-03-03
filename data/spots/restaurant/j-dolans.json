@@ -5,6 +5,7 @@
   "lng": -157.8168,
   "category": "restaurant",
   "subcategory": "pizza",
+  "genre": "pizza",
   "tagline": "New York-style pizza and craft beer in Kaimuki — often cited as the best slice on the island.",
   "area": "Kaimuki",
   "price": "$$",
@@ -14,7 +15,7 @@
     "garlic knots — if available"
   ],
   "parking": "Street parking on Waialae Ave; Kahala Mall lot nearby",
-  "talkStory": "Kaimuki's neighborhood pizza and beer joint since ~2014. Hand-tossed New York-style pies, good craft beer selection, and a laid-back vibe that draws UH students, young professionals, and Kaimuki regulars. If Brick Fire Tavern is the wood-fired artisan option, Dolan's is the casual, grab-a-slice-and-a-beer counterpart. Also has a second location (Irish pub) on Bethel St downtown. Late night friendly.",
+  "talkStory": "Named after owner John Dolan, who opened this Kaimuki pizza-and-beer joint around 2014 on Waialae Ave. The hand-tossed New York-style pies have a proper thin crust with good char, and the rotating craft beer taps make it Kaimuki's go-to casual night out. Dolan also runs the Irish pub J. Dolan's on Bethel Street downtown — same name, different vibe. If Brick Fire Tavern is Kaimuki's artisan wood-fired option, Dolan's is the grab-a-slice-and-a-pint neighborhood counterpart. Late night friendly.",
   "cashOnly": false,
   "kamaaina": null
 }

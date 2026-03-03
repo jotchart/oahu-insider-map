@@ -1,0 +1,21 @@
+{
+  "name": "Chengdu Taste",
+  "tier": "A",
+  "lat": 21.2965,
+  "lng": -157.8505,
+  "category": "restaurant",
+  "subcategory": "sichuan",
+  "genre": "chinese",
+  "tagline": "Authentic Sichuan cuisine from the LA-born mini-chain — mouth-numbing ma la flavors that Honolulu's spice lovers have been craving.",
+  "area": "Ala Moana / Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "boiled fish in chili oil — fiery and numbing",
+    "mapo tofu — the Sichuan benchmark",
+    "dan dan noodles — rich sesame-chili sauce"
+  ],
+  "parking": "808 Center parking on Sheridan St",
+  "talkStory": "The LA Sichuan sensation that finally opened in Honolulu, filling a massive gap in the island's Chinese food scene. Authentic Sichuan cooking — real ma la (numbing-spicy) heat from quality peppercorns, not just generic chili oil. The boiled fish in chili oil is a table-wide experience. If you grew up eating Sichuan food or fell in love with it in a mainland Chinatown, this is the real deal in Honolulu. Shares the 808 Center complex with Mian (their noodle concept). Lunch and dinner daily.",
+  "cashOnly": false,
+  "kamaaina": null
+}

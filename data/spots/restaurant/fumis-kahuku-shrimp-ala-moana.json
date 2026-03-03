@@ -5,6 +5,7 @@
   "lng": -157.8434,
   "category": "restaurant",
   "subcategory": "shrimp",
+  "genre": "seafood-poke",
   "tagline": "The legendary North Shore truck that moved to Ala Moana's Makai Food Court — same garlic butter shrimp recipe, now easier to reach from town.",
   "area": "Ala Moana",
   "price": "$",
@@ -14,7 +15,7 @@
     "Shrimp scampi — lighter preparation, still packed with garlic"
   ],
   "parking": "Ala Moana Center parking structure, free for first 4 hours",
-  "talkStory": "Fumi's started as one of the original Kahuku shrimp trucks on the North Shore, farming their own shrimp in nearby aquaculture ponds. The Ala Moana location in the Makai Food Court brings that North Shore flavor to town. Makai Food Court hours vary. Order both the garlic shrimp and scampi for comparison. Ask for extra rice — you'll need it to soak up the garlic butter sauce. Lunch rush hits around noon.",
+  "talkStory": "Fumi's started as one of the original Kahuku shrimp trucks on the North Shore, run by the Robello family who farmed their own shrimp in nearby aquaculture ponds fed by natural mountain spring water. The Ala Moana Makai Food Court location brings that same garlic butter recipe to town without the 45-minute North Shore drive. Order both the garlic shrimp and scampi for comparison, and always ask for extra rice — you'll need it to mop up every drop of that legendary sauce.",
   "cashOnly": false,
   "kamaaina": null
 }

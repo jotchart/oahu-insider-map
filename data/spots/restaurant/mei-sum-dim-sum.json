@@ -1,0 +1,21 @@
+{
+  "name": "Mei Sum Dim Sum",
+  "tier": "A",
+  "lat": 21.3112,
+  "lng": -157.8598,
+  "category": "restaurant",
+  "subcategory": "dim-sum",
+  "genre": "chinese",
+  "tagline": "A Chinatown dim sum staple for over 20 years — 150+ Cantonese dishes, cart service, and a Honolulu Magazine reader favorite.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "siu mai — the classic pork and shrimp dumpling",
+    "cheung fun — silky rice noodle rolls",
+    "egg tarts — flaky, custard-filled, warm from the cart"
+  ],
+  "parking": "Metered street parking on Nu'uanu Ave; nearby lots",
+  "talkStory": "One of Chinatown's most reliable dim sum spots, voted a top pick in Honolulu Magazine's reader poll. Over 150 Cantonese dishes on the menu, with dim sum carts rolling from 10am to 2pm daily. The space is no-frills and the pace is fast — this is working-class Chinatown dim sum, not a polished brunch experience. Prices are remarkably low for the quality. If Legend is the bigger, flashier dim sum hall, Mei Sum is the neighborhood regular's choice. Cash preferred.",
+  "cashOnly": true,
+  "kamaaina": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Honolulu Farmers Market (Blaisdell)",
+  "tier": "A",
+  "lat": 21.2955,
+  "lng": -157.8492,
+  "category": "farmers-market",
+  "subcategory": "evening-market",
+  "tagline": "Wednesday evening farmers market at Blaisdell — the best weeknight market with prepared food that doubles as dinner.",
+  "area": "Ala Moana / Kakaako",
+  "price": "$",
+  "parking": "Blaisdell Center parking lot (free during market)",
+  "hours": "Wednesdays 4-7pm at Neal S. Blaisdell Center",
+  "bestTime": "4:30pm — early enough for produce, late enough that food stalls are ready",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "talkStory": "Launched by the Hawaii Farm Bureau at Neal Blaisdell Center, this Wednesday evening market was specifically designed for working Honolulu residents who can't make Saturday mornings at KCC. Many of the prepared food vendors are restaurant chefs or caterers testing concepts -- the quality rivals sit-down dining. Local families treat it as their Wednesday dinner routine. Free parking at Blaisdell and the after-work urban energy make it feel distinctly different from weekend markets."
+}

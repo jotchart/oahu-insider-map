@@ -1,0 +1,21 @@
+{
+  "name": "Legend Seafood Restaurant",
+  "tier": "A",
+  "lat": 21.3128,
+  "lng": -157.8615,
+  "category": "restaurant",
+  "subcategory": "dim-sum",
+  "genre": "chinese",
+  "tagline": "Chinatown's classic dim sum hall — cart service, Hong Kong Cantonese seafood, and a packed dining room that hasn't slowed down since 1990.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "har gow — crystal shrimp dumplings, the dim sum benchmark",
+    "char siu bao — fluffy steamed BBQ pork buns",
+    "salt and pepper shrimp — crispy and addictive"
+  ],
+  "parking": "Chinatown Cultural Plaza parking garage",
+  "talkStory": "Inside the Chinatown Cultural Plaza since 1990, Legend is the anchor dim sum destination in Honolulu. Traditional cart service rolls through the packed dining room — point at what you want as it passes. The har gow and siu mai are textbook, and the seafood dinners at night are excellent. Weekend dim sum is a zoo — arrive before 10am or expect a wait. The crowd is overwhelmingly local Chinese and Filipino families, which tells you everything. Dim sum daily until 2pm, dinner nightly.",
+  "cashOnly": false,
+  "kamaaina": null
+}

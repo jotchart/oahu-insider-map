@@ -1,0 +1,21 @@
+{
+  "name": "Lee's Bakery",
+  "tier": "A",
+  "lat": 21.3122,
+  "lng": -157.8649,
+  "category": "bakery",
+  "subcategory": "bakery",
+  "genre": "bakery-sweets",
+  "tagline": "Chinatown's Vietnamese bakery with the best banh mi on the island and fresh-baked French bread daily.",
+  "area": "Chinatown",
+  "price": "$",
+  "mustOrder": [
+    "Banh mi — classic Vietnamese sandwich on crispy French bread with pate and pickled veg",
+    "Pork hash — steamed dim sum-style dumpling, a local favorite",
+    "Coconut pandan cake — soft, fragrant, and not too sweet"
+  ],
+  "parking": "Street metered parking on River St. Chinatown garage nearby. Come early — they sell out.",
+  "talkStory": "A Chinatown institution run by the Lee family, this Vietnamese bakery has been anchoring its corner of River Street for decades. The banh mi is under $5 — crispy French bread baked fresh daily (you can smell it from the street), layered with pate, cold cuts, pickled daikon and carrot, jalapeno, and cilantro. The pork hash (steamed dim sum-style dumpling) is a sleeper hit locals grab by the dozen. Get there before noon because the bread and popular items sell out. Cash preferred, takeout counter only — eat on a Chinatown bench.",
+  "cashOnly": true,
+  "kamaaina": null
+}

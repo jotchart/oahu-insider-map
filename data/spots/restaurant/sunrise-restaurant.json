@@ -5,6 +5,7 @@
   "lng": -157.8155,
   "category": "restaurant",
   "subcategory": "japanese",
+  "genre": "japanese",
   "tagline": "Okinawan-style home cooking on Kapahulu — a cuisine you can't find outside Hawaii or Okinawa itself.",
   "area": "Kapahulu",
   "price": "$",
@@ -14,7 +15,7 @@
     "andagi — Okinawan-style doughnut"
   ],
   "parking": "Street parking on Kapahulu Ave; small lot nearby",
-  "talkStory": "Hawaii has the largest Okinawan population outside Japan, and places like Sunrise keep that culinary heritage alive. This is home-style Okinawan cooking — not fancy, not trendy, just the food that local Okinawan families grew up eating. The crowd is primarily older local Japanese and Okinawan families. A deeply cultural pick that tells a story about Hawaii's immigrant history. Lunch and dinner, closed Mondays.",
+  "talkStory": "Hawaii has the largest Okinawan diaspora outside Japan, and Sunrise has been keeping that culinary heritage alive on Kapahulu since the 1980s. Family-run, serving home-style Okinawan dishes you literally cannot find outside Okinawa or Hawaii — goya champuru, Okinawan soba, and fresh andagi doughnuts. The crowd is mostly older Okinawan and Japanese families. A deeply cultural pick that connects to Hawaii's immigration story. Lunch and dinner, closed Mondays.",
   "cashOnly": false,
   "kamaaina": null
 }

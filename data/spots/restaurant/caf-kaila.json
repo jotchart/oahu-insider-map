@@ -5,6 +5,7 @@
   "lng": -157.829,
   "category": "restaurant",
   "subcategory": "breakfast",
+  "genre": "breakfast-brunch",
   "tagline": "Four-time Honolulu Magazine gold medalist for Best Breakfast — the meatloaf loco moco is a hangover cure and a life choice all at once.",
   "area": "Moiliili / Kapiolani",
   "price": "$",
@@ -14,7 +15,7 @@
     "Eggs Benedict — perfectly poached with hollandaise on point"
   ],
   "parking": "Upper level of Market City Shopping Center",
-  "talkStory": "Opened in 2008 by Chef Christi Kaila Sei in Market City Shopping Center, quickly winning Honolulu Magazine's Best Breakfast award four times and becoming a local institution. Weekday mornings are way less crowded than weekends. Get there by 7:30am on Saturdays or expect a 30+ minute wait. The daily specials board is always worth checking.",
+  "talkStory": "Opened in 2008 by Chef Christi Kaila Sei in Market City Shopping Center — within two years it won Honolulu Magazine's Best Breakfast Hale Aina Award, eventually earning it four times. The meatloaf loco moco is housemade and legendary, the macadamia nut pancakes are fluffy perfection. Weekday mornings are dramatically less crowded than weekends. Get there by 7:30am Saturday or expect a 30+ minute wait. The daily specials board is always worth checking first.",
   "cashOnly": false,
   "kamaaina": null
 }

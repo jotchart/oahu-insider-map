@@ -1,8 +1,8 @@
 {
   "name": "Ko'olau Distillery",
   "tier": "B",
-  "lat": 21.3960,
-  "lng": -157.7920,
+  "lat": 21.396,
+  "lng": -157.792,
   "category": "experience",
   "subcategory": "tasting",
   "tagline": "A veteran-owned craft distillery in Kailua making whiskey, rum, and gin — tours, tastings, trivia nights, and food trucks.",
@@ -13,5 +13,5 @@
   "bestTime": "Thursday trivia nights or weekends for food trucks and live music. Afternoon tours at 1pm, 3pm, or 4pm",
   "kidFriendly": false,
   "kamaaina": null,
-  "talkStory": "Tucked in an industrial complex near the Kailua/Kaneohe border, this veteran-owned distillery has quietly become one of Oahu's best hangout spots. One-hour tours cover the full whiskey process from mashing to bottling, ending with a 5-spirit tasting. Their signature Old Pali Road Whiskey is the star. Beyond tours, they have a full bar with craft cocktails, local beers, and wine. Thursday trivia nights are packed, and weekends usually have food trucks and live music in the outdoor area. 21+ for tastings."
+  "talkStory": "Founded by a veteran-owned team in an industrial complex near the Kailua-Kaneohe border, Ko'olau quietly became one of Oahu's best hangout spots. Their Old Pali Road Whiskey is named after the haunted remnants of the original Pali Highway. Thursday trivia nights pack the tasting room with Windward locals, and weekends bring food trucks and live music to the outdoor area. The one-hour tour covers the full whiskey process from mashing to a 5-spirit tasting."
 }

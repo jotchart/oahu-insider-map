@@ -5,6 +5,7 @@
   "lng": -157.8051,
   "category": "restaurant",
   "subcategory": "fine-dining",
+  "genre": "fine-dining",
   "tagline": "James Beard semifinalist in Kaimuki — hyper-seasonal Hawaiian ingredients in a cozy neighborhood room.",
   "area": "Kaimuki",
   "price": "$$$",
@@ -12,7 +13,7 @@
     "seasonal tasting menu"
   ],
   "parking": "Street parking on Waialae Ave and Kaimuki side streets (9th-12th Ave)",
-  "talkStory": "James Beard semifinalist for Best Chef Northwest & Pacific. Modern take on Hawaii Regional Cuisine — local products combined with ethnic influences showcasing flavors unique to today's Hawaii. Ask for a seat near the open kitchen if available. Reservations recommended.",
+  "talkStory": "Chef Kevin Lee earned James Beard semifinalist nods for Best Chef Northwest & Pacific with this intimate Kaimuki tasting-menu restaurant. The hyper-seasonal approach means the menu changes constantly based on what Hawaiian farmers and fishermen bring in that week — taro, pohole fern, local reef fish, Waianae greens. The tiny dining room feels like eating at a friend's house, and sitting near the open kitchen lets you watch the meticulous plating. Reservations essential — this is Kaimuki fine dining done with aloha, not pretension.",
   "cashOnly": false,
   "kamaaina": null
 }

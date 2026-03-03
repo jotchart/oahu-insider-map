@@ -1,0 +1,21 @@
+{
+  "name": "Livestock Tavern",
+  "tier": "A",
+  "lat": 21.3107,
+  "lng": -157.8618,
+  "category": "restaurant",
+  "subcategory": "new-american",
+  "genre": "fine-dining",
+  "tagline": "Chinatown's rustic-chic dinner spot — seasonal farm-to-table dishes, killer cocktails, and a vibe that straddles casual and refined.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "bone marrow — a signature starter",
+    "seasonal pasta — changes with what's local",
+    "craft cocktails — the bar program is legit"
+  ],
+  "parking": "Street parking on Bethel St; nearby paid lots",
+  "talkStory": "Opened in 2013 by chef Jesse Cruz and Dusty Grable in a former Chinatown warehouse, helping ignite the neighborhood's dining renaissance. Cruz, a Culinary Institute of America grad, changes the menu weekly based on what local farms deliver. Won multiple Hale 'Aina awards for Best New Restaurant and Best Farm-to-Table. The bone marrow appetizer has been on since day one because regulars refuse to let it go. The cocktail program uses house-made syrups and local citrus.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -5,6 +5,7 @@
   "lng": -157.8229,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "The local plate lunch and poke counter that office workers plan their whole week around.",
   "area": "Moiliili",
   "price": "$",
@@ -14,7 +15,7 @@
     "Laulau plate — steamed pork and taro leaf with two scoops rice"
   ],
   "parking": "Small lot that fills up fast at lunch. Try street parking on Young St or Isenberg.",
-  "talkStory": "Yama's has been the Moiliili lunch spot for decades. The poke counter is legit — locals argue whether Yama's or Ono Seafood has the better ahi poke (answer: both are great, different style). The plate lunches are huge and cheap. Lunch rush is 11:30-1pm and the line goes out the door. Go at 11 or after 1:30. They also sell poke by the pound to take home — great move for a beach day.",
+  "talkStory": "The Yamashiro family has been running this Moiliili plate lunch and poke counter for decades, and office workers from UH to Ala Moana plan their week around it. Locals argue endlessly whether Yama's or Ono Seafood has better ahi poke — both are great, different styles. The kalua pig plate is enormous and the poke is always fresh-cut. Lunch rush is 11:30-1pm with lines out the door. Go at 11am or after 1:30. They sell poke by the pound — perfect beach day move.",
   "cashOnly": false,
   "kamaaina": null
 }

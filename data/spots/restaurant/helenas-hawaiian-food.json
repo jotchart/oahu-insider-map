@@ -5,6 +5,7 @@
   "lng": -157.8642,
   "category": "restaurant",
   "subcategory": "hawaiian",
+  "genre": "hawaiian",
   "tagline": "James Beard Award winner in a Kalihi strip mall — the pipikaula short ribs will ruin you for all other beef.",
   "area": "Kalihi",
   "price": "$$",
@@ -12,7 +13,7 @@
     "Hawaiian plate (pipikaula short ribs, lomi salmon, poi, haupia)"
   ],
   "parking": "Strip mall parking lot on N. School St in Kalihi",
-  "talkStory": "Founded 1946 by Helen 'Helena' Chock. Won the James Beard America's Classics Award in 2000 — the only traditional Hawaiian food restaurant ever honored. Eat poi with two fingers, never a fork. Don't make a face at poi — it's sacred.",
-  "cashOnly": true,
+  "talkStory": "Founded in 1946 by Helen 'Helena' Chock in a Kalihi strip mall, Helena's won the James Beard America's Classics Award in 2000 — the only traditional Hawaiian restaurant ever honored and a landmark moment for indigenous cuisine recognition. Now run by her grandson Craig Katsuyoshi, the pipikaula short ribs (Hawaiian-style dried beef) are the signature you cannot skip. Cash only, limited hours (Tue-Fri), and the line moves slow — but this is sacred-level Hawaiian food. Eat poi with two fingers, never one, never a fork.",
+  "cashOnly": false,
   "kamaaina": null
 }

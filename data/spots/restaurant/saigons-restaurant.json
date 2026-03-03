@@ -5,6 +5,7 @@
   "lng": -157.8108,
   "category": "restaurant",
   "subcategory": "vietnamese",
+  "genre": "vietnamese",
   "tagline": "Honest Southern Vietnamese cooking on Waialae — the yellow curry wins people over and the pho is among the better bowls on the island.",
   "area": "Kaimuki",
   "price": "$",
@@ -14,7 +15,7 @@
     "vermicelli bowl — a solid everyday lunch"
   ],
   "parking": "Street parking on Waialae Ave",
-  "talkStory": "A neighborhood Vietnamese restaurant that's been on Waialae Ave for years, serving the Kaimuki/Kahala local crowd. Southern Vietnamese style — pho, banh mi, vermicelli, rice plates. Not fancy, not trendy, just well-executed Vietnamese food at reasonable prices. The Pig and The Lady covers Vietnamese-fusion; Saigon's is the traditional, affordable everyday counterpart. Lunch and dinner, closed Mondays.",
+  "talkStory": "Run by the Nguyen family on Waialae Ave since the early 2000s, serving Southern Vietnamese home cooking to the Kaimuki neighborhood. The pho broth simmers for 12+ hours and the yellow curry — a Southern Vietnamese specialty less common in Hawaii — is the sleeper hit that converts first-timers into regulars. While The Pig and the Lady gets the press for Vietnamese-fusion, Saigon's is where local Vietnamese families actually eat on their days off. No frills, honest prices, generous portions.",
   "cashOnly": false,
   "kamaaina": null
 }

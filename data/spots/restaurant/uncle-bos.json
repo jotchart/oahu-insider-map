@@ -5,6 +5,7 @@
   "lng": -157.8136,
   "category": "restaurant",
   "subcategory": "izakaya",
+  "genre": "japanese",
   "tagline": "Kaimuki pupu bar with creative local-Asian fusion — the garlic truffle fries and dynamite are legendary.",
   "area": "Kaimuki",
   "price": "$$",
@@ -14,7 +15,7 @@
     "Bo's fried rice — loaded with whatever's good, different every time"
   ],
   "parking": "Street parking on Waialae Ave and side streets. Kaimuki is tight — circle once or twice.",
-  "talkStory": "Uncle Bo's is the Kaimuki spot for late-night grinds and drinks with friends. Chef Bo Pathammavong brings Lao and local flavors together in creative pupu that are perfect for sharing. The vibe is loud, fun, and always packed on weekends. Great for groups — order a bunch of small plates and share everything. They're open late by Honolulu standards which makes it a go-to after other restaurants close. Reservations recommended on weekends.",
+  "talkStory": "Chef Bo Pathammavong, born in Laos and raised in Hawaii, brings Lao and local flavors together in creative pupus that are perfect for sharing over drinks. Uncle Bo's is the Kaimuki spot for late-night grinds — they stay open late by Honolulu standards, making it a go-to after other restaurants close. The garlic truffle fries are dangerously addictive. Order a bunch of small plates for the table. Reservations recommended on weekends; the vibe is loud, fun, and always packed.",
   "cashOnly": false,
   "kamaaina": null
 }

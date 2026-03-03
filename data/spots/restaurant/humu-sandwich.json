@@ -5,6 +5,7 @@
   "lng": -157.8625,
   "category": "restaurant",
   "subcategory": "deli",
+  "genre": "american",
   "tagline": "Downtown sandwich shop with a 4.9 Google rating — the Reuben is the best on the island and locals want to keep it secret.",
   "area": "Chinatown / Downtown",
   "price": "$",
@@ -14,7 +15,7 @@
     "smoothies — surprisingly good for a sandwich shop"
   ],
   "parking": "Merchant St metered parking; downtown parking garages",
-  "talkStory": "A small deli on Merchant Street in the financial district with a 4.9 Google rating at nearly 200 reviews — one of the highest-rated food spots on Oahu. The Reuben is the draw: proper corned beef, sauerkraut, Russian dressing, rye bread. One reviewer said they 'wanted to keep it a hidden gem.' Primarily a lunch spot for downtown office workers. Quick service, reasonable prices. Weekday hours only.",
+  "talkStory": "A tiny deli on Merchant Street in Honolulu's financial district with a near-perfect 4.9 Google rating — one of the highest-rated food spots on Oahu. Owner Humu crafts each sandwich by hand, and the Reuben (proper corned beef, sauerkraut, Russian dressing, rye) is consistently called the best on the island. The bulgogi sub is a Korean-meets-deli crossover that shouldn't work but absolutely does. Weekday lunch hours only, primarily feeding downtown office workers who guard this spot like a secret.",
   "cashOnly": false,
   "kamaaina": null
 }

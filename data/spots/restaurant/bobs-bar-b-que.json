@@ -1,0 +1,21 @@
+{
+  "name": "Bob's Bar-B-Que",
+  "tier": "A",
+  "lat": 21.3918,
+  "lng": -157.9735,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
+  "tagline": "Pearl City plate lunch institution — the kalbi and BBQ chicken are old-school Hawaii comfort food at its purest.",
+  "area": "Pearl City",
+  "price": "$",
+  "mustOrder": [
+    "kalbi short ribs — smoky, sweet, tender",
+    "BBQ chicken — the classic plate",
+    "fried noodles — ask for extra crispy"
+  ],
+  "parking": "Strip mall parking lot",
+  "talkStory": "Open since the 1970s in a Pearl City strip mall, Bob's is one of the last old-guard plate lunch shops where recipes haven't changed in 40+ years. The kalbi short ribs are marinated overnight in a guarded family recipe, and the fried noodles are cooked in a wok so seasoned it's practically an heirloom. Regulars call ahead — the staff knows their order by voice. Cash only, no website, no social media — just honest plate lunch the way Hawaii used to do it.",
+  "cashOnly": true,
+  "kamaaina": null
+}

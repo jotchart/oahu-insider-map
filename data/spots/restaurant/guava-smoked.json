@@ -5,6 +5,7 @@
   "lng": -157.8136,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Texas-style BBQ smoked with Hawaiian guava wood — brisket and pulled pork that taste like nowhere else on earth.",
   "area": "Kapahulu",
   "price": "$",
@@ -14,7 +15,7 @@
     "combo plate to try both"
   ],
   "parking": "Street parking on Kapahulu Ave",
-  "talkStory": "Started as pop-ups before landing a brick-and-mortar on Kapahulu. The concept — Texas low-and-slow technique with Hawaiian guava wood — is a genuinely local innovation you won't find on the mainland. The smoke flavor is distinct: a little sweeter, a little more floral than mesquite or hickory. Portions are solid for the price. Your map has no BBQ representation — this fills that gap. Closed Mondays.",
+  "talkStory": "Founded by pitmaster Abe Natividad, who perfected the art of smoking meat with locally sourced Hawaiian guava wood — giving the brisket and pulled pork a subtly sweet, floral smoke flavor unlike anything from mesquite or hickory. Started doing pop-ups around Honolulu before landing the Kapahulu brick-and-mortar. The guava wood is harvested on-island, making this a genuinely Hawaii-born BBQ concept you cannot replicate on the mainland. Portions are generous for the price — the combo plate is the move.",
   "cashOnly": false,
   "kamaaina": null
 }

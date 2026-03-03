@@ -5,6 +5,7 @@
   "lng": -158.146,
   "category": "restaurant",
   "subcategory": "farm-to-table",
+  "genre": "american",
   "tagline": "A farm-to-table cafe hidden deep in the Waianae Valley, serving food harvested from the surrounding organic gardens.",
   "area": "Waianae",
   "price": "$$",
@@ -14,7 +15,7 @@
     "fresh-baked pastry"
   ],
   "parking": "Free lot on the farm property",
-  "talkStory": "Hidden in the back valley of Waianae on an organic farm that doubles as a transitional housing community. The food is made with ingredients harvested that morning — fresh salads, hearty grain bowls, and baked goods. The setting, surrounded by mountains and farmland, feels a world away from Honolulu. Open Wed-Sat for lunch; call ahead to confirm hours. Locals treasure this place for its mission as much as its food.",
+  "talkStory": "Kahumana Organic Farm and Cafe is a nonprofit founded in 1974 as a therapeutic community in the back of Waianae Valley. The cafe serves lunch made with ingredients literally harvested that morning from the surrounding 30-acre organic farm. It also functions as transitional housing and job training for adults with developmental disabilities and those experiencing homelessness. The setting — surrounded by Waianae mountains and farmland — feels like another island entirely. Open Wed-Sat for lunch; call ahead to confirm.",
   "cashOnly": false,
   "kamaaina": null
 }

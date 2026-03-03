@@ -5,6 +5,7 @@
   "lng": -157.9231,
   "category": "restaurant",
   "subcategory": "food-truck",
+  "genre": "food-truck",
   "tagline": "Samoan-Hawaiian family joint in Laie — the banana bread alone is worth the stop, the burgers are a bonus.",
   "area": "Laie",
   "price": "$",
@@ -13,7 +14,7 @@
     "Mom's Banana Bread"
   ],
   "parking": "Lot in front of the restaurant on Kamehameha Hwy",
-  "talkStory": "Founded 2009 by Art and Peggy Hannemann (bought the former Kahuku Grill). Opened Laie location specifically to serve locals and BYU-Hawaii students. The banana bread sells out early — get there before noon if that's your priority. Great stop on a North Shore loop. The seven brothers are literally seven brothers from the Hannemann family.",
+  "talkStory": "Founded in 2009 by Art and Peggy Hannemann — a Samoan-Hawaiian family with literally seven brothers who all pitch in. They bought the former Kahuku Grill and built a following with BYU-Hawaii students and North Shore locals. Mom's banana bread sells out by noon, and Guy Fieri featured them on Diners, Drive-Ins and Dives. The Laie location has the best vibe — picnic tables, family energy, and burgers stacked with homemade onion rings and grilled pineapple.",
   "cashOnly": false,
   "kamaaina": null
 }

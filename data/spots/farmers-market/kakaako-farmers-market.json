@@ -1,0 +1,17 @@
+{
+  "name": "Kakaako Farmers Market",
+  "tier": "A",
+  "lat": 21.2935,
+  "lng": -157.8563,
+  "category": "farmers-market",
+  "subcategory": "weekend-market",
+  "tagline": "Saturday morning market in Kakaako's Ward Village — strong food vendor lineup and a growing local following.",
+  "area": "Kakaako",
+  "price": "$",
+  "parking": "Ward Village parking (free on weekends)",
+  "hours": "Saturdays 8am-12pm at Ward Village",
+  "bestTime": "8:30-10am before it gets too hot and the best items sell out",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "talkStory": "This Saturday morning market at Ward Village has grown from a small pop-up into a serious alternative to KCC for town-side residents. The Howard Hughes Corporation, which developed Ward Village, supports the market as a neighborhood-building amenity. The prepared food vendor lineup rotates but consistently draws from Honolulu's best small food businesses. Less chaotic than KCC with easier parking and a sleek urban setting among the new Kakaako towers."
+}

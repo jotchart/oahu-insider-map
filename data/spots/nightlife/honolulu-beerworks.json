@@ -1,0 +1,20 @@
+{
+  "name": "Honolulu Beerworks",
+  "tier": "A",
+  "lat": 21.2984,
+  "lng": -157.8571,
+  "category": "nightlife",
+  "subcategory": "brewery",
+  "tagline": "Kakaako's original craft brewery — industrial taproom pouring Hawaii-brewed beers with rotating food trucks outside.",
+  "area": "Kakaako",
+  "price": "$-$$",
+  "mustOrder": [
+    "Cocoweizen — coconut hefeweizen, a local favorite",
+    "seasonal IPA — whatever's on the rotating tap",
+    "tasting flight — try 4-5 beers at once"
+  ],
+  "parking": "Street parking on Coral St; Kakaako lots",
+  "talkStory": "Founded in 2014 by Geoff Seideman, a California transplant who quit engineering to brew beer, Honolulu Beerworks was the catalyst for Kakaako's craft beer boom. The Cocoweizen -- a hefeweizen brewed with real toasted coconut -- became an instant local icon and won medals at the Great American Beer Festival. The converted warehouse with roll-up garage doors set the template that every Kakaako brewery copied.",
+  "cashOnly": false,
+  "kamaaina": null
+}

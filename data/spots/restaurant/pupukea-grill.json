@@ -5,6 +5,7 @@
   "lng": -158.0562,
   "category": "restaurant",
   "subcategory": "poke",
+  "genre": "seafood-poke",
   "tagline": "Parked across from Banzai Pipeline since 2008 — the surfers lining up here aren't wrong, this is the North Shore's best poke bowl.",
   "area": "Pupukea / North Shore",
   "price": "$",
@@ -13,7 +14,7 @@
     "fish plate lunch"
   ],
   "parking": "Between Pupukea Beach Park and Sharks Cove",
-  "talkStory": "Started as a food truck parked across from Pipeline around 2008, built a loyal following among North Shore surfers and locals for fresh, no-frills poke bowls at beach prices. Tue–Sun 11am–5pm, closed Mon.",
+  "talkStory": "Started as a roadside food truck across from Banzai Pipeline around 2008, serving surfers coming out of the water. Built a loyal North Shore following for fresh, no-frills poke bowls using fish from Haleiwa harbor boats. The location between Shark's Cove and Pipeline means you're eating with a view of world-class surf. Pro surfers from the WSL circuit eat here during the Triple Crown season. Prices stay reasonable because there's no sit-down overhead — just a truck, a window, and the ocean across the road.",
   "cashOnly": false,
   "kamaaina": null
 }

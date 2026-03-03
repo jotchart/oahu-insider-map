@@ -1,0 +1,19 @@
+{
+  "name": "Moke's Bread & Breakfast",
+  "tier": "C",
+  "lat": 21.3958,
+  "lng": -157.7466,
+  "category": "restaurant",
+  "subcategory": "cafe",
+  "tagline": "Famous for lilikoi pancakes, but the coffee is no afterthought here.",
+  "area": "Kailua",
+  "price": "$$",
+  "mustOrder": [
+    "house coffee with lilikoi pancakes — the full experience",
+    "iced coffee — strong, you'll need it for the wait"
+  ],
+  "parking": "Street parking on Kailua Rd or public lot on Hahani St",
+  "talkStory": "Yeah, Moke's is known for breakfast, but they brew solid coffee and you're gonna be here anyway for those lilikoi pancakes. The line can be 30-45 minutes on weekends — come at 7am or accept your fate. Named after the family dog. The vibe is pure local breakfast spot energy. If the Kailua location is packed, they have one in Honolulu too.",
+  "cashOnly": false,
+  "kamaaina": null
+}

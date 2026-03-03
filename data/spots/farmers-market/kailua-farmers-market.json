@@ -1,8 +1,8 @@
 {
   "name": "Kailua Farmers' Market",
   "tier": "A",
-  "lat": 21.397,
-  "lng": -157.74,
+  "lat": 21.3935,
+  "lng": -157.7423,
   "category": "farmers-market",
   "subcategory": "evening",
   "tagline": "Thursday evening market run by the same folks behind KCC — 20 years of Hawaii-grown-only produce, mochi, and street corn.",
@@ -13,5 +13,5 @@
   "bestTime": "Arrive before 5pm — popular items like Mochi Aulelei Hawaii taro mochi and Nozawa Farms street corn sell out early",
   "kidFriendly": true,
   "kamaaina": null,
-  "talkStory": "Run by the Hawaii Farm Bureau, the same organization behind the famous KCC Farmers Market. This one's been going for 20 years and strictly sells Hawaii-grown products — produce, flowers, beef, pork, seafood, and ready-to-eat foods. Look for the family-run German bakery and handmade salsas. Kids love the chalk and live music. The 7pm alarm is no joke — when it goes off, everything shuts down, so don't arrive at 6:45 expecting to browse. Located at 609 Kailua Rd in Kailua Town Center."
+  "talkStory": "Run by the Hawaii Farm Bureau for 20+ years at 609 Kailua Rd, this market strictly enforces its Hawaii-grown-only rule -- every product must be raised, grown, or made in the islands. Nozawa Farms street corn and Mochi Aulelei Hawaii taro mochi sell out first, so arrive before 5pm. The 7pm closing alarm is legendary -- when it sounds, all sales stop immediately regardless of the line. Local families, military families from the nearby base, and Kailua lifers all mix here."
 }

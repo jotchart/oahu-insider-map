@@ -5,6 +5,7 @@
   "lng": -157.8618,
   "category": "restaurant",
   "subcategory": "american",
+  "genre": "american",
   "tagline": "Chicago-style comfort food in a historic Chinatown building — Italian beef sandwiches, Maxwell Street Polish, and late-night Kung Fu Ham.",
   "area": "Chinatown / Downtown",
   "price": "$",
@@ -14,7 +15,7 @@
     "Kung Fu Ham — deep-fried pork belly with Thai chili garlic"
   ],
   "parking": "Street parking on S King St; paid lots on Smith/Maunakea",
-  "talkStory": "A Midwest transplant concept that somehow feels perfectly at home in Chinatown. Exposed brick walls, late-night hours, and a menu of Chicago comfort food you can't get anywhere else on the island. The Italian beef sandwich is authentic. The Kung Fu Ham (deep-fried pork belly with Thai chili garlic) is a house original that bridges Chicago and Honolulu. Downtown workers for lunch, Chinatown bar crowd for late night. Open until midnight.",
+  "talkStory": "Opened by a Midwest transplant who brought authentic Chicago-style Italian beef sandwiches, Maxwell Street Polish, and proper Chicago dogs (no ketchup, ever) to a beautifully restored Chinatown building. The Kung Fu Ham — deep-fried pork belly with Thai chili garlic — is a house original that bridges Chicago grit and Honolulu creativity. Downtown workers fill it at lunch, the Chinatown bar crowd takes over late night. Open until midnight.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -5,6 +5,7 @@
   "lng": -157.8282,
   "category": "restaurant",
   "subcategory": "noodles",
+  "genre": "ramen-noodles",
   "tagline": "Locals genuinely love it despite the Waikiki address — watch them pull fresh noodles through the glass.",
   "area": "Waikiki",
   "price": "$",
@@ -13,7 +14,7 @@
     "nikutama ($8–10, beef + egg)"
   ],
   "parking": "Don't drive — no parking in Waikiki",
-  "talkStory": "Toridoll Holdings franchise from Kobe, Japan — modeled after Kagawa Prefecture self-serve udon shops. Cafeteria-style: tray, order base udon, pick tempura, pay at register. Total bill can be under $10 — best value in Waikiki. Go at 10am opening or 2–4pm for shortest lines.",
+  "talkStory": "Part of Japan's Toridoll Holdings chain (800+ locations worldwide), the Waikiki outpost opened in 2011 and immediately drew lines around the block — it's been that way for over a decade. Modeled after Kagawa Prefecture's self-serve sanuki udon shops where you watch noodles being hand-pulled through glass. The cafeteria format (grab tray, choose udon, pick tempura, pay) keeps bills under $10, making it Waikiki's best food value. Barack Obama was spotted here during holiday visits.",
   "cashOnly": false,
   "kamaaina": null
 }

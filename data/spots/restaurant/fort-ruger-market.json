@@ -5,6 +5,7 @@
   "lng": -157.7995,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Tiny neighborhood deli on a residential side street — Filipino plate lunches with the kind of portions only aunties serve.",
   "area": "Diamond Head",
   "price": "$",
@@ -14,7 +15,7 @@
     "loco moco — their version is massive"
   ],
   "parking": "Street parking on Alohea Ave; residential neighborhood, usually available",
-  "talkStory": "Hidden on a residential street near Fort Ruger Park — started as a corner market and evolved into a beloved plate lunch counter. The Filipino food is cooked from family recipes: pork adobo, lumpia, pinakbet, dinuguan. The same aunties and uncles come every week. Zero tourist presence. Enormous portions for the price. This is the kind of place you only find if a local tells you about it. Mon–Sat, closes early afternoon when food runs out.",
+  "talkStory": "Hidden on residential Alohea Ave near Fort Ruger Park, this corner store evolved into one of Diamond Head's best-kept plate lunch secrets. The Filipino food is cooked from family recipes passed down through generations — pork adobo, lumpia, pinakbet, and dinuguan that taste like someone's lola (grandmother) made them. The same neighborhood regulars come every week. Zero tourist presence, enormous portions, and it closes early afternoon when the food runs out. Mon-Sat only.",
   "cashOnly": false,
   "kamaaina": null
 }

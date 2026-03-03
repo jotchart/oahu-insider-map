@@ -5,6 +5,7 @@
   "lng": -157.7996,
   "category": "restaurant",
   "subcategory": "breakfast",
+  "genre": "breakfast-brunch",
   "tagline": "Lee Anne Wong's brunch spot — Cornflake French Toast and kimchi fried rice are mandatory.",
   "area": "Kaimuki",
   "price": "$$",
@@ -13,7 +14,7 @@
     "breakfast bibimbap ($17–19)"
   ],
   "parking": "Park on Kaimuki side streets (12th Ave, Harding Ave)",
-  "talkStory": "Opened 2014 by Chef Lee Anne Wong — Top Chef Season 1 alum, James Beard nominee. She also opened Papa Kurt's (smash burgers) nearby. Rotating scones and pastries at the counter — don't skip. No reservations for brunch — walk-in waitlist only. The move: weekday mornings right at 7am opening for zero wait. Walk Waialae Ave after for Kaimuki's boutiques.",
+  "talkStory": "Opened in 2014 by Chef Lee Anne Wong — Top Chef Season 1 alum and multiple James Beard nominee — who left New York's fine dining world to build a life in Hawaii. The Cornflake French Toast (battered in crushed cereal) has a cult following, and the breakfast bibimbap fuses Korean and local flavors perfectly. Wong also opened Papa Kurt's smash burger spot nearby. No reservations — walk-in waitlist only. The move: weekday mornings right at 7am opening for zero wait, then walk Waialae Ave for Kaimuki's boutiques.",
   "cashOnly": false,
   "kamaaina": null
 }

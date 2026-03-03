@@ -1,0 +1,21 @@
+{
+  "name": "Happy Days Chinese Seafood Restaurant",
+  "tier": "B",
+  "lat": 21.2835,
+  "lng": -157.8105,
+  "category": "restaurant",
+  "subcategory": "dim-sum",
+  "genre": "chinese",
+  "tagline": "One of the last dim sum spots on Oahu with traditional push-cart service — old-school Cantonese in a Kaimuki strip mall.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "har gow — shrimp dumplings from the cart",
+    "sticky rice in lotus leaf — lo mai gai",
+    "egg tarts — warm custard in flaky pastry"
+  ],
+  "parking": "Lot at Waialae Ave strip mall",
+  "talkStory": "One of the few remaining dim sum restaurants on Oahu where carts still roll through the dining room — most places have switched to paper menus. The nostalgic atmosphere and traditional cart service make this a throwback to a disappearing style of Chinese dining. Packed on weekends with multigenerational local Chinese families. The food is solid and honest — not reinventing the wheel, just doing classic Cantonese dim sum the old way. If you miss the dim sum cart experience, this is your spot.",
+  "cashOnly": false,
+  "kamaaina": null
+}

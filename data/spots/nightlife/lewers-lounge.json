@@ -1,0 +1,20 @@
+{
+  "name": "Lewers Lounge",
+  "tier": "A",
+  "lat": 21.2769,
+  "lng": -157.8299,
+  "category": "nightlife",
+  "subcategory": "cocktail-lounge",
+  "tagline": "The most elegant cocktail lounge in Waikiki — live jazz, classic cocktails, and old-school Halekulani glamour.",
+  "area": "Waikiki",
+  "price": "$$$",
+  "mustOrder": [
+    "classic mai tai — Halekulani's refined version",
+    "martini — expertly made",
+    "dessert cocktails — the chocolate options are decadent"
+  ],
+  "parking": "Halekulani valet; street parking on Lewers St",
+  "talkStory": "Named after painter Robert Lewers whose work hangs inside, this lounge has anchored the Halekulani since the hotel's 1984 rebuild. Nightly jazz performers include Grammy-nominated musicians who play here between mainland tours. The bartenders have collectively won more cocktail competitions than any other bar in Hawaii. At $25+ per drink it's not cheap, but old-guard Honolulu families have been celebrating anniversaries here for four decades.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Ted's Bakery",
+  "tier": "A",
+  "lat": 21.6485,
+  "lng": -158.0595,
+  "category": "bakery",
+  "subcategory": "bakery",
+  "genre": "bakery-sweets",
+  "tagline": "North Shore legend famous for haupia chocolate cream pie — the plate lunches fuel surfers year-round.",
+  "area": "North Shore (Sunset Beach)",
+  "price": "$",
+  "mustOrder": [
+    "Haupia chocolate cream pie — the iconic pie, chocolate and coconut pudding layers",
+    "Garlic shrimp plate — North Shore style, served with rice",
+    "Kalua pork plate lunch — smoky, tender, with mac salad and rice"
+  ],
+  "parking": "Small parking lot right in front on Kamehameha Hwy. Usually can find a spot except peak surf season weekends.",
+  "talkStory": "Ted Nakamura opened this North Shore bakery in 1987 near Sunset Beach, and his haupia chocolate cream pie became so iconic they now ship it to the mainland. Every surfer, every local, every Pipeline spectator ends up here. The plate lunches — garlic shrimp, kalua pork — are huge and cheap, perfect fuel after a dawn patrol session. Get the pie to go for the beach. They open early so it doubles as a solid breakfast stop before hitting the waves.",
+  "cashOnly": false,
+  "kamaaina": null
+}

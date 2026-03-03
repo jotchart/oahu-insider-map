@@ -5,6 +5,7 @@
   "lng": -157.8434,
   "category": "restaurant",
   "subcategory": "late-night",
+  "genre": "japanese",
   "tagline": "24 hours, legit poke, fresh bento, spam musubi — the Japanese-style superstore that locals hit at 2am without shame.",
   "area": "Moiliili / Kaheka",
   "price": "$",
@@ -14,7 +15,7 @@
     "Bento boxes — Japanese-quality prepared meals at supermarket prices"
   ],
   "parking": "Large free parking structure attached to the store",
-  "talkStory": "Part of the Japanese Don Quijote discount chain (formerly Daiei), this Kaheka St location became a local institution for its 24-hour deli counter with surprisingly excellent poke and prepared foods. Open 24/7. The late-night poke and bento run is a Honolulu tradition. Poke counter gets restocked throughout the day. The takoyaki and tempura near the deli are sleeper hits.",
+  "talkStory": "Part of the Japanese Don Quijote discount chain (this Kaheka St location was formerly a Daiei supermarket), the 24-hour deli counter became a Honolulu institution for its surprisingly excellent poke and prepared foods. The late-night poke run is a local tradition — the counter gets restocked throughout the day so even 2am poke is fresh. Takoyaki and tempura near the deli are sleeper hits. Open 24/7, free parking garage, and no judgment at any hour.",
   "cashOnly": false,
   "kamaaina": null
 }

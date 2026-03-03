@@ -1,7 +1,7 @@
 {
   "name": "Hanauma Bay",
   "tier": "S",
-  "lat": 21.2690,
+  "lat": 21.269,
   "lng": -157.6937,
   "category": "beach",
   "subcategory": "snorkeling",
@@ -10,8 +10,8 @@
   "price": "$25 non-resident, $5 kama'aina; closed Mondays and Tuesdays",
   "parking": "$3 parking; lot fills by 9 AM, arrive early or take the shuttle",
   "hours": "Wed–Sun, 6:45 AM – 4:00 PM (gates close at 1:30 PM for last entry)",
-  "bestTime": "Arrive at 6:30 AM for first entry; Wed or Thu for fewest crowds",
+  "bestTime": "Book online reservation immediately when slots open (2 days in advance); Wed or Thu for fewest crowds",
   "kidFriendly": true,
-  "kamaaina": "$5 entry for Hawaii residents with valid ID",
-  "talkStory": "You have to watch a short conservation video before entering, which honestly is worth it — it helps you understand what you're swimming with. The inner reef is shallow and calm, perfect for first-time snorkelers and kids. Bring your own gear to skip the overpriced rental line. Go early and leave by 11 AM before the afternoon crowds and wind pick up. The fish here are so used to people they'll swim right up to you."
+  "kamaaina": "$5 entry for Hawaii residents with valid ID (no reservation needed for residents)",
+  "talkStory": "Hanauma means 'curved bay' in Hawaiian — it formed inside a volcanic crater that eroded on one side, letting the ocean flood in thousands of years ago. Elvis Presley filmed scenes from Blue Hawaii here in 1961, cementing its fame. The mandatory conservation video before entry is no gimmick; the bay nearly died from overuse in the 1990s before strict limits brought the reef back. Go before 7 AM on a Wednesday for the emptiest experience, bring your own gear, and stay in the inner reef where 400+ fish species are so tame they brush against you."
 }

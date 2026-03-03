@@ -5,6 +5,7 @@
   "lng": -157.8678,
   "category": "restaurant",
   "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
   "tagline": "Tiny Kalihi gem where the garlic ahi and oxtail soup are worth the early wake-up.",
   "area": "Kalihi",
   "price": "$",
@@ -14,7 +15,7 @@
     "Shoyu pork — tender braised pork belly in sweet shoyu"
   ],
   "parking": "Small lot in front of the strip mall. Gets packed during lunch — arrive by 10:30am.",
-  "talkStory": "Ethel's has been in this unassuming Kalihi strip mall forever, run by the same family. Lunch is the move — they open at 6am for breakfast but the hot stuff starts rolling at 10. The garlic ahi is legitimately one of the best things you'll eat on this island for under $15. Portions are local-style generous. This is deep Kalihi — not a tourist in sight. Cash preferred but they do take cards now.",
+  "talkStory": "Run by the same family for decades in an unassuming Kalihi strip mall, Ethel's is where construction workers and off-duty chefs eat side by side at the counter. The garlic ahi — seared rare and swimming in garlic butter — is legitimately one of the best things you can eat on Oahu for under $15. Featured on Guy Fieri's Diners, Drive-Ins and Dives, which caused lines but didn't change the food. Lunch is the move — hot items start rolling at 10am and sell out fast.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -1,0 +1,21 @@
+{
+  "name": "Honolulu Skewer House",
+  "tier": "A",
+  "lat": 21.2775,
+  "lng": -157.8150,
+  "category": "restaurant",
+  "subcategory": "chinese-skewers",
+  "genre": "chinese",
+  "tagline": "DIY Chinese skewer grilling on Kapahulu — rotating tabletop machines, lamb skewers, and a late-night vibe unlike anything else on Oahu.",
+  "area": "Kapahulu",
+  "price": "$$",
+  "mustOrder": [
+    "lamb skewers — order double, cumin-spiced and smoky",
+    "scallop skewers — sweet and charred",
+    "enoki mushroom wraps — bacon-wrapped, caramelized"
+  ],
+  "parking": "Street parking on Kapahulu Ave",
+  "talkStory": "A unique concept on Oahu — Chinese-style BBQ skewers that you grill yourself on rotating mechanical skewer machines built into each table. The lamb skewers dusted with cumin and chili are the star — order at least double what you think you need. The vibe is late-night and communal, popular with UH students and young locals. Reservations recommended because the space is small and it fills up fast. Open 5pm-11pm. Nothing else like it on the island.",
+  "cashOnly": false,
+  "kamaaina": null
+}

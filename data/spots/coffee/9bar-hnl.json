@@ -1,0 +1,20 @@
+{
+  "name": "9Bar HNL",
+  "tier": "A",
+  "lat": 21.2914,
+  "lng": -157.8524,
+  "category": "coffee",
+  "subcategory": "specialty-coffee",
+  "tagline": "Kakaako's serious specialty coffee bar — single-origin pours, expert baristas, and a minimalist space designed for people who care about the cup.",
+  "area": "Kakaako",
+  "price": "$",
+  "mustOrder": [
+    "single-origin pour over — ask what's roasted fresh",
+    "cortado — perfectly balanced espresso and milk",
+    "cold brew — smooth and clean"
+  ],
+  "parking": "Street parking; Kakaako lot nearby",
+  "talkStory": "Founded by coffee obsessives who wanted to bring third-wave specialty standards to Honolulu, 9Bar rotates single-origin beans from roasters like Onyx, Heart, and local Hawaiian farms. The baristas are trained to competition level — ask them to dial in a pour-over to your taste preference. The minimalist Kakaako space draws architects, designers, and tech workers from the surrounding creative district. Skip the milk drinks and go straight for whatever single-origin they’re pouring that day.",
+  "cashOnly": false,
+  "kamaaina": null
+}

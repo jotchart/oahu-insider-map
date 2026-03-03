@@ -5,7 +5,8 @@
   "lng": -157.8303,
   "category": "restaurant",
   "subcategory": "fine-dining",
-  "tagline": "Tokyo-level omakase in Waikiki — the fish is flown in from Tsukiji and the craft is impeccable.",
+  "genre": "fine-dining",
+  "tagline": "Tokyo-level omakase in Waikiki — the fish is flown in from Toyosu and the craft is impeccable.",
   "area": "Waikiki",
   "price": "$$$",
   "mustOrder": [
@@ -14,7 +15,7 @@
     "Uni — seasonal sea urchin, often from Hokkaido"
   ],
   "parking": "Valet at the hotel or public parking at Waikiki Trade Center garage on Kuhio Ave.",
-  "talkStory": "This is a splurge — omakase runs $200-300+ per person — but it's genuinely world-class sushi without flying to Tokyo. The Honolulu outpost is part of a global chain with locations in Ginza, NY, and LA. Fish is sourced from Japan's top markets. Sit at the counter for the full experience. Make reservations well in advance, especially weekends. If you're celebrating something special and love sushi, this is the one.",
+  "talkStory": "Part of a global omakase empire founded by Koji Onodera with flagship locations in Ginza, New York, and LA. The Honolulu outpost opened in the Trump International Waikiki and flies fish directly from Tokyo's Toyosu Market. Omakase runs $200-300+ per person — a genuine splurge, but the craft rivals top sushi-ya in Japan. Sit at the counter for the full itamae experience. Reservations essential, especially weekends.",
   "cashOnly": false,
   "kamaaina": null
 }
