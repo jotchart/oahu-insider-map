@@ -289,6 +289,28 @@ const allSpotMarkers = [];
 const activeCategories = new Set();
 const activeTiers = new Set(Object.keys(TIER_CONFIG));
 
+// Food genre groups for cuisine filtering
+const FOOD_GENRES = {
+  'plate-lunch':  { label: 'Plate Lunch', match: ['plate-lunch', 'local-grinds'] },
+  'poke':         { label: 'Poke', match: ['poke'] },
+  'hawaiian':     { label: 'Hawaiian', match: ['hawaiian', 'hawaiian-fusion'] },
+  'japanese':     { label: 'Japanese', match: ['japanese', 'ramen', 'izakaya', 'saimin'] },
+  'chinese':      { label: 'Chinese', match: ['dim-sum', 'chinese-bbq', 'sichuan', 'chinese', 'shanghai-sichuan', 'malatang', 'hot-pot', 'hand-pulled-noodles', 'chinese-skewers', 'noodles'] },
+  'seafood':      { label: 'Seafood', match: ['seafood', 'shrimp'] },
+  'fine-dining':  { label: 'Fine Dining', match: ['fine-dining', 'farm-to-table', 'new-american'] },
+  'breakfast':    { label: 'Breakfast', match: ['breakfast', 'diner'] },
+  'food-truck':   { label: 'Food Truck', match: ['food-truck'] },
+  'late-night':   { label: 'Late Night', match: ['late-night'] },
+  'korean':       { label: 'Korean', match: ['korean'] },
+  'vietnamese':   { label: 'Vietnamese', match: ['vietnamese'] },
+  'mexican':      { label: 'Mexican', match: ['mexican'] },
+  'pizza':        { label: 'Pizza', match: ['pizza'] },
+  'cafe':         { label: 'Cafe', match: ['cafe'] },
+  'vegan':        { label: 'Vegan', match: ['vegan'] },
+};
+const FOOD_CATS = new Set(['restaurant']);
+let activeGenre = null;
+
 Object.keys(SPOT_CATEGORIES).forEach(cat => {
   spotLayerGroups[cat] = L.layerGroup();
 });
@@ -309,15 +331,20 @@ SPOTS.forEach(s => {
 registerSpotLayerGroups(spotLayerGroups);
 registerSpotMarkerByKey(spotMarkerByKey);
 
-// Recompute spot visibility based on active categories + tiers
+// Recompute spot visibility based on active categories + tiers + genre
 function applySpotFilters() {
+  // Build a set of matching subcategories for the active genre
+  const genreMatch = activeGenre ? new Set(FOOD_GENRES[activeGenre].match) : null;
+
   allSpotMarkers.forEach(marker => {
     const s = marker.data;
     const catActive = activeCategories.has(s.category);
     const tierActive = activeTiers.has(s.tier);
+    // Genre filter only applies to food categories
+    const genreActive = !genreMatch || !FOOD_CATS.has(s.category) || genreMatch.has(s.subcategory);
     const lg = spotLayerGroups[s.category];
 
-    if (catActive && tierActive) {
+    if (catActive && tierActive && genreActive) {
       if (!lg.hasLayer(marker)) lg.addLayer(marker);
     } else {
       if (lg.hasLayer(marker)) lg.removeLayer(marker);
@@ -347,6 +374,7 @@ document.querySelectorAll('[data-spot]').forEach(pill => {
       activeCategories.add(cat);
     }
     applySpotFilters();
+    updateGenreVisibility();
     // Sync bottom bar icon
     const barIcon = document.querySelector(`.cat-icon[data-cat="${cat}"]`);
     if (barIcon) barIcon.setAttribute('aria-pressed', activeCategories.has(cat));
@@ -358,7 +386,7 @@ document.querySelectorAll('[data-spot]').forEach(pill => {
   });
 });
 
-// Wire up tier toggle pills
+// Wire up tier toggle pills (drawer)
 document.querySelectorAll('[data-tier]').forEach(pill => {
   pill.addEventListener('click', () => {
     const tier = pill.dataset.tier;
@@ -371,7 +399,83 @@ document.querySelectorAll('[data-tier]').forEach(pill => {
       activeTiers.add(tier);
     }
     applySpotFilters();
+    // Sync bar tier icons
+    const barIcon = document.querySelector(`[data-bar-tier="${tier}"]`);
+    if (barIcon) barIcon.setAttribute('aria-pressed', activeTiers.has(tier));
   });
+});
+
+// Wire up tier icons on bottom bar
+document.querySelectorAll('[data-bar-tier]').forEach(icon => {
+  icon.addEventListener('click', () => {
+    const tier = icon.dataset.barTier;
+    const isActive = icon.getAttribute('aria-pressed') === 'true';
+    icon.setAttribute('aria-pressed', !isActive);
+
+    if (isActive) {
+      activeTiers.delete(tier);
+    } else {
+      activeTiers.add(tier);
+    }
+    applySpotFilters();
+    // Sync drawer tier pill
+    const pill = document.querySelector(`[data-tier="${tier}"]`);
+    if (pill) pill.setAttribute('aria-pressed', activeTiers.has(tier));
+  });
+});
+
+// ── Food Genre / Cuisine Filter ──
+const genreSection = document.getElementById('genreSection');
+const genrePills = document.getElementById('genrePills');
+
+// Build genre pill buttons
+Object.entries(FOOD_GENRES).forEach(([key, g]) => {
+  const btn = document.createElement('button');
+  btn.className = 'spot-pill';
+  btn.dataset.genre = key;
+  btn.setAttribute('aria-pressed', 'false');
+  btn.textContent = g.label;
+  btn.addEventListener('click', () => {
+    if (activeGenre === key) {
+      activeGenre = null;
+      btn.setAttribute('aria-pressed', 'false');
+    } else {
+      // Deselect previous
+      genrePills.querySelectorAll('[data-genre]').forEach(p => p.setAttribute('aria-pressed', 'false'));
+      activeGenre = key;
+      btn.setAttribute('aria-pressed', 'true');
+    }
+    applySpotFilters();
+  });
+  genrePills.appendChild(btn);
+});
+
+// Show/hide genre section based on active food categories
+function updateGenreVisibility() {
+  let hasFoodCat = false;
+  for (const cat of activeCategories) {
+    if (FOOD_CATS.has(cat)) { hasFoodCat = true; break; }
+  }
+  if (hasFoodCat) {
+    genreSection.classList.remove('hidden');
+  } else {
+    genreSection.classList.add('hidden');
+    // Reset genre filter when no food category is active
+    if (activeGenre) {
+      activeGenre = null;
+      genrePills.querySelectorAll('[data-genre]').forEach(p => p.setAttribute('aria-pressed', 'false'));
+    }
+  }
+}
+
+// ── More Filters Toggle ──
+const drawerMoreBtn = document.getElementById('drawerMoreBtn');
+const drawerMoreSections = document.getElementById('drawerMoreSections');
+
+drawerMoreBtn.addEventListener('click', () => {
+  const expanded = drawerMoreBtn.getAttribute('aria-expanded') === 'true';
+  drawerMoreBtn.setAttribute('aria-expanded', !expanded);
+  drawerMoreSections.classList.toggle('hidden');
 });
 
 // ── Drawer Toggle ──
@@ -534,6 +638,7 @@ function activateCategory(cat) {
     const pill = document.querySelector(`[data-spot="${cat}"]`);
     if (pill) pill.setAttribute('aria-pressed', 'true');
     applySpotFilters();
+    updateGenreVisibility();
   }
   // Sync bar icon
   const icon = categoryBar.querySelector(`[data-cat="${cat}"]`);
@@ -555,6 +660,7 @@ function deactivateCategory(cat) {
     const pill = document.querySelector(`[data-spot="${cat}"]`);
     if (pill) pill.setAttribute('aria-pressed', 'false');
     applySpotFilters();
+    updateGenreVisibility();
   }
   // Sync bar icon
   const icon = categoryBar.querySelector(`[data-cat="${cat}"]`);

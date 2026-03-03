@@ -601,7 +601,6 @@ body {
 .category-bar {
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 6px;
   padding: 8px 12px;
   padding-bottom: max(8px, env(safe-area-inset-bottom));
@@ -610,7 +609,10 @@ body {
   flex-shrink: 0;
   z-index: 1100;
   order: 98;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.category-bar::-webkit-scrollbar { display: none; }
 .category-bar.hidden { display: none; }
 .cat-icon {
   width: 42px;
@@ -633,6 +635,79 @@ body {
   background: rgba(255,255,255,0.15);
   box-shadow: 0 0 8px rgba(255,255,255,0.1);
 }
+/* ── Tier Icons on bottom bar ── */
+.bar-divider {
+  width: 1px;
+  height: 24px;
+  background: rgba(255,255,255,0.15);
+  flex-shrink: 0;
+  margin: 0 2px;
+}
+.tier-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  border: 1.5px solid rgba(255,255,255,0.12);
+  background: rgba(255,255,255,0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+  padding: 0;
+  flex-shrink: 0;
+}
+.tier-icon:hover { border-color: rgba(255,255,255,0.3); }
+.tier-icon[aria-pressed="true"] {
+  border-color: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.12);
+}
+.tier-icon[aria-pressed="false"] {
+  opacity: 0.35;
+}
+.tier-icon .tier-badge {
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+}
+
+/* ── Drawer expand / More Filters ── */
+.drawer-more-toggle {
+  border-bottom: none;
+  padding-bottom: 4px;
+}
+.drawer-expand-btn {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 8px;
+  color: var(--text-dim);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 14px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 0.15s;
+}
+.drawer-expand-btn:hover { color: var(--text); border-color: rgba(255,255,255,0.15); }
+.expand-chevron {
+  font-size: 8px;
+  transition: transform 0.2s;
+}
+.drawer-expand-btn[aria-expanded="true"] .expand-chevron {
+  transform: rotate(180deg);
+}
+.drawer-more-sections.hidden { display: none; }
+
+/* ── Genre pills ── */
+#genreSection .drawer-pills { gap: 5px; }
+#genreSection .spot-pill { font-size: 11px; padding: 5px 10px; min-height: 28px; }
+
 /* Category-specific active colors */
 .cat-icon[data-cat="neighborhoods"][aria-pressed="true"] { background: rgba(74,144,217,0.35); border-color: #4a90d9; }
 .cat-icon[data-cat="restaurant"][aria-pressed="true"]    { background: rgba(255,107,107,0.35); border-color: #ff6b6b; }

@@ -1,0 +1,21 @@
+{
+  "name": "Mitsu-Ken Okazu & Catering",
+  "tier": "A",
+  "lat": 21.3258,
+  "lng": -157.8681,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "genre": "plate-lunch",
+  "tagline": "Kalihi's legendary garlic chicken — people drive from every corner of the island for this bento.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "garlic chicken bento — the reason this place exists",
+    "fried noodles",
+    "spam musubi"
+  ],
+  "parking": "Small lot on N. King St — arrive early, spots go fast",
+  "talkStory": "A Kalihi institution since 1992, Mitsu-Ken serves what many locals consider the single best garlic chicken on Oahu — crispy skin, juicy inside, punchy garlic flavor that lingers. The bento with garlic chicken, spam, eggs, and two scoops rice is the canonical local lunch. Featured on Food Network and Migrationology. Lines form by mid-morning and popular items sell out well before closing. Closed weekends. This is a pilgrimage spot — combine with Helena's and Palace Saimin for a full Kalihi food crawl.",
+  "cashOnly": true,
+  "kamaaina": null
+}

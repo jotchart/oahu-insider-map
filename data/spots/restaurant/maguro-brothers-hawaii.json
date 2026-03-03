@@ -1,0 +1,21 @@
+{
+  "name": "Maguro Brothers Hawaii",
+  "tier": "A",
+  "lat": 21.3121,
+  "lng": -157.8644,
+  "category": "restaurant",
+  "subcategory": "poke",
+  "genre": "seafood-poke",
+  "tagline": "Two Japanese brothers, daily fish auction hauls, and a Chinatown market stall that sells out by early afternoon.",
+  "area": "Chinatown",
+  "price": "$",
+  "mustOrder": [
+    "maguro don (tuna rice bowl) — the signature, impossibly fresh",
+    "salmon don",
+    "poke sampler if available"
+  ],
+  "parking": "Street parking or municipal lots on Smith/Maunakea St — walk from Chinatown",
+  "talkStory": "Two brothers from Japan set up inside Kekaulike Market on Maunakea Street, buying fish daily from the Honolulu Fish Auction before dawn and turning it into some of the freshest poke and donburi bowls on Oahu. Opens at 9am, and by noon there's a 45-minute line snaking through the market. They routinely sell out by early afternoon — once the fish is gone, they close. The quality rivals omakase spots charging five times more. The move: arrive by 10am on a weekday.",
+  "cashOnly": false,
+  "kamaaina": null
+}

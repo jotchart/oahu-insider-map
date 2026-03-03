@@ -74,44 +74,6 @@
     </div>
     <div class="drawer-body">
 
-      <!-- Region -->
-      <section class="drawer-section">
-        <h3 class="drawer-section-title">Region</h3>
-        <div class="drawer-pills" id="filterBar">
-          <button class="pill" data-region="all" aria-pressed="true">All</button>
-          <button class="pill" data-region="Metro Honolulu" aria-pressed="false">Metro Honolulu</button>
-          <button class="pill" data-region="East Honolulu" aria-pressed="false">East Honolulu</button>
-          <button class="pill" data-region="Windward" aria-pressed="false">Windward</button>
-          <button class="pill" data-region="North Shore" aria-pressed="false">North Shore</button>
-          <button class="pill" data-region="Central Oahu" aria-pressed="false">Central Oahu</button>
-          <button class="pill" data-region="Pearl City / Aiea" aria-pressed="false">Pearl City / Aiea</button>
-          <button class="pill" data-region="West Oahu" aria-pressed="false">West</button>
-          <button class="pill" data-region="Leeward Coast" aria-pressed="false">Leeward</button>
-        </div>
-      </section>
-
-      <!-- Score -->
-      <section class="drawer-section">
-        <h3 class="drawer-section-title">Min Score</h3>
-        <div class="drawer-pills">
-          <button class="pill" data-minscore="8" aria-pressed="false">8+</button>
-          <button class="pill" data-minscore="6" aria-pressed="false">6+</button>
-        </div>
-      </section>
-
-      <!-- Map Layers -->
-      <section class="drawer-section">
-        <h3 class="drawer-section-title">Map Layers</h3>
-        <div class="drawer-pills">
-          <button class="pill hood-pill" id="hoodPill" aria-pressed="false">Neighborhoods</button>
-          <button class="pill crime-pill" id="crimePill" aria-pressed="false">Crime</button>
-          <button class="pill calendar-pill" id="calendarPill" aria-pressed="false">Calendar</button>
-          <button class="pill ocean-pill" id="oceanPill" aria-pressed="false">Ocean</button>
-          <button class="pill weather-pill" id="weatherPill" aria-pressed="false">Weather</button>
-          <button class="pill safety-pill" id="safetyPill" aria-pressed="false">Safety</button>
-        </div>
-      </section>
-
       <!-- Spot Categories -->
       <section class="drawer-section" id="spotBar">
         <h3 class="drawer-section-title">Spots</h3>
@@ -133,6 +95,12 @@
         </div>
       </section>
 
+      <!-- Food Genre (shown when a food category is active) -->
+      <section class="drawer-section hidden" id="genreSection">
+        <h3 class="drawer-section-title">Cuisine</h3>
+        <div class="drawer-pills" id="genrePills"></div>
+      </section>
+
       <!-- Tier -->
       <section class="drawer-section">
         <h3 class="drawer-section-title">Tier</h3>
@@ -144,14 +112,61 @@
         </div>
       </section>
 
-      <!-- Neighborhood List -->
-      <section class="drawer-section drawer-section-list">
-        <h3 class="drawer-section-title">
-          Neighborhoods
-          <span class="count-badge" aria-live="polite"><strong id="countDisplay">88</strong> / 88</span>
-        </h3>
-        <div class="list-scroll" id="listScroll" role="list"></div>
+      <!-- Collapsible: More Filters -->
+      <section class="drawer-section drawer-more-toggle">
+        <button class="drawer-expand-btn" id="drawerMoreBtn" aria-expanded="false">
+          More Filters <span class="expand-chevron">&#9660;</span>
+        </button>
       </section>
+
+      <div id="drawerMoreSections" class="drawer-more-sections hidden">
+        <!-- Region -->
+        <section class="drawer-section">
+          <h3 class="drawer-section-title">Region</h3>
+          <div class="drawer-pills" id="filterBar">
+            <button class="pill" data-region="all" aria-pressed="true">All</button>
+            <button class="pill" data-region="Metro Honolulu" aria-pressed="false">Metro Honolulu</button>
+            <button class="pill" data-region="East Honolulu" aria-pressed="false">East Honolulu</button>
+            <button class="pill" data-region="Windward" aria-pressed="false">Windward</button>
+            <button class="pill" data-region="North Shore" aria-pressed="false">North Shore</button>
+            <button class="pill" data-region="Central Oahu" aria-pressed="false">Central Oahu</button>
+            <button class="pill" data-region="Pearl City / Aiea" aria-pressed="false">Pearl City / Aiea</button>
+            <button class="pill" data-region="West Oahu" aria-pressed="false">West</button>
+            <button class="pill" data-region="Leeward Coast" aria-pressed="false">Leeward</button>
+          </div>
+        </section>
+
+        <!-- Score -->
+        <section class="drawer-section">
+          <h3 class="drawer-section-title">Min Score</h3>
+          <div class="drawer-pills">
+            <button class="pill" data-minscore="8" aria-pressed="false">8+</button>
+            <button class="pill" data-minscore="6" aria-pressed="false">6+</button>
+          </div>
+        </section>
+
+        <!-- Map Layers -->
+        <section class="drawer-section">
+          <h3 class="drawer-section-title">Map Layers</h3>
+          <div class="drawer-pills">
+            <button class="pill hood-pill" id="hoodPill" aria-pressed="false">Neighborhoods</button>
+            <button class="pill crime-pill" id="crimePill" aria-pressed="false">Crime</button>
+            <button class="pill calendar-pill" id="calendarPill" aria-pressed="false">Calendar</button>
+            <button class="pill ocean-pill" id="oceanPill" aria-pressed="false">Ocean</button>
+            <button class="pill weather-pill" id="weatherPill" aria-pressed="false">Weather</button>
+            <button class="pill safety-pill" id="safetyPill" aria-pressed="false">Safety</button>
+          </div>
+        </section>
+
+        <!-- Neighborhood List -->
+        <section class="drawer-section drawer-section-list">
+          <h3 class="drawer-section-title">
+            Neighborhoods
+            <span class="count-badge" aria-live="polite"><strong id="countDisplay">88</strong> / 88</span>
+          </h3>
+          <div class="list-scroll" id="listScroll" role="list"></div>
+        </section>
+      </div>
 
     </div>
   </aside>
@@ -204,6 +219,11 @@
     <button class="cat-icon" data-cat="farmers-market" aria-pressed="false" title="Farmers Mkt">🥬</button>
     <button class="cat-icon" data-cat="shopping" aria-pressed="false" title="Shopping">🛍</button>
     <button class="cat-icon" data-cat="experience" aria-pressed="false" title="Experiences">✨</button>
+    <span class="bar-divider"></span>
+    <button class="tier-icon" data-bar-tier="S" aria-pressed="true" title="S-Tier"><span class="tier-badge tier-S">S</span></button>
+    <button class="tier-icon" data-bar-tier="A" aria-pressed="true" title="A-Tier"><span class="tier-badge tier-A">A</span></button>
+    <button class="tier-icon" data-bar-tier="B" aria-pressed="true" title="B-Tier"><span class="tier-badge tier-B">B</span></button>
+    <button class="tier-icon" data-bar-tier="C" aria-pressed="true" title="C-Tier"><span class="tier-badge tier-C">C</span></button>
   </div>
 
   <!-- ── Map ── -->
