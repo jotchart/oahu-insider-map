@@ -43,6 +43,16 @@ async function loadBoundaries() {
   boundaryGeoJSON = await resp.json();
 }
 
+// ── Popup Options ──
+const isMobile = window.matchMedia('(max-width: 768px)').matches;
+const POPUP_OPTS = {
+  maxWidth: isMobile ? 300 : 440,
+  closeButton: true,
+  autoPan: true,
+  autoPanPaddingTopLeft: [10, 80],
+  autoPanPaddingBottomRight: [10, isMobile ? 120 : 10]
+};
+
 // ── Popup HTML (delegated to popup-builder for extensibility) ──
 function getPopupHTML(n, crimeCount) {
   return buildNeighborhoodPopup(n, crimeCount);
@@ -104,9 +114,25 @@ async function initNeighborhoods() {
       }
     });
 
-    layer.bindPopup(getPopupHTML(n), { maxWidth: 440, closeButton: true, autoPanPaddingTopLeft: [10, 80], autoPanPaddingBottomRight: [10, 10] });
-    layer.bindTooltip(n.name, { permanent: true, direction: 'center', className: 'hood-label' });
+    layer.bindPopup(getPopupHTML(n), POPUP_OPTS);
     layer.data = n;
+
+    // Place label at a guaranteed interior point using Turf.js
+    try {
+      const interior = turf.pointOnFeature(feature);
+      const [lng, lat] = interior.geometry.coordinates;
+      const label = L.marker([lat, lng], {
+        icon: L.divIcon({
+          className: 'hood-label',
+          html: n.name,
+          iconSize: [0, 0],
+          iconAnchor: [0, 0]
+        }),
+        interactive: false
+      });
+      label.addTo(map);
+      layer._hoodLabel = label;
+    } catch (e) { /* skip label if turf fails */ }
 
     layer.on('mouseover', () => {
       layer.setStyle({ fillOpacity: 0.40, weight: 2.5, opacity: 0.8 });
@@ -122,7 +148,7 @@ async function initNeighborhoods() {
   // Build marker references (not added to map — polygons serve as the visible layer)
   NEIGHBORHOODS.forEach(n => {
     const marker = L.marker([n.lat, n.lng], { icon: createIcon(n.score) });
-    marker.bindPopup(getPopupHTML(n), { maxWidth: 440, closeButton: true, autoPanPaddingTopLeft: [10, 80], autoPanPaddingBottomRight: [10, 10] });
+    marker.bindPopup(getPopupHTML(n), POPUP_OPTS);
     marker.data = n;
     markers.push(marker);
     markerByKey.set(`${n.lat},${n.lng}`, marker);
@@ -187,7 +213,7 @@ Object.keys(SPOT_CATEGORIES).forEach(cat => {
 
 SPOTS.forEach(s => {
   const marker = L.marker([s.lat, s.lng], { icon: createSpotIcon(s) });
-  marker.bindPopup(getSpotPopupHTML(s), { maxWidth: 440, closeButton: true, autoPanPaddingTopLeft: [10, 80], autoPanPaddingBottomRight: [10, 10] });
+  marker.bindPopup(getSpotPopupHTML(s), POPUP_OPTS);
   marker.data = s;
   spotLayerGroups[s.category].addLayer(marker);
   spotMarkerByKey.set(`${s.lat},${s.lng}`, marker);
@@ -296,13 +322,15 @@ function applyFilters() {
       count++;
     }
 
-    // Toggle polygon (borders are the only visible neighborhood layer)
+    // Toggle polygon and label
     const poly = polygonLayers[i];
     if (poly) {
       if (visible) {
         if (!map.hasLayer(poly)) poly.addTo(map);
+        if (poly._hoodLabel && !map.hasLayer(poly._hoodLabel)) poly._hoodLabel.addTo(map);
       } else {
         if (map.hasLayer(poly)) map.removeLayer(poly);
+        if (poly._hoodLabel && map.hasLayer(poly._hoodLabel)) map.removeLayer(poly._hoodLabel);
       }
     }
   });
