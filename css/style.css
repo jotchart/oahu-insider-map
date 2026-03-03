@@ -20,12 +20,18 @@
   --score-1: #c62828;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--bg);
   color: var(--text);
   height: 100vh;
   height: 100dvh;
+  min-height: 100%;
+  min-height: -webkit-fill-available;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -321,6 +327,7 @@ body.chrome-hidden .bottom-panel { display: none !important; }
 /* ── Map ── */
 #map {
   flex: 1;
+  min-height: 0;
   z-index: 1;
 }
 
