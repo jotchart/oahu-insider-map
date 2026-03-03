@@ -51,11 +51,12 @@ async function loadBoundaries() {
 // ── Popup Options ──
 const isMobile = window.matchMedia('(max-width: 768px)').matches;
 const POPUP_OPTS = {
-  maxWidth: isMobile ? 300 : 440,
+  maxWidth: isMobile ? 9999 : 440,
   closeButton: true,
-  autoPan: true,
+  autoPan: !isMobile,
   autoPanPaddingTopLeft: [10, 80],
-  autoPanPaddingBottomRight: [10, isMobile ? 120 : 10]
+  autoPanPaddingBottomRight: [10, isMobile ? 120 : 10],
+  className: isMobile ? 'mobile-fullscreen' : ''
 };
 
 // ── Popup HTML (delegated to popup-builder for extensibility) ──
@@ -119,10 +120,10 @@ async function initNeighborhoods() {
       }
     });
 
-    layer.bindPopup(getPopupHTML(n), POPUP_OPTS);
     layer.data = n;
 
     // Place label at a guaranteed interior point using Turf.js
+    // Labels are interactive — tapping a name opens the neighborhood popup
     try {
       const interior = turf.pointOnFeature(feature);
       const [lng, lat] = interior.geometry.coordinates;
@@ -134,19 +135,28 @@ async function initNeighborhoods() {
           iconSize: [0, 0],
           iconAnchor: [0, 0]
         }),
-        interactive: false
+        interactive: true
       });
       label._hoodArea = area;
       label._hoodName = n.name;
+      label.bindPopup(getPopupHTML(n), POPUP_OPTS);
       label.addTo(map);
       layer._hoodLabel = label;
     } catch (e) { /* skip label if turf fails */ }
 
     layer.on('mouseover', () => {
       layer.setStyle({ fillOpacity: 0.40, weight: 2.5, opacity: 0.8 });
+      if (layer._hoodLabel) {
+        const el = layer._hoodLabel.getElement();
+        if (el) el.classList.add('hood-label-hover');
+      }
     });
     layer.on('mouseout', () => {
       layer.setStyle({ fillOpacity: 0.22, weight: 1.5, opacity: 0.5 });
+      if (layer._hoodLabel) {
+        const el = layer._hoodLabel.getElement();
+        if (el) el.classList.remove('hood-label-hover');
+      }
     });
 
     layer.addTo(map);
@@ -234,12 +244,12 @@ function declutterLabels() {
 map.on('zoomend', declutterLabels);
 map.on('moveend', declutterLabels);
 
-// ── Open neighborhood popup via polygon ──
+// ── Open neighborhood popup via label ──
 function openNeighborhoodPopup(lat, lng) {
   const key = `${lat},${lng}`;
   const mIdx = markers.findIndex(m => `${m.data.lat},${m.data.lng}` === key);
-  if (mIdx !== -1 && polygonLayers[mIdx]) {
-    polygonLayers[mIdx].openPopup(L.latLng(lat, lng));
+  if (mIdx !== -1 && polygonLayers[mIdx] && polygonLayers[mIdx]._hoodLabel) {
+    polygonLayers[mIdx]._hoodLabel.openPopup();
   }
 }
 
@@ -626,7 +636,7 @@ listScroll.addEventListener('keydown', e => {
 });
 
 function updateList() {
-  const visible = markers.filter(m => map.hasLayer(m)).map(m => m.data);
+  const visible = markers.filter(m => m._visible !== false).map(m => m.data);
   visible.sort((a, b) => b.score - a.score || a.name.localeCompare(b.name));
 
   listScroll.innerHTML = visible.map(n =>
@@ -1011,7 +1021,7 @@ async function toggleCrimeLayer() {
       const color = crimeColor(count, crimeMax);
       poly.setStyle({ fillColor: color, fillOpacity: 0.40, color: color, weight: 1.5, opacity: 0.6 });
       const n = NEIGHBORHOODS[i];
-      poly.setPopupContent(getPopupHTML(n, count));
+      if (poly._hoodLabel) poly._hoodLabel.setPopupContent(getPopupHTML(n, count));
     });
     // Also update marker popups
     markers.forEach((m, i) => {
@@ -1024,7 +1034,7 @@ async function toggleCrimeLayer() {
       const n = NEIGHBORHOODS[i];
       const color = SCORE_COLORS[n.score];
       poly.setStyle({ fillColor: color, fillOpacity: 0.22, color: color, weight: 1.5, opacity: 0.5 });
-      poly.setPopupContent(getPopupHTML(n));
+      if (poly._hoodLabel) poly._hoodLabel.setPopupContent(getPopupHTML(n));
     });
     markers.forEach(m => {
       m.setPopupContent(getPopupHTML(m.data));

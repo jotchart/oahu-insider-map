@@ -496,15 +496,29 @@ body {
   background: none !important;
   border: none !important;
   box-shadow: none !important;
-  color: rgba(255,255,255,0.45);
+  color: rgba(255,255,255,0.55);
   font-family: 'DM Sans', sans-serif;
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 0.3px;
   text-shadow: 0 1px 3px rgba(0,0,0,0.8), 0 0 6px rgba(0,0,0,0.5);
-  pointer-events: none !important;
+  pointer-events: auto !important;
+  cursor: pointer;
   white-space: nowrap;
   transform: translate(-50%, -50%);
+}
+.hood-label:hover,
+.hood-label.hood-label-hover {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  background: rgba(26,26,46,0.85) !important;
+  padding: 4px 10px;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.3) !important;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.6) !important;
+  z-index: 1000 !important;
+  transition: all 0.15s ease;
 }
 .hood-label::before { display: none !important; }
 .labels-hidden .hood-label { display: none !important; }
@@ -1042,8 +1056,70 @@ body {
    Responsive
    ══════════════════════════════════════════ */
 @media (max-width: 768px) {
-  .popup-inner { max-width: 85vw; min-width: 240px; }
-  .popup-details { max-height: min(40vh, 320px); }
+  /* Full-screen popup cards on mobile */
+  .mobile-fullscreen {
+    position: fixed !important;
+    inset: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    transform: none !important;
+    margin: 0 !important;
+    z-index: 10000 !important;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: flex-end;
+  }
+  .mobile-fullscreen .leaflet-popup-content-wrapper {
+    width: 100% !important;
+    max-width: 100% !important;
+    max-height: 100dvh !important;
+    height: 100% !important;
+    border-radius: 0 !important;
+    border: none !important;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  .mobile-fullscreen .leaflet-popup-tip-container {
+    display: none !important;
+  }
+  .mobile-fullscreen .leaflet-popup-content {
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .mobile-fullscreen .popup-inner {
+    max-width: 100% !important;
+    min-width: 100% !important;
+    padding: 20px 20px 40px;
+    min-height: 60vh;
+  }
+  .mobile-fullscreen .popup-details {
+    max-height: none;
+  }
+  .mobile-fullscreen .popup-name {
+    font-size: 22px;
+  }
+  .mobile-fullscreen .popup-desc {
+    font-size: 14px;
+  }
+  .mobile-fullscreen .popup-section-body {
+    font-size: 13px;
+  }
+  .mobile-fullscreen .leaflet-popup-close-button {
+    width: 44px !important;
+    height: 44px !important;
+    font-size: 28px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    top: 8px !important;
+    right: 8px !important;
+    z-index: 10001;
+    color: var(--text) !important;
+    background: rgba(0,0,0,0.3);
+    border-radius: 50%;
+  }
 }
 
 @media (max-width: 480px) {
@@ -1051,7 +1127,5 @@ body {
   .search-input { font-size: 13px; padding: 7px 28px 7px 30px; }
   .menu-btn { padding: 6px 10px; font-size: 12px; }
   .menu-btn span { display: none; }
-  .popup-inner { max-width: 82vw; min-width: 200px; }
-  .popup-details { max-height: min(35vh, 260px); }
   .drawer { width: min(300px, 90vw); }
 }
