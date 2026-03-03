@@ -125,14 +125,13 @@ for (const { data, file } of spotEntries) {
     spot.parking = data.parking || null;
     spot.talkStory = data.talkStory || null;
     spot.cashOnly = data.cashOnly || false;
-    spot.insiderTips = data.insiderTips || null;
     spot.kamaaina = data.kamaaina || null;
   } else if (isActivity) {
     spot.parking = data.parking || null;
     spot.hours = data.hours || null;
     spot.bestTime = data.bestTime || null;
     spot.kidFriendly = data.kidFriendly ?? null;
-    spot.insiderTips = data.insiderTips || null;
+    spot.talkStory = data.talkStory || null;
     spot.kamaaina = data.kamaaina || null;
   }
 

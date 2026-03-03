@@ -8,10 +8,12 @@
   "tagline": "Samoan-Hawaiian family joint in Laie — the banana bread alone is worth the stop, the burgers are a bonus.",
   "area": "Laie",
   "price": "$",
-  "mustOrder": ["Shez's Paniolo burger (thick patties, homemade onion rings, grilled pineapple, bacon, BBQ sauce)", "Mom's Banana Bread"],
+  "mustOrder": [
+    "Shez's Paniolo burger (thick patties, homemade onion rings, grilled pineapple, bacon, BBQ sauce)",
+    "Mom's Banana Bread"
+  ],
   "parking": "Lot in front of the restaurant on Kamehameha Hwy",
-  "talkStory": "Founded 2009 by Art and Peggy Hannemann (bought the former Kahuku Grill). Opened Laie location specifically to serve locals and BYU-Hawaii students.",
+  "talkStory": "Founded 2009 by Art and Peggy Hannemann (bought the former Kahuku Grill). Opened Laie location specifically to serve locals and BYU-Hawaii students. The banana bread sells out early — get there before noon if that's your priority. Great stop on a North Shore loop. The seven brothers are literally seven brothers from the Hannemann family.",
   "cashOnly": false,
-  "insiderTips": "The banana bread sells out early — get there before noon if that's your priority. Great stop on a North Shore loop. The seven brothers are literally seven brothers from the Hannemann family.",
   "kamaaina": null
 }

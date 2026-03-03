@@ -261,7 +261,7 @@ export class AREngine {
     const LABEL_H = 44;
     const LABEL_W = 130;
 
-    for (let pass = 0; pass < 4; pass++) {
+    for (let pass = 0; pass < 2; pass++) {
       for (let i = 0; i < items.length; i++) {
         for (let j = i + 1; j < items.length; j++) {
           const a = items[i];

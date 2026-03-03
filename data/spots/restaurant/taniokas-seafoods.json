@@ -8,10 +8,13 @@
   "tagline": "West-side pilgrimage spot — the smoked meat counter alone is worth the drive from town.",
   "area": "Waipahu",
   "price": "$",
-  "mustOrder": ["limu ahi poke", "ahi patties ($3–4 each, crispy outside, tender inside — tourists overlook these)", "the smoked marlin"],
+  "mustOrder": [
+    "limu ahi poke",
+    "ahi patties ($3–4 each, crispy outside, tender inside — tourists overlook these)",
+    "the smoked marlin"
+  ],
   "parking": "Strip mall lot, decent parking",
-  "talkStory": "Multi-generational family business rooted in Waipahu's plantation community — 'Grandma Tanioka's' recipes are the foundation.",
+  "talkStory": "Multi-generational family business rooted in Waipahu's plantation community — 'Grandma Tanioka's' recipes are the foundation. You can taste before buying a pound. Bring a cooler for the drive home. Great party platters for local gatherings. Best selection before 1pm.",
   "cashOnly": false,
-  "insiderTips": "You can taste before buying a pound. Bring a cooler for the drive home. Great party platters for local gatherings. Best selection before 1pm.",
   "kamaaina": null
 }

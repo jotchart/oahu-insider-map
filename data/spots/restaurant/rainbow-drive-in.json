@@ -8,10 +8,11 @@
   "tagline": "The plate lunch cathedral since 1961 — mixed plate with gravy is the move.",
   "area": "Kapahulu",
   "price": "$",
-  "mustOrder": ["mixed plate with gravy ($12–14) — teriyaki beef + mahimahi + fried chicken, 2 scoops rice, mac salad"],
+  "mustOrder": [
+    "mixed plate with gravy ($12–14) — teriyaki beef + mahimahi + fried chicken, 2 scoops rice, mac salad"
+  ],
   "parking": "Small lot in front, fills up fast at lunch — street parking on Kanaina Ave",
-  "talkStory": "Founded by Seiju Ifuku, a WWII 442nd Regiment veteran (the most decorated unit in US military history — all Japanese-Americans from Hawaii). 'Plate lunch' evolved from plantation-era bento boxes — Rainbow helped codify the modern format.",
+  "talkStory": "Founded by Seiju Ifuku, a WWII 442nd Regiment veteran (the most decorated unit in US military history — all Japanese-Americans from Hawaii). 'Plate lunch' evolved from plantation-era bento boxes — Rainbow helped codify the modern format. Order at the window, grab your number. Take your plate to Kapiolani Park (one block) and eat under a tree with Diamond Head view — the local move.",
   "cashOnly": false,
-  "insiderTips": "Order at the window, grab your number. Take your plate to Kapiolani Park (one block) and eat under a tree with Diamond Head view — the local move.",
   "kamaaina": null
 }

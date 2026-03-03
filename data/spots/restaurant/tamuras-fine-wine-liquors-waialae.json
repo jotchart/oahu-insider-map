@@ -8,10 +8,12 @@
   "tagline": "The Kahala-area location of Oahu's best poke-inside-a-liquor-store situation — grab a bottle and a pound of spicy ahi, you've cracked the code.",
   "area": "Kaimuki / Kahala",
   "price": "$",
-  "mustOrder": ["spicy ahi poke", "furikake salmon"],
+  "mustOrder": [
+    "spicy ahi poke",
+    "furikake salmon"
+  ],
   "parking": "Strip mall lot on Waialae Ave",
-  "talkStory": "The Waialae branch of Tamura's brings the same killer poke counter and curated wine selection to the Kaimuki/Kahala side of town — same family, same quality, closer to town.",
+  "talkStory": "The Waialae branch of Tamura's brings the same killer poke counter and curated wine selection to the Kaimuki/Kahala side of town — same family, same quality, closer to town. Mon–Sun 9:30am–8pm. Best selection before 1pm.",
   "cashOnly": false,
-  "insiderTips": "Mon–Sun 9:30am–8pm. Best selection before 1pm.",
   "kamaaina": null
 }

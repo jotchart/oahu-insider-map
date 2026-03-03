@@ -8,10 +8,13 @@
   "tagline": "Kahuku Sugar Mill's plant-based gem — when North Shore surf culture goes vegan and does it exactly right, this is what you get.",
   "area": "Kahuku / North Shore",
   "price": "$",
-  "mustOrder": ["acai bowls", "smoothies", "veggie sandwiches"],
+  "mustOrder": [
+    "acai bowls",
+    "smoothies",
+    "veggie sandwiches"
+  ],
   "parking": "Located at Kahuku Sugar Mill",
-  "talkStory": "Born from North Shore surf culture, set up inside the historic Kahuku Sugar Mill complex alongside other small local vendors — proof that plant-based food belongs in Hawaii's food scene.",
+  "talkStory": "Born from North Shore surf culture, set up inside the historic Kahuku Sugar Mill complex alongside other small local vendors — proof that plant-based food belongs in Hawaii's food scene. Hours vary — check Instagram before going.",
   "cashOnly": false,
-  "insiderTips": "Hours vary — check Instagram before going.",
   "kamaaina": null
 }

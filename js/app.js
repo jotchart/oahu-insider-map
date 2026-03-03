@@ -403,7 +403,7 @@ searchInput.addEventListener('input', () => {
     s.name.toLowerCase().includes(q) || s.area.toLowerCase().includes(q) ||
     s.category.toLowerCase().includes(q) || s.tagline.toLowerCase().includes(q) ||
     (s.mustOrder && s.mustOrder.some(item => item.toLowerCase().includes(q))) ||
-    (s.insiderTips && s.insiderTips.toLowerCase().includes(q))
+    (s.talkStory && s.talkStory.toLowerCase().includes(q))
   ).slice(0, 5);
 
   if (nMatches.length === 0 && sMatches.length === 0) {

@@ -8,10 +8,12 @@
   "tagline": "Hand-wrapped won tons since 1946 — if this place closes, Honolulu loses its soul.",
   "area": "Kalihi",
   "price": "$",
-  "mustOrder": ["won ton min ($9–12, hand-wrapped won tons in pork-shrimp broth)", "teriyaki beef sticks ($2–4 each — NON-NEGOTIABLE side order)"],
+  "mustOrder": [
+    "won ton min ($9–12, hand-wrapped won tons in pork-shrimp broth)",
+    "teriyaki beef sticks ($2–4 each — NON-NEGOTIABLE side order)"
+  ],
   "parking": "Small lot next to the building on King Street",
-  "talkStory": "Family-run since 1946. Saimin is Hawaii's own noodle soup — evolved on sugar plantations where Japanese, Chinese, Filipino, and Portuguese workers shared ingredients.",
+  "talkStory": "Family-run since 1946. Saimin is Hawaii's own noodle soup — evolved on sugar plantations where Japanese, Chinese, Filipino, and Portuguese workers shared ingredients. Combine with Helena's (also in Kalihi) for a full local food pilgrimage.",
   "cashOnly": true,
-  "insiderTips": "Combine with Helena's (also in Kalihi) for a full local food pilgrimage.",
   "kamaaina": null
 }

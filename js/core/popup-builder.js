@@ -78,7 +78,7 @@ function buildFoodPopupBody(s) {
 
   // Cash-only warning (prominent)
   if (s.cashOnly) {
-    html += `<div class="popup-cash-warn">&#x1F4B5; CASH ONLY</div>`;
+    html += `<div class="popup-cash-warn">CASH ONLY</div>`;
   }
 
   // Price
@@ -97,34 +97,23 @@ function buildFoodPopupBody(s) {
   // Parking
   if (s.parking) {
     html += `<div class="popup-section">
-      <div class="popup-section-label">&#x1F17F;&#xFE0F; Parking</div>
+      <div class="popup-section-label">Parking</div>
       <div class="popup-section-body">${esc(s.parking)}</div>
     </div>`;
   }
 
-  // Talk Story (collapsible)
+  // Talk Story
   if (s.talkStory) {
-    html += `<div class="popup-insider">
-      <button class="insider-toggle" onclick="this.parentElement.classList.toggle('open')">
-        <span class="insider-icon">&#x1F4D6;</span> Talk Story
-        <span class="insider-chevron">&#9660;</span>
-      </button>
-      <div class="insider-body">${esc(s.talkStory)}</div>
-    </div>`;
-  }
-
-  // Insider Tips
-  if (s.insiderTips) {
     html += `<div class="popup-section">
-      <div class="popup-section-label">&#x1F4A1; Insider Tips</div>
-      <div class="popup-section-body">${esc(s.insiderTips)}</div>
+      <div class="popup-section-label">Talk Story</div>
+      <div class="popup-section-body">${esc(s.talkStory)}</div>
     </div>`;
   }
 
   // Kama'aina
   if (s.kamaaina) {
     html += `<div class="popup-section popup-kamaaina">
-      <div class="popup-section-label">&#x1F91F; Kama&#x02BB;aina</div>
+      <div class="popup-section-label">Kama&#x02BB;aina</div>
       <div class="popup-section-body">${esc(s.kamaaina)}</div>
     </div>`;
   }
@@ -143,7 +132,7 @@ function buildActivityPopupBody(s) {
   // Parking
   if (s.parking) {
     html += `<div class="popup-section">
-      <div class="popup-section-label">&#x1F17F;&#xFE0F; Parking</div>
+      <div class="popup-section-label">Parking</div>
       <div class="popup-section-body">${esc(s.parking)}</div>
     </div>`;
   }
@@ -151,7 +140,7 @@ function buildActivityPopupBody(s) {
   // Hours
   if (s.hours) {
     html += `<div class="popup-section">
-      <div class="popup-section-label">&#x1F552; Hours</div>
+      <div class="popup-section-label">Hours</div>
       <div class="popup-section-body">${esc(s.hours)}</div>
     </div>`;
   }
@@ -159,30 +148,30 @@ function buildActivityPopupBody(s) {
   // Best Time
   if (s.bestTime) {
     html += `<div class="popup-section">
-      <div class="popup-section-label">&#x2B50; Best Time</div>
+      <div class="popup-section-label">Best Time</div>
       <div class="popup-section-body">${esc(s.bestTime)}</div>
     </div>`;
   }
 
   // Kid-friendly
   if (s.kidFriendly === true) {
-    html += `<div class="popup-kid-badge popup-kid-yes">&#x1F476; Kid-friendly</div>`;
+    html += `<div class="popup-kid-badge popup-kid-yes">Kid-friendly</div>`;
   } else if (s.kidFriendly === false) {
-    html += `<div class="popup-kid-badge popup-kid-no">&#x26A0;&#xFE0F; Not for young kids</div>`;
+    html += `<div class="popup-kid-badge popup-kid-no">Not for young kids</div>`;
   }
 
-  // Insider Tips (most prominent for activities)
-  if (s.insiderTips) {
-    html += `<div class="popup-section popup-insider-main">
-      <div class="popup-section-label">&#x1F4A1; Insider Tips</div>
-      <div class="popup-section-body">${esc(s.insiderTips)}</div>
+  // Talk Story
+  if (s.talkStory) {
+    html += `<div class="popup-section">
+      <div class="popup-section-label">Talk Story</div>
+      <div class="popup-section-body">${esc(s.talkStory)}</div>
     </div>`;
   }
 
   // Kama'aina
   if (s.kamaaina) {
     html += `<div class="popup-section popup-kamaaina">
-      <div class="popup-section-label">&#x1F91F; Kama&#x02BB;aina</div>
+      <div class="popup-section-label">Kama&#x02BB;aina</div>
       <div class="popup-section-body">${esc(s.kamaaina)}</div>
     </div>`;
   }
