@@ -20,18 +20,18 @@
   --score-1: #c62828;
 }
 
-html {
+html, body {
   height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   font-family: 'DM Sans', sans-serif;
   background: var(--bg);
   color: var(--text);
-  height: 100vh;
-  height: 100dvh;
-  min-height: 100%;
-  min-height: -webkit-fill-available;
+  position: fixed;
+  inset: 0;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -1059,17 +1059,19 @@ body {
   /* Full-screen popup cards on mobile */
   .mobile-fullscreen {
     position: fixed !important;
-    inset: 0 !important;
-    width: 100% !important;
-    height: 100% !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
     transform: none !important;
     margin: 0 !important;
     z-index: 10000 !important;
-    background: rgba(0, 0, 0, 0.6);
-    display: flex;
-    align-items: flex-end;
+    background: var(--surface) !important;
   }
   .mobile-fullscreen .leaflet-popup-content-wrapper {
+    position: relative;
     width: 100% !important;
     max-width: 100% !important;
     max-height: 100dvh !important;
@@ -1106,6 +1108,7 @@ body {
     font-size: 13px;
   }
   .mobile-fullscreen .leaflet-popup-close-button {
+    position: absolute !important;
     width: 44px !important;
     height: 44px !important;
     font-size: 28px !important;
@@ -1115,10 +1118,23 @@ body {
     padding: 0 !important;
     top: 8px !important;
     right: 8px !important;
-    z-index: 10001;
-    color: var(--text) !important;
-    background: rgba(0,0,0,0.3);
+    z-index: 10 !important;
+    color: #fff !important;
+    background: rgba(255,255,255,0.15) !important;
     border-radius: 50%;
+    backdrop-filter: blur(4px);
+  }
+  /* Lift popup pane above controls when fullscreen popup is open */
+  .leaflet-popup-pane:has(.mobile-fullscreen) {
+    z-index: 10000 !important;
+  }
+  /* Hide map chrome when fullscreen popup is open */
+  .map-popup-open .leaflet-control-container {
+    display: none !important;
+  }
+  .map-popup-open .top-bar,
+  .map-popup-open .right-now-bar {
+    display: none !important;
   }
 }
 
