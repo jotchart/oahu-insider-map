@@ -23,10 +23,15 @@ const map = L.map('map', {
 
 L.control.zoom({ position: 'topright' }).addTo(map);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+const tileNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &middot; &copy; CARTO',
   maxZoom: 19
-}).addTo(map);
+});
+const tileWithLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; OpenStreetMap &middot; &copy; CARTO',
+  maxZoom: 19
+});
+tileNoLabels.addTo(map);
 
 // ── Register map in core registry ──
 registerMap(map);
@@ -121,6 +126,7 @@ async function initNeighborhoods() {
     try {
       const interior = turf.pointOnFeature(feature);
       const [lng, lat] = interior.geometry.coordinates;
+      const area = turf.area(feature); // m² — for priority sorting
       const label = L.marker([lat, lng], {
         icon: L.divIcon({
           className: 'hood-label',
@@ -130,6 +136,8 @@ async function initNeighborhoods() {
         }),
         interactive: false
       });
+      label._hoodArea = area;
+      label._hoodName = n.name;
       label.addTo(map);
       layer._hoodLabel = label;
     } catch (e) { /* skip label if turf fails */ }
@@ -163,15 +171,68 @@ async function initNeighborhoods() {
   bus.emit('map:ready', { map });
 }
 
-initNeighborhoods();
+initNeighborhoods().then(() => {
+  // Initial declutter after all polygons and labels are on the map
+  setTimeout(declutterLabels, 50);
+});
 
-// ── Zoom-aware neighborhood labels ──
-function updateLabelVisibility() {
-  const show = map.getZoom() >= 11;
-  document.getElementById('map').classList.toggle('labels-hidden', !show);
+// ── Zoom-aware neighborhood labels with decluttering ──
+function declutterLabels() {
+  const zoom = map.getZoom();
+  if (zoom < 11) {
+    document.getElementById('map').classList.add('labels-hidden');
+    return;
+  }
+  document.getElementById('map').classList.remove('labels-hidden');
+
+  // Collect all visible labels
+  const labels = [];
+  polygonLayers.forEach(poly => {
+    if (!poly || !poly._hoodLabel || !map.hasLayer(poly._hoodLabel)) return;
+    const lbl = poly._hoodLabel;
+    const pt = map.latLngToContainerPoint(lbl.getLatLng());
+    // Estimate text width: ~6px per char at 10px font, height ~14px
+    const w = lbl._hoodName.length * 6 + 8;
+    const h = 14;
+    labels.push({
+      lbl,
+      area: lbl._hoodArea || 0,
+      x: pt.x - w / 2,
+      y: pt.y - h / 2,
+      w,
+      h
+    });
+  });
+
+  // Sort by polygon area descending — larger neighborhoods get priority
+  labels.sort((a, b) => b.area - a.area);
+
+  const placed = [];
+  const PAD = 4; // padding between labels
+
+  labels.forEach(item => {
+    // Check collision against already-placed labels
+    const collides = placed.some(p =>
+      item.x < p.x + p.w + PAD &&
+      item.x + item.w + PAD > p.x &&
+      item.y < p.y + p.h + PAD &&
+      item.y + item.h + PAD > p.y
+    );
+
+    const el = item.lbl.getElement();
+    if (!el) return;
+
+    if (collides) {
+      el.style.display = 'none';
+    } else {
+      el.style.display = '';
+      placed.push(item);
+    }
+  });
 }
-map.on('zoomend', updateLabelVisibility);
-updateLabelVisibility();
+
+map.on('zoomend', declutterLabels);
+map.on('moveend', declutterLabels);
 
 // ── Open neighborhood popup via polygon ──
 function openNeighborhoodPopup(lat, lng) {
@@ -296,6 +357,14 @@ const hoodPill = document.getElementById('hoodPill');
 hoodPill.addEventListener('click', () => {
   neighborhoodVisible = !neighborhoodVisible;
   hoodPill.setAttribute('aria-pressed', neighborhoodVisible);
+  // Swap tile layers: no labels when hoods on, labels when hoods off
+  if (neighborhoodVisible) {
+    if (map.hasLayer(tileWithLabels)) map.removeLayer(tileWithLabels);
+    if (!map.hasLayer(tileNoLabels)) tileNoLabels.addTo(map);
+  } else {
+    if (map.hasLayer(tileNoLabels)) map.removeLayer(tileNoLabels);
+    if (!map.hasLayer(tileWithLabels)) tileWithLabels.addTo(map);
+  }
   applyFilters();
 });
 
@@ -968,6 +1037,10 @@ const arContainer = document.getElementById('arContainer');
 let arEngine = null;
 
 if (arToggle) {
+  const AR_NEIGHBORHOOD_RADIUS = 3; // miles — only adjacent neighborhoods
+  const AR_SPOT_RADIUS = 2;         // miles — nearby attractions
+  const AR_MAX_LABELS = 15;         // keep it readable
+
   function neighborhoodToPOI(n) {
     return {
       id: `nb-${n.lat}-${n.lng}`,
@@ -981,6 +1054,40 @@ if (arToggle) {
     };
   }
 
+  function spotToPOI(s) {
+    const catInfo = SPOT_CATEGORIES[s.category] || {};
+    return {
+      id: `spot-${s.lat}-${s.lng}`,
+      name: `${catInfo.icon || ''} ${s.name}`,
+      lat: s.lat,
+      lng: s.lng,
+      category: s.category,
+      score: s.tier === 'S' ? 10 : s.tier === 'A' ? 8 : s.tier === 'B' ? 6 : 4,
+      color: catInfo.color || '#ffffff',
+      meta: { tier: s.tier, area: s.area, tagline: s.tagline },
+    };
+  }
+
+  // Build POIs dynamically based on user's current position
+  function buildARPois(userLat, userLng) {
+    const toRad = Math.PI / 180;
+    function quickDist(lat1, lng1, lat2, lng2) {
+      const dLat = (lat2 - lat1) * toRad;
+      const dLng = (lng2 - lng1) * toRad * Math.cos(((lat1 + lat2) / 2) * toRad);
+      return Math.sqrt(dLat * dLat + dLng * dLng) * 3958.8; // miles
+    }
+
+    const nearbyHoods = NEIGHBORHOODS
+      .filter(n => quickDist(userLat, userLng, n.lat, n.lng) <= AR_NEIGHBORHOOD_RADIUS)
+      .map(neighborhoodToPOI);
+
+    const nearbySpots = SPOTS
+      .filter(s => quickDist(userLat, userLng, s.lat, s.lng) <= AR_SPOT_RADIUS)
+      .map(spotToPOI);
+
+    return [...nearbyHoods, ...nearbySpots];
+  }
+
   const isSecure = location.protocol === 'https:' || location.hostname === 'localhost';
   const hasCamera = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
   const hasGeo = !!navigator.geolocation;
@@ -990,17 +1097,66 @@ if (arToggle) {
 
   arToggle.addEventListener('click', () => {
     if (gpsWatchId !== null) stopGPSWatch();
-    const pois = NEIGHBORHOODS.map(neighborhoodToPOI);
-    arEngine = new AREngine({
-      pois,
-      onViewOnMap: (poi) => {
-        arContainer.classList.remove('active');
-        map.setView([poi.lat, poi.lng], 14);
-        openNeighborhoodPopup(poi.lat, poi.lng);
+
+    // Get user position first, then build nearby POIs
+    navigator.geolocation.getCurrentPosition(
+      (pos) => {
+        const pois = buildARPois(pos.coords.latitude, pos.coords.longitude);
+
+        arEngine = new AREngine({
+          pois,
+          maxLabels: AR_MAX_LABELS,
+          maxDistance: AR_NEIGHBORHOOD_RADIUS,
+          onViewOnMap: (poi) => {
+            arContainer.classList.remove('active');
+            map.setView([poi.lat, poi.lng], 14);
+            if (poi.id.startsWith('nb-')) {
+              openNeighborhoodPopup(poi.lat, poi.lng);
+            } else {
+              const spotMarker = spotMarkerByKey.get(`${poi.lat},${poi.lng}`);
+              if (spotMarker) spotMarker.openPopup();
+            }
+          },
+        });
+
+        // Refresh POIs as user moves — update every 10 seconds
+        let arGpsId = null;
+        arGpsId = navigator.geolocation.watchPosition(
+          (p) => {
+            if (arEngine) {
+              arEngine.pois = buildARPois(p.coords.latitude, p.coords.longitude);
+            }
+          },
+          () => {},
+          { enableHighAccuracy: true, maximumAge: 10000 }
+        );
+
+        // Store cleanup reference
+        const origStop = arEngine.stop.bind(arEngine);
+        arEngine.stop = () => {
+          if (arGpsId !== null) navigator.geolocation.clearWatch(arGpsId);
+          origStop();
+        };
+
+        arContainer.classList.add('active');
+        arEngine.start(arContainer);
       },
-    });
-    arContainer.classList.add('active');
-    arEngine.start(arContainer);
+      () => {
+        // Fallback: use all neighborhoods if location fails
+        const pois = NEIGHBORHOODS.map(neighborhoodToPOI);
+        arEngine = new AREngine({
+          pois,
+          onViewOnMap: (poi) => {
+            arContainer.classList.remove('active');
+            map.setView([poi.lat, poi.lng], 14);
+            openNeighborhoodPopup(poi.lat, poi.lng);
+          },
+        });
+        arContainer.classList.add('active');
+        arEngine.start(arContainer);
+      },
+      { enableHighAccuracy: true, timeout: 10000 }
+    );
   });
 }
 
