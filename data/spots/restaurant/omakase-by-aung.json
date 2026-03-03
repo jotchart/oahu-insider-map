@@ -1,0 +1,18 @@
+{
+  "name": "Omakase By Aung",
+  "tier": "A",
+  "lat": 21.2756,
+  "lng": -157.8135,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Burmese-Japanese chef, 8 seats, no menu — just trust and exceptional fish.",
+  "area": "Kapahulu",
+  "price": "$$$",
+  "mustOrder": [
+    "omakase — there is no menu, the chef decides based on what's fresh"
+  ],
+  "parking": "Street parking on Kapahulu Ave; side streets off Winam Ave",
+  "talkStory": "Chef Aung brings a Burmese-Japanese perspective to edomae-style sushi in an intimate counter setting. About 8–10 seats, direct interaction with the chef throughout the meal. More personal and more 'insider' than Sushi Ginza Onodera (which is a global chain). Reserve ahead — seatings fill up. The experience runs $100–200+ depending on the day's catch. Kapahulu location keeps it off the tourist radar. If you want world-class omakase without Waikiki prices and crowds, this is the move.",
+  "cashOnly": false,
+  "kamaaina": null
+}

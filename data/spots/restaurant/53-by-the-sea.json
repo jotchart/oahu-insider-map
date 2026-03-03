@@ -1,0 +1,20 @@
+{
+  "name": "53 By The Sea",
+  "tier": "B",
+  "lat": 21.293,
+  "lng": -157.862,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Glass-walled waterfront dining at Kewalo Basin — panoramic ocean views and spectacular sunsets for special occasions.",
+  "area": "Kakaako",
+  "price": "$$$$",
+  "mustOrder": [
+    "seafood tower",
+    "wagyu steak",
+    "sunset cocktail"
+  ],
+  "parking": "Validated valet parking available",
+  "talkStory": "The crescent-shaped glass dining room sits right on the waterfront at Kewalo Basin, offering panoramic ocean views and spectacular sunsets. The contemporary Continental menu emphasizes beautifully presented seafood and steaks. Locals come here for anniversaries and proposals — request a window table facing west for sunset. Arrive 30 minutes before sunset for the best light. Reservations essential, especially weekends.",
+  "cashOnly": false,
+  "kamaaina": null
+}

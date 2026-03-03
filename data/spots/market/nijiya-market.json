@@ -1,0 +1,20 @@
+{
+  "name": "Nijiya Market",
+  "tier": "B",
+  "lat": 21.2885,
+  "lng": -157.842,
+  "category": "market",
+  "subcategory": "japanese-grocery",
+  "tagline": "Boutique Japanese grocery with impeccable quality sushi, onigiri, and hard-to-find Japanese ingredients.",
+  "area": "Ala Moana",
+  "price": "$$",
+  "mustOrder": [
+    "fresh onigiri",
+    "chirashi bowl",
+    "mochi"
+  ],
+  "parking": "Shared lot at Ala Moana area",
+  "talkStory": "Nijiya is a smaller, more curated Japanese grocery that locals love for its quality over quantity approach. The prepared foods section has restaurant-quality sushi, onigiri, and bento boxes. The produce is pristine and the Japanese snack aisle is a treasure hunt. Less overwhelming than Marukai but the quality is consistently higher. The freshly made onigiri are a perfect quick lunch.",
+  "cashOnly": false,
+  "kamaaina": null
+}

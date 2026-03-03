@@ -6,7 +6,14 @@
     "hike":        { "color": "#96ceb4", "label": "Hikes",      "icon": "🥾" },
     "kids":        { "color": "#feca57", "label": "Kids",       "icon": "👶" },
     "shave-ice":   { "color": "#ff9ff3", "label": "Shave Ice",  "icon": "🍧" },
-    "coffee":      { "color": "#c8a879", "label": "Coffee",     "icon": "☕" }
+    "coffee":      { "color": "#c8a879", "label": "Coffee",     "icon": "☕" },
+    "market":      { "color": "#e17055", "label": "Markets",    "icon": "🏪" },
+    "nightlife":   { "color": "#6c5ce7", "label": "Nightlife",  "icon": "🍸" },
+    "cultural":    { "color": "#d63031", "label": "Culture",    "icon": "🏛" },
+    "bakery":      { "color": "#fdcb6e", "label": "Bakeries",   "icon": "🧁" },
+    "farmers-market": { "color": "#00b894", "label": "Farmers Mkt", "icon": "🥬" },
+    "shopping":    { "color": "#e84393", "label": "Shopping",   "icon": "🛍" },
+    "experience":  { "color": "#0984e3", "label": "Experiences", "icon": "✨" }
   },
   "TIER_CONFIG": {
     "S": { "label": "S-Tier", "color": "#ffd700", "desc": "The Canon — iconic, irreplaceable, every local knows it" },

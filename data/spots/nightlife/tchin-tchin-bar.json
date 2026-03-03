@@ -1,0 +1,19 @@
+{
+  "name": "Tchin Tchin Bar",
+  "tier": "B",
+  "lat": 21.3125,
+  "lng": -157.8618,
+  "category": "nightlife",
+  "subcategory": "wine-bar",
+  "tagline": "An intimate Chinatown wine and cocktail bar with dim lighting, curated playlist, and a sophisticated but unpretentious vibe.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "natural wine selection",
+    "craft cocktail"
+  ],
+  "parking": "Street parking; walk from downtown",
+  "talkStory": "A moody, intimate wine and cocktail bar on Hotel Street in Chinatown. The dim lighting, curated playlist, and minimalist decor create a vibe that feels more Brooklyn or Tokyo than Honolulu. The natural wine selection is excellent and the bartenders can guide you to something unexpected. Popular with Chinatown's creative crowd and after-work industry folks. First Friday is especially lively.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,20 @@
+{
+  "name": "3660 On the Rise",
+  "tier": "A",
+  "lat": 21.2845,
+  "lng": -157.8113,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Where locals celebrate anniversaries — Chef Russell Siu's ahi katsu has been a Honolulu icon since 1992.",
+  "area": "Kaimuki",
+  "price": "$$$",
+  "mustOrder": [
+    "ahi katsu — seared ahi in nori-panko crust, the dish that made this place famous",
+    "Chinese-style duck",
+    "save room for dessert — the pastry program is strong"
+  ],
+  "parking": "Small lot on Waialae Ave; street parking on side streets",
+  "talkStory": "Open since 1992 — over 30 years of Pacific Rim fine dining on Waialae Ave. Chef Russell Siu's ahi katsu is one of the signature dishes of Honolulu fine dining, widely imitated but never matched. This is the restaurant where local families go for birthdays, anniversaries, and graduations. The slightly lower Google rating (4.4) is a function of higher expectations at this price point, not inconsistency. Dinner nightly, reservations strongly recommended.",
+  "cashOnly": false,
+  "kamaaina": null
+}

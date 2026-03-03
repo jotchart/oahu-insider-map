@@ -1,0 +1,19 @@
+{
+  "name": "Bevy",
+  "tier": "B",
+  "lat": 21.295,
+  "lng": -157.856,
+  "category": "nightlife",
+  "subcategory": "cocktail-bar",
+  "tagline": "Artsy Kakaako cocktail bar doubling as a gallery — creative drinks, locally sourced small plates, and rotating local art.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "signature cocktail",
+    "small plates"
+  ],
+  "parking": "Street parking in Kakaako",
+  "talkStory": "An artsy cocktail bar in Kakaako that doubles as an art gallery with rotating exhibitions from local artists. The cocktails are creative and the food menu, focused on small plates and locally sourced ingredients, is consistently good. Locals come for after-work drinks at happy hour (4-6pm) and the weekend brunch cocktail menu is a neighborhood ritual.",
+  "cashOnly": false,
+  "kamaaina": null
+}

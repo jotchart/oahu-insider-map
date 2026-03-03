@@ -1,0 +1,20 @@
+{
+  "name": "Sushi Ginza Onodera",
+  "tier": "A",
+  "lat": 21.2836,
+  "lng": -157.8303,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Tokyo-level omakase in Waikiki — the fish is flown in from Tsukiji and the craft is impeccable.",
+  "area": "Waikiki",
+  "price": "$$$",
+  "mustOrder": [
+    "Omakase — the full chef's counter experience, ~20 pieces of seasonal nigiri",
+    "Otoro — fatty tuna belly, melt-in-your-mouth perfection",
+    "Uni — seasonal sea urchin, often from Hokkaido"
+  ],
+  "parking": "Valet at the hotel or public parking at Waikiki Trade Center garage on Kuhio Ave.",
+  "talkStory": "This is a splurge — omakase runs $200-300+ per person — but it's genuinely world-class sushi without flying to Tokyo. The Honolulu outpost is part of a global chain with locations in Ginza, NY, and LA. Fish is sourced from Japan's top markets. Sit at the counter for the full experience. Make reservations well in advance, especially weekends. If you're celebrating something special and love sushi, this is the one.",
+  "cashOnly": false,
+  "kamaaina": null
+}

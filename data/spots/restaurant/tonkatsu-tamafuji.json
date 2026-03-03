@@ -1,0 +1,20 @@
+{
+  "name": "Tonkatsu Tamafuji",
+  "tier": "A",
+  "lat": 21.2799,
+  "lng": -157.785,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "tagline": "Kaimuki's tonkatsu master — perfectly fried heritage pork cutlets with house-ground cabbage and secret dipping sauce.",
+  "area": "Kaimuki",
+  "price": "$$",
+  "mustOrder": [
+    "rosu katsu set",
+    "hire katsu set",
+    "menchi katsu"
+  ],
+  "parking": "Street parking on Waialae Ave; small lot behind",
+  "talkStory": "This Kaimuki gem serves what many locals consider the best tonkatsu on the island. The pork cutlets are made with premium heritage pork, breaded in ultra-fine panko, and fried to an impossibly crispy golden exterior while staying juicy inside. The house-ground cabbage is fluffy and fresh, and the dipping sauce has a secret recipe. Lunch lines form early — arrive by 11:30am or expect a 30-minute wait.",
+  "cashOnly": false,
+  "kamaaina": null
+}

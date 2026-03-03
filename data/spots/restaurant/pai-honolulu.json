@@ -1,0 +1,20 @@
+{
+  "name": "Pai Honolulu",
+  "tier": "C",
+  "lat": 21.3059,
+  "lng": -157.8632,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Hidden courtyard fine dining near Aloha Tower — chef-owned, locally sourced, and genuinely hard to find unless someone tells you.",
+  "area": "Chinatown / Downtown",
+  "price": "$$$",
+  "mustOrder": [
+    "seasonal tasting menu — changes regularly based on local sourcing",
+    "a la carte dishes — everything is made in-house",
+    "ask chef Kevin Lee what's best that night"
+  ],
+  "parking": "Harbor Court parking; street parking on Merchant St",
+  "talkStory": "Chef-owned by Kevin Lee since 2017, tucked in a courtyard at Harbor Court near Aloha Tower. The hidden location is part of the charm — you have to seek it out. Offers both a la carte and seasonal tasting menus, everything locally sourced and made in-house. The courtyard setting is quiet and elegant. A place for people who care about craft. Dinner only, Thu–Sat.",
+  "cashOnly": false,
+  "kamaaina": null
+}

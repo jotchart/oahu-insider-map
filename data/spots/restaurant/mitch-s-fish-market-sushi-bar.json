@@ -1,0 +1,20 @@
+{
+  "name": "Mitch's Fish Market & Sushi Bar",
+  "tier": "B",
+  "lat": 21.2862,
+  "lng": -157.8672,
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "tagline": "Fresh-off-the-boat seafood right next to the fishing pier — sashimi doesn't get more local than this.",
+  "area": "Honolulu Fish Auction",
+  "price": "$$",
+  "mustOrder": [
+    "Sashimi platter — whatever's freshest that day, caught that morning",
+    "Garlic shrimp — simple and garlicky, local style",
+    "Poke bowl — fresh ahi, rice, and furikake"
+  ],
+  "parking": "Parking lot at Pier 38. Easy to find, usually has spots.",
+  "talkStory": "Mitch's is literally next to the Honolulu Fish Auction at Pier 38 — the fish here was swimming yesterday. It's not fancy — plastic chairs and fluorescent lights — but the sashimi is as fresh as it gets without catching it yourself. Great for a no-frills seafood lunch. The fish auction tours happen early morning next door if you're into that. Lunch is the main event; they close in the afternoon.",
+  "cashOnly": false,
+  "kamaaina": null
+}

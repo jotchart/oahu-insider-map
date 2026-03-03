@@ -1,0 +1,17 @@
+{
+  "name": "Haleiwa Beach Park",
+  "tier": "B",
+  "lat": 21.5963,
+  "lng": -158.1052,
+  "category": "beach",
+  "subcategory": "kid-friendly",
+  "tagline": "A laid-back local park where families picnic, keiki play in calm water, and the North Shore vibe is at its most relaxed.",
+  "area": "North Shore",
+  "price": "Free",
+  "parking": "Large free lot right at the park — rarely fills up",
+  "hours": "Open daily, 6:00 AM – 10:00 PM",
+  "bestTime": "Year-round; calmer in summer but the protected harbor side stays mellow even in winter",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "talkStory": "This is the beach locals actually bring their families to on the North Shore — no crowds, big shade trees, and the water near the harbor is protected and calm. Restrooms, showers, and a big grassy area for the kids to run around. Walk to Haleiwa town for Matsumoto's shave ice or Aoki's for poke after. Way more chill than the famous surf beaches up the road."
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Haili's Hawaiian Food",
+  "tier": "A",
+  "lat": 21.2942,
+  "lng": -157.8413,
+  "category": "restaurant",
+  "subcategory": "hawaiian",
+  "tagline": "Family-recipe Hawaiian food since 1950 — laulau, kalua pig, and squid luau that rival Helena's without the hype.",
+  "area": "Palama / Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "Laulau — tender pork wrapped in taro and ti leaves, steamed for hours",
+    "Kalua pig plate — smoky, salty, fall-apart pulled pork",
+    "Squid luau — squid simmered in creamy taro leaf",
+    "Haupia for dessert"
+  ],
+  "parking": "Small lot in front on North King St. Street parking available",
+  "hours": "Mon–Sat 8am–7pm. Closed Sundays",
+  "bestTime": "Lunch rush (11am–1pm) can have lines. Go early or after 2pm",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "cashOnly": false,
+  "talkStory": "Operating since 1950, Haili's is the less-hyped sibling to Helena's Hawaiian Food — but locals will argue it's just as good. The recipes come from Aunty Haili's family and haven't changed in decades. The laulau is excellent — tender pork with butterfish wrapped in taro leaves — and the kalua pig is properly smoky. It's a no-frills plate lunch spot in a part of town most tourists never visit. If Helena's line is too long or they're closed (they're only open limited days), Haili's is the backup the locals know about."
+}

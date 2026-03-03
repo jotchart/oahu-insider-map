@@ -1,0 +1,20 @@
+{
+  "name": "Palama Supermarket",
+  "tier": "B",
+  "lat": 21.321,
+  "lng": -157.861,
+  "category": "market",
+  "subcategory": "korean-grocery",
+  "tagline": "Hawaii's favorite Korean grocery — legendary banchan counter, fresh kimchi, and hot plate lunches that rival any restaurant.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "banchan assortment",
+    "fresh kimchi",
+    "plate lunch"
+  ],
+  "parking": "Free lot on N King St",
+  "talkStory": "Palama is where local Korean and mixed-plate families do their serious grocery shopping. The banchan counter is the star — fill a container with a dozen different Korean side dishes for just a few dollars. The in-house kimchi is made fresh and the hot plate lunches rival dedicated restaurants. The produce section has exceptional quality at prices that beat the big chains. Weekday mornings are best; weekends get packed.",
+  "cashOnly": false,
+  "kamaaina": null
+}

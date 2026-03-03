@@ -1,0 +1,20 @@
+{
+  "name": "Cinnamon's Restaurant",
+  "tier": "A",
+  "lat": 21.3923,
+  "lng": -157.7453,
+  "category": "restaurant",
+  "subcategory": "breakfast",
+  "tagline": "Kailua brunch institution where the guava chiffon pancakes and red velvet pancakes have a cult following.",
+  "area": "Kailua",
+  "price": "$$",
+  "mustOrder": [
+    "Guava chiffon pancakes — fluffy, tangy-sweet, the signature dish",
+    "Red velvet pancakes — cream cheese frosting on pancakes, outrageously good",
+    "Eggs Benedict — local twist with kalua pork or crab cake"
+  ],
+  "parking": "Parking lot behind the restaurant off Kailua Rd. Can fill up on weekends — arrive before 8:30am or after 11am.",
+  "talkStory": "Cinnamon's moved from its tiny original location to a bigger spot on Kailua Rd, which helped the wait times but weekends are still packed. The guava chiffon pancakes are what everyone comes for and they live up to the hype. Good combo: brunch at Cinnamon's, then walk to Kailua Beach. They also do a solid lunch menu but breakfast is the reason to go. Gets hot inside — grab a table on the patio if you can.",
+  "cashOnly": false,
+  "kamaaina": null
+}

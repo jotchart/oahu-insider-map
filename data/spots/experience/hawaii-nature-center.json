@@ -1,0 +1,17 @@
+{
+  "name": "Hawaii Nature Center",
+  "tier": "B",
+  "lat": 21.319,
+  "lng": -157.826,
+  "category": "experience",
+  "subcategory": "nature-education",
+  "tagline": "Interactive nature education in Makiki Valley — guided rainforest walks, bug hunts, and Hawaiian ecology for curious kids and adults.",
+  "area": "Makiki",
+  "price": "$15",
+  "parking": "Limited lot on Makiki Heights Dr",
+  "hours": "Daily 8am-4pm; guided programs at set times",
+  "bestTime": "Morning guided programs; weekdays are less busy",
+  "kidFriendly": true,
+  "talkStory": "Nestled in Makiki Valley just minutes from downtown, the Hawaii Nature Center offers interactive nature education perfect for curious kids. Guided rainforest walks teach about native Hawaiian plants and animals, bug hunts let kids explore with magnifying glasses, and the interpretive center has hands-on exhibits about Hawaiian ecology. Local families love the weekend programs. A great rainy-day or hot-day alternative to the beach.",
+  "kamaaina": null
+}

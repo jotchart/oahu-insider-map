@@ -67,8 +67,8 @@ const warnings = [];
 const spotNames = new Map(); // name -> file for duplicate detection
 const spots = [];
 
-const FOOD_CATEGORIES = ['restaurant', 'coffee', 'shave-ice'];
-const ACTIVITY_CATEGORIES = ['beach', 'hike', 'snorkel', 'kids'];
+const FOOD_CATEGORIES = ['restaurant', 'coffee', 'shave-ice', 'market', 'nightlife', 'bakery'];
+const ACTIVITY_CATEGORIES = ['beach', 'hike', 'snorkel', 'kids', 'cultural', 'farmers-market', 'shopping', 'experience'];
 
 for (const { data, file } of spotEntries) {
   const isFood = FOOD_CATEGORIES.includes(data.category);

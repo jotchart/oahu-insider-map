@@ -1,0 +1,20 @@
+{
+  "name": "Tamashiro Market",
+  "tier": "S",
+  "lat": 21.3193,
+  "lng": -157.8638,
+  "category": "market",
+  "subcategory": "fish-market",
+  "tagline": "Honolulu's most trusted fish market for over 80 years — where local families buy poke and fresh seafood for parties.",
+  "area": "Kalihi",
+  "price": "$$",
+  "mustOrder": [
+    "shoyu ahi poke",
+    "spicy tako poke",
+    "poke plate"
+  ],
+  "parking": "Small lot in front; street parking on N King St",
+  "talkStory": "Open since the 1940s, Tamashiro Market is a Kalihi institution. The poke counter has a dozen varieties daily — shoyu ahi, spicy tako, limu, and seasonal specials. Come Saturday morning before 10am for the best selection; by noon, the popular cuts are gone. Locals grab a styrofoam plate and eat standing in the parking lot. The fish counter also sells whole fish, sashimi-grade blocks, and shellfish at prices well below supermarkets.",
+  "cashOnly": false,
+  "kamaaina": null
+}

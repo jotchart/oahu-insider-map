@@ -1,0 +1,20 @@
+{
+  "name": "Totoya Kaimuki",
+  "tier": "A",
+  "lat": 21.2844,
+  "lng": -157.8145,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "tagline": "Sixteen-seat kaisendon counter where the sashimi is piled so thick you can barely see the rice — get there early or join the wait.",
+  "area": "Kaimuki",
+  "price": "$$",
+  "mustOrder": [
+    "kaisen don — the signature sashimi rice bowl with daily fish selection",
+    "negitori don — torched salmon belly over rice",
+    "miso soup — yuzu or ginger-infused, not an afterthought"
+  ],
+  "parking": "Street parking on 12th Ave and side streets; competitive during lunch rush",
+  "talkStory": "Opened late 2024 on 12th Ave in Kaimuki and immediately became one of the hardest lunch seats on the island. Only 16 counter seats with an open kitchen — you watch your bowl being built. The fish quality is exceptional, sourced daily. Lines form before opening. The move is to come at an off-peak time (weekday, 1:30pm or late dinner). 4.8 Google stars with 200+ reviews — one of the highest-rated new restaurants on Oahu. Daily 11am–2:30pm and 5pm–8:30pm.",
+  "cashOnly": false,
+  "kamaaina": null
+}

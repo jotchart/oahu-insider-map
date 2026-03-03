@@ -1,0 +1,19 @@
+{
+  "name": "La Mariana Sailing Club",
+  "tier": "S",
+  "lat": 21.315,
+  "lng": -157.874,
+  "category": "nightlife",
+  "subcategory": "tiki-bar",
+  "tagline": "Hawaii's original tiki bar since 1957 — hidden in an industrial marina with museum-worthy tiki artifacts and strong mai tais.",
+  "area": "Sand Island",
+  "price": "$$",
+  "mustOrder": [
+    "mai tai",
+    "blue hawaii"
+  ],
+  "parking": "Free lot at the marina",
+  "talkStory": "Hawaii's original tiki bar since 1957, hidden in an industrial marina you'd never find unless you knew it was there. The interior is a living museum of tiki culture — puffer fish lamps from the original Trader Vic's, rattan chairs from Don the Beachcomber, and hand-carved tikis from the old Kon Tiki Room. The mai tais are strong and the live music on Friday evenings sets a wonderfully retro mood. Founder Annette La Mariana originally charged $2 membership and 50-cent boat slips.",
+  "cashOnly": false,
+  "kamaaina": null
+}

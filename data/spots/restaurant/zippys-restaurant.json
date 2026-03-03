@@ -1,0 +1,20 @@
+{
+  "name": "Zippy's Restaurant",
+  "tier": "S",
+  "lat": 21.2854,
+  "lng": -157.8365,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "Hawaii's diner chain that every local grew up on — chili and zip packs are a way of life.",
+  "area": "King Street",
+  "price": "$",
+  "mustOrder": [
+    "Zippy's Chili — the iconic thick, beefy chili that's been the same since 1966",
+    "Zip Pack — fried chicken, chili, rice, and mac salad in one legendary combo",
+    "Napoleon Bakery cream puffs — the grab-and-go bakery case is dangerously good"
+  ],
+  "parking": "Most locations have their own lot. King Street location has a parking lot behind the building.",
+  "talkStory": "Started in 1966 by Francis Higa and Charles Toguchi. There are over 20 locations across Oahu, but the King Street one near McCully is the classic. Zippy's chili recipe is a legit state secret — they've never revealed it. Every local kid grew up eating here after practice, after prom, at 2am. The Napoleon Bakery inside sells cakes for every birthday party on the island. It's not fancy, but it's home.",
+  "cashOnly": false,
+  "kamaaina": null
+}

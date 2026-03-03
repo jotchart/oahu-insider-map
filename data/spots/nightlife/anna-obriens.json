@@ -1,0 +1,18 @@
+{
+  "name": "Anna O'Brien's",
+  "tier": "B",
+  "lat": 21.29,
+  "lng": -157.82,
+  "category": "nightlife",
+  "subcategory": "live-music-venue",
+  "tagline": "Honolulu's quintessential dive bar since 1969 — live rock, reggae, and punk upstairs, sticky-floor charm downstairs.",
+  "area": "Mo'ili'ili",
+  "price": "$",
+  "mustOrder": [
+    "cheap beer"
+  ],
+  "parking": "Street parking on Beretania St",
+  "talkStory": "Open since 1969, this is Honolulu's quintessential dive bar — home to motorcycle clubs, rugby teams, musicians, and blue-collar workers. The upstairs stage hosts live music most nights (rock, reggae, punk) with modest or no cover charge. The downstairs bar is dark, sticky, and wonderful. Locals consider it an institution. Thursday-Saturday nights for live music; upstairs for the bands, downstairs for the dive bar atmosphere.",
+  "cashOnly": false,
+  "kamaaina": null
+}

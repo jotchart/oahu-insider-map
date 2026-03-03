@@ -1,0 +1,20 @@
+{
+  "name": "The Nighthawk",
+  "tier": "A",
+  "lat": 21.3076,
+  "lng": -157.8618,
+  "category": "restaurant",
+  "subcategory": "american",
+  "tagline": "Chicago-style comfort food in a historic Chinatown building — Italian beef sandwiches, Maxwell Street Polish, and late-night Kung Fu Ham.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "Italian beef sandwich — Chicago-style, juicy and proper",
+    "Chicago-style hot dog — no ketchup, ever",
+    "Kung Fu Ham — deep-fried pork belly with Thai chili garlic"
+  ],
+  "parking": "Street parking on S King St; paid lots on Smith/Maunakea",
+  "talkStory": "A Midwest transplant concept that somehow feels perfectly at home in Chinatown. Exposed brick walls, late-night hours, and a menu of Chicago comfort food you can't get anywhere else on the island. The Italian beef sandwich is authentic. The Kung Fu Ham (deep-fried pork belly with Thai chili garlic) is a house original that bridges Chicago and Honolulu. Downtown workers for lunch, Chinatown bar crowd for late night. Open until midnight.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Bean About Town",
+  "tier": "B",
+  "lat": 21.279,
+  "lng": -157.784,
+  "category": "coffee",
+  "subcategory": "specialty-coffee",
+  "tagline": "A semi-hidden Kaimuki coffee spot using beans from top mainland roasters — no-fuss, quality-focused neighborhood vibes.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "espresso",
+    "pour-over"
+  ],
+  "parking": "Street parking on 12th Ave",
+  "talkStory": "A semi-hidden coffee spot in Kaimuki that uses beans from top roasters like Sightglass and Verve. The small footprint and neighborhood vibe mean mostly locals come here. The espresso drinks are carefully crafted and the pastry selection, while small, is curated. It's the kind of no-fuss, quality-focused coffee shop that makes a neighborhood feel alive. Weekday mornings for the quietest experience.",
+  "cashOnly": false,
+  "kamaaina": null
+}

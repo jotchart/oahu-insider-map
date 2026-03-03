@@ -1,0 +1,20 @@
+{
+  "name": "Via Gelato",
+  "tier": "B",
+  "lat": 21.2725,
+  "lng": -157.809,
+  "category": "bakery",
+  "subcategory": "gelato",
+  "tagline": "Hawaii's best gelato — Italian technique with local flavors like haupia, ube, and lilikoi in a Kapahulu neighborhood shop.",
+  "area": "Kapahulu / Diamond Head",
+  "price": "$",
+  "mustOrder": [
+    "haupia gelato",
+    "ube gelato",
+    "lilikoi sorbetto"
+  ],
+  "parking": "Street parking on Kapahulu Ave",
+  "talkStory": "This small Kapahulu gelato shop uses authentic Italian technique with local Hawaiian ingredients to create some of the best frozen treats on the island. The haupia (coconut pudding) and ube flavors are incredible, and the lilikoi sorbetto is refreshingly tart. Everything is made in-house daily. Locals bring their kids after dinner at nearby restaurants. The flavor selection rotates, so there's always something new to try.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Koloa Gulch",
+  "tier": "B",
+  "lat": 21.5815,
+  "lng": -157.9205,
+  "category": "hike",
+  "subcategory": "waterfall",
+  "tagline": "A rugged stream-walking adventure to a hidden waterfall deep in the windward mountains.",
+  "area": "Hau'ula",
+  "price": "Free",
+  "parking": "Limited roadside parking on Kamehameha Highway near the trailhead — be respectful of residential areas",
+  "hours": "Open sunrise to sunset daily",
+  "bestTime": "Dry conditions are critical — never attempt after heavy rain due to flash flood risk",
+  "kidFriendly": false,
+  "kamaaina": null,
+  "talkStory": "About 5 miles round trip with 800 ft of gradual elevation gain, but the distance is deceptive — you're walking IN the stream for most of it. Expect at least 20 stream crossings, slippery boulders, and overgrown sections. The reward is a beautiful multi-tiered waterfall in a narrow gulch. This trail requires real preparation: water shoes or canyoneering boots, trekking poles, and always check weather before going. Flash floods are a genuine danger here. Verify current trail access before heading out — the trailhead area borders private land."
+}

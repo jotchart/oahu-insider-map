@@ -1,0 +1,20 @@
+{
+  "name": "Teishoku Restaurant",
+  "tier": "A",
+  "lat": 21.3297,
+  "lng": -157.8614,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "tagline": "Japanese set meals in a Kalihi shopping center — miso butterfish, miso soup, rice, pickles, all for one price. Tourists will never find this.",
+  "area": "Kalihi",
+  "price": "$$",
+  "mustOrder": [
+    "miso butterfish teishoku — the signature set meal",
+    "chicken katsu set — crispy and satisfying",
+    "any daily special — the rotating items are where the kitchen shines"
+  ],
+  "parking": "Kamehameha Shopping Center lot on N School St",
+  "talkStory": "Teishoku means 'set meal' in Japanese — a complete meal with miso soup, salad, pickled vegetables, rice, and your choice of protein, all on one tray. This is how locals eat lunch in Kalihi. N School Street is deep-neighborhood territory — no tourist has ever wandered here. Featured in Honolulu Magazine as a hidden gem. Fast service, very reasonable prices. Lunch and dinner, closed Mondays.",
+  "cashOnly": false,
+  "kamaaina": null
+}

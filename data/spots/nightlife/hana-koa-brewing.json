@@ -1,0 +1,20 @@
+{
+  "name": "Hana Koa Brewing Co.",
+  "tier": "A",
+  "lat": 21.296,
+  "lng": -157.856,
+  "category": "nightlife",
+  "subcategory": "brewery",
+  "tagline": "Oahu's best brewery in a converted Coca-Cola factory — tropical IPAs, spacious beer garden, and rotating food pop-ups.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "Kolsch",
+    "tropical IPA",
+    "rotating seasonal"
+  ],
+  "parking": "Street parking in Kakaako; some lot spaces",
+  "talkStory": "Occupying a converted Coca-Cola syrup factory in Kakaako, Hana Koa is widely considered the best brewery on Oahu. The spacious industrial taproom serves excellent locally brewed beers — from tropical IPAs to dark stouts — along with a creative food menu. The Kolsch and the IPA are the standouts. Thursday-Saturday evenings are liveliest; check for food truck pop-ups. Local families come for the beer garden atmosphere.",
+  "cashOnly": false,
+  "kamaaina": null
+}

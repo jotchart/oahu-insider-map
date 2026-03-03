@@ -1,0 +1,20 @@
+{
+  "name": "Max & Lucy's",
+  "tier": "A",
+  "lat": 21.2989,
+  "lng": -157.8567,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "The chef is also your server — weekday-only, sells out daily, and the lemon bars are famous.",
+  "area": "Kakaako",
+  "price": "$",
+  "mustOrder": [
+    "kalbi ribs — the go-to plate",
+    "prime rib — when available, don't hesitate",
+    "lemon bars — famous for a reason, grab one before they're gone"
+  ],
+  "parking": "Street parking on Halekauwila St; Kakaako side streets",
+  "talkStory": "The kind of place that only exists in Honolulu — the chef cooks your food and then walks it to your table himself. Weekday only (Mon–Fri, 5am–2pm), closed weekends. Items sell out daily — the popular plates go fast by noon. Home-style comfort food: kalbi, teriyaki salmon, fried chicken, lasagna. The lemon bars are an institution. This is a working person's lunch spot in Kakaako, zero tourist presence.",
+  "cashOnly": false,
+  "kamaaina": null
+}

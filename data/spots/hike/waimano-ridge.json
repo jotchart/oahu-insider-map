@@ -1,0 +1,17 @@
+{
+  "name": "Waimano Ridge Trail",
+  "tier": "B",
+  "lat": 21.4207,
+  "lng": -157.9147,
+  "category": "hike",
+  "subcategory": "ridge",
+  "tagline": "A long, rewarding ridge hike through native forest to the Ko'olau summit — for hikers who want to earn their views.",
+  "area": "Pearl City",
+  "price": "Free",
+  "parking": "Free parking at the trailhead at the top of Waimano Home Road in Pacific Palisades",
+  "hours": "Open sunrise to sunset daily",
+  "bestTime": "Very early morning start — you need a full day for the summit push",
+  "kidFriendly": false,
+  "kamaaina": null,
+  "talkStory": "The full trail to the Ko'olau summit is about 14 miles round trip with 2,500 ft elevation gain — it's a serious full-day commitment. Most people do the first 3 miles to the swimming hole (Waimano Pool) as a moderate out-and-back. The ridge section beyond the pool gets progressively more rugged with native 'ohi'a forest and insane valley views. The final push to the summit is muddy, steep, and exposed but the windward-side views are worth every step. Bring headlamp as backup — easy to misjudge time on this one."
+}

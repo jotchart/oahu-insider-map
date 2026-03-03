@@ -1,0 +1,19 @@
+{
+  "name": "Beet Box Cafe",
+  "tier": "B",
+  "lat": 21.3947,
+  "lng": -157.7447,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Plant-powered cafe in Kailua with the best oat milk lattes and acai bowls on the Windward side.",
+  "area": "Kailua",
+  "price": "$$",
+  "mustOrder": [
+    "golden turmeric latte — anti-inflammatory and delicious",
+    "acai bowl with local honey and granola"
+  ],
+  "parking": "Small lot in front; additional parking on Hahani St",
+  "talkStory": "Beet Box started as a health food spot but their coffee game is legit. Everything is plant-based or plant-forward, and they use local produce whenever possible. The turmeric latte is not your basic mainland version — they actually make it well. Great if you're into clean eating or just want something different from the usual coffee shop menu. Kailua moms swear by this place.",
+  "cashOnly": false,
+  "kamaaina": null
+}

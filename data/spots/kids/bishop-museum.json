@@ -1,0 +1,17 @@
+{
+  "name": "Bishop Museum",
+  "tier": "S",
+  "lat": 21.3326,
+  "lng": -157.87,
+  "category": "kids",
+  "subcategory": "museum",
+  "tagline": "Hawaii's biggest museum with a world-class planetarium and a hands-on science center that rivals the mainland.",
+  "area": "Kalihi",
+  "price": "$$",
+  "parking": "Free parking on-site in museum lot",
+  "hours": "Wed–Mon 9am–5pm. Closed Tuesdays",
+  "bestTime": "Arrive at opening on a weekday; planetarium shows sell out so grab tickets first",
+  "kidFriendly": true,
+  "kamaaina": "Kamaaina rate with Hawaii ID; membership pays for itself in 2-3 visits",
+  "talkStory": "Best for ages 4 and up. The Science Adventure Center is the highlight for kids — erupting volcano model, giant insect displays, and interactive exhibits about Hawaii's natural history. The planetarium show is a must. The Hawaiian Hall with its three-story Victorian architecture teaches kids about Hawaiian culture. Allow 3-4 hours. Keiki under 4 are free."
+}

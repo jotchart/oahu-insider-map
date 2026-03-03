@@ -1,0 +1,17 @@
+{
+  "name": "Chinatown Cultural Plaza",
+  "tier": "B",
+  "lat": 21.313,
+  "lng": -157.862,
+  "category": "cultural",
+  "subcategory": "cultural-center",
+  "tagline": "Traditional herbalists, dim sum restaurants, and Maunakea Street lei stands — the living heart of Honolulu's Chinatown.",
+  "area": "Chinatown / Downtown",
+  "price": "Free",
+  "parking": "Paid parking in plaza garage",
+  "hours": "Varies by shop; most open 8am-5pm",
+  "bestTime": "Mornings for the freshest lei on Maunakea St; Chinese New Year for festivals",
+  "kidFriendly": true,
+  "talkStory": "This unassuming plaza houses traditional herbalists, acupuncturists, jewelry shops, and some of the best dim sum in the city. The courtyard comes alive during Chinese New Year and other festivals. Locals shop here for dried seafood, traditional Chinese medicine, and jade jewelry. The lei stands outside on Maunakea Street sell the most beautiful and affordable lei on the island — buy your lei here, not at the airport.",
+  "kamaaina": null
+}

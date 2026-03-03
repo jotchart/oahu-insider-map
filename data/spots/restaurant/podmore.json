@@ -1,0 +1,20 @@
+{
+  "name": "Podmore",
+  "tier": "B",
+  "lat": 21.3077,
+  "lng": -157.8619,
+  "category": "restaurant",
+  "subcategory": "gastropub",
+  "tagline": "Sophisticated British gastropub by the Senia team — emerald booths, $30 cocktails, and everything made from scratch.",
+  "area": "Chinatown / Downtown",
+  "price": "$$$",
+  "mustOrder": [
+    "fish and chips — elevated but still recognizable",
+    "pot pie — rich and from-scratch",
+    "craft cocktails — the real draw"
+  ],
+  "parking": "Street parking on Merchant St; downtown parking garages",
+  "talkStory": "By the same team behind Senia (Chef Anthony Rush and Katherine Nomura). Styled like an elegant London lounge — emerald green booths, brass accents. British-inspired food (fish and chips, bangers and mash, pot pie) all made in-house with local ingredients. The cocktails (~$30) are serious. Small and intimate. A unique concept for Honolulu — nobody else is doing this. Dinner only, Tue–Sat.",
+  "cashOnly": false,
+  "kamaaina": null
+}

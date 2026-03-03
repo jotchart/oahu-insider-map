@@ -1,0 +1,20 @@
+{
+  "name": "Khan Skewer Restaurant",
+  "tier": "A",
+  "lat": 21.2918,
+  "lng": -157.8362,
+  "category": "restaurant",
+  "subcategory": "chinese",
+  "tagline": "Xinjiang-style lamb skewers heavy on cumin and charcoal — the only spot on Oahu doing this regional Chinese BBQ right.",
+  "area": "McCully / Mōʻiliʻili",
+  "price": "$$",
+  "mustOrder": [
+    "lamb skewers — cumin-crusted, charcoal-grilled, the signature",
+    "hand-pulled noodles",
+    "cold dishes — cucumber salad, wood ear mushroom"
+  ],
+  "parking": "Street parking on Isenberg St; side streets toward University",
+  "talkStory": "One of the most genuinely local spots on this map. Isenberg Street near UH has zero tourist foot traffic — the clientele is overwhelmingly local Asian community who know exactly what Xinjiang BBQ should taste like. The lamb skewers are cumin-heavy and charcoal-grilled in the authentic Northwest Chinese style. Nobody else on Oahu fills this niche. Open for dinner, closed Tuesdays.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Waikiki Aquarium",
+  "tier": "A",
+  "lat": 21.2658,
+  "lng": -157.8216,
+  "category": "kids",
+  "subcategory": "aquarium",
+  "tagline": "The third-oldest aquarium in the US, right on the Waikiki shoreline — small enough to not overwhelm little ones.",
+  "area": "Waikiki",
+  "price": "$",
+  "parking": "Limited street parking on Kalakaua Ave; paid lot at Kapiolani Park nearby",
+  "hours": "Daily 9am–5pm (last entry 4:30pm). Closed Thanksgiving & Christmas",
+  "bestTime": "Weekday mornings for fewest crowds; feeding times posted at entrance",
+  "kidFriendly": true,
+  "kamaaina": "Kamaaina rate with Hawaii ID — significantly cheaper than regular admission",
+  "talkStory": "Perfect for ages 1-10. Small and manageable — you can do the whole thing in about an hour, which is ideal for short attention spans. The outdoor monk seal exhibit and the giant clam tank are the biggest kid magnets. The touch pool lets keiki handle sea cucumbers and hermit crabs. Combine with a walk along the adjacent shoreline trail to Sans Souci Beach."
+}

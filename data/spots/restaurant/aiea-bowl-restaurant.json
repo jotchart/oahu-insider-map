@@ -1,0 +1,20 @@
+{
+  "name": "Aiea Bowl Restaurant",
+  "tier": "B",
+  "lat": 21.3863,
+  "lng": -157.9319,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "Bowling alley restaurant with surprisingly excellent local food — the oxtail soup draws people from all over.",
+  "area": "Aiea",
+  "price": "$",
+  "mustOrder": [
+    "Oxtail soup — clear broth, tender meat, served with mustard cabbage and rice",
+    "Fried noodles — local-style chow mein, crispy and savory",
+    "Hamburger steak with gravy — classic plate lunch comfort food"
+  ],
+  "parking": "Large parking lot for the bowling alley. Never an issue.",
+  "talkStory": "Yes, it's in a bowling alley, and yes, the food is legitimately great. Aiea Bowl has been serving plate lunches since the early days and the oxtail soup is famous across the island. Lots of Pearl City/Aiea locals have been coming here for decades. The prices are still old-school cheap. Great for families — eat, then bowl a few games. If you're staying in Waikiki this isn't worth the drive, but if you're in the Pearl Harbor/Aiea area it's a must-stop.",
+  "cashOnly": false,
+  "kamaaina": null
+}

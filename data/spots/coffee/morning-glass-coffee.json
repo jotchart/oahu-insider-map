@@ -1,0 +1,19 @@
+{
+  "name": "Morning Glass Coffee",
+  "tier": "A",
+  "lat": 21.2877,
+  "lng": -157.8213,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Manoa's beloved neighborhood cafe where UH professors and surfers share the same lanai.",
+  "area": "Manoa",
+  "price": "$$",
+  "mustOrder": [
+    "honey lavender latte — floral and smooth",
+    "acai bowl — thick, not watered down"
+  ],
+  "parking": "Small lot behind the building; street parking on East Manoa Rd",
+  "talkStory": "Morning Glass is the kind of place where you see the same regulars every day — it's Manoa's living room. The upstairs lanai is magic on a rainy Manoa morning (and it rains a lot up here). They do solid food too, the breakfast menu is legit. If you're heading to Manoa Falls, stop here first. Way better than anything near the trailhead.",
+  "cashOnly": false,
+  "kamaaina": null
+}

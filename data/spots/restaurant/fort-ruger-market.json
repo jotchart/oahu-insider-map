@@ -1,0 +1,20 @@
+{
+  "name": "Fort Ruger Market",
+  "tier": "A",
+  "lat": 21.2703,
+  "lng": -157.7995,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "Tiny neighborhood deli on a residential side street — Filipino plate lunches with the kind of portions only aunties serve.",
+  "area": "Diamond Head",
+  "price": "$",
+  "mustOrder": [
+    "adobo plate — pork or chicken, classic Filipino comfort",
+    "lumpia — crispy spring rolls",
+    "loco moco — their version is massive"
+  ],
+  "parking": "Street parking on Alohea Ave; residential neighborhood, usually available",
+  "talkStory": "Hidden on a residential street near Fort Ruger Park — started as a corner market and evolved into a beloved plate lunch counter. The Filipino food is cooked from family recipes: pork adobo, lumpia, pinakbet, dinuguan. The same aunties and uncles come every week. Zero tourist presence. Enormous portions for the price. This is the kind of place you only find if a local tells you about it. Mon–Sat, closes early afternoon when food runs out.",
+  "cashOnly": false,
+  "kamaaina": null
+}

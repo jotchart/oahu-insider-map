@@ -1,0 +1,20 @@
+{
+  "name": "O'Kims",
+  "tier": "A",
+  "lat": 21.3118,
+  "lng": -157.8601,
+  "category": "restaurant",
+  "subcategory": "korean",
+  "tagline": "Korean fusion with French and Japanese technique — Yelp's #58 US restaurant in 2024. Truffle mandoo that'll rewire your brain.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "truffle mandoo — Korean dumplings elevated with truffle",
+    "kalbi short ribs — the classic, perfectly executed",
+    "black sesame cake — don't skip dessert"
+  ],
+  "parking": "Street parking on Nuuanu Ave; paid lots on Smith/Maunakea St",
+  "talkStory": "Chef Hyun Kim applies French, Italian, and Japanese techniques to Korean and local ingredients — the result is something genuinely new. Family-run on Nuuanu Ave in Chinatown, not a tourist magnet. Named Yelp's #58 of the Top 100 US Restaurants in 2024 — earned through real quality, not tourist review volume. Extensive vegan options including vegan kimchi. The small patio out back is a nice touch. Lunch and dinner, closed Mondays.",
+  "cashOnly": false,
+  "kamaaina": null
+}

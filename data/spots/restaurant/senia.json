@@ -1,0 +1,20 @@
+{
+  "name": "Senia",
+  "tier": "S",
+  "lat": 21.3107,
+  "lng": -157.8622,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Three-Michelin-star trained chef running two experiences under one roof — casual a la carte downstairs, elite 8-seat Chef's Counter upstairs.",
+  "area": "Chinatown / Downtown",
+  "price": "$$$",
+  "mustOrder": [
+    "Chef's Counter tasting menu (Fri/Sat only, reserve weeks ahead)",
+    "seared foie gras with haupia",
+    "any dessert — pastry chef Michelle Karr-Ueoka trained at Per Se and French Laundry"
+  ],
+  "parking": "Street parking on King/Nuuanu; paid lots on Smith St",
+  "talkStory": "Opened 2016 by Chef Anthony Rush and pastry chef Michelle Karr-Ueoka, both with decades under Alan Wong. Anthony trained in multiple three-Michelin-starred kitchens. The a la carte dining room is approachable and buzzy — come here on a weeknight for a great meal without the ceremony. The real move is the 8-seat Chef's Counter (Fri–Sat only) — a multi-course tasting menu that's one of the best dining experiences in Hawaii. Book weeks in advance. Won Hale 'Aina Gold for Best Tasting Menu. Tue–Sat dinner only.",
+  "cashOnly": false,
+  "kamaaina": null
+}

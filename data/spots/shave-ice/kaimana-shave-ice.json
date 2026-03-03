@@ -1,20 +1,20 @@
 {
   "name": "Kaimana Shave Ice",
-  "tier": "S",
-  "lat": 21.5948,
-  "lng": -158.1021,
+  "tier": "A",
+  "lat": 21.5791,
+  "lng": -158.1026,
   "category": "shave-ice",
   "subcategory": "gourmet",
-  "tagline": "Artisan syrups from scratch — the most refined shave ice on the North Shore by a wide margin.",
+  "tagline": "All-natural fruit syrups with half the sugar and scratch-made ice cream — Haleiwa's gourmet contender to Matsumoto.",
   "area": "Haleiwa",
   "price": "$",
   "mustOrder": [
-    "mango-lilikoi with haupia cream",
-    "strawberry-guava with li hing",
-    "seasonal specials (they rotate based on what fruit is available)"
+    "Any flavor with homemade mac nut ice cream — the signature combo",
+    "Liliko'i or mandarin — the tropical fruit syrups shine",
+    "Coffee flavor — unique and surprisingly good"
   ],
-  "parking": "Limited street parking — the Haleiwa lot near the harbor works",
-  "talkStory": "The owners are food artisans who treat shave ice like craft cocktails — every detail is intentional, from ice texture to syrup viscosity. This is the connoisseur's pick. They do small batches so flavors sell out — go early in their window. Pair with a Haleiwa town stroll — hit the art galleries and surf shops while you're at it.",
+  "parking": "Street parking along Kamehameha Hwy in Haleiwa town",
+  "talkStory": "Opened in 2018 in a barn-red building on Haleiwa's main road, Kaimana quickly became the locals' alternative to the Matsumoto tourist line. All syrups are made from real fruit with about half the sugar of conventional shave ice. The ice cream is made from scratch daily — vanilla, mac nut, banana, and a vegan option that's surprisingly rich. One size, one or two flavors, done right. Mon–Sat noon–4:30pm, closed Sundays. Small-batch means flavors rotate, so ask what's fresh.",
   "cashOnly": false,
   "kamaaina": null
 }

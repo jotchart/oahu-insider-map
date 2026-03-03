@@ -1,0 +1,20 @@
+{
+  "name": "Olive Tree Cafe",
+  "tier": "A",
+  "lat": 21.2757,
+  "lng": -157.7954,
+  "category": "restaurant",
+  "subcategory": "mediterranean",
+  "tagline": "The only legit Greek food on Oahu — cash only, BYOB, counter service, and a 20-year local cult following.",
+  "area": "Kahala",
+  "price": "$",
+  "mustOrder": [
+    "souvlaki plate — chicken or lamb, both excellent",
+    "falafel — crispy outside, fluffy inside",
+    "fresh fish special — ask what's available"
+  ],
+  "parking": "Small lot on Kilauea Ave; street parking on side streets",
+  "talkStory": "Open 20+ years and still the only Greek restaurant on Oahu worth visiting. Counter service, no frills, cash only, and BYOB — bring a bottle of wine and make an evening of it. The food quality is well above what the casual format suggests. Locals have been coming weekly for decades. Located next to Kapa Hale on Kilauea Ave. Dinner only, 5pm–9pm. Expect a wait on weekends — no reservations.",
+  "cashOnly": true,
+  "kamaaina": null
+}

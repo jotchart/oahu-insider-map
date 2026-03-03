@@ -1,0 +1,20 @@
+{
+  "name": "Like Like Drive Inn",
+  "tier": "B",
+  "lat": 21.2966,
+  "lng": -157.8363,
+  "category": "restaurant",
+  "subcategory": "local-grinds",
+  "tagline": "A 24-hour diner serving old-school Hawaiian comfort food since 1953 — oxtail soup, pancakes, and loco moco at 3am.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "oxtail soup",
+    "pancakes",
+    "loco moco"
+  ],
+  "parking": "Free lot",
+  "talkStory": "Pronounced 'lee-keh lee-keh' (named after the Likelike Highway nearby), this 24-hour diner has been feeding Honolulu's late-night crowd since 1953. The oxtail soup, pancake stack, and loco moco are comfort food classics done right. After-bar crowds, night-shift workers, and early-morning fishermen all converge here. The vinyl booths and Formica tables haven't changed in decades, and that's exactly the point.",
+  "cashOnly": false,
+  "kamaaina": null
+}

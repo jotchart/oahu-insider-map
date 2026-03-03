@@ -1,0 +1,17 @@
+{
+  "name": "KCC Farmers Market",
+  "tier": "S",
+  "lat": 21.269,
+  "lng": -157.8,
+  "category": "farmers-market",
+  "subcategory": "weekend-market",
+  "tagline": "Hawaii's biggest and best farmers market — 80+ vendors, incredible prepared food stalls, and a Diamond Head backdrop.",
+  "area": "Kapahulu / Diamond Head",
+  "price": "$-$$",
+  "parking": "Free parking at KCC campus; fills up fast",
+  "hours": "Saturdays 7:30am-11am; Tuesdays 4-7pm (smaller)",
+  "bestTime": "Arrive at 7:30am Saturday opening; by 9:30am the best items sell out",
+  "kidFriendly": true,
+  "talkStory": "The biggest and best farmers market in Hawaii takes place every Saturday morning at Kapiolani Community College near Diamond Head. About 80 vendors sell everything from fresh-pressed sugarcane juice and macadamia nut ice cream to fried green tomatoes and local honey. The prepared food stalls are a destination unto themselves. Locals arrive right at 7:30am for the best selection. The Tuesday evening market is smaller but less crowded.",
+  "kamaaina": null
+}

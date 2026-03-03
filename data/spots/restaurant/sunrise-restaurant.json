@@ -1,0 +1,20 @@
+{
+  "name": "Sunrise Restaurant Hawaii",
+  "tier": "A",
+  "lat": 21.2762,
+  "lng": -157.8155,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "tagline": "Okinawan-style home cooking on Kapahulu — a cuisine you can't find outside Hawaii or Okinawa itself.",
+  "area": "Kapahulu",
+  "price": "$",
+  "mustOrder": [
+    "Okinawan soba — different from mainland Japanese soba, thicker and heartier",
+    "goya champuru — bitter melon stir-fry, the classic Okinawan dish",
+    "andagi — Okinawan-style doughnut"
+  ],
+  "parking": "Street parking on Kapahulu Ave; small lot nearby",
+  "talkStory": "Hawaii has the largest Okinawan population outside Japan, and places like Sunrise keep that culinary heritage alive. This is home-style Okinawan cooking — not fancy, not trendy, just the food that local Okinawan families grew up eating. The crowd is primarily older local Japanese and Okinawan families. A deeply cultural pick that tells a story about Hawaii's immigrant history. Lunch and dinner, closed Mondays.",
+  "cashOnly": false,
+  "kamaaina": null
+}

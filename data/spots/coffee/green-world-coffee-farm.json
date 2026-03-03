@@ -1,0 +1,19 @@
+{
+  "name": "Green World Coffee Farm",
+  "tier": "A",
+  "lat": 21.521,
+  "lng": -158.013,
+  "category": "coffee",
+  "subcategory": "farm-cafe",
+  "tagline": "A working 7-acre coffee farm on a former pineapple plantation — free self-guided tours and freshly roasted Waialua coffee.",
+  "area": "Wahiawa / Central",
+  "price": "$",
+  "mustOrder": [
+    "Waialua estate coffee",
+    "homemade banana bread"
+  ],
+  "parking": "Free lot on the farm",
+  "talkStory": "A 7-acre working coffee farm on a former pineapple plantation in Central Oahu. Free self-guided tours let you walk among the coffee trees and learn about the bean-to-cup process. The cafe serves freshly roasted Waialua coffee and homemade baked goods at prices far below any Waikiki coffee shop. Locals stop here on the way to or from the North Shore for a genuinely good, genuinely local cup of coffee.",
+  "cashOnly": false,
+  "kamaaina": null
+}

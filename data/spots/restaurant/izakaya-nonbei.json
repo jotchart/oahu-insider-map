@@ -1,0 +1,20 @@
+{
+  "name": "Izakaya Nonbei",
+  "tier": "A",
+  "lat": 21.2753,
+  "lng": -157.8121,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "tagline": "Intimate Tokyo-style izakaya tucked on a side street — the bartender knows your name by the second visit.",
+  "area": "Kapahulu",
+  "price": "$$",
+  "mustOrder": [
+    "yakitori — grilled over charcoal, proper izakaya style",
+    "sashimi platter — whatever's fresh",
+    "agedashi tofu — crispy and silky"
+  ],
+  "parking": "Street parking on Olu St and Kapahulu side streets",
+  "talkStory": "If Tokkuri Tei is the boisterous, social izakaya, Nonbei is its quieter, more refined counterpart. Small counter-bar setting that genuinely feels like a side-street izakaya in Tokyo. The chef/owner is Japanese and the food reflects that heritage without compromise. The crowd is local Japanese-American regulars and expats. Tucked on Olu Street off Kapahulu — you have to know it's there. Dinner only, 5pm–late. Reservations recommended.",
+  "cashOnly": false,
+  "kamaaina": null
+}

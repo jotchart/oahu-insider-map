@@ -1,0 +1,20 @@
+{
+  "name": "Ars Cafe",
+  "tier": "B",
+  "lat": 21.2660,
+  "lng": -157.8105,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Art gallery meets gelato shop meets espresso bar — a charming post-Diamond Head pit stop with homemade Italian gelato.",
+  "area": "Kapahulu / Diamond Head",
+  "price": "$$",
+  "mustOrder": [
+    "Homemade gelato — rotating tropical flavors like lilikoi and haupia",
+    "Espresso or cappuccino",
+    "Affogato — espresso poured over gelato"
+  ],
+  "parking": "Street parking on Monsarrat Ave. Can be tight on weekends",
+  "talkStory": "Tucked on Monsarrat Ave near the base of Diamond Head, Ars Cafe is a tiny Italian-style cafe that doubles as an art gallery. The homemade gelato is the star — made fresh daily with tropical flavors you won't find on the mainland. The espresso is solid and the affogato (espresso over gelato) is the perfect post-hike reward. The space is small and charming with rotating art on the walls. Great combined with Diamond Head sunrise hike or a walk through Kapiolani Park.",
+  "cashOnly": false,
+  "kamaaina": null
+}

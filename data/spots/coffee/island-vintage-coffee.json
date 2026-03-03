@@ -1,0 +1,20 @@
+{
+  "name": "Island Vintage Coffee",
+  "tier": "A",
+  "lat": 21.2842,
+  "lng": -157.8370,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "100% Kona coffee, acai bowls the size of your head, and the best iced latte in Waikiki — tourist-friendly but genuinely good.",
+  "area": "Waikiki (Royal Hawaiian Center)",
+  "price": "$$",
+  "mustOrder": [
+    "Mauna Kea Iced Coffee — Kona coffee, coconut gelato, black lava sea salt",
+    "Acai Bowl — massive, loaded with granola and fresh fruit",
+    "100% Kona drip coffee"
+  ],
+  "parking": "Royal Hawaiian Center validated parking or street meters on Kalakaua Ave",
+  "talkStory": "Yes, it's in a Waikiki mall, and yes, tourists pack it — but the coffee is genuinely excellent. They use 100% Hawaiian-grown beans (not blends) and roast in small batches. The Mauna Kea Iced Coffee with a scoop of coconut gelato and black lava sea salt is iconic. Their acai bowls are also some of the best on the island — huge portions. Multiple locations across Oahu (Ko Olina, Ala Moana) but the Royal Hawaiian Center original has the most energy. Expect a line at peak hours.",
+  "cashOnly": false,
+  "kamaaina": null
+}

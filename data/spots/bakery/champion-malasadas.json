@@ -1,0 +1,20 @@
+{
+  "name": "Champion Malasadas",
+  "tier": "A",
+  "lat": 21.3937,
+  "lng": -157.744,
+  "category": "bakery",
+  "subcategory": "malasada-shop",
+  "tagline": "Kailua's neighborhood malasada spot — lighter and less greasy than the famous ones, with perfect sugar coating.",
+  "area": "Kailua",
+  "price": "$",
+  "mustOrder": [
+    "plain malasada",
+    "haupia filled",
+    "custard filled"
+  ],
+  "parking": "Free lot at shopping center",
+  "talkStory": "While Leonard's gets all the fame, Windward side locals swear by Champion Malasadas in Kailua. The malasadas here are lighter and less greasy, with a perfect sugar coating. The haupia-filled and custard-filled versions are excellent. Located in a small shopping center, it's a true neighborhood spot where you'll see locals grabbing a box on the way home. Freshest in the morning.",
+  "cashOnly": false,
+  "kamaaina": null
+}

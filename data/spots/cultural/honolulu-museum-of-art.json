@@ -1,0 +1,17 @@
+{
+  "name": "Honolulu Museum of Art",
+  "tier": "A",
+  "lat": 21.3038,
+  "lng": -157.8485,
+  "category": "cultural",
+  "subcategory": "museum",
+  "tagline": "Hawaii's largest art museum — 50,000 works spanning 5,000 years, housed in a stunning 1927 building with open-air courtyards.",
+  "area": "Downtown Honolulu",
+  "price": "$$",
+  "parking": "Street parking on Beretania St or paid lots nearby. Limited museum lot",
+  "hours": "Wed–Mon 10am–6pm, Fri until 9pm. Closed Tuesdays",
+  "bestTime": "First Friday of the month — free admission, live music, food trucks, and a festive atmosphere. Weekday mornings are quietest",
+  "kidFriendly": true,
+  "kamaaina": "Free admission for Hawaii residents with valid ID. General admission $20",
+  "talkStory": "Founded by Anna Rice Cooke in 1927, this museum is a hidden gem that most visitors skip. The building itself is gorgeous — a series of galleries connected by open-air courtyards with koi ponds and tropical gardens. The collection spans Asian, European, American, Pacific Island, and Hawaiian art. Highlights include a world-class collection of Japanese woodblock prints, a Monet, a Van Gogh, and rotating contemporary exhibitions. The museum cafe is excellent for lunch. Also operates Shangri La (Doris Duke's Islamic art estate) — book that separately."
+}

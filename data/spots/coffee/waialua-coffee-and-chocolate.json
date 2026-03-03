@@ -1,0 +1,19 @@
+{
+  "name": "Waialua Estate Coffee & Chocolate",
+  "tier": "A",
+  "lat": 21.5744,
+  "lng": -158.1303,
+  "category": "coffee",
+  "subcategory": "roaster",
+  "tagline": "Farm-to-cup coffee grown and roasted right here on the North Shore — this is the real Hawaii coffee experience.",
+  "area": "North Shore (Waialua)",
+  "price": "$$",
+  "mustOrder": [
+    "Waialua single-origin drip — grown literally across the road",
+    "chocolate-covered coffee beans — made on-site from estate cacao"
+  ],
+  "parking": "Free lot at the old Waialua Sugar Mill complex",
+  "talkStory": "This is one of the few places on Oahu where the coffee is actually grown, roasted, and served in the same ahupuaa. The old Waialua Sugar Mill has been converted into a collection of local shops, and the coffee operation here uses land that was once sugarcane fields. They grow cacao too, so the chocolate-covered beans are a double-local combo. Ask about the harvest — they're usually happy to talk story about the farming process.",
+  "cashOnly": false,
+  "kamaaina": null
+}

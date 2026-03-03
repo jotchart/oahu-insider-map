@@ -1,0 +1,20 @@
+{
+  "name": "Nisshodo Candy Store",
+  "tier": "S",
+  "lat": 21.326,
+  "lng": -157.865,
+  "category": "bakery",
+  "subcategory": "mochi-shop",
+  "tagline": "Handmade Japanese mochi and manju since the 1920s — hidden in an industrial warehouse, sold out by noon.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "chichi dango",
+    "mochi",
+    "manju"
+  ],
+  "parking": "Free lot on Dillingham Blvd",
+  "talkStory": "Hidden in an industrial warehouse on Dillingham Boulevard, Nisshodo has been making traditional Japanese mochi and manju by hand since the 1920s. The chichi dango (soft, chewy rice flour confection dusted in potato starch) is the signature — locals buy it by the box for family gatherings. Everything is made fresh daily in small batches. Arrive between 7-9am for the freshest selection; popular items sell out after noon. Closed Sundays.",
+  "cashOnly": true,
+  "kamaaina": null
+}

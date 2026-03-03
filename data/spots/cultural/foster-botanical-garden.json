@@ -1,0 +1,17 @@
+{
+  "name": "Foster Botanical Garden",
+  "tier": "B",
+  "lat": 21.317,
+  "lng": -157.858,
+  "category": "cultural",
+  "subcategory": "garden",
+  "tagline": "Honolulu's oldest botanical garden (1853) — ancient trees, rare orchids, and a peaceful escape in the heart of the city.",
+  "area": "Chinatown / Downtown",
+  "price": "$5",
+  "parking": "Free lot on Vineyard Blvd",
+  "hours": "Daily 9am-4pm",
+  "bestTime": "Weekday mornings for the most peaceful experience",
+  "kidFriendly": true,
+  "talkStory": "Established in 1853 by Queen Kalama, Foster is Honolulu's oldest botanical garden and a peaceful 14-acre oasis in the heart of the city. Ancient trees planted by early botanists tower overhead, the orchid collection is world-class, and the prehistoric glen features plants that date back to the age of dinosaurs. Most tourists rush to Diamond Head or Waikiki and completely miss this gem. The bo tree, grown from a cutting of the original tree under which Buddha attained enlightenment, is a highlight.",
+  "kamaaina": null
+}

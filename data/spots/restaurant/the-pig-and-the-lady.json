@@ -1,0 +1,20 @@
+{
+  "name": "The Pig and the Lady",
+  "tier": "A",
+  "lat": 21.3118,
+  "lng": -157.8628,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "Vietnamese-Hawaiian fusion that put Chinatown dining on the map — Chef Andrew Le's pho French dip is genius.",
+  "area": "Chinatown",
+  "price": "$$$",
+  "mustOrder": [
+    "Pho French dip — prime rib dipped in pho broth, absolute game changer",
+    "Crispy crepe banh xeo — stuffed with shrimp, pork, and herbs",
+    "Smoked meat pho — rich bone broth with brisket and all the fixings"
+  ],
+  "parking": "Street parking on Smith or Hotel St. Chinatown garage at 1130 N Nimitz Hwy is cheapest. Meter parking free after 6pm.",
+  "talkStory": "Chef Andrew Le started at the KCC Farmers Market and blew up from there. The dinner menu is creative Vietnamese-meets-local, and the Saturday farmers market booth still has lines. Dinner reservations recommended — walk-ins can try the bar. The Chinatown location has serious energy on Friday and Saturday nights. If you want the more casual lunch vibe, they do a killer weekday lunch too.",
+  "cashOnly": false,
+  "kamaaina": null
+}

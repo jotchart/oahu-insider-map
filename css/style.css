@@ -1168,9 +1168,74 @@ a.popup-action-btn { text-decoration: none; }
 .filter-bar, .spot-bar, .bottom-panel { }
 
 /* ══════════════════════════════════════════
+   Info Panel (fixed bottom card — desktop)
+   ══════════════════════════════════════════ */
+.info-panel {
+  position: fixed;
+  bottom: 110px;              /* above category bar + top bar */
+  left: 50%;
+  transform: translateX(-50%) translateY(calc(100% + 110px));
+  width: min(440px, calc(100vw - 32px));
+  max-height: calc(100dvh - 160px);
+  overflow-y: auto;
+  background: var(--surface);
+  border: 1px solid rgba(233,69,96,0.25);
+  border-radius: 14px;
+  box-shadow: 0 -4px 32px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.04);
+  z-index: 1200;
+  transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255,255,255,0.2) transparent;
+}
+.info-panel::-webkit-scrollbar { width: 5px; }
+.info-panel::-webkit-scrollbar-track { background: transparent; }
+.info-panel::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.2); border-radius: 3px; }
+
+.info-panel.open {
+  transform: translateX(-50%) translateY(0);
+}
+
+.info-panel-close {
+  position: sticky;
+  top: 0;
+  float: right;
+  z-index: 2;
+  background: rgba(22,33,62,0.85);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--text-dim);
+  font-size: 22px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 8px 8px 0 0;
+  transition: color 0.15s, border-color 0.15s;
+}
+.info-panel-close:hover {
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.info-panel-body {
+  clear: both;
+}
+
+/* Hide Leaflet default popup when info panel is in use */
+.info-panel-active .leaflet-popup {
+  display: none !important;
+}
+
+/* ══════════════════════════════════════════
    Responsive
    ══════════════════════════════════════════ */
 @media (max-width: 768px) {
+  /* Info panel not used on mobile — fullscreen popups handle it */
+  .info-panel { display: none !important; }
+
   /* Full-screen popup cards on mobile */
   .mobile-fullscreen {
     position: fixed !important;

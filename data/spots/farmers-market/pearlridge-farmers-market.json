@@ -1,0 +1,17 @@
+{
+  "name": "Pearlridge Farmers Market",
+  "tier": "B",
+  "lat": 21.385,
+  "lng": -157.938,
+  "category": "farmers-market",
+  "subcategory": "weekend-market",
+  "tagline": "Saturday morning market in Aiea drawing local families — strong Filipino food stalls and the best prices on tropical fruit.",
+  "area": "Aiea / Pearl City",
+  "price": "$",
+  "parking": "Free parking at Pearlridge Center",
+  "hours": "Saturdays 8am-12pm",
+  "bestTime": "Arrive early for the best tropical fruit selection",
+  "kidFriendly": true,
+  "talkStory": "A Saturday morning market at Pearlridge Center that draws local families from Central and West Oahu. The selection of fresh tropical fruits, locally made pickles and preserves, and Filipino prepared foods is particularly strong. This market sees very few tourists and offers some of the best prices on the island for local produce. A great stop if you're in the Aiea/Pearl City area.",
+  "kamaaina": null
+}

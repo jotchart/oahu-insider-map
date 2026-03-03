@@ -1,0 +1,20 @@
+{
+  "name": "Yakitori Ando",
+  "tier": "A",
+  "lat": 21.28,
+  "lng": -157.783,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "tagline": "Tiny Kaimuki izakaya serving omakase-only yakitori over binchotan charcoal — Oahu's best-kept dining secret.",
+  "area": "Kaimuki",
+  "price": "$$$",
+  "mustOrder": [
+    "omakase yakitori course",
+    "tsukune with egg yolk",
+    "chicken hearts"
+  ],
+  "parking": "Street parking on Center St and Waialae Ave",
+  "talkStory": "With only a handful of counter seats, Chef Ando grills each skewer over binchotan charcoal with Tokyo-level precision — chicken hearts, tsukune with runny egg yolk, and seasonal specials. The omakase-only format means you sit back and trust the chef. Book 3-4 weeks in advance; locals consider this the best-kept dining secret on Oahu. The intimate counter experience takes about 90 minutes and is unforgettable.",
+  "cashOnly": false,
+  "kamaaina": null
+}

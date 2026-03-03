@@ -1,0 +1,19 @@
+{
+  "name": "Haleiwa Bowls",
+  "tier": "B",
+  "lat": 21.5762,
+  "lng": -158.1024,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "North Shore's go-to for acai bowls and espresso drinks in the heart of Haleiwa town.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$$",
+  "mustOrder": [
+    "iced honey latte — pairs perfectly with an acai bowl",
+    "cold brew — strong enough for a post-surf revival"
+  ],
+  "parking": "Free lot behind Haleiwa town shops on Kamehameha Hwy",
+  "talkStory": "Haleiwa Bowls nails that North Shore surfer-health-conscious combo. The acai bowls are some of the best on the island, and the espresso drinks are better than you'd expect from a bowl shop. It's right in Haleiwa town so you can walk to Matsumoto's for shave ice after. Come early before the day-trippers from town arrive — by 10am the line gets long.",
+  "cashOnly": false,
+  "kamaaina": null
+}

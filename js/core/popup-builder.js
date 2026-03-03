@@ -71,7 +71,7 @@ export function buildNeighborhoodPopup(n, crimeCount) {
   </div>`;
 }
 
-const FOOD_CATS = new Set(['restaurant', 'coffee', 'shave-ice']);
+const FOOD_CATS = new Set(['restaurant', 'coffee', 'shave-ice', 'market', 'nightlife', 'bakery']);
 
 function buildFoodPopupBody(s) {
   let html = '';
@@ -187,7 +187,7 @@ export function buildSpotPopup(s, SPOT_CATEGORIES) {
 
   const body = isFood ? buildFoodPopupBody(s) : buildActivityPopupBody(s);
 
-  const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}&destination_place_id=&travelmode=driving`;
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.name + ' Oahu Hawaii')}`;
 
   return `<div class="popup-inner spot-popup">
     <div class="popup-header">

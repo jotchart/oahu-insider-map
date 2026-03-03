@@ -1,0 +1,20 @@
+{
+  "name": "Haleiwa Joe's",
+  "tier": "B",
+  "lat": 21.5793,
+  "lng": -158.1035,
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "tagline": "North Shore's sit-down seafood spot with a chill surfer vibe and solid fresh fish plates.",
+  "area": "Haleiwa",
+  "price": "$$",
+  "mustOrder": [
+    "Fresh catch of the day — grilled or seared, always local fish",
+    "Coconut shrimp — crispy and sweet, a crowd favorite",
+    "Joe's salad — mixed greens with macadamia nuts and lilikoi dressing"
+  ],
+  "parking": "Parking lot at Haleiwa Town Center, right in front of the restaurant.",
+  "talkStory": "Haleiwa Joe's has been in Haleiwa forever and it's the default 'nice dinner' option on the North Shore. Nothing mind-blowing, but reliably good fish in a laid-back setting. Good for families or when you want something more substantial than a food truck after a beach day. There used to be a Kaneohe location too (Haiku Gardens) — that one closed. The North Shore location is the OG. Sunset time on their patio is a vibe.",
+  "cashOnly": false,
+  "kamaaina": null
+}

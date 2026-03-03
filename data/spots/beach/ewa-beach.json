@@ -1,0 +1,17 @@
+{
+  "name": "Ewa Beach",
+  "tier": "C",
+  "lat": 21.3132,
+  "lng": -158.0076,
+  "category": "beach",
+  "subcategory": "kid-friendly",
+  "tagline": "A mellow neighborhood beach where local families set up camp all weekend — no tourists, no fuss.",
+  "area": "Ewa",
+  "price": "Free",
+  "parking": "Street parking in the Ewa Beach neighborhood; free but limited",
+  "hours": "Open daily, sunrise to sunset",
+  "bestTime": "Morning for calm water; weekdays for peace and quiet",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "talkStory": "This is the definition of a neighborhood beach — families with canopies, coolers of food, and kids running around all day. The water is shallow and calm, which is why the keiki love it. Not the prettiest sand on the island, but the vibe is authentic local lifestyle. Hit up the nearby L&L or Rainbow Drive-In for a plate lunch after. If you're staying in the Ko Olina area, this is a quick side trip."
+}

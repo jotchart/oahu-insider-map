@@ -1,0 +1,19 @@
+{
+  "name": "Island Brew Coffeehouse",
+  "tier": "B",
+  "lat": 21.2887,
+  "lng": -157.8447,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Hawaii-grown coffee in an open-air lanai setting right on the Ala Moana waterfront.",
+  "area": "Ala Moana",
+  "price": "$$",
+  "mustOrder": [
+    "Hawaiian honey latte — local honey and Waialua coffee",
+    "cold brew on nitro — smooth and creamy"
+  ],
+  "parking": "Ala Moana Center parking garage, free for 4 hours",
+  "talkStory": "This is the spot when you want good Hawaii-grown coffee without the Waikiki markup. They source from multiple Hawaiian farms and rotate seasonally. The outdoor lanai has views of Ala Moana Beach Park — grab a seat outside if the trade winds are blowing. Way less hectic than the food court upstairs.",
+  "cashOnly": false,
+  "kamaaina": null
+}

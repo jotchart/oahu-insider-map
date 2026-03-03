@@ -1,0 +1,20 @@
+{
+  "name": "Kona Brewing Co. Hawaii Kai",
+  "tier": "B",
+  "lat": 21.2891,
+  "lng": -157.7075,
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "tagline": "Hawaii Kai's waterfront brewpub — solid food, great beer, and sunset views over the marina.",
+  "area": "Hawaii Kai",
+  "price": "$$",
+  "mustOrder": [
+    "Longboard Lager or Big Wave on tap — always better on draft at the source",
+    "Kona Brewing pizza — wood-fired, crispy, better than expected",
+    "Poke nachos — ahi poke on won ton chips, great pupu"
+  ],
+  "parking": "Koko Marina Center parking lot. Plenty of spaces.",
+  "talkStory": "Yes, Kona Brewing is a big brand now, but the Hawaii Kai brewpub is their original Oahu location and it's actually a great spot. The marina-side patio is perfect for sunset beers after a Hanauma Bay or Hawaii Kai day. Food is solid pub fare — not life-changing but reliably good. The beer is always fresher here than anywhere else. Good family spot too. Skip the indoor seating and grab a patio table.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Buzz's Lanikai",
+  "tier": "A",
+  "lat": 21.3886,
+  "lng": -157.7142,
+  "category": "restaurant",
+  "subcategory": "seafood",
+  "tagline": "Old-school Kailua steakhouse steps from Lanikai Beach — the kiawe-grilled ahi steak is a local institution.",
+  "area": "Lanikai",
+  "price": "$$",
+  "mustOrder": [
+    "Kiawe-grilled ahi steak — seared over wood, served with garlic butter",
+    "Buzz's original steak — 10oz sirloin, simple and satisfying",
+    "Coconut shrimp — crispy and sweet, classic pupu"
+  ],
+  "parking": "Small parking lot in front, plus street parking on Kawailoa Rd. Beach traffic makes weekends tough — go weekday evenings.",
+  "talkStory": "Buzz's has been here since the '60s and it looks like it — wood-paneled walls, tiki vibes, zero pretension. It's the kind of place where sandy-footed families sit next to couples on date night. The kiawe-grilled fish is the star — they use real local kiawe wood. Perfect post-beach dinner after a Lanikai day. BYOB used to be the move but they have a full bar now. Reservations don't exist — just show up and wait.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "KailuaTown Farmers Market",
+  "tier": "B",
+  "lat": 21.4000,
+  "lng": -157.7440,
+  "category": "farmers-market",
+  "subcategory": "sunday",
+  "tagline": "Sunday morning market with live music, local coffee, and a relaxed Kailua vibe — the Windward side's best weekend ritual.",
+  "area": "Kailua",
+  "price": "Free",
+  "parking": "Free parking near Adventist Health Castle Hospital area. Come early for closest spots",
+  "hours": "Sundays 8am–12pm, rain or shine",
+  "bestTime": "Arrive at 8am for best selection of fresh produce and baked goods before they sell out",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "talkStory": "Run by FarmLovers Markets at 640 Ulukahiki St, east of Castle Hospital. Live music sets the mood while you browse local produce, fresh flowers, jams, honey, and prepared foods. The open-air cafe area with locally grown coffee and pastries is where Kailua locals hang on Sunday mornings. Dog-friendly. Most vendors take cards but bring cash for faster transactions. Pairs well with a morning at Kailua Beach or brunch at Moke's down the road."
+}

@@ -24,15 +24,10 @@ const map = L.map('map', {
 
 L.control.zoom({ position: 'topright' }).addTo(map);
 
-const tileNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
   attribution: '&copy; OpenStreetMap &middot; &copy; CARTO',
   maxZoom: 19
-});
-const tileWithLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &middot; &copy; CARTO',
-  maxZoom: 19
-});
-tileNoLabels.addTo(map);
+}).addTo(map);
 
 // ── Register map in core registry ──
 registerMap(map);
@@ -54,9 +49,7 @@ const isMobile = window.matchMedia('(max-width: 768px)').matches;
 const POPUP_OPTS = {
   maxWidth: isMobile ? 9999 : 440,
   closeButton: true,
-  autoPan: !isMobile,
-  autoPanPaddingTopLeft: [10, 80],
-  autoPanPaddingBottomRight: [10, isMobile ? 120 : 10],
+  autoPan: false,
   className: isMobile ? 'mobile-fullscreen' : ''
 };
 
@@ -529,8 +522,6 @@ function activateCategory(cat) {
     neighborhoodVisible = true;
     hoodPill.setAttribute('aria-pressed', 'true');
     // Swap to labeled tiles so street names are visible
-    map.removeLayer(tileNoLabels);
-    tileWithLabels.addTo(map);
     // Bind popups on polygons so tapping opens cards
     polygonLayers.forEach(layer => {
       if (layer && layer.data) layer.bindPopup(getPopupHTML(layer.data), POPUP_OPTS);
@@ -553,9 +544,6 @@ function deactivateCategory(cat) {
   if (cat === 'neighborhoods') {
     neighborhoodVisible = false;
     hoodPill.setAttribute('aria-pressed', 'false');
-    // Swap back to no-label tiles
-    map.removeLayer(tileWithLabels);
-    tileNoLabels.addTo(map);
     // Unbind popups so tapping dim polygons does nothing
     polygonLayers.forEach(layer => {
       if (layer) layer.unbindPopup();
@@ -1285,6 +1273,54 @@ if (arToggle) {
       },
       { enableHighAccuracy: true, timeout: 10000 }
     );
+  });
+}
+
+// ── Info Panel (fixed bottom card — desktop) ──
+if (!isMobile) {
+  const infoPanel = document.getElementById('infoPanel');
+  const infoPanelBody = document.getElementById('infoPanelBody');
+  const infoPanelClose = document.getElementById('infoPanelClose');
+
+  function showInfoPanel(html) {
+    infoPanelBody.innerHTML = html;
+    infoPanel.classList.add('open');
+    document.body.classList.add('info-panel-active');
+  }
+
+  function hideInfoPanel() {
+    infoPanel.classList.remove('open');
+    document.body.classList.remove('info-panel-active');
+  }
+
+  // Intercept all Leaflet popups and redirect to info panel
+  map.on('popupopen', e => {
+    const wasOpen = infoPanel.classList.contains('open');
+    // Always close the Leaflet popup — we show content in the info panel instead
+    map.closePopup(e.popup);
+
+    if (wasOpen) {
+      // Panel was already showing — just dismiss it, don't swap to new content
+      hideInfoPanel();
+      return;
+    }
+
+    const content = e.popup.getContent();
+    if (content) {
+      showInfoPanel(content);
+    }
+  });
+
+  infoPanelClose.addEventListener('click', hideInfoPanel);
+
+  // Dismiss on map click (but not when clicking a marker/polygon)
+  map.on('click', () => {
+    if (infoPanel.classList.contains('open')) hideInfoPanel();
+  });
+
+  // Dismiss on Escape key
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && infoPanel.classList.contains('open')) hideInfoPanel();
   });
 }
 

@@ -1,0 +1,20 @@
+{
+  "name": "Maria Bonita Restaurant",
+  "tier": "A",
+  "lat": 21.3097,
+  "lng": -157.8614,
+  "category": "restaurant",
+  "subcategory": "mexican",
+  "tagline": "28-year Chinatown Mexican institution — BYOB, no AC, just fans and the Mexican flag on the walls. The wet chile verde burrito is legendary.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "wet chile verde burrito — smothered in green sauce, the signature",
+    "ahi burrito — Hawaiian-Mexican fusion done right",
+    "combo plate — try multiple things"
+  ],
+  "parking": "Street parking on Hotel St; paid lots on Maunakea St",
+  "talkStory": "Owner Diego started with a lunch wagon in Kailua/Waimanalo in 1998, named after his mother. Moved to this Chinatown spot and never left. No air conditioning, just fans. BYOB — bring your own beer or wine. The portions are crazy generous. The no-frills environment self-selects for people who care about food, not ambiance. Nearly three decades of authentic Mexican food in a hole-in-the-wall — the definition of a local gem. Lunch and dinner, closed Sun–Mon.",
+  "cashOnly": false,
+  "kamaaina": null
+}

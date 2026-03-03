@@ -1,0 +1,20 @@
+{
+  "name": "Marukai Wholesale Mart",
+  "tier": "A",
+  "lat": 21.335,
+  "lng": -157.862,
+  "category": "market",
+  "subcategory": "japanese-grocery",
+  "tagline": "Hawaii's first warehouse-style Japanese market — fresh bentos, sushi counters, and Japanese snacks you can't find anywhere else.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "daily bento box",
+    "poke",
+    "sushi rolls"
+  ],
+  "parking": "Free lot",
+  "talkStory": "Marukai is a Japanese discount warehouse that locals have relied on for decades. The daily bento selection is legendary — arrive before lunch for the widest variety of freshly made boxes. The poke and sushi counters rival dedicated restaurants at a fraction of the price. Stock up on Japanese snacks, kitchenware, and specialty ingredients you won't find at Safeway. Membership not required for food purchases.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Shimazu Shave Ice",
+  "tier": "B",
+  "lat": 21.3207,
+  "lng": -157.8696,
+  "category": "shave-ice",
+  "subcategory": "classic",
+  "tagline": "Old-school Kalihi corner shop — shave ice the way your tutu remembers it.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "rainbow with ice cream on the bottom",
+    "li hing mui — perfectly sour-sweet",
+    "vanilla with azuki beans"
+  ],
+  "parking": "Street parking on Kalihi St — not hard to find a spot",
+  "talkStory": "Shimazu has been around for decades in Kalihi, a neighborhood tourists never see. The shave ice is classic-style with fine ice and local-brand syrups. The aunties who work here know every kid in the neighborhood by name. It's cash-friendly and no-frills — just a counter window and a bench outside. This is the kind of place that makes Kalihi feel like old Hawaii.",
+  "cashOnly": true,
+  "kamaaina": null
+}

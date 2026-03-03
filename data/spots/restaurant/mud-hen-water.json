@@ -1,0 +1,20 @@
+{
+  "name": "Mud Hen Water",
+  "tier": "A",
+  "lat": 21.2826,
+  "lng": -157.8128,
+  "category": "restaurant",
+  "subcategory": "hawaiian",
+  "tagline": "Modern Hawaiian cuisine in Kaimuki that showcases native ingredients — Ed Kenney's love letter to the land.",
+  "area": "Kaimuki",
+  "price": "$$",
+  "mustOrder": [
+    "Poi sourdough bread — tangy, purple-tinged, baked fresh daily",
+    "Kalo (taro) nachos — local twist on nachos with taro chips and kalua pork",
+    "Seasonal fish — always fresh, prepared with native Hawaiian flavors"
+  ],
+  "parking": "Street parking on Waialae Ave or side streets. Kaimuki parking can be tough on weekends — go early.",
+  "talkStory": "Chef Ed Kenney (also behind Town and Mud Hen Water) is deeply committed to local sourcing — the menu changes based on what Hawaiian farms have available. The name 'Mud Hen Water' is the literal English translation of Waikiki. The food is Hawaiian in spirit but modern in execution. The poi sourdough alone is worth the visit. Great Kaimuki date night option. Pair it with a walk up Waialae Ave to check out the other Kaimuki shops.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Diamond Head Market & Grill",
+  "tier": "A",
+  "lat": 21.2687,
+  "lng": -157.8058,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "Monsarrat Ave institution since the '90s — the lemon crunch cake alone is worth the trip.",
+  "area": "Kapahulu / Diamond Head",
+  "price": "$",
+  "mustOrder": [
+    "lemon crunch cake — legendary, the signature",
+    "ginger wasabi salmon plate",
+    "poke bowls — fresh, well-priced"
+  ],
+  "parking": "Small lot behind the market; street parking on Monsarrat Ave",
+  "talkStory": "Open 25+ years on Monsarrat Ave, serving plate lunches, poke, and baked goods from a takeout window. The lemon crunch cake is genuinely iconic — people order full cakes for parties. Tourists found this place (it's on the Diamond Head hike route), but it's a legitimate institution, not a tourist trap. The insider move: go on a weekday and avoid the post-hike weekend rush. The market side has good grab-and-go snacks too. Daily 7:30am–8pm.",
+  "cashOnly": false,
+  "kamaaina": null
+}

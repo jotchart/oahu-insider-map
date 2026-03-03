@@ -1,0 +1,20 @@
+{
+  "name": "Hank's Haute Dogs",
+  "tier": "B",
+  "lat": 21.2969,
+  "lng": -157.8559,
+  "category": "restaurant",
+  "subcategory": "food-truck",
+  "tagline": "Gourmet hot dogs in Kakaako — the lobster dog and Chicago dog are a step above any street cart.",
+  "area": "Kakaako",
+  "price": "$",
+  "mustOrder": [
+    "Lobster dog — chunks of lobster on a buttery roll with lemon aioli",
+    "Chicago dog — proper Vienna beef, neon relish, sport peppers, the whole deal",
+    "Bacon-wrapped dog — crispy bacon-wrapped hot dog with jalape\u00f1os"
+  ],
+  "parking": "Street metered parking on Coral St. SALT at Our Kakaako garage nearby.",
+  "talkStory": "Hank's started as one of Honolulu's first real gourmet food concepts that proved you could do elevated street food in Hawaii. Chef Hank Adaniya is a classically trained chef from Chicago who brought legit hot dog culture to Kakaako. The lobster dog sounds bougie but it's actually a great deal for what you get. Quick lunch spot if you're exploring the Kakaako murals or SALT area. No frills, just really good dogs.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,20 @@
+{
+  "name": "bEASTside Kitchen",
+  "tier": "B",
+  "lat": 21.2803,
+  "lng": -157.7421,
+  "category": "restaurant",
+  "subcategory": "hawaiian-fusion",
+  "tagline": "Covid pop-up turned Hawaii Kai neighborhood gem — live music nightly, garlic shrimp that rivals the North Shore trucks.",
+  "area": "Hawaii Kai",
+  "price": "$$",
+  "mustOrder": [
+    "umami garlic shrimp — the signature",
+    "loco moco — elevated but still local",
+    "BBQ bao buns — crowd favorite"
+  ],
+  "parking": "Lot on Kalanianaole Hwy; ample compared to town restaurants",
+  "talkStory": "Founded by James Kiko and Grandma Nette as a roadside pop-up tent in Waimanalo in September 2021. Grew into a brick-and-mortar on Kalanianaole Hwy in Hawaii Kai. Live music every night except Tuesdays, bingo nights on 2nd and 4th Mondays — this is as much a community gathering spot as a restaurant. The east side location means zero tourists. Happy hour until 6pm. Open late (midnight most nights).",
+  "cashOnly": false,
+  "kamaaina": null
+}

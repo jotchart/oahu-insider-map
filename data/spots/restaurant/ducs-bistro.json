@@ -1,0 +1,20 @@
+{
+  "name": "Duc's Bistro",
+  "tier": "A",
+  "lat": 21.314,
+  "lng": -157.864,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "tagline": "A swank French-Vietnamese oasis hiding in Chinatown — crispy spring rolls meet bouillabaisse with island fish.",
+  "area": "Chinatown / Downtown",
+  "price": "$$$",
+  "mustOrder": [
+    "bouillabaisse with island fish",
+    "crispy spring rolls",
+    "beef in betel leaf"
+  ],
+  "parking": "Street parking; paid lots on Maunakea St",
+  "talkStory": "Chef Duc Pham creates sophisticated dishes blending French technique with Vietnamese flavors in a white-tablecloth setting that feels unexpected in gritty Chinatown — which is part of the charm. The bouillabaisse uses fresh island fish, the spring rolls are impossibly crispy, and the beef wrapped in betel leaf is extraordinary. Locals consider it one of the most underrated restaurants in Honolulu. Reservations recommended on weekends.",
+  "cashOnly": false,
+  "kamaaina": null
+}

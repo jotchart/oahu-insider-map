@@ -1,0 +1,20 @@
+{
+  "name": "HUMU Sandwich & Smoothies",
+  "tier": "A",
+  "lat": 21.3068,
+  "lng": -157.8625,
+  "category": "restaurant",
+  "subcategory": "deli",
+  "tagline": "Downtown sandwich shop with a 4.9 Google rating — the Reuben is the best on the island and locals want to keep it secret.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "Reuben sandwich — consistently called the best on Oahu",
+    "bulgogi sub — Korean-meets-deli crossover",
+    "smoothies — surprisingly good for a sandwich shop"
+  ],
+  "parking": "Merchant St metered parking; downtown parking garages",
+  "talkStory": "A small deli on Merchant Street in the financial district with a 4.9 Google rating at nearly 200 reviews — one of the highest-rated food spots on Oahu. The Reuben is the draw: proper corned beef, sauerkraut, Russian dressing, rye bread. One reviewer said they 'wanted to keep it a hidden gem.' Primarily a lunch spot for downtown office workers. Quick service, reasonable prices. Weekday hours only.",
+  "cashOnly": false,
+  "kamaaina": null
+}

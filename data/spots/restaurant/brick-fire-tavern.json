@@ -1,0 +1,20 @@
+{
+  "name": "Brick Fire Tavern",
+  "tier": "A",
+  "lat": 21.2849,
+  "lng": -157.8226,
+  "category": "restaurant",
+  "subcategory": "pizza",
+  "tagline": "Neapolitan wood-fired pizza with Hawaiian twists — kalua pig pizza, craft cocktails, and a loyal Kaimuki following.",
+  "area": "Kaimuki",
+  "price": "$$",
+  "mustOrder": [
+    "kalua pig pizza — Hawaiian BBQ meets Neapolitan crust",
+    "margherita — the benchmark, beautifully charred",
+    "craft cocktails — the bar program is legit"
+  ],
+  "parking": "Street parking on Waialae Ave; side streets toward Wilhelmina Rise",
+  "talkStory": "Kaimuki's neighborhood pizzeria since ~2017, using a wood-fired oven and local ingredients in creative ways. The kalua pig pizza is the kind of thing that could only come from Hawaii. The cocktail program adds another dimension — this is as much a bar as a pizza spot. Well outside the tourist zone, the crowd is Kaimuki regulars and east Honolulu date-nighters. Opens 11am Tue–Sun. Reservations recommended for dinner.",
+  "cashOnly": false,
+  "kamaaina": null
+}

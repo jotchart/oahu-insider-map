@@ -1,0 +1,20 @@
+{
+  "name": "Fook Yuen Seafood Restaurant",
+  "tier": "A",
+  "lat": 21.2862,
+  "lng": -157.8233,
+  "category": "restaurant",
+  "subcategory": "dim-sum",
+  "tagline": "Legit dim sum with rolling carts — the har gow and char siu bao are Chinatown quality without the Chinatown parking.",
+  "area": "Moiliili",
+  "price": "$$",
+  "mustOrder": [
+    "Har gow — delicate shrimp dumplings with translucent wrappers",
+    "Char siu bao — fluffy BBQ pork buns, steamed to order",
+    "Siu mai — pork and shrimp dumplings, a dim sum staple"
+  ],
+  "parking": "Parking lot in the McCully Shopping Center. Usually can find a spot.",
+  "talkStory": "Fook Yuen is where the Chinese aunties and uncles go for dim sum on weekends, and if that doesn't tell you it's legit, nothing will. They still do the traditional cart service — flag down the cart ladies and point at what looks good. Weekend dim sum gets packed by 10am so go early, especially for a big group. Weekday dim sum is the local hack — same food, no wait. The dinner seafood menu is solid too but dim sum is the main event.",
+  "cashOnly": false,
+  "kamaaina": null
+}

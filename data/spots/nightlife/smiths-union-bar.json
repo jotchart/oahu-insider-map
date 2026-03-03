@@ -1,0 +1,19 @@
+{
+  "name": "Smith's Union Bar",
+  "tier": "A",
+  "lat": 21.311,
+  "lng": -157.8615,
+  "category": "nightlife",
+  "subcategory": "dive-bar",
+  "tagline": "Honolulu's oldest bar (1935) — cheap beers, great jukebox, and the unpretentious soul of Chinatown nightlife.",
+  "area": "Chinatown / Downtown",
+  "price": "$",
+  "mustOrder": [
+    "cheap beer",
+    "whatever's on tap"
+  ],
+  "parking": "Street parking; walk from downtown",
+  "talkStory": "Established in 1935, Smith's is a no-frills dive where beers are cheap and the jukebox has a great selection. The crowd is a mix of old-timers, off-duty chefs, creatives, and locals who appreciate a bar that hasn't tried to be anything other than what it is for nearly 90 years. There is nothing fancy here and that is entirely the point. After 9pm is best; Chinatown First Friday nights are especially lively.",
+  "cashOnly": true,
+  "kamaaina": null
+}

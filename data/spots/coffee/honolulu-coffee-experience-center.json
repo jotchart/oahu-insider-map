@@ -1,0 +1,19 @@
+{
+  "name": "Honolulu Coffee Experience Center",
+  "tier": "A",
+  "lat": 21.2860,
+  "lng": -157.8368,
+  "category": "coffee",
+  "subcategory": "roaster",
+  "tagline": "Their flagship roastery lets you taste the full range of Hawaiian coffee under one roof.",
+  "area": "Ward Village",
+  "price": "$$$",
+  "mustOrder": [
+    "Kona peaberry pour-over — the good stuff",
+    "coffee flight — taste multiple Hawaiian estates side by side"
+  ],
+  "parking": "Ward Village parking structure, free with validation",
+  "talkStory": "This is Honolulu Coffee's mothership — not the same as their little airport kiosks. They roast on-site and you can watch the whole process. The coffee flights are the move if you want to learn the difference between Kona, Waialua, and Ka'u. Yeah it's pricier, but you're drinking 100% Hawaiian single-estate beans. Worth it once.",
+  "cashOnly": false,
+  "kamaaina": null
+}

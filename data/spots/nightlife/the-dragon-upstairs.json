@@ -1,0 +1,18 @@
+{
+  "name": "The Dragon Upstairs",
+  "tier": "A",
+  "lat": 21.313,
+  "lng": -157.863,
+  "category": "nightlife",
+  "subcategory": "jazz-club",
+  "tagline": "A tiny Chinatown jazz club above a bar — 30-person room where you're practically sitting with the band.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "cocktail from the bar downstairs"
+  ],
+  "parking": "Street parking; walk from downtown",
+  "talkStory": "A tiny jazz club above a Chinatown bar that features some of Hawaii's best jazz musicians in an intimate setting. The room holds maybe 30 people, creating a close-knit atmosphere where you're almost sitting with the band. Locals who love live music consider this one of Honolulu's greatest treasures. No cover on some nights; check the schedule online. Arrive early for a good seat.",
+  "cashOnly": false,
+  "kamaaina": null
+}

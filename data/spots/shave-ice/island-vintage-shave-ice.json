@@ -1,0 +1,20 @@
+{
+  "name": "Island Vintage Shave Ice",
+  "tier": "B",
+  "lat": 21.2841,
+  "lng": -157.8306,
+  "category": "shave-ice",
+  "subcategory": "gourmet",
+  "tagline": "Organic syrups and fresh fruit toppings in the heart of Waikiki — gourmet done right.",
+  "area": "Waikiki",
+  "price": "$$",
+  "mustOrder": [
+    "Aloha — organic guava, passion fruit, and coconut cream",
+    "North Shore — pineapple with fresh mango chunks on top",
+    "add mochi balls and condensed milk drizzle"
+  ],
+  "parking": "Royal Hawaiian Center parking garage — validate at the shop",
+  "talkStory": "Yeah it's in Waikiki and yeah it's pricier, but Island Vintage actually uses organic Hawaiian-grown fruit syrups and the quality is legit. The shave ice is topped with real fruit pieces, not just syrup. It's connected to their acai bowl operation so everything is fresh. Best spot if you're already in Waikiki and don't want to drive 45 minutes for shave ice. The line moves fast even when it looks long.",
+  "cashOnly": false,
+  "kamaaina": null
+}

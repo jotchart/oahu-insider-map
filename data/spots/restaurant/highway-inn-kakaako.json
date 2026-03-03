@@ -1,0 +1,20 @@
+{
+  "name": "Highway Inn Kakaako",
+  "tier": "S",
+  "lat": 21.2964,
+  "lng": -157.8568,
+  "category": "restaurant",
+  "subcategory": "hawaiian",
+  "tagline": "Traditional Hawaiian plate lunch since 1947 — the poi, laulau, and pipikaula are as real as it gets.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "Laulau — pork and butterfish wrapped in taro and ti leaves, steamed tender",
+    "Pipikaula short ribs — Hawaiian-style dried beef, grilled smoky and chewy",
+    "Poi — fresh-pounded, the real deal, order it with your plate"
+  ],
+  "parking": "Parking lot at SALT at Our Kakaako. Some street parking on Coral St.",
+  "talkStory": "Highway Inn started in Waipahu in 1947, back when it was literally on the highway between the plantations. The Kakaako location in SALT is the newer, hipper spot but the food is still old-school Hawaiian. This is where locals go when they want real Hawaiian food in a nicer setting than a takeout window. The original Waipahu location is still open too if you want the OG experience. Lunch gets crowded — 11am or after 1:30pm is your sweet spot.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Waialua Farmers Market",
+  "tier": "B",
+  "lat": 21.577,
+  "lng": -158.13,
+  "category": "farmers-market",
+  "subcategory": "weekend-market",
+  "tagline": "A small but excellent Saturday market inside the historic Waialua Sugar Mill — hyper-local produce and artisan goods.",
+  "area": "North Shore",
+  "price": "$",
+  "parking": "Free lot at the Sugar Mill",
+  "hours": "Saturdays 8:30am-12pm",
+  "bestTime": "Saturday mornings; combine with shopping at the Sugar Mill artisan shops",
+  "kidFriendly": true,
+  "talkStory": "Held Saturdays inside the historic Waialua Sugar Mill, this small but excellent market features hyper-local produce, homemade jams, fresh-baked goods, and coffee grown just up the road. The vendors are local farmers and artisans you can chat with about their products. Combined with the nearby shops in the Sugar Mill (including Waialua Coffee & Chocolate and Green Gypsy Thrift), it makes for a perfect North Shore morning.",
+  "kamaaina": null
+}

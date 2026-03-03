@@ -1,0 +1,20 @@
+{
+  "name": "H Mart Keeaumoku",
+  "tier": "A",
+  "lat": 21.295,
+  "lng": -157.839,
+  "category": "market",
+  "subcategory": "korean-grocery",
+  "tagline": "Massive Korean grocery with an incredible hot food bar, live seafood counter, and Hawaii-exclusive frozen treats.",
+  "area": "Ala Moana",
+  "price": "$$",
+  "mustOrder": [
+    "Korean fried chicken",
+    "tteokbokki",
+    "poke"
+  ],
+  "parking": "Paid garage at Keeaumoku shopping area",
+  "talkStory": "The largest Korean grocery chain in America has a massive Honolulu location that locals treat as both grocery store and food court. The hot food bar has incredible Korean fried chicken, japchae, and tteokbokki. The banchan section is enormous, and the fresh seafood counter sells live crab and whole fish. Check the freezer section for Hawaiian-exclusive flavors of Korean ice cream bars. Weekday afternoons are best; weekends are packed.",
+  "cashOnly": false,
+  "kamaaina": null
+}

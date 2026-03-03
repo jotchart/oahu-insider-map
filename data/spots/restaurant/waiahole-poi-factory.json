@@ -1,0 +1,20 @@
+{
+  "name": "Waiahole Poi Factory",
+  "tier": "A",
+  "lat": 21.4832,
+  "lng": -157.8514,
+  "category": "restaurant",
+  "subcategory": "hawaiian",
+  "tagline": "One of the last real poi factories on Oahu — fresh poi, laulau, and squid luau in a Windward valley setting.",
+  "area": "Waiahole",
+  "price": "$",
+  "mustOrder": [
+    "Fresh poi — hand-pounded, creamy, the real deal",
+    "Laulau — pork and fish wrapped in taro leaves, steamed until melt-tender",
+    "Squid luau — squid simmered in coconut milk and taro leaves"
+  ],
+  "parking": "Small gravel lot right off Kamehameha Hwy. Easy to spot.",
+  "talkStory": "Waiahole Poi Factory is a cultural treasure. They've been making poi here in the valley for generations — this is one of the last places on Oahu where you can get fresh poi made the traditional way. The setting is beautiful — lush Windward valley with the Koolau mountains right there. Open limited hours (usually weekends and some weekdays), so check before you go. This is real Hawaiian food in a real Hawaiian place, not a tourist luau. Combine with a scenic drive up Kamehameha Hwy.",
+  "cashOnly": true,
+  "kamaaina": null
+}

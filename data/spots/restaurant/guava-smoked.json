@@ -1,0 +1,20 @@
+{
+  "name": "Guava Smoked",
+  "tier": "A",
+  "lat": 21.2756,
+  "lng": -157.8136,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "tagline": "Texas-style BBQ smoked with Hawaiian guava wood — brisket and pulled pork that taste like nowhere else on earth.",
+  "area": "Kapahulu",
+  "price": "$",
+  "mustOrder": [
+    "smoked brisket plate",
+    "pulled pork — guava wood gives it a subtle sweetness",
+    "combo plate to try both"
+  ],
+  "parking": "Street parking on Kapahulu Ave",
+  "talkStory": "Started as pop-ups before landing a brick-and-mortar on Kapahulu. The concept — Texas low-and-slow technique with Hawaiian guava wood — is a genuinely local innovation you won't find on the mainland. The smoke flavor is distinct: a little sweeter, a little more floral than mesquite or hickory. Portions are solid for the price. Your map has no BBQ representation — this fills that gap. Closed Mondays.",
+  "cashOnly": false,
+  "kamaaina": null
+}

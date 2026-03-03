@@ -1,0 +1,20 @@
+{
+  "name": "Pipeline Bakeshop & Creamery",
+  "tier": "A",
+  "lat": 21.28,
+  "lng": -157.781,
+  "category": "bakery",
+  "subcategory": "malasada-shop",
+  "tagline": "Kaimuki's cult-favorite bakery — the 'Malamode' (malasada + ice cream) and Cake Bombs are modern Hawaii classics.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "Malamode (ube or haupia)",
+    "Cake Bombs",
+    "fresh malasadas"
+  ],
+  "parking": "Street parking on Waialae Ave",
+  "talkStory": "A Kaimuki bakery with a cult following for its freshly made malasadas and the signature Malamode — a malasada split open and filled with house-made ice cream in flavors like ube, haupia, and Kona coffee. The Cake Bombs (miniature layered cakes) are another local obsession. Arrive early because popular items sell out by midday. This is the modern evolution of Hawaii's malasada tradition.",
+  "cashOnly": false,
+  "kamaaina": null
+}

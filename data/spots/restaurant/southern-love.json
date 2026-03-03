@@ -1,0 +1,20 @@
+{
+  "name": "Southern Love",
+  "tier": "A",
+  "lat": 21.3017,
+  "lng": -157.8577,
+  "category": "restaurant",
+  "subcategory": "southern",
+  "tagline": "The only serious soul food on Oahu — shrimp and grits that locals call the best in Hawaii, cooked to order in Kakaako.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "shrimp and grits — widely called the best in Hawaii",
+    "cajun salmon — perfectly seasoned",
+    "catfish po'boy — Southern classic done right"
+  ],
+  "parking": "Street parking on Queen St; paid lots in Kakaako",
+  "talkStory": "Chef Corey Love and partner Elizabeth Martinez brought authentic Southern soul food to an island that desperately needed it. Everything is cooked to order — fried chicken, BBQ ribs, biscuits and gravy, catfish. Featured on Hawaii News Now. Short hours, closed Sun–Mon, limited parking — all the signs of a real local joint, not a tourist operation. Opened 2023 and already has a devoted following with a 4.8 Google rating. The only place on Oahu filling this niche.",
+  "cashOnly": false,
+  "kamaaina": null
+}

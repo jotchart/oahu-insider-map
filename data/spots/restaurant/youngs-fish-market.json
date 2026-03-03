@@ -1,0 +1,24 @@
+{
+  "name": "Young's Fish Market",
+  "tier": "A",
+  "lat": 21.3152,
+  "lng": -157.8580,
+  "category": "restaurant",
+  "subcategory": "hawaiian",
+  "tagline": "Old-school Hawaiian plate lunch counter in Kalihi — massive portions, family recipes, and some of the best poke on the island.",
+  "area": "Kalihi",
+  "price": "$",
+  "mustOrder": [
+    "Hawaiian plate — laulau, kalua pig, lomi salmon, poi or rice",
+    "Poke by the pound — ahi, tako, or shoyu varieties",
+    "Pipikaula (dried beef)",
+    "Squid luau"
+  ],
+  "parking": "Small lot on Liliha St. Street parking on side streets",
+  "hours": "Mon–Sat 8am–5pm. Closed Sundays",
+  "bestTime": "Lunch is peak — go before 11am or after 1:30pm to skip the line",
+  "kidFriendly": true,
+  "kamaaina": null,
+  "cashOnly": false,
+  "talkStory": "Young's has been serving Hawaiian food in Kalihi since 1951 and it's where local families go for plate lunch, poke, and luau supplies. The portions are enormous and the prices are fair. Their poke counter is one of the best on the island — fresh ahi, tako, and various preparations sold by the pound. The Hawaiian plate is a complete meal: laulau, kalua pig, lomi salmon, and your choice of poi or rice. Not a fancy sit-down spot — order at the counter, grab a seat at the plastic tables, and eat. This is real local food, not the sanitized tourist version."
+}

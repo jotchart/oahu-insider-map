@@ -1,0 +1,20 @@
+{
+  "name": "Manifest",
+  "tier": "A",
+  "lat": 21.311,
+  "lng": -157.861,
+  "category": "coffee",
+  "subcategory": "cafe-bar",
+  "tagline": "Chinatown coffee shop by day, cocktail bar by night — a creative hub with gallery vibes and excellent espresso.",
+  "area": "Chinatown / Downtown",
+  "price": "$$",
+  "mustOrder": [
+    "espresso",
+    "latte",
+    "evening cocktail"
+  ],
+  "parking": "Street parking; paid lots on Maunakea St",
+  "talkStory": "By day, Manifest is a serene Chinatown coffee shop with excellent espresso and a quiet, artistic atmosphere. By night, it transforms into a cocktail bar with local DJs and a creative crowd. The space is filled with provocative art and has a lofty, gallery-like feel. Locals love the duality — come for coffee and work in the afternoon, return for cocktails and socializing at night. Friday and Saturday nights are the most lively.",
+  "cashOnly": false,
+  "kamaaina": null
+}

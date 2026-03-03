@@ -1,0 +1,19 @@
+{
+  "name": "Bar Leather Apron",
+  "tier": "S",
+  "lat": 21.309,
+  "lng": -157.86,
+  "category": "nightlife",
+  "subcategory": "cocktail-bar",
+  "tagline": "One of the world's best cocktail bars hidden on a downtown Honolulu mezzanine — 15 seats, Japanese technique, local ingredients.",
+  "area": "Downtown",
+  "price": "$$$",
+  "mustOrder": [
+    "bartender's choice cocktail",
+    "old fashioned with Hawaiian honey"
+  ],
+  "parking": "Street parking; paid lot nearby",
+  "talkStory": "Hidden on the mezzanine of the TOPA Financial Center, this tiny bar was named one of the best in the world. With only about 15 seats, it feels like a private club. Bartenders Justin Park and Tom Park create immaculate craft cocktails using house-made syrups, local ingredients, and Japanese technique. Reserve in advance online. Go early in the week for a more intimate experience. This is where Honolulu's cocktail cognoscenti drink.",
+  "cashOnly": false,
+  "kamaaina": null
+}

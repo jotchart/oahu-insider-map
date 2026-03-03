@@ -1,0 +1,20 @@
+{
+  "name": "Koa Pancake House",
+  "tier": "B",
+  "lat": 21.3942,
+  "lng": -157.8001,
+  "category": "restaurant",
+  "subcategory": "breakfast",
+  "tagline": "Old-school Kaneohe breakfast spot where retirees, surfers, and families all converge over macadamia nut pancakes.",
+  "area": "Kaneohe",
+  "price": "$",
+  "mustOrder": [
+    "Macadamia nut pancakes — fluffy stacks topped with mac nut syrup",
+    "Portuguese sausage, eggs, and rice — the local breakfast standard",
+    "Dutch baby pancake — puffy oven-baked pancake with powdered sugar and lemon"
+  ],
+  "parking": "Windward Mall parking lot. Plenty of spaces.",
+  "talkStory": "Koa Pancake House is inside the Windward Mall food court area in Kaneohe — don't let the mall location fool you, it's a legit breakfast institution on the Windward side. Mostly older local crowd in the morning which is always a good sign. Pancakes are big, cheap, and satisfying. Open early and closes mid-afternoon. Not worth a special trip from town, but if you're heading to Kaneohe or the Windward side, it's the breakfast move.",
+  "cashOnly": false,
+  "kamaaina": null
+}
