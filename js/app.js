@@ -18,7 +18,8 @@ function esc(str) {
 const map = L.map('map', {
   center: [21.46, -157.97],
   zoom: 11,
-  zoomControl: false
+  zoomControl: false,
+  tap: false // disable Leaflet's tap delay so native double-tap zoom works
 });
 
 L.control.zoom({ position: 'topright' }).addTo(map);
@@ -157,7 +158,6 @@ async function initNeighborhoods() {
     // Popup only bound when Neighborhoods category is active (see activateCategory/deactivateCategory)
 
     // Place label at a guaranteed interior point using Turf.js
-    // Labels are interactive — tapping a name opens the neighborhood popup
     try {
       const interior = turf.pointOnFeature(feature);
       const [lng, lat] = interior.geometry.coordinates;
@@ -169,33 +169,13 @@ async function initNeighborhoods() {
           iconSize: [0, 0],
           iconAnchor: [0, 0]
         }),
-        interactive: true
+        interactive: false
       });
       label._hoodArea = area;
       label._hoodName = n.name;
-      label.bindPopup(getPopupHTML(n), POPUP_OPTS);
       // Labels start hidden — added when user activates Neighborhoods
       layer._hoodLabel = label;
     } catch (e) { /* skip label if turf fails */ }
-
-    if (!isMobile) {
-      layer.on('mouseover', () => {
-        if (!neighborhoodVisible) return;
-        layer.setStyle({ fillOpacity: 0.40, weight: 2.5, opacity: 0.8 });
-        if (layer._hoodLabel) {
-          const el = layer._hoodLabel.getElement();
-          if (el) el.classList.add('hood-label-hover');
-        }
-      });
-      layer.on('mouseout', () => {
-        if (!neighborhoodVisible) return;
-        layer.setStyle({ fillOpacity: 0.22, weight: 1.5, opacity: 0.5 });
-        if (layer._hoodLabel) {
-          const el = layer._hoodLabel.getElement();
-          if (el) el.classList.remove('hood-label-hover');
-        }
-      });
-    }
 
     layer.addTo(map);
     polygonLayers.push(layer);
@@ -548,6 +528,9 @@ function activateCategory(cat) {
   if (cat === 'neighborhoods') {
     neighborhoodVisible = true;
     hoodPill.setAttribute('aria-pressed', 'true');
+    // Swap to labeled tiles so street names are visible
+    map.removeLayer(tileNoLabels);
+    tileWithLabels.addTo(map);
     // Bind popups on polygons so tapping opens cards
     polygonLayers.forEach(layer => {
       if (layer && layer.data) layer.bindPopup(getPopupHTML(layer.data), POPUP_OPTS);
@@ -570,6 +553,9 @@ function deactivateCategory(cat) {
   if (cat === 'neighborhoods') {
     neighborhoodVisible = false;
     hoodPill.setAttribute('aria-pressed', 'false');
+    // Swap back to no-label tiles
+    map.removeLayer(tileWithLabels);
+    tileNoLabels.addTo(map);
     // Unbind popups so tapping dim polygons does nothing
     polygonLayers.forEach(layer => {
       if (layer) layer.unbindPopup();
