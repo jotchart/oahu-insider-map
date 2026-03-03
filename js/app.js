@@ -59,6 +59,12 @@ const POPUP_OPTS = {
   className: isMobile ? 'mobile-fullscreen' : ''
 };
 
+// ── Mobile fullscreen popup: hide map chrome when popup is open ──
+if (isMobile) {
+  map.on('popupopen', () => document.body.classList.add('map-popup-open'));
+  map.on('popupclose', () => document.body.classList.remove('map-popup-open'));
+}
+
 // ── Popup HTML (delegated to popup-builder for extensibility) ──
 function getPopupHTML(n, crimeCount) {
   return buildNeighborhoodPopup(n, crimeCount);
