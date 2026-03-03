@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oahu-map-v7';
+const CACHE_NAME = 'oahu-map-v8';
 const ASSETS = [
   './',
   './index.html',
@@ -104,7 +104,22 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // Everything else: cache-first
+  // App files (same origin): network-first with cache fallback
+  // This ensures updates are picked up quickly while still working offline
+  if (url.origin === self.location.origin) {
+    event.respondWith(
+      fetch(event.request)
+        .then(response => {
+          const clone = response.clone();
+          caches.open(CACHE_NAME).then(cache => cache.put(event.request, clone));
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
+
+  // Everything else (third-party CDN): cache-first
   event.respondWith(
     caches.match(event.request).then(cached => cached || fetch(event.request))
   );
