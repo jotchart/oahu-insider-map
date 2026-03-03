@@ -187,6 +187,8 @@ export function buildSpotPopup(s, SPOT_CATEGORIES) {
 
   const body = isFood ? buildFoodPopupBody(s) : buildActivityPopupBody(s);
 
+  const mapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${s.lat},${s.lng}&destination_place_id=&travelmode=driving`;
+
   return `<div class="popup-inner spot-popup">
     <div class="popup-header">
       <div class="spot-popup-icon" style="background:${cat.color}">${cat.icon}</div>
@@ -199,6 +201,12 @@ export function buildSpotPopup(s, SPOT_CATEGORIES) {
     <div class="popup-desc">${esc(s.tagline)}</div>
     ${body}
     ${beforeActions}
+    <div class="popup-actions">
+      <a href="${mapsUrl}" target="_blank" rel="noopener" class="popup-action-btn popup-maps-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        Directions
+      </a>
+    </div>
   </div>`;
 }
 

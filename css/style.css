@@ -1114,6 +1114,7 @@ body {
   white-space: nowrap;
 }
 .popup-action-btn:hover { border-color: #4a90d9; color: #4a90d9; }
+a.popup-action-btn { text-decoration: none; }
 
 /* ── Crime Popup Line ── */
 .popup-crime {
