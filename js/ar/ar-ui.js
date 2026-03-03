@@ -138,6 +138,8 @@ export class ARUI {
 
   attachCamera(stream) {
     this.video.srcObject = stream;
+    // Explicitly play — autoplay attribute alone is unreliable on iOS
+    this.video.play().catch(() => {});
   }
 
   /**

@@ -41,105 +41,142 @@
 </head>
 <body>
 
-  <button class="chrome-toggle" id="chromeToggle" aria-label="Toggle UI" title="Hide/show controls">
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
-  </button>
-
-  <nav class="filter-bar" id="filterBar" aria-label="Filter neighborhoods">
-    <button class="pill" data-region="all" aria-pressed="true">All</button>
-    <button class="pill" data-region="Metro Honolulu" aria-pressed="false">Metro Honolulu</button>
-    <button class="pill" data-region="East Honolulu" aria-pressed="false">East Honolulu</button>
-    <button class="pill" data-region="Windward" aria-pressed="false">Windward</button>
-    <button class="pill" data-region="North Shore" aria-pressed="false">North Shore</button>
-    <button class="pill" data-region="Central Oahu" aria-pressed="false">Central Oahu</button>
-    <button class="pill" data-region="Pearl City / Aiea" aria-pressed="false">Pearl City / Aiea</button>
-    <button class="pill" data-region="West Oahu" aria-pressed="false">West</button>
-    <button class="pill" data-region="Leeward Coast" aria-pressed="false">Leeward</button>
-    <div class="divider" role="separator"></div>
-    <button class="pill" data-minscore="8" aria-pressed="false" title="Show score 8 and above">8+</button>
-    <button class="pill" data-minscore="6" aria-pressed="false" title="Show score 6 and above">6+</button>
-    <div class="divider" role="separator"></div>
-    <button class="pill crime-pill" id="crimePill" aria-pressed="false" title="Toggle crime density overlay">&#128680; Crime</button>
-    <button class="pill hood-pill" id="hoodPill" aria-pressed="true" title="Toggle neighborhood dots and boundaries">&#127968; Hoods</button>
-    <div class="divider" role="separator"></div>
-    <button class="pill calendar-pill" id="calendarPill" aria-pressed="false" title="Seasonal calendar &amp; events">&#128197; Calendar</button>
-    <button class="pill ocean-pill" id="oceanPill" aria-pressed="false" title="Ocean conditions dashboard">&#127754; Ocean</button>
-    <button class="pill weather-pill" id="weatherPill" aria-pressed="false" title="Weather microclimate overlay">&#9925; Weather</button>
-    <button class="pill safety-pill" id="safetyPill" aria-pressed="false" title="Safety &amp; emergency info">&#9888;&#65039; Safety</button>
-    <div class="filter-spacer"></div>
+  <!-- ── Top Bar: search + menu ── -->
+  <header class="top-bar" id="topBar">
     <div class="search-wrap" role="combobox" aria-expanded="false" aria-haspopup="listbox">
-      <span class="search-icon" aria-hidden="true">&#x1F50D;</span>
+      <svg class="search-icon-svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
       <input
         type="search"
         id="searchInput"
         class="search-input"
-        placeholder="Search…"
+        placeholder="Search neighborhoods, spots..."
         autocomplete="off"
-        aria-label="Search neighborhoods"
+        aria-label="Search neighborhoods and spots"
         aria-controls="searchResults"
       >
       <button id="searchClear" class="search-clear" aria-label="Clear search">&times;</button>
       <div id="searchResults" class="search-results" role="listbox"></div>
     </div>
-    <button class="list-toggle" id="listToggle" aria-expanded="false" aria-controls="listView">&#9776;</button>
-  </nav>
+    <button class="menu-btn" id="menuToggle" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h18M3 6h18M3 18h18"/></svg>
+      <span>Menu</span>
+    </button>
+  </header>
 
-  <nav class="spot-bar" id="spotBar" aria-label="Insider spot layers">
-    <span class="spot-bar-label">Spots</span>
-    <button class="spot-pill" data-spot="restaurant" aria-pressed="true"><span class="spot-pill-icon">&#127869;</span> Food</button>
-    <button class="spot-pill" data-spot="beach" aria-pressed="true"><span class="spot-pill-icon">&#127958;</span> Beaches</button>
-    <button class="spot-pill" data-spot="snorkel" aria-pressed="true"><span class="spot-pill-icon">&#129343;</span> Snorkel</button>
-    <button class="spot-pill" data-spot="hike" aria-pressed="true"><span class="spot-pill-icon">&#129406;</span> Hikes</button>
-    <button class="spot-pill" data-spot="kids" aria-pressed="true"><span class="spot-pill-icon">&#128118;</span> Kids</button>
-    <button class="spot-pill" data-spot="shave-ice" aria-pressed="true"><span class="spot-pill-icon">&#127847;</span> Shave Ice</button>
-    <button class="spot-pill" data-spot="coffee" aria-pressed="true"><span class="spot-pill-icon">&#9749;</span> Coffee</button>
-    <span class="spot-bar-divider"></span>
-    <span class="spot-bar-label">Tier</span>
-    <button class="spot-pill tier-pill" data-tier="S" aria-pressed="true"><span class="tier-badge tier-S">S</span></button>
-    <button class="spot-pill tier-pill" data-tier="A" aria-pressed="true"><span class="tier-badge tier-A">A</span></button>
-    <button class="spot-pill tier-pill" data-tier="B" aria-pressed="true"><span class="tier-badge tier-B">B</span></button>
-    <button class="spot-pill tier-pill" data-tier="C" aria-pressed="true"><span class="tier-badge tier-C">C</span></button>
-  </nav>
+  <!-- ── Drawer: all filters, spots, layers ── -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="drawer" id="drawer" role="dialog" aria-label="Filters and layers">
+    <div class="drawer-header">
+      <h2>Filters &amp; Layers</h2>
+      <button class="drawer-close" id="drawerClose" aria-label="Close menu">&times;</button>
+    </div>
+    <div class="drawer-body">
 
+      <!-- Region -->
+      <section class="drawer-section">
+        <h3 class="drawer-section-title">Region</h3>
+        <div class="drawer-pills" id="filterBar">
+          <button class="pill" data-region="all" aria-pressed="true">All</button>
+          <button class="pill" data-region="Metro Honolulu" aria-pressed="false">Metro Honolulu</button>
+          <button class="pill" data-region="East Honolulu" aria-pressed="false">East Honolulu</button>
+          <button class="pill" data-region="Windward" aria-pressed="false">Windward</button>
+          <button class="pill" data-region="North Shore" aria-pressed="false">North Shore</button>
+          <button class="pill" data-region="Central Oahu" aria-pressed="false">Central Oahu</button>
+          <button class="pill" data-region="Pearl City / Aiea" aria-pressed="false">Pearl City / Aiea</button>
+          <button class="pill" data-region="West Oahu" aria-pressed="false">West</button>
+          <button class="pill" data-region="Leeward Coast" aria-pressed="false">Leeward</button>
+        </div>
+      </section>
+
+      <!-- Score -->
+      <section class="drawer-section">
+        <h3 class="drawer-section-title">Min Score</h3>
+        <div class="drawer-pills">
+          <button class="pill" data-minscore="8" aria-pressed="false">8+</button>
+          <button class="pill" data-minscore="6" aria-pressed="false">6+</button>
+        </div>
+      </section>
+
+      <!-- Map Layers -->
+      <section class="drawer-section">
+        <h3 class="drawer-section-title">Map Layers</h3>
+        <div class="drawer-pills">
+          <button class="pill hood-pill" id="hoodPill" aria-pressed="true">Neighborhoods</button>
+          <button class="pill crime-pill" id="crimePill" aria-pressed="false">Crime</button>
+          <button class="pill calendar-pill" id="calendarPill" aria-pressed="false">Calendar</button>
+          <button class="pill ocean-pill" id="oceanPill" aria-pressed="false">Ocean</button>
+          <button class="pill weather-pill" id="weatherPill" aria-pressed="false">Weather</button>
+          <button class="pill safety-pill" id="safetyPill" aria-pressed="false">Safety</button>
+        </div>
+      </section>
+
+      <!-- Spot Categories -->
+      <section class="drawer-section" id="spotBar">
+        <h3 class="drawer-section-title">Spots</h3>
+        <div class="drawer-pills">
+          <button class="spot-pill" data-spot="restaurant" aria-pressed="true">Food</button>
+          <button class="spot-pill" data-spot="beach" aria-pressed="true">Beaches</button>
+          <button class="spot-pill" data-spot="snorkel" aria-pressed="true">Snorkel</button>
+          <button class="spot-pill" data-spot="hike" aria-pressed="true">Hikes</button>
+          <button class="spot-pill" data-spot="kids" aria-pressed="true">Kids</button>
+          <button class="spot-pill" data-spot="shave-ice" aria-pressed="true">Shave Ice</button>
+          <button class="spot-pill" data-spot="coffee" aria-pressed="true">Coffee</button>
+        </div>
+      </section>
+
+      <!-- Tier -->
+      <section class="drawer-section">
+        <h3 class="drawer-section-title">Tier</h3>
+        <div class="drawer-pills">
+          <button class="spot-pill tier-pill" data-tier="S" aria-pressed="true"><span class="tier-badge tier-S">S</span></button>
+          <button class="spot-pill tier-pill" data-tier="A" aria-pressed="true"><span class="tier-badge tier-A">A</span></button>
+          <button class="spot-pill tier-pill" data-tier="B" aria-pressed="true"><span class="tier-badge tier-B">B</span></button>
+          <button class="spot-pill tier-pill" data-tier="C" aria-pressed="true"><span class="tier-badge tier-C">C</span></button>
+        </div>
+      </section>
+
+      <!-- Neighborhood List -->
+      <section class="drawer-section drawer-section-list">
+        <h3 class="drawer-section-title">
+          Neighborhoods
+          <span class="count-badge" aria-live="polite"><strong id="countDisplay">88</strong> / 88</span>
+        </h3>
+        <div class="list-scroll" id="listScroll" role="list"></div>
+      </section>
+
+    </div>
+  </aside>
+
+  <!-- ── Right Now Bar (shown by ocean/weather features) ── -->
   <div class="right-now-bar" id="rightNowBar" style="display:none">
-    <div class="rn-item"><span class="rn-icon">&#127754;</span> <span class="rn-label">Surf:</span> <span class="rn-value" id="rnSurf">--</span></div>
-    <div class="rn-item"><span class="rn-icon">&#128168;</span> <span class="rn-label">Wind:</span> <span class="rn-value" id="rnWind">--</span></div>
-    <div class="rn-item"><span class="rn-icon">&#127749;</span> <span class="rn-label">Sunset:</span> <span class="rn-value" id="rnSunset">--</span></div>
-    <div class="rn-item"><span class="rn-icon">&#127754;</span> <span class="rn-label">Tide:</span> <span class="rn-value" id="rnTide">--</span></div>
+    <div class="rn-item"><span class="rn-label">Surf:</span> <span class="rn-value" id="rnSurf">--</span></div>
+    <div class="rn-item"><span class="rn-label">Wind:</span> <span class="rn-value" id="rnWind">--</span></div>
+    <div class="rn-item"><span class="rn-label">Sunset:</span> <span class="rn-value" id="rnSunset">--</span></div>
+    <div class="rn-item"><span class="rn-label">Tide:</span> <span class="rn-value" id="rnTide">--</span></div>
     <div class="rn-item rn-alert" id="rnAlert" style="display:none"></div>
   </div>
 
+  <!-- ── Map ── -->
   <div id="map" role="application" aria-label="Map of Oahu neighborhoods"></div>
 
-  <footer class="bottom-panel">
-    <span class="count-badge" aria-live="polite">Showing <strong id="countDisplay">88</strong> of 88</span>
+  <!-- ── Footer: just AR + GPS ── -->
+  <footer class="bottom-bar">
     <button class="ar-toggle" id="arToggle" aria-label="AR mode" title="AR mode" style="display:none">AR</button>
     <button class="gps-btn" id="gpsBtn" aria-label="Show my location" title="Show my location">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><circle cx="12" cy="12" r="3"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>
+      GPS
     </button>
-    <div class="legend-row" aria-label="Score color legend">
-      <div class="legend-dot" style="background:#c62828"></div><span class="legend-label">1</span>
-      <div class="legend-dot" style="background:#ef5350"></div>
-      <div class="legend-dot" style="background:#ff8a65"></div>
-      <div class="legend-dot" style="background:#ffb74d"></div>
-      <div class="legend-dot" style="background:#fff176"></div>
-      <div class="legend-dot" style="background:#dce775"></div>
-      <div class="legend-dot" style="background:#a5d6a7"></div>
-      <div class="legend-dot" style="background:#69f0ae"></div>
-      <div class="legend-dot" style="background:#2ee67a"></div>
-      <div class="legend-dot" style="background:#00c853"></div><span class="legend-label">10</span>
-    </div>
   </footer>
 
   <!-- Screen reader live region for filter changes -->
   <div id="liveRegion" class="sr-only" aria-live="polite" style="position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden;"></div>
 
-  <div class="list-view" id="listView" role="dialog" aria-label="Neighborhood list">
+  <!-- Legacy list-view kept as hidden shell so JS references don't break -->
+  <div class="list-view" id="listView" style="display:none" role="dialog" aria-label="Neighborhood list">
     <div class="list-header">
       <h2>All Neighborhoods</h2>
       <button class="close-list" id="closeList" aria-label="Close list">&times;</button>
     </div>
-    <div class="list-scroll" id="listScroll" role="list"></div>
   </div>
 
   <div class="install-banner" id="installBanner" role="alert">

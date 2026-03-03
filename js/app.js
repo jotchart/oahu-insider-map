@@ -274,6 +274,7 @@ Object.keys(SPOT_CATEGORIES).forEach(cat => {
 
 SPOTS.forEach(s => {
   const marker = L.marker([s.lat, s.lng], { icon: createSpotIcon(s) });
+  marker.bindTooltip(s.name, { direction: 'top', offset: [0, -8], className: 'spot-tooltip' });
   marker.bindPopup(getSpotPopupHTML(s), POPUP_OPTS);
   marker.data = s;
   spotLayerGroups[s.category].addLayer(marker);
@@ -345,10 +346,31 @@ document.querySelectorAll('[data-tier]').forEach(pill => {
   });
 });
 
-// ── Chrome Toggle (hide/show all UI) ──
-document.getElementById('chromeToggle').addEventListener('click', () => {
-  document.body.classList.toggle('chrome-hidden');
+// ── Drawer Toggle ──
+const drawer = document.getElementById('drawer');
+const drawerBackdrop = document.getElementById('drawerBackdrop');
+const menuToggle = document.getElementById('menuToggle');
+
+function openDrawer() {
+  drawer.classList.add('open');
+  drawerBackdrop.classList.add('open');
+  menuToggle.setAttribute('aria-expanded', 'true');
+  updateList();
+}
+
+function closeDrawer() {
+  drawer.classList.remove('open');
+  drawerBackdrop.classList.remove('open');
+  menuToggle.setAttribute('aria-expanded', 'false');
+}
+
+menuToggle.addEventListener('click', () => {
+  if (drawer.classList.contains('open')) closeDrawer();
+  else openDrawer();
 });
+
+document.getElementById('drawerClose').addEventListener('click', closeDrawer);
+drawerBackdrop.addEventListener('click', closeDrawer);
 
 // ── Neighborhood Toggle ──
 let neighborhoodVisible = true;
@@ -534,13 +556,10 @@ searchResults.addEventListener('click', e => {
   const lng = parseFloat(item.dataset.lng);
   const isSpot = item.dataset.type === 'spot';
 
-  // Close search
+  // Close search and drawer
   searchInput.value = '';
   searchResults.classList.remove('open');
-
-  // Close list view if open
-  listView.classList.remove('open');
-  listToggle.setAttribute('aria-expanded', 'false');
+  closeDrawer();
 
   if (isSpot) {
     // Ensure the spot's category layer is visible
@@ -579,22 +598,8 @@ document.addEventListener('click', e => {
   }
 });
 
-// ── List View (event delegation) ──
-const listView = document.getElementById('listView');
+// ── Neighborhood List (inside drawer) ──
 const listScroll = document.getElementById('listScroll');
-const listToggle = document.getElementById('listToggle');
-
-listToggle.addEventListener('click', () => {
-  const opening = !listView.classList.contains('open');
-  listView.classList.toggle('open');
-  listToggle.setAttribute('aria-expanded', opening);
-  if (opening) updateList();
-});
-
-document.getElementById('closeList').addEventListener('click', () => {
-  listView.classList.remove('open');
-  listToggle.setAttribute('aria-expanded', 'false');
-});
 
 // Event delegation for list items
 listScroll.addEventListener('click', e => {
@@ -604,9 +609,7 @@ listScroll.addEventListener('click', e => {
   const lat = parseFloat(item.dataset.lat);
   const lng = parseFloat(item.dataset.lng);
 
-  listView.classList.remove('open');
-  listToggle.setAttribute('aria-expanded', 'false');
-
+  closeDrawer();
   map.setView([lat, lng], 14);
   openNeighborhoodPopup(lat, lng);
 });
@@ -991,7 +994,7 @@ async function toggleCrimeLayer() {
       crimePill.textContent = 'Loading...';
       const counts = await fetchCrimeData();
       if (!counts) {
-        crimePill.innerHTML = '&#128680; Crime (unavailable)';
+        crimePill.textContent = 'Crime (unavailable)';
         crimeActive = false;
         crimePill.setAttribute('aria-pressed', false);
         return;
@@ -999,7 +1002,7 @@ async function toggleCrimeLayer() {
       crimeCounts = counts;
       crimeMax = Math.max(...Object.values(crimeCounts));
       crimeDataLoaded = true;
-      crimePill.innerHTML = '&#128680; Crime';
+      crimePill.textContent = 'Crime';
     }
 
     polygonLayers.forEach((poly, i) => {
