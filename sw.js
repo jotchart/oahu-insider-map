@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oahu-map-v10';
+const CACHE_NAME = 'oahu-map-v11';
 const ASSETS = [
   './',
   './index.html',
