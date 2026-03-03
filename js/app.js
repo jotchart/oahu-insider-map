@@ -59,10 +59,37 @@ const POPUP_OPTS = {
   className: isMobile ? 'mobile-fullscreen' : ''
 };
 
-// ── Mobile fullscreen popup: hide map chrome when popup is open ──
+// ── Mobile fullscreen popup: hide map chrome and fix positioning ──
 if (isMobile) {
-  map.on('popupopen', () => document.body.classList.add('map-popup-open'));
-  map.on('popupclose', () => document.body.classList.remove('map-popup-open'));
+  const mapPane = map.getPane('mapPane');
+  const popupPane = map.getPane('popupPane');
+  let savedMapTransform = '';
+  let savedPopupTransform = '';
+
+  map.on('popupopen', () => {
+    document.body.classList.add('map-popup-open');
+    // Save and clear pane transforms so position:fixed works relative to viewport
+    if (mapPane) {
+      savedMapTransform = mapPane.style.transform;
+      mapPane.style.setProperty('transform', 'none', 'important');
+    }
+    if (popupPane) {
+      savedPopupTransform = popupPane.style.transform;
+      popupPane.style.setProperty('transform', 'none', 'important');
+    }
+  });
+  map.on('popupclose', () => {
+    document.body.classList.remove('map-popup-open');
+    // Restore pane transforms
+    if (mapPane) {
+      mapPane.style.removeProperty('transform');
+      mapPane.style.transform = savedMapTransform;
+    }
+    if (popupPane) {
+      popupPane.style.removeProperty('transform');
+      popupPane.style.transform = savedPopupTransform;
+    }
+  });
 }
 
 // ── Popup HTML (delegated to popup-builder for extensibility) ──
