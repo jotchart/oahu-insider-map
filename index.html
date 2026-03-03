@@ -103,7 +103,7 @@
       <section class="drawer-section">
         <h3 class="drawer-section-title">Map Layers</h3>
         <div class="drawer-pills">
-          <button class="pill hood-pill" id="hoodPill" aria-pressed="true">Neighborhoods</button>
+          <button class="pill hood-pill" id="hoodPill" aria-pressed="false">Neighborhoods</button>
           <button class="pill crime-pill" id="crimePill" aria-pressed="false">Crime</button>
           <button class="pill calendar-pill" id="calendarPill" aria-pressed="false">Calendar</button>
           <button class="pill ocean-pill" id="oceanPill" aria-pressed="false">Ocean</button>
@@ -116,13 +116,13 @@
       <section class="drawer-section" id="spotBar">
         <h3 class="drawer-section-title">Spots</h3>
         <div class="drawer-pills">
-          <button class="spot-pill" data-spot="restaurant" aria-pressed="true">Food</button>
-          <button class="spot-pill" data-spot="beach" aria-pressed="true">Beaches</button>
-          <button class="spot-pill" data-spot="snorkel" aria-pressed="true">Snorkel</button>
-          <button class="spot-pill" data-spot="hike" aria-pressed="true">Hikes</button>
-          <button class="spot-pill" data-spot="kids" aria-pressed="true">Kids</button>
-          <button class="spot-pill" data-spot="shave-ice" aria-pressed="true">Shave Ice</button>
-          <button class="spot-pill" data-spot="coffee" aria-pressed="true">Coffee</button>
+          <button class="spot-pill" data-spot="restaurant" aria-pressed="false">Food</button>
+          <button class="spot-pill" data-spot="beach" aria-pressed="false">Beaches</button>
+          <button class="spot-pill" data-spot="snorkel" aria-pressed="false">Snorkel</button>
+          <button class="spot-pill" data-spot="hike" aria-pressed="false">Hikes</button>
+          <button class="spot-pill" data-spot="kids" aria-pressed="false">Kids</button>
+          <button class="spot-pill" data-spot="shave-ice" aria-pressed="false">Shave Ice</button>
+          <button class="spot-pill" data-spot="coffee" aria-pressed="false">Coffee</button>
         </div>
       </section>
 
@@ -156,6 +156,33 @@
     <div class="rn-item"><span class="rn-label">Sunset:</span> <span class="rn-value" id="rnSunset">--</span></div>
     <div class="rn-item"><span class="rn-label">Tide:</span> <span class="rn-value" id="rnTide">--</span></div>
     <div class="rn-item rn-alert" id="rnAlert" style="display:none"></div>
+  </div>
+
+  <!-- ── Category Cards Overlay (shown on first load) ── -->
+  <div id="categoryCards" class="category-cards">
+    <div class="category-cards-title">What are you looking for?</div>
+    <div class="category-cards-grid">
+      <button class="cat-card" data-cat="neighborhoods"><span class="cat-card-icon">🏘</span>Neighborhoods</button>
+      <button class="cat-card" data-cat="restaurant"><span class="cat-card-icon">🍽</span>Food</button>
+      <button class="cat-card" data-cat="beach"><span class="cat-card-icon">🏖</span>Beaches</button>
+      <button class="cat-card" data-cat="snorkel"><span class="cat-card-icon">🤿</span>Snorkel</button>
+      <button class="cat-card" data-cat="hike"><span class="cat-card-icon">🥾</span>Hikes</button>
+      <button class="cat-card" data-cat="kids"><span class="cat-card-icon">👶</span>Kids</button>
+      <button class="cat-card" data-cat="shave-ice"><span class="cat-card-icon">🍧</span>Shave Ice</button>
+      <button class="cat-card" data-cat="coffee"><span class="cat-card-icon">☕</span>Coffee</button>
+    </div>
+  </div>
+
+  <!-- ── Bottom Category Bar (hidden until first pick) ── -->
+  <div id="categoryBar" class="category-bar hidden">
+    <button class="cat-icon" data-cat="neighborhoods" aria-pressed="false" title="Neighborhoods">🏘</button>
+    <button class="cat-icon" data-cat="restaurant" aria-pressed="false" title="Food">🍽</button>
+    <button class="cat-icon" data-cat="beach" aria-pressed="false" title="Beaches">🏖</button>
+    <button class="cat-icon" data-cat="snorkel" aria-pressed="false" title="Snorkel">🤿</button>
+    <button class="cat-icon" data-cat="hike" aria-pressed="false" title="Hikes">🥾</button>
+    <button class="cat-icon" data-cat="kids" aria-pressed="false" title="Kids">👶</button>
+    <button class="cat-icon" data-cat="shave-ice" aria-pressed="false" title="Shave Ice">🍧</button>
+    <button class="cat-icon" data-cat="coffee" aria-pressed="false" title="Coffee">☕</button>
   </div>
 
   <!-- ── Map ── -->

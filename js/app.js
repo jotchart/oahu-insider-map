@@ -119,14 +119,15 @@ async function initNeighborhoods() {
     const layer = L.geoJSON(feature, {
       style: {
         fillColor: color,
-        fillOpacity: 0.22,
+        fillOpacity: 0.08,
         color: color,
-        weight: 1.5,
-        opacity: 0.5
+        weight: 1,
+        opacity: 0.3
       }
     });
 
     layer.data = n;
+    // Popup only bound when Neighborhoods category is active (see activateCategory/deactivateCategory)
 
     // Place label at a guaranteed interior point using Turf.js
     // Labels are interactive — tapping a name opens the neighborhood popup
@@ -146,24 +147,28 @@ async function initNeighborhoods() {
       label._hoodArea = area;
       label._hoodName = n.name;
       label.bindPopup(getPopupHTML(n), POPUP_OPTS);
-      label.addTo(map);
+      // Labels start hidden — added when user activates Neighborhoods
       layer._hoodLabel = label;
     } catch (e) { /* skip label if turf fails */ }
 
-    layer.on('mouseover', () => {
-      layer.setStyle({ fillOpacity: 0.40, weight: 2.5, opacity: 0.8 });
-      if (layer._hoodLabel) {
-        const el = layer._hoodLabel.getElement();
-        if (el) el.classList.add('hood-label-hover');
-      }
-    });
-    layer.on('mouseout', () => {
-      layer.setStyle({ fillOpacity: 0.22, weight: 1.5, opacity: 0.5 });
-      if (layer._hoodLabel) {
-        const el = layer._hoodLabel.getElement();
-        if (el) el.classList.remove('hood-label-hover');
-      }
-    });
+    if (!isMobile) {
+      layer.on('mouseover', () => {
+        if (!neighborhoodVisible) return;
+        layer.setStyle({ fillOpacity: 0.40, weight: 2.5, opacity: 0.8 });
+        if (layer._hoodLabel) {
+          const el = layer._hoodLabel.getElement();
+          if (el) el.classList.add('hood-label-hover');
+        }
+      });
+      layer.on('mouseout', () => {
+        if (!neighborhoodVisible) return;
+        layer.setStyle({ fillOpacity: 0.22, weight: 1.5, opacity: 0.5 });
+        if (layer._hoodLabel) {
+          const el = layer._hoodLabel.getElement();
+          if (el) el.classList.remove('hood-label-hover');
+        }
+      });
+    }
 
     layer.addTo(map);
     polygonLayers.push(layer);
@@ -266,7 +271,7 @@ function getSpotPopupHTML(s) {
 
 function createSpotIcon(spot) {
   const cat = SPOT_CATEGORIES[spot.category];
-  const size = 12;
+  const size = isMobile ? 18 : 12;
   return L.divIcon({
     className: '',
     html: `<div class="spot-dot" style="width:${size}px;height:${size}px;background:${cat.color}"></div>`,
@@ -281,7 +286,7 @@ const spotMarkerByKey = new Map();
 const allSpotMarkers = [];
 
 // Track active filters
-const activeCategories = new Set(Object.keys(SPOT_CATEGORIES));
+const activeCategories = new Set();
 const activeTiers = new Set(Object.keys(TIER_CONFIG));
 
 Object.keys(SPOT_CATEGORIES).forEach(cat => {
@@ -290,7 +295,7 @@ Object.keys(SPOT_CATEGORIES).forEach(cat => {
 
 SPOTS.forEach(s => {
   const marker = L.marker([s.lat, s.lng], { icon: createSpotIcon(s) });
-  marker.bindTooltip(s.name, { direction: 'top', offset: [0, -8], className: 'spot-tooltip' });
+  marker.bindTooltip(s.name, { permanent: true, direction: 'right', offset: [10, 0], className: 'spot-name' });
   marker.bindPopup(getSpotPopupHTML(s), POPUP_OPTS);
   marker.data = s;
   spotLayerGroups[s.category].addLayer(marker);
@@ -298,8 +303,7 @@ SPOTS.forEach(s => {
   allSpotMarkers.push(marker);
 });
 
-// Add all spot layers to map (all visible by default)
-Object.values(spotLayerGroups).forEach(lg => lg.addTo(map));
+// Spot layers start hidden — user picks categories from the cards overlay
 
 // Register in core registry
 registerSpotLayerGroups(spotLayerGroups);
@@ -330,7 +334,7 @@ function applySpotFilters() {
   });
 }
 
-// Wire up spot category toggle pills
+// Wire up spot category toggle pills (drawer)
 document.querySelectorAll('[data-spot]').forEach(pill => {
   pill.addEventListener('click', () => {
     const cat = pill.dataset.spot;
@@ -343,6 +347,14 @@ document.querySelectorAll('[data-spot]').forEach(pill => {
       activeCategories.add(cat);
     }
     applySpotFilters();
+    // Sync bottom bar icon
+    const barIcon = document.querySelector(`.cat-icon[data-cat="${cat}"]`);
+    if (barIcon) barIcon.setAttribute('aria-pressed', activeCategories.has(cat));
+    // Show bar if hidden and something is now active
+    if (activeCategories.size > 0 || neighborhoodVisible) {
+      categoryCards.classList.add('hidden');
+      categoryBar.classList.remove('hidden');
+    }
   });
 });
 
@@ -389,21 +401,22 @@ document.getElementById('drawerClose').addEventListener('click', closeDrawer);
 drawerBackdrop.addEventListener('click', closeDrawer);
 
 // ── Neighborhood Toggle ──
-let neighborhoodVisible = true;
+let neighborhoodVisible = false;
 const hoodPill = document.getElementById('hoodPill');
 
 hoodPill.addEventListener('click', () => {
-  neighborhoodVisible = !neighborhoodVisible;
-  hoodPill.setAttribute('aria-pressed', neighborhoodVisible);
-  // Swap tile layers: no labels when hoods on, labels when hoods off
   if (neighborhoodVisible) {
-    if (map.hasLayer(tileWithLabels)) map.removeLayer(tileWithLabels);
-    if (!map.hasLayer(tileNoLabels)) tileNoLabels.addTo(map);
+    deactivateCategory('neighborhoods');
   } else {
-    if (map.hasLayer(tileNoLabels)) map.removeLayer(tileNoLabels);
-    if (!map.hasLayer(tileWithLabels)) tileWithLabels.addTo(map);
+    activateCategory('neighborhoods');
   }
-  applyFilters();
+  // Sync bottom bar icon
+  const barIcon = document.querySelector('.cat-icon[data-cat="neighborhoods"]');
+  if (barIcon) barIcon.setAttribute('aria-pressed', neighborhoodVisible);
+  if (neighborhoodVisible || activeCategories.size > 0) {
+    categoryCards.classList.add('hidden');
+    categoryBar.classList.remove('hidden');
+  }
 });
 
 // ── Filtering ──
@@ -429,15 +442,28 @@ function applyFilters() {
       count++;
     }
 
-    // Toggle polygon and label
+    // Polygons always stay on map — dim when neighborhoods OFF, bright when ON
     const poly = polygonLayers[i];
     if (poly) {
-      if (visible) {
+      const inRegion = regionMatch && scoreMatch;
+      if (inRegion) {
         if (!map.hasLayer(poly)) poly.addTo(map);
-        if (poly._hoodLabel && !map.hasLayer(poly._hoodLabel)) poly._hoodLabel.addTo(map);
+        // Style depends on whether neighborhoods are active
+        if (neighborhoodVisible) {
+          poly.setStyle({ fillOpacity: 0.22, weight: 1.5, opacity: 0.5 });
+        } else {
+          poly.setStyle({ fillOpacity: 0.08, weight: 1, opacity: 0.3 });
+        }
       } else {
         if (map.hasLayer(poly)) map.removeLayer(poly);
-        if (poly._hoodLabel && map.hasLayer(poly._hoodLabel)) map.removeLayer(poly._hoodLabel);
+      }
+      // Labels only shown when neighborhoods are active
+      if (poly._hoodLabel) {
+        if (visible) {
+          if (!map.hasLayer(poly._hoodLabel)) poly._hoodLabel.addTo(map);
+        } else {
+          if (map.hasLayer(poly._hoodLabel)) map.removeLayer(poly._hoodLabel);
+        }
       }
     }
   });
@@ -486,6 +512,76 @@ function syncPillStates() {
     p.setAttribute('aria-pressed', parseInt(p.dataset.minscore) === activeMinScore);
   });
 }
+
+// ── Category Cards & Bottom Bar ──
+const categoryCards = document.getElementById('categoryCards');
+const categoryBar = document.getElementById('categoryBar');
+
+function activateCategory(cat) {
+  if (cat === 'neighborhoods') {
+    neighborhoodVisible = true;
+    hoodPill.setAttribute('aria-pressed', 'true');
+    // Bind popups on polygons so tapping opens cards
+    polygonLayers.forEach(layer => {
+      if (layer && layer.data) layer.bindPopup(getPopupHTML(layer.data), POPUP_OPTS);
+    });
+    applyFilters();
+    setTimeout(declutterLabels, 50);
+  } else {
+    activeCategories.add(cat);
+    // Sync drawer pill
+    const pill = document.querySelector(`[data-spot="${cat}"]`);
+    if (pill) pill.setAttribute('aria-pressed', 'true');
+    applySpotFilters();
+  }
+  // Sync bar icon
+  const icon = categoryBar.querySelector(`[data-cat="${cat}"]`);
+  if (icon) icon.setAttribute('aria-pressed', 'true');
+}
+
+function deactivateCategory(cat) {
+  if (cat === 'neighborhoods') {
+    neighborhoodVisible = false;
+    hoodPill.setAttribute('aria-pressed', 'false');
+    // Unbind popups so tapping dim polygons does nothing
+    polygonLayers.forEach(layer => {
+      if (layer) layer.unbindPopup();
+    });
+    applyFilters();
+  } else {
+    activeCategories.delete(cat);
+    // Sync drawer pill
+    const pill = document.querySelector(`[data-spot="${cat}"]`);
+    if (pill) pill.setAttribute('aria-pressed', 'false');
+    applySpotFilters();
+  }
+  // Sync bar icon
+  const icon = categoryBar.querySelector(`[data-cat="${cat}"]`);
+  if (icon) icon.setAttribute('aria-pressed', 'false');
+}
+
+// Category cards overlay — first-pick experience
+document.querySelectorAll('.cat-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const cat = card.dataset.cat;
+    activateCategory(cat);
+    categoryCards.classList.add('hidden');
+    categoryBar.classList.remove('hidden');
+  });
+});
+
+// Bottom category bar — toggle on/off
+document.querySelectorAll('.cat-icon').forEach(icon => {
+  icon.addEventListener('click', () => {
+    const cat = icon.dataset.cat;
+    const isActive = icon.getAttribute('aria-pressed') === 'true';
+    if (isActive) {
+      deactivateCategory(cat);
+    } else {
+      activateCategory(cat);
+    }
+  });
+});
 
 // ── Search ──
 const searchInput = document.getElementById('searchInput');
