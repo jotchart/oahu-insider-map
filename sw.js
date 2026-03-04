@@ -1,4 +1,4 @@
-const CACHE_NAME = 'oahu-map-v20';
+const CACHE_NAME = 'oahu-map-v22';
 const ASSETS = [
   './',
   './index.html',
@@ -32,6 +32,8 @@ const ASSETS = [
   './js/features/safety-emergency.js',
   './js/features/island-buzz.js',
   './js/data/island-buzz.js',
+  './js/features/street-intel.js',
+  './js/data/street-intel.js',
   './manifest.json',
   './icons/icon-192.png',
   './icons/icon-512.png',

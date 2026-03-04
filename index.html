@@ -156,6 +156,7 @@
             <button class="pill weather-pill" id="weatherPill" aria-pressed="false">Weather</button>
             <button class="pill safety-pill" id="safetyPill" aria-pressed="false">Safety</button>
             <button class="pill buzz-pill" id="buzzPill" aria-pressed="false">Buzz</button>
+            <button class="pill streets-pill" id="streetsPill" aria-pressed="false">Streets</button>
           </div>
         </section>
 
@@ -256,6 +257,11 @@
 
   <div class="panel-container" id="panelContainer"></div>
 
+  <!-- ── Mobile Card Overlay (outside Leaflet for stable positioning) ── -->
+  <div class="mobile-card-overlay" id="mobileCardOverlay">
+    <button class="mobile-card-close" id="mobileCardClose" aria-label="Close">&times;</button>
+    <div id="mobileCardBody"></div>
+  </div>
 
   <script>
     if (typeof L === 'undefined') {
@@ -267,7 +273,7 @@
         if (reg) reg.update();
       });
       caches.keys().then(keys => {
-        keys.forEach(k => { if (k !== 'oahu-map-v20') caches.delete(k); });
+        keys.forEach(k => { if (k !== 'oahu-map-v22') caches.delete(k); });
       });
     }
   </script>

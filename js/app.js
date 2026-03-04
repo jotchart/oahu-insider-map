@@ -50,39 +50,48 @@ const POPUP_OPTS = {
   maxWidth: isMobile ? 9999 : 440,
   closeButton: true,
   autoPan: false,
-  className: isMobile ? 'mobile-fullscreen' : ''
+  className: ''
 };
 
-// ── Mobile fullscreen popup: hide map chrome and fix positioning ──
+// ── Mobile card overlay: intercept popups and show in a fixed div ──
 if (isMobile) {
-  const mapPane = map.getPane('mapPane');
-  const popupPane = map.getPane('popupPane');
-  let savedMapTransform = '';
-  let savedPopupTransform = '';
+  const mobileOverlay = document.getElementById('mobileCardOverlay');
+  const mobileBody = document.getElementById('mobileCardBody');
+  const mobileClose = document.getElementById('mobileCardClose');
 
-  map.on('popupopen', () => {
+  function showMobileCard(html) {
+    mobileBody.innerHTML = html;
+    mobileOverlay.classList.add('open');
     document.body.classList.add('map-popup-open');
-    // Save and clear pane transforms so position:fixed works relative to viewport
-    if (mapPane) {
-      savedMapTransform = mapPane.style.transform;
-      mapPane.style.setProperty('transform', 'none', 'important');
+  }
+
+  function hideMobileCard() {
+    mobileOverlay.classList.remove('open');
+    document.body.classList.remove('map-popup-open');
+    mobileBody.innerHTML = '';
+  }
+
+  mobileClose.addEventListener('click', hideMobileCard);
+
+  // Intercept Leaflet popups on mobile — show in overlay instead
+  map.on('popupopen', e => {
+    const wasOpen = mobileOverlay.classList.contains('open');
+    map.closePopup(e.popup);
+
+    if (wasOpen) {
+      hideMobileCard();
+      return;
     }
-    if (popupPane) {
-      savedPopupTransform = popupPane.style.transform;
-      popupPane.style.setProperty('transform', 'none', 'important');
+
+    const content = e.popup.getContent();
+    if (content) {
+      showMobileCard(content);
     }
   });
-  map.on('popupclose', () => {
-    document.body.classList.remove('map-popup-open');
-    // Restore pane transforms
-    if (mapPane) {
-      mapPane.style.removeProperty('transform');
-      mapPane.style.transform = savedMapTransform;
-    }
-    if (popupPane) {
-      popupPane.style.removeProperty('transform');
-      popupPane.style.transform = savedPopupTransform;
-    }
+
+  // Dismiss on back gesture / Escape
+  document.addEventListener('keydown', e => {
+    if (e.key === 'Escape' && mobileOverlay.classList.contains('open')) hideMobileCard();
   });
 }
 

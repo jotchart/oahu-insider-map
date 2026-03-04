@@ -12,6 +12,7 @@ const FEATURES = {
   'weather-microclimate': () => import('./features/weather-microclimate.js'),
   'safety-emergency': () => import('./features/safety-emergency.js'),
   'island-buzz': () => import('./features/island-buzz.js'),
+  'street-intel': () => import('./features/street-intel.js'),
 };
 
 export async function loadFeature(name) {
@@ -39,7 +40,7 @@ export function isLoaded(name) {
 
 // Load features that should be active immediately (no user interaction needed)
 export async function loadEagerFeatures() {
-  const eager = ['right-now', 'etiquette', 'slang-guide', 'cultural-calendar', 'island-buzz'];
+  const eager = ['right-now', 'etiquette', 'slang-guide', 'cultural-calendar', 'island-buzz', 'street-intel'];
   const results = await Promise.allSettled(
     eager.map(async name => {
       const mod = await loadFeature(name);
