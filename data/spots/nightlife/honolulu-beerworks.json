@@ -1,12 +1,12 @@
 {
   "name": "Honolulu Beerworks",
   "tier": "A",
-  "lat": 21.2984,
-  "lng": -157.8571,
+  "lat": 21.3242,
+  "lng": -157.8807,
   "category": "nightlife",
   "subcategory": "brewery",
   "tagline": "Kakaako's original craft brewery — industrial taproom pouring Hawaii-brewed beers with rotating food trucks outside.",
-  "area": "Kakaako",
+  "area": "Kalihi",
   "price": "$-$$",
   "mustOrder": [
     "Cocoweizen — coconut hefeweizen, a local favorite",
