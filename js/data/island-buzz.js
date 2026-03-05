@@ -6,8 +6,8 @@ export const BUZZ_ITEMS = [
   // ── New Openings ──
   {
     type: 'opening',
-    headline: "Alan Wong's is BACK at The Kahala Hotel",
-    body: "The legendary chef's flagship returns after a 5-year closure. Expect the signature ginger-crusted onaga and classics from the King Street era. Opening March 2026 — reservations will be impossible for months.",
+    headline: "Alan Wong's is BACK — opening March 25 at The Kahala",
+    body: "The James Beard Award-winning chef returns after a 5-year closure, replacing Hoku's at The Kahala Hotel. Early access via hotel packages March 25, general public April 8. Expect the signature ginger-crusted onaga, Da Bag steamed clams, kalua pig, and that famous chocolate-shell coconut dessert. Chef Joe Almoguera running the kitchen. Reservations will be impossible for months.",
     area: 'Kahala',
     region: 'East Honolulu',
     date: '2026-03',
@@ -24,8 +24,8 @@ export const BUZZ_ITEMS = [
   },
   {
     type: 'opening',
-    headline: 'Mama Guava: Modern Filipino-American pop-up in Chinatown',
-    body: "Chef Monique Cadavona (ex-MW Restaurant, The Pig & the Lady) is doing a limited pop-up through February. Crispy lumpia in look fun, anato-red banh xeo, longanisa smash burger. Tue-Sat 11am-2:30pm only. This will sell out.",
+    headline: "Mama Guava pop-up wrapped — Chinatown's loss",
+    body: "Chef Monique Cadavona's Filipino-American pop-up in the old Pig & the Lady space ran through February and is now done. The crispy lumpia in look fun, utog burger with banana ketchup, and anato-red banh xeo earned it 'one of the city's most exciting restaurants' from Honolulu Magazine. If she opens a permanent spot, run.",
     area: 'Chinatown',
     region: 'Metro Honolulu',
     date: '2026-02',
@@ -60,11 +60,11 @@ export const BUZZ_ITEMS = [
   },
   {
     type: 'opening',
-    headline: 'Nori Bar hand rolls coming to Waikiki',
-    body: "Known for crisp nori and Koshihikari rice, Nori Bar is taking over the old Ice Monster space on Kuhio Ave. March 2026 opening. The counter-style hand roll format is blowing up nationally and this is the real deal.",
+    headline: 'Nori Bar Waikiki is open — 70 seats, omakase, cocktails',
+    body: "The Ward Village hand roll bar expanded big into the former Ice Monster space on Kuhio Ave. 70 seats (vs. 16 at the original), Japanese breakfast, grab-and-go premium onigiri, kaisendon bowls, evening craft cocktails, weekly whole ahi cutting demos, and omakase dinners. This is way more than a hand roll bar now.",
     area: 'Waikiki',
     region: 'Metro Honolulu',
-    date: '2026-03',
+    date: '2026-02',
     tags: ['restaurant', 'sushi']
   },
   {
@@ -123,11 +123,11 @@ export const BUZZ_ITEMS = [
   },
   {
     type: 'opening',
-    headline: "Sonic Drive-In arrives in Kapolei \u2014 yes, with roller skating servers",
-    body: "Oahu's first Sonic opens on the corner of Fort Barrette Road and Kapolei Parkway, spring 2026. Classic drive-in service, the full iconic menu. The West Side finally gets something the Mainland has had for decades.",
+    headline: "Sonic Drive-In arrived in Kapolei — yes, with roller skating servers",
+    body: "Oahu's first Sonic opened Jan 5 on Fort Barrette Road and Kapolei Parkway. Classic drive-in service, the full iconic menu. The West Side finally gets something the Mainland has had for decades. Lines were insane opening week.",
     area: 'Kapolei',
     region: 'West Oahu',
-    date: '2026-03',
+    date: '2026-01',
     tags: ['restaurant', 'fast-food']
   },
   {
@@ -138,6 +138,52 @@ export const BUZZ_ITEMS = [
     region: 'Pearl City / Aiea',
     date: '2026-02',
     tags: ['restaurant', 'sushi']
+  },
+
+  {
+    type: 'opening',
+    headline: "Thirty Eight — serious seafood lands at Pier 38",
+    body: "Full-service seafood restaurant in the former Nami Kaze Hawaii space at Pier 38. Dinner only, Mon-Fri 5-9pm. The fried whole moi ($36) with Ali'i mushrooms and lup chong is the signature. Hamachi crudo, poke crackers, furikake king salmon ($38). Reservations via OpenTable.",
+    area: 'Iwilei',
+    region: 'Metro Honolulu',
+    date: '2026-02',
+    tags: ['restaurant', 'seafood']
+  },
+  {
+    type: 'opening',
+    headline: 'Bad Ass Coffee of Hawaii finally opens on Oahu',
+    body: "The Hawaiian coffee chain's first Oahu location is at 3502-C Waialae Ave in Kaimuki. Opened March 13. Premium Hawaiian coffees and food in a 1,234 sq ft space. Mon-Fri 5:30am-6pm, Sat 7am-5pm, Sun 8am-5pm. The Waialae strip adds another reason to visit.",
+    area: 'Kaimuki',
+    region: 'Metro Honolulu',
+    date: '2026-03',
+    tags: ['coffee', 'cafe']
+  },
+  {
+    type: 'opening',
+    headline: 'Mikiya Wagyu Shabu House expanding to Kapahulu',
+    body: "Second Honolulu location of the upscale wagyu shabu-shabu spot, opening late March at Kapahulu Shopping Center. Four tiers from $45-$98. The original on Kapiolani Blvd stays packed so this is welcome relief.",
+    area: 'Kapahulu',
+    region: 'Metro Honolulu',
+    date: '2026-03',
+    tags: ['restaurant', 'japanese', 'shabu']
+  },
+  {
+    type: 'opening',
+    headline: "Cotti Coffee — China's mega-chain arrives in Kaka'ako",
+    body: "Second Hawaii location of Cotti Coffee (6,000+ locations worldwide) opened mid-March at the Koula Shops on Auahi St next to Nori Bar. First location was at Pearl Highlands. The international coffee chain invasion of Honolulu continues.",
+    area: "Kaka'ako",
+    region: 'Metro Honolulu',
+    date: '2026-03',
+    tags: ['coffee']
+  },
+  {
+    type: 'opening',
+    headline: 'Khan Skewer opens second location in Makiki',
+    body: "The popular Mongolian barbecue skewer spot (original on Isenberg St, going four years strong) expanded to Makiki in March. Savory lamb, beef, and chicken skewers with that signature cumin-chili spice blend. Late-night friendly.",
+    area: 'Makiki',
+    region: 'Metro Honolulu',
+    date: '2026-03',
+    tags: ['restaurant', 'mongolian', 'skewers']
   },
 
   // ── Closings & Shakeups ──
@@ -160,7 +206,62 @@ export const BUZZ_ITEMS = [
     tags: ['industry', 'economy']
   },
 
+  {
+    type: 'closing',
+    headline: "Hoku's at The Kahala closes after 30 years — Alan Wong's takes over",
+    body: "Last service was February 20, 2026. The iconic fine-dining room served Kahala guests for three decades. Making way for Alan Wong's triumphant return. End of an era, start of another.",
+    area: 'Kahala',
+    region: 'East Honolulu',
+    date: '2026-02',
+    tags: ['restaurant', 'closing', 'fine-dining']
+  },
+
   // ── Scene Reports ──
+  {
+    type: 'scene',
+    headline: "Giovedi made Bon Appetit's Best New Restaurants list",
+    body: "The Chinatown Italian spot at 10 N. Hotel St is the first Hawaii restaurant on Bon Appetit's list since Lineage in 2019. Also won Best New Restaurant at the 2025 Hale Aina Awards. Chef Christian Testa is putting Chinatown fine dining on the national map.",
+    area: 'Chinatown',
+    region: 'Metro Honolulu',
+    date: '2026-02',
+    tags: ['restaurant', 'awards', 'italian']
+  },
+  {
+    type: 'scene',
+    headline: '18-year-old wins DaHui Backdoor Shootout — youngest ever',
+    body: "Kalanoweo DeSoto, just 18, won the DaHui Backdoor Shootout at Pipeline in January, becoming the youngest champion in the event's history. The next generation of North Shore chargers is here.",
+    area: 'North Shore',
+    region: 'North Shore',
+    date: '2026-01',
+    tags: ['surf', 'competition']
+  },
+  {
+    type: 'scene',
+    headline: "Speakeasy bars trending hard — Yours Truly is the newest",
+    body: "Prohibition-era speakeasy bars are the hottest thing in Honolulu nightlife. Yours Truly, hidden below the AC Hotel lobby in what looks like an old post office, has mixologists scouring Chinatown markets weekly for ingredients. All syrups and garnishes made in-house. Meanwhile Adez took over the Blind Ox space on Kapahulu.",
+    area: 'Chinatown',
+    region: 'Metro Honolulu',
+    date: '2026-02',
+    tags: ['nightlife', 'bars', 'speakeasy']
+  },
+  {
+    type: 'scene',
+    headline: "Skyline Rail Segment 3 construction begins — Chinatown to Downtown",
+    body: "The first 13 stations (East Kapolei to Kalihi) are running. Now Segment 3 is underway: 6 new stations including Chinatown and Downtown, with above-ground column construction starting early 2026. Revenue service target is 2031 but design delays could push it. Kaka'ako and Ala Moana stations are still a separate future phase.",
+    area: 'Metro Honolulu',
+    region: 'Metro Honolulu',
+    date: '2026-03',
+    tags: ['transit', 'development']
+  },
+  {
+    type: 'scene',
+    headline: "Kaka'ako construction boom — four towers breaking ground in 2026",
+    body: "Waiakoa (1,032 units, 60% affordable), Kahuina (861 units), Kaliu (294 market units), and Launiu at Ward Village (486 units, already under construction). Plus Alia is nearing completion. The Our Kaka'ako and Ward Village buildouts are reshaping the entire neighborhood. Cranes everywhere.",
+    area: "Kaka'ako",
+    region: 'Metro Honolulu',
+    date: '2026-03',
+    tags: ['development', 'housing']
+  },
   {
     type: 'scene',
     headline: 'Chinatown Arch groundbreaking \u2014 revitalization is real this time',
@@ -172,8 +273,8 @@ export const BUZZ_ITEMS = [
   },
   {
     type: 'scene',
-    headline: 'Kaimuki keeps evolving \u2014 new piercing shop, craft store, beer bar',
-    body: "Honolulu Piercing Co. opened on the corner of Koko Head and Waialae (14K gold, implant-grade titanium). Death by Scrapbooking has a standalone shop now. Mokihana Haus beer bar coming this summer. Miro is reopening Feb 2026. The Waialae strip is quietly becoming the coolest stretch on the island.",
+    headline: 'Kaimuki keeps evolving \u2014 coffee, piercings, beer bar, and more',
+    body: "Bad Ass Coffee of Hawaii just opened its first Oahu spot on Waialae. Honolulu Piercing Co. opened on the corner of Koko Head and Waialae. Death by Scrapbooking has a standalone shop. Mokihana Haus beer bar coming this summer. Miro reopened in Feb. The Waialae strip is quietly the coolest stretch on the island.",
     area: 'Kaimuki',
     region: 'Metro Honolulu',
     date: '2026-02',

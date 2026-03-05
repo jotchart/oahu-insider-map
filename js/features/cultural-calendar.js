@@ -22,32 +22,23 @@ export async function init() {
       const ctx = getTimeContext();
       const items = [];
 
-      // Today's farmers markets near this neighborhood
+      // Today's farmers markets in this neighborhood
       const todayMarkets = FARMERS_MARKETS.filter(m => m.day === ctx.dayOfWeek && m.area === data.name);
       todayMarkets.forEach(m => {
         items.push(`<div class="calendar-item"><span class="calendar-item-icon">&#127793;</span> ${esc(m.name)} today ${esc(m.hours)}</div>`);
       });
 
-      // Fruit in season
-      const inSeason = FRUIT_SEASONS.filter(f => f.months.includes(ctx.month)).slice(0, 3);
-      if (inSeason.length > 0) {
-        const fruitNames = inSeason.map(f => f.peak.includes(ctx.month) ? `<strong>${esc(f.name)}</strong>` : esc(f.name)).join(', ');
-        items.push(`<div class="calendar-item"><span class="calendar-item-icon">&#127819;</span> In season: ${fruitNames}</div>`);
-      }
-
-      // Whale season
-      if (WHALE_SEASON.months.includes(ctx.month)) {
-        const peak = WHALE_SEASON.peak.includes(ctx.month) ? ' (peak!)' : '';
-        items.push(`<div class="calendar-item"><span class="calendar-item-icon">&#128011;</span> Whale season${peak}</div>`);
-      }
-
-      // Upcoming events near this area
+      // Upcoming cultural events specific to this neighborhood
       const areaEvents = CULTURAL_EVENTS.filter(e => {
-        if (e.month === -1) return false; // monthly events
-        return (e.area === data.name || e.area === data.region) && (e.month === ctx.month || e.month === ctx.month + 1);
+        if (e.month === -1) {
+          // Monthly recurring events — show only if area matches this neighborhood
+          return e.area === data.name;
+        }
+        return e.area === data.name && (e.month === ctx.month || e.month === ctx.month + 1);
       }).slice(0, 2);
       areaEvents.forEach(e => {
-        items.push(`<div class="calendar-item"><span class="calendar-item-icon">&#127881;</span> ${esc(e.name)}</div>`);
+        const label = e.month === -1 ? 'Monthly' : '';
+        items.push(`<div class="calendar-item"><span class="calendar-item-icon">&#127881;</span> ${esc(e.name)}${label ? ` (${label})` : ''}</div>`);
       });
 
       if (items.length === 0) return '';

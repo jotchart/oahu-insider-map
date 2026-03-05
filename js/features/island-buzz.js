@@ -5,7 +5,7 @@
 import { bus } from '../core/event-bus.js';
 import { registerPopupSection } from '../core/popup-builder.js';
 import { registerPanel, openPanel, closePanel, isPanelOpen } from '../core/panel-manager.js';
-import { BUZZ_ITEMS, BUZZ_TYPES, getBuzzForArea } from '../data/island-buzz.js';
+import { BUZZ_ITEMS, BUZZ_TYPES } from '../data/island-buzz.js';
 
 function esc(s) { const el = document.createElement('span'); el.textContent = s; return el.innerHTML; }
 
@@ -41,16 +41,8 @@ export async function init() {
     position: 'before-insider',
     render: (data, type) => {
       if (type !== 'neighborhood') return '';
-      const items = getBuzzForArea(data.name).concat(
-        getBuzzForArea(data.region).filter(b => b.area !== data.name)
-      );
-      // Deduplicate
-      const seen = new Set();
-      const unique = items.filter(b => {
-        if (seen.has(b.headline)) return false;
-        seen.add(b.headline);
-        return true;
-      });
+      // Only show buzz specific to this neighborhood (not region-wide or island-wide)
+      const unique = BUZZ_ITEMS.filter(b => b.area === data.name);
       if (unique.length === 0) return '';
       const show = unique.slice(0, 3);
       return `<div class="popup-buzz">

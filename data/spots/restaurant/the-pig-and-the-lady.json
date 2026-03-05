@@ -1,21 +1,21 @@
 {
   "name": "The Pig and the Lady",
   "tier": "A",
-  "lat": 21.3118,
-  "lng": -157.8628,
+  "lat": 21.2824,
+  "lng": -157.7982,
   "category": "restaurant",
   "subcategory": "fine-dining",
   "genre": "vietnamese",
-  "tagline": "Vietnamese-Hawaiian fusion that put Chinatown dining on the map — Chef Andrew Le's pho French dip is genius.",
-  "area": "Chinatown",
+  "tagline": "Vietnamese-Hawaiian fusion from James Beard semifinalist Chef Andrew Le — the pho French dip is genius.",
+  "area": "Kaimuki",
   "price": "$$$",
   "mustOrder": [
     "Pho French dip — prime rib dipped in pho broth, absolute game changer",
     "Crispy crepe banh xeo — stuffed with shrimp, pork, and herbs",
     "Smoked meat pho — rich bone broth with brisket and all the fixings"
   ],
-  "parking": "Street parking on Smith or Hotel St. Chinatown garage at 1130 N Nimitz Hwy is cheapest. Meter parking free after 6pm.",
-  "talkStory": "Chef Andrew Le, son of Vietnamese refugees, started selling pho at the KCC Farmers Market and blew up from there. His Chinatown restaurant earned a James Beard semifinalist nomination for Best Chef West. The pho French dip — prime rib dipped in pho broth — is genius-level fusion. Saturday farmers market booth still has lines. Dinner reservations recommended; the bar takes walk-ins. Friday and Saturday nights have serious energy in the Chinatown dining room.",
+  "parking": "Street parking on Waialae Ave. Civil Beat Plaza lot at 3650 Waialae Ave.",
+  "talkStory": "Chef Andrew Le, son of Vietnamese refugees, started selling pho at the KCC Farmers Market and blew up from there. After 12 years in Chinatown, The Pig and the Lady moved to a bigger space in Kaimuki at 3650 Waialae Ave (Civil Beat Plaza), reopening October 2025. Le earned a James Beard semifinalist nomination for Best Chef West. The pho French dip — prime rib dipped in pho broth — is genius-level fusion. Saturday farmers market booth still has lines. Dinner reservations recommended.",
   "cashOnly": false,
   "kamaaina": null
 }

@@ -1,13 +1,13 @@
 {
   "name": "Sushi Ginza Onodera",
   "tier": "A",
-  "lat": 21.2836,
-  "lng": -157.8303,
+  "lat": 21.2755,
+  "lng": -157.8118,
   "category": "restaurant",
   "subcategory": "fine-dining",
   "genre": "fine-dining",
   "tagline": "Tokyo-level omakase in Waikiki — the fish is flown in from Toyosu and the craft is impeccable.",
-  "area": "Waikiki",
+  "area": "Kapahulu",
   "price": "$$$",
   "mustOrder": [
     "Omakase — the full chef's counter experience, ~20 pieces of seasonal nigiri",
