@@ -1,0 +1,24 @@
+{
+  "name": "Toa Luau",
+  "tier": "S",
+  "lat": 21.6363,
+  "lng": -158.0544,
+  "category": "experience",
+  "subcategory": "luau",
+  "genre": "cultural-experience",
+  "tagline": "The only luau on Oahu with a perfect 5.0 Google rating — intimate, authentic, and set inside Waimea Valley's lush botanical garden.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$$$",
+  "hours": "Check-in 3:30pm–4pm, show runs until ~8pm. Schedule varies seasonally",
+  "bestTime": "Book at least 2 weeks ahead — they sell out. Arrive early to walk Waimea Valley before the luau starts",
+  "kidFriendly": true,
+  "parking": "Free parking at Waimea Valley entrance, 59-864 Kamehameha Hwy",
+  "kamaaina": "Kamaaina rates available — check website",
+  "talkStory": "What sets Toa Luau apart from the mega-luaus is scale. Max 200 guests (vs 800+ at the big ones), set under a canopy of trees inside Waimea Valley. The Polynesian performance is intimate enough that you can see the dancers' expressions. Run by a Samoan family with deep roots in Polynesian culture — the fire knife dance finale is genuinely thrilling, not a phoned-in tourist show. The buffet includes kalua pig from an actual imu (underground oven) dug that morning, plus poi, laulau, and haupia. Your ticket includes same-day Waimea Valley admission, so arrive at 2pm to hike to the waterfall first. A perfect 5.0 rating across 4,500+ reviews is almost unheard of — this is the real deal.",
+  "cashOnly": false,
+  "mustOrder": [
+    "kalua pig straight from the imu",
+    "haupia (coconut pudding)",
+    "arrive early and swim at Waimea Falls with your included admission"
+  ]
+}

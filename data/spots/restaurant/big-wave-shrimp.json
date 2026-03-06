@@ -1,0 +1,23 @@
+{
+  "name": "Big Wave Shrimp",
+  "tier": "B",
+  "lat": 21.5793,
+  "lng": -158.1053,
+  "category": "restaurant",
+  "subcategory": "shrimp-truck",
+  "genre": "food-truck",
+  "tagline": "North Shore shrimp truck with shorter lines than Giovanni's — garlic butter, spicy, and coconut shrimp plates done right.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$",
+  "mustOrder": [
+    "garlic butter shrimp plate — the classic",
+    "spicy shrimp if you can handle heat",
+    "coconut shrimp for something different"
+  ],
+  "parking": "Roadside pulloff near the truck on Kamehameha Hwy",
+  "hours": "Daily ~10:30am–5pm (or until sold out)",
+  "bestTime": "Early lunch before the tour buses arrive. Less line than Giovanni's",
+  "talkStory": "Big Wave Shrimp is the local's alternative to Giovanni's — similar quality garlic shrimp, but typically half the line. The garlic butter shrimp plate is loaded with plump shrimp swimming in buttery garlic sauce over rice. They also do a solid spicy version and coconut shrimp that Giovanni's doesn't offer. Located in Haleiwa town, it's easy to combine with other North Shore stops. The truck has picnic table seating and that classic North Shore food truck vibe. At 4.6 stars with 2,100+ reviews, the quality speaks for itself.",
+  "cashOnly": false,
+  "kamaaina": null
+}

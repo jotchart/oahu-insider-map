@@ -1,0 +1,23 @@
+{
+  "name": "Hy's Steak House",
+  "tier": "B",
+  "lat": 21.2758,
+  "lng": -157.8234,
+  "category": "restaurant",
+  "subcategory": "steakhouse",
+  "genre": "fine-dining",
+  "tagline": "Old-school Waikiki steakhouse since 1976 — tableside Caesar salad, prime cuts, and the kind of service that makes you feel like a VIP.",
+  "area": "Waikiki",
+  "price": "$$$$",
+  "mustOrder": [
+    "tableside Caesar salad — the theatrical signature",
+    "bone-in ribeye or NY strip",
+    "bananas Foster flambéed tableside"
+  ],
+  "parking": "Waikiki street parking on Kuhio Ave; valet at nearby hotels",
+  "hours": "Daily 5pm–10pm",
+  "bestTime": "Reservations essential for Fri–Sat dinner. Weeknights are more relaxed",
+  "talkStory": "Hy's has been the classic Waikiki steakhouse since 1976 — dark wood, white tablecloths, tableside preparations, and proper old-school service. While modern steakhouses have come and gone, Hy's endures because it nails the fundamentals: prime beef, excellent cocktails, and staff who treat every table like regulars. The tableside Caesar salad and flambéed desserts are theatrical touches that feel nostalgic rather than gimmicky. Not the trendy pick, but a special-occasion splurge that delivers consistently. Popular with anniversary and birthday crowds.",
+  "cashOnly": false,
+  "kamaaina": null
+}

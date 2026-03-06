@@ -1,0 +1,24 @@
+{
+  "name": "Chief's Luau",
+  "tier": "A",
+  "lat": 21.3527,
+  "lng": -158.0067,
+  "category": "experience",
+  "subcategory": "luau",
+  "genre": "cultural-experience",
+  "tagline": "West Side luau at Wet 'n' Wild with solid fire knife dancing, a big buffet, and Waikiki pickup — the approachable mid-range option.",
+  "area": "Leeward (Kapolei / Ewa)",
+  "price": "$$",
+  "hours": "Gates open ~5pm, show ~6–8:30pm. Days vary, check website",
+  "bestTime": "Book a few days ahead for weekend shows. The Waikiki shuttle makes logistics easy",
+  "kidFriendly": true,
+  "parking": "Free parking at Wet 'n' Wild Hawaii, 400 Farrington Hwy",
+  "kamaaina": "Kamaaina pricing available",
+  "talkStory": "Chief's Luau runs out of the Wet 'n' Wild Hawaii waterpark in Kapolei, which sounds odd but actually works — the outdoor amphitheater space is solid and the Leeward sunset backdrop is beautiful. The fire knife dance is the highlight, with Chief Sielu (a world fire knife champion) headlining the show. The buffet is standard luau fare — kalua pig, chicken long rice, poi, haupia — done competently. It's bigger and more polished than a backyard luau but more affordable and less corporate than the Waikiki hotel luaus. Hotel pickup from Waikiki is available and recommended since it's a 30+ minute drive.",
+  "cashOnly": false,
+  "mustOrder": [
+    "kalua pig from the buffet",
+    "haupia for dessert",
+    "upgrade to the Royal package for better seating"
+  ]
+}

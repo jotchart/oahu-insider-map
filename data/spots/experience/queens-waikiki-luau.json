@@ -1,0 +1,24 @@
+{
+  "name": "Queen's Waikiki Luau",
+  "tier": "B",
+  "lat": 21.2687,
+  "lng": -157.8223,
+  "category": "experience",
+  "subcategory": "luau",
+  "genre": "cultural-experience",
+  "tagline": "Waikiki beachfront luau at Queen Kapiolani Hotel — convenient, no long drive, with Diamond Head as the backdrop.",
+  "area": "Waikiki",
+  "price": "$$$",
+  "hours": "Check-in ~5pm, show runs until ~8pm. Schedule varies",
+  "bestTime": "Book 3–5 days ahead. The convenience of walking from your Waikiki hotel is the main selling point",
+  "kidFriendly": true,
+  "parking": "Queen Kapiolani Hotel parking or street parking in Waikiki",
+  "kamaaina": "Kamaaina rates available",
+  "talkStory": "If you want a luau experience without driving 30–60 minutes out of Waikiki, Queen's is your best option. Set on the rooftop of the Queen Kapiolani Hotel with Diamond Head as the backdrop, it offers the standard luau package — traditional Hawaiian buffet, Polynesian dance performances, fire knife finale — in a convenient Waikiki location. It's not as intimate as Toa Luau or as high-energy as Mauka Warriors, but the location factor is huge for families or visitors without a car. Solid 4.7 rating across 3,500 reviews.",
+  "cashOnly": false,
+  "mustOrder": [
+    "kalua pig from the buffet",
+    "mai tai — included in most packages",
+    "grab a spot near the front for the fire knife dancer"
+  ]
+}

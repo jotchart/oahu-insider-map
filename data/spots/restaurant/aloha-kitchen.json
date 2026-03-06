@@ -1,0 +1,23 @@
+{
+  "name": "Aloha Kitchen",
+  "tier": "B",
+  "lat": 21.2852,
+  "lng": -157.8337,
+  "category": "restaurant",
+  "subcategory": "brunch",
+  "genre": "casual",
+  "tagline": "Famous for impossibly fluffy soufflé pancakes — Japanese-Hawaiian brunch fusion near Ala Moana.",
+  "area": "Ala Moana / Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "soufflé pancakes — the signature, jiggly and cloud-like",
+    "loco moco with gravy",
+    "spam musubi plate"
+  ],
+  "parking": "Street parking on Ena Rd; Ala Moana Center parking nearby",
+  "hours": "Daily 7am–2pm, 5pm–9pm",
+  "bestTime": "Weekday breakfast. Weekend brunch has a 30–60 min wait. The soufflé pancakes take 20 min to make regardless",
+  "talkStory": "Aloha Kitchen is where Japanese soufflé pancake culture meets Hawaiian comfort food. The pancakes are the draw — impossibly tall, jiggly, cloud-like creations that take 20 minutes to prepare (they warn you upfront). But the rest of the menu is solid local comfort food: loco moco, spam plates, and curry. Popular with Japanese tourists who know the soufflé pancake genre, but locals come for the loco moco. Be prepared to wait on weekends.",
+  "cashOnly": false,
+  "kamaaina": null
+}

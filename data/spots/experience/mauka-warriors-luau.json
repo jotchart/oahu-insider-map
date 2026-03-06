@@ -1,0 +1,24 @@
+{
+  "name": "Mauka Warriors Luau",
+  "tier": "A",
+  "lat": 21.3254,
+  "lng": -158.0647,
+  "category": "experience",
+  "subcategory": "luau",
+  "genre": "cultural-experience",
+  "tagline": "Newer Kapolei luau with a 4.9 rating and nearly 5,000 reviews — intimate, warrior-themed, and heavy on audience interaction.",
+  "area": "Leeward (Kapolei / Ewa)",
+  "price": "$$$",
+  "hours": "Check-in ~4:30pm, show runs until ~8pm. Days vary seasonally",
+  "bestTime": "Book a week ahead, especially for weekend shows. The bus pickup option from Waikiki is convenient",
+  "kidFriendly": true,
+  "parking": "Free parking on-site at 91-1780 Midway St, Kapolei",
+  "kamaaina": "Kamaaina rates available",
+  "talkStory": "The newcomer challenging Toa Luau for best luau on Oahu. Mauka Warriors leans into the warrior culture of Polynesia — expect a more high-energy, athletic performance with Samoan fire knife and Maori haka alongside traditional hula. The intimate setting (smaller than the resort mega-luaus) means you're close to the action. The imu ceremony (digging up the underground-roasted pig) is interactive, not just a photo op. Food is solid traditional Hawaiian buffet. They offer hotel pickup from Waikiki which is a huge plus. The 4.9 rating across nearly 5,000 reviews puts it in rarefied air.",
+  "cashOnly": false,
+  "mustOrder": [
+    "kalua pig from the imu ceremony",
+    "try the poi — they make it approachable for first-timers",
+    "premium seating is worth the upgrade for front-row fire knife"
+  ]
+}

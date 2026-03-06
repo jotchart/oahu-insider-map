@@ -1,0 +1,22 @@
+{
+  "name": "Tempura Ichika",
+  "tier": "S",
+  "lat": 21.2934,
+  "lng": -157.8470,
+  "category": "restaurant",
+  "subcategory": "fine-dining",
+  "genre": "fine-dining",
+  "tagline": "Oahu's only dedicated tempura omakase — a Tokyo-caliber counter experience hidden behind a nondescript Piikoi St facade.",
+  "area": "Ala Moana",
+  "price": "$$$",
+  "mustOrder": [
+    "tempura omakase ($160/person) — the only option, and worth every dollar",
+    "seasonal vegetables — the chef's batter work elevates each ingredient",
+    "sushi omakase at Sushi Ichika (same address, separate experience)"
+  ],
+  "parking": "Street parking on Piikoi St; nearby paid lots",
+  "hours": "Mon-Tue, Thu-Sat 5pm-10pm; closed Wed",
+  "talkStory": "Chef Kiyoshi Chikano, who trained under Michelin-starred masters in Japan, opened this intimate counter in a location most people walk right past. Inside, it's 8 seats facing the chef as he fries each piece of tempura to order — shrimp, seasonal fish, vegetables — with the precision and reverence you'd find in Tokyo's Ebisu neighborhood. At $160/person it's a splurge, but locals who know Japanese food treat this as the real deal without Waikiki markup. They also run Sushi Ichika at the same address for a separate sushi omakase experience. Reserve ahead.",
+  "cashOnly": false,
+  "kamaaina": null
+}

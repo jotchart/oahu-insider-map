@@ -1,0 +1,23 @@
+{
+  "name": "Taormina Sicilian Cuisine",
+  "tier": "B",
+  "lat": 21.2784,
+  "lng": -157.8302,
+  "category": "restaurant",
+  "subcategory": "italian",
+  "genre": "fine-dining",
+  "tagline": "Upscale Sicilian in the heart of Waikiki — handmade pasta, imported wines, and the best Italian food on this side of the Pacific.",
+  "area": "Waikiki",
+  "price": "$$$",
+  "mustOrder": [
+    "any handmade pasta — the chef imports semolina from Sicily",
+    "branzino or fresh catch prepared Mediterranean-style",
+    "tiramisu to finish"
+  ],
+  "parking": "Waikiki street parking on Lewers St; hotel valet options nearby",
+  "hours": "Daily 5pm–10pm",
+  "bestTime": "Reservations recommended for dinner, especially Fri–Sat",
+  "talkStory": "Taormina fills the fine Italian dining gap that Waikiki has always had. Named after the clifftop Sicilian town, the restaurant takes Southern Italian cuisine seriously — handmade pastas, seafood-forward dishes, and an Italian wine list that goes deep. The space is elegant without being stuffy, a welcome change from the resort restaurant formula. At 4.7 stars with nearly 3,000 reviews, it holds its own against Waikiki's best restaurants. Not cheap, but a legitimate splurge option for Italian food lovers.",
+  "cashOnly": false,
+  "kamaaina": null
+}

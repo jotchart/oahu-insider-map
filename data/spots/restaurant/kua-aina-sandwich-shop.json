@@ -1,0 +1,23 @@
+{
+  "name": "Kua 'Aina Sandwich Shop",
+  "tier": "A",
+  "lat": 21.5793,
+  "lng": -158.1032,
+  "category": "restaurant",
+  "subcategory": "burgers",
+  "genre": "casual",
+  "tagline": "The original North Shore burger joint since 1975 — thick patties, mahimahi sandwiches, and old-school Haleiwa charm before it became a Japan chain.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$",
+  "mustOrder": [
+    "1/3 lb burger with avocado and bacon",
+    "mahimahi sandwich — fresh and perfectly grilled",
+    "fries — hand-cut, not frozen"
+  ],
+  "parking": "Small lot behind the restaurant on Kamehameha Hwy; street parking in Haleiwa town",
+  "hours": "Daily 11am–8pm",
+  "bestTime": "Lunch rush hits hard 12–1pm on weekends. Come at 11am or after 2pm",
+  "talkStory": "Kua 'Aina opened in 1975 in Haleiwa when the North Shore was still just surfers and farmers. The burgers were so good that a Japanese businessman licensed the name and opened 30+ locations across Japan and Asia — making it one of Hawaii's biggest food exports most people don't know about. But the original Haleiwa location is still the one that matters: thick hand-formed patties, fresh-baked buns, local avocado, and that slightly cramped counter-service charm that chains can never replicate. The mahimahi sandwich is the sleeper pick. There's also a Ward Village location in town, but the Haleiwa original is the experience.",
+  "cashOnly": false,
+  "kamaaina": null
+}

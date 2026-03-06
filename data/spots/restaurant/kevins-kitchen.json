@@ -1,0 +1,22 @@
+{
+  "name": "Kevin's Kitchen",
+  "tier": "B",
+  "lat": 21.3011,
+  "lng": -157.8410,
+  "category": "restaurant",
+  "subcategory": "chinese",
+  "genre": "chinese",
+  "tagline": "Casual Hong Kong-style cafe on Beretania — BYOB, plate lunches by day, and preorder roast goose for family gatherings.",
+  "area": "McCully",
+  "price": "$$",
+  "mustOrder": [
+    "roast goose (preorder required) — the star dish, crispy skin and juicy meat",
+    "salt-and-pepper fried tofu — deceptively simple, perfectly executed",
+    "chicken and jellyfish salad — a classic Cantonese cold dish done right"
+  ],
+  "parking": "Street parking on S Beretania St; small lot nearby",
+  "hours": "Mon, Wed-Sun 9:30am-8:30pm; closed Tue",
+  "talkStory": "Kevin's Kitchen is the kind of place where you go because your aunty told you about it. Opened May 2025 on S Beretania, it's a casual Hong Kong/Cantonese cafe that serves plate lunches during the day and has banquet-style dishes available by preorder — the roast goose is the showstopper. It's BYOB, affordable, and has zero pretense. The McCully location keeps it off the tourist radar entirely. Local Chinese families use this for gatherings when they want real Cantonese cooking without restaurant markup.",
+  "cashOnly": false,
+  "kamaaina": null
+}

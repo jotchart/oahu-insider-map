@@ -1,0 +1,21 @@
+{
+  "name": "Bird's Nest Coffee",
+  "tier": "B",
+  "lat": 21.5793,
+  "lng": -158.1053,
+  "category": "coffee",
+  "subcategory": "cafe",
+  "tagline": "Third-wave specialty coffee and fresh sourdough in Haleiwa — started from a van, now a proper North Shore local favorite.",
+  "area": "North Shore",
+  "price": "$$",
+  "mustOrder": [
+    "any seasonal latte — rotating specials with local flavors",
+    "cold brew — smooth and well-extracted",
+    "fresh sourdough baked goods — made in-house daily"
+  ],
+  "parking": "Lot on Kamehameha Hwy in Haleiwa town",
+  "hours": "Mon-Wed, Fri-Sun 7am-3pm; closed Thu",
+  "talkStory": "Bird's Nest started as a coffee van before opening a brick-and-mortar in Haleiwa in May 2024. On a stretch of the North Shore dominated by acai bowl shops and surf brand cafes, Bird's Nest brings genuine third-wave coffee craft — specialty beans, proper extraction, and seasonal drinks that change regularly. The sourdough baked goods are made in-house and sell out early. The vibe is chill and local, drawing North Shore residents who want good coffee without driving to town. A welcome addition to Haleiwa's food scene that isn't chasing the tourist dollar.",
+  "cashOnly": false,
+  "kamaaina": null
+}

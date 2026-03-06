@@ -1,0 +1,21 @@
+{
+  "name": "Honolulu Tavern",
+  "tier": "A",
+  "lat": 21.2798,
+  "lng": -157.8258,
+  "category": "nightlife",
+  "subcategory": "dive-bar",
+  "tagline": "Waikiki's last real dive bar — $5 mai tais, a vintage jukebox, and zero pretense at the base of the Hawaiian King building.",
+  "area": "Waikiki",
+  "price": "$",
+  "mustOrder": [
+    "$5 mai tai — the house special that keeps regulars coming back",
+    "whatever's cheapest on draft — drinks regularly under $3 on specials",
+    "nothing from the kitchen — there is no kitchen, and that's the point"
+  ],
+  "parking": "Street parking on Nohonani St; nearby paid lots in Waikiki",
+  "hours": "Mon-Fri 12pm-2am; Sat-Sun 11:30am-2am",
+  "talkStory": "While Waikiki drowns in $18 cocktails and overproduced bar concepts, Honolulu Tavern holds the line as the neighborhood's last authentic dive. Tucked at the base of the Hawaiian King condo building on Nohonani St, it's where bartenders and hotel workers come after their shifts to decompress over cheap drinks. Pool table in the back, jukebox on the wall, and a crowd that's refreshingly real for a Waikiki address. No food, no frills — just a proper bar where nobody's trying to impress anybody.",
+  "cashOnly": false,
+  "kamaaina": null
+}

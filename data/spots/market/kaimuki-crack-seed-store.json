@@ -1,0 +1,21 @@
+{
+  "name": "Kaimuki Crack Seed Store",
+  "tier": "S",
+  "lat": 21.2818,
+  "lng": -157.7985,
+  "category": "market",
+  "subcategory": "crack-seed",
+  "tagline": "Oahu's oldest crack seed shop — 80+ years of li hing mui, dried plum, and the snack culture that defines growing up local.",
+  "area": "Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "li hing mui Icee — the signature, sweet-sour-salty frozen perfection",
+    "crack seed by the pound — let the staff guide you if you're new",
+    "li hing gummy bears — the gateway drug for mainlanders"
+  ],
+  "parking": "Street parking on Koko Head Ave",
+  "hours": "Mon-Fri 9am-5pm (closed weekends)",
+  "talkStory": "This unassuming shop on Koko Head Ave has been selling crack seed since the 1940s, making it one of the oldest in Hawaii. Crack seed — preserved dried fruits seasoned with li hing mui powder, salt, sugar, and spices — is a snack tradition brought by Chinese immigrants that became uniquely Hawaiian. Every local kid grew up with a bag of sweet-sour seed from a shop like this. 'Uncle' Kon Ping Young ran the store for 41 years before retiring in 2019; new owners kept the legacy alive. If you didn't grow up here, ask the staff what to try — they'll steer you right. The li hing Icees alone are worth the detour.",
+  "cashOnly": false,
+  "kamaaina": null
+}

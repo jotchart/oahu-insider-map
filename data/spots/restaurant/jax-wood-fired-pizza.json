@@ -1,0 +1,23 @@
+{
+  "name": "Jax Wood Fired Pizza",
+  "tier": "B",
+  "lat": 21.5793,
+  "lng": -158.1015,
+  "category": "restaurant",
+  "subcategory": "pizza",
+  "genre": "casual",
+  "tagline": "Haleiwa's wood-fired pizza spot with a 4.9 rating — Neapolitan-style pies, craft beer, and a laid-back North Shore vibe.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$$",
+  "mustOrder": [
+    "Margherita — the benchmark for any pizza place",
+    "any seasonal special with local toppings",
+    "local craft beer on tap"
+  ],
+  "parking": "Street parking on Kamehameha Hwy in Haleiwa town",
+  "hours": "Wed–Mon 11am–9pm, closed Tue",
+  "bestTime": "Early dinner to snag a table. Popular post-beach spot",
+  "talkStory": "Jax brings legit wood-fired Neapolitan pizza to the North Shore, and the 4.9 Google rating across 1,000+ reviews says everything. The dough is made fresh daily, the wood-fired oven produces that perfect leopard-spotted char, and they're not afraid to use local ingredients as toppings. It's the kind of casual pizza spot every surf town needs — order at the counter, grab a craft beer, and eat on the patio. A welcome break from plate lunches and shrimp trucks when you've been on the North Shore all day.",
+  "cashOnly": false,
+  "kamaaina": null
+}

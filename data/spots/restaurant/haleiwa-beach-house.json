@@ -1,0 +1,23 @@
+{
+  "name": "Hale'iwa Beach House",
+  "tier": "B",
+  "lat": 21.5703,
+  "lng": -158.1039,
+  "category": "restaurant",
+  "subcategory": "american-seafood",
+  "genre": "casual",
+  "tagline": "North Shore oceanfront dining with sunset cocktails, surf-and-turf, and the best view of any restaurant in Haleiwa.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$$",
+  "mustOrder": [
+    "sunset cocktail on the oceanfront deck — the real draw",
+    "fish tacos or fresh catch of the day",
+    "pupu platter to share"
+  ],
+  "parking": "Parking lot at 62-540 Kamehameha Hwy; can fill up at sunset",
+  "hours": "Daily 11am–9pm",
+  "bestTime": "Arrive 30 min before sunset for the best deck seats. The view is the main event",
+  "talkStory": "The food at Hale'iwa Beach House is solid but not extraordinary — you come here for the setting. It's one of the only North Shore restaurants right on the ocean, with an outdoor deck that faces west for golden-hour sunsets. The menu covers the expected surf-and-turf bases: poke, fish tacos, burgers, steak. The cocktail program is better than it needs to be. Good option for a relaxed North Shore dinner after a day at the beaches, especially if you want to sit outside and watch the waves.",
+  "cashOnly": false,
+  "kamaaina": null
+}

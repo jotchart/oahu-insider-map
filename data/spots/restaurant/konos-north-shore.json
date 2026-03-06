@@ -1,0 +1,23 @@
+{
+  "name": "Kono's Northshore",
+  "tier": "B",
+  "lat": 21.5792,
+  "lng": -158.1029,
+  "category": "restaurant",
+  "subcategory": "breakfast",
+  "genre": "casual",
+  "tagline": "Haleiwa breakfast spot famous for 12-hour kalua pork in burritos and benedicts — fuel for a North Shore surf day.",
+  "area": "North Shore (Haleiwa)",
+  "price": "$",
+  "mustOrder": [
+    "kalua pork breakfast burrito — 12-hour smoked, the signature",
+    "Hawaiian plate with rice and mac salad",
+    "milkshake to go"
+  ],
+  "parking": "Small lot at 66-250 Kamehameha Hwy; street parking in Haleiwa town",
+  "hours": "Daily 7am–3pm",
+  "bestTime": "Pre-surf breakfast by 8am. Weekends get a line by 9am",
+  "talkStory": "Kono's is the surf crowd's breakfast spot in Haleiwa. The star is the 12-hour smoked kalua pork that goes into everything — burritos, eggs benny, plate lunches. It's the kind of place where you order at the counter, grab a seat on the lanai, and watch the North Shore wake up. Not trying to be fancy, just trying to feed surfers properly. The burritos are massive and under $15, which is almost unheard of in Haleiwa these days.",
+  "cashOnly": false,
+  "kamaaina": null
+}

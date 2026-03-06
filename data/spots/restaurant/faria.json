@@ -1,0 +1,22 @@
+{
+  "name": "Faria",
+  "tier": "A",
+  "lat": 21.3960,
+  "lng": -157.7412,
+  "category": "restaurant",
+  "subcategory": "portuguese",
+  "genre": "portuguese",
+  "tagline": "Oahu's only Portuguese restaurant — 'Pacifika Portuguese' from a chef honoring Hawaii's deep Lusitanian roots.",
+  "area": "Kailua",
+  "price": "$$$",
+  "mustOrder": [
+    "any daily fish preparation — chef Kawehi Haug sources local",
+    "Portuguese sausage dishes — connecting Hawaii's beloved breakfast staple to its origins",
+    "desserts with tropical twists on Portuguese classics"
+  ],
+  "parking": "Street parking on Kuulei Rd",
+  "hours": "Wed-Sat 5pm-10pm (dinner only)",
+  "talkStory": "Portuguese immigrants came to Hawaii in the late 1800s to work sugar plantations and left a permanent mark — malasadas, Portuguese sausage, sweet bread, and bean soup are all local staples. Yet until Faria opened in January 2025, there was no dedicated Portuguese restaurant on Oahu. Chef-owner Kawehi Haug calls the cuisine 'Pacifika Portuguese,' bridging traditional recipes with local Hawaiian ingredients. The intimate Kailua space fills fast; reservations are essential. If you've ever wondered where malasadas actually came from, this is the deeper story on a plate.",
+  "cashOnly": false,
+  "kamaaina": null
+}

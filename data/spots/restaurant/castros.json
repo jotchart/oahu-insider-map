@@ -1,0 +1,23 @@
+{
+  "name": "Castro's",
+  "tier": "B",
+  "lat": 21.2815,
+  "lng": -157.8278,
+  "category": "restaurant",
+  "subcategory": "latin-american",
+  "genre": "casual",
+  "tagline": "Latin American flavors in Waikiki — empanadas, ceviche, and Cuban sandwiches in a spacious indoor-outdoor space.",
+  "area": "Waikiki",
+  "price": "$$",
+  "mustOrder": [
+    "empanadas — crispy and well-seasoned",
+    "Cuban sandwich",
+    "ceviche with fresh catch"
+  ],
+  "parking": "Waikiki street parking on Kalakaua Ave; nearby hotel lots",
+  "hours": "Daily 11am–10pm",
+  "bestTime": "Dinner for the full menu. The outdoor patio is nice in the evening",
+  "talkStory": "Castro's fills the Latin American cuisine gap in Waikiki. The 4.8 rating across 1,200+ reviews is impressive for a relatively new restaurant in one of the most competitive dining corridors in Hawaii. The menu spans Cuban, Peruvian, and Brazilian influences — empanadas, ceviche, rice bowls, and cocktails. The space is modern with a big wooden-beam interior and outdoor seating. A welcome alternative to the typical Waikiki dining options.",
+  "cashOnly": false,
+  "kamaaina": null
+}

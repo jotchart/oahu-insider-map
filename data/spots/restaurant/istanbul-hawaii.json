@@ -1,0 +1,23 @@
+{
+  "name": "Istanbul Hawai'i",
+  "tier": "A",
+  "lat": 21.2941,
+  "lng": -157.8535,
+  "category": "restaurant",
+  "subcategory": "turkish",
+  "genre": "international",
+  "tagline": "The only legit Turkish restaurant on Oahu — mezze platters, kebabs, and baklava in the heart of Kakaako's SALT complex.",
+  "area": "Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "mixed mezze platter — hummus, baba ganoush, stuffed grape leaves",
+    "lamb kebab plate",
+    "Turkish tea or coffee to finish"
+  ],
+  "parking": "Free parking at SALT at Our Kakaako complex; street parking on Auahi St",
+  "hours": "Tue–Sun 11am–9pm, closed Mon",
+  "bestTime": "Dinner on the outdoor terrace. Weeknight dinners are relaxed; weekends get busy",
+  "talkStory": "Istanbul Hawai'i fills a genuine cuisine gap on the island — there's nowhere else to get proper Turkish food on Oahu. Located in SALT at Our Kakaako, the restaurant serves traditional mezze, kebabs, pide (Turkish flatbread), and house-made baklava. The outdoor terrace is one of the nicer casual dining spots in Kakaako. Run by a Turkish family who imports spices directly. The mixed grill plate is enough for two. At 4.6 stars with nearly 2,000 reviews, it's earned its following purely on food quality in a neighborhood full of competition.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Sweet E's Café",
+  "tier": "A",
+  "lat": 21.2802,
+  "lng": -157.8157,
+  "category": "restaurant",
+  "subcategory": "brunch",
+  "genre": "breakfast",
+  "tagline": "Kapahulu brunch institution with legendary French toast flights and loco moco — where locals actually eat breakfast.",
+  "area": "Kapahulu / Kaimuki",
+  "price": "$$",
+  "mustOrder": [
+    "French toast flight — try multiple flavors in one sitting",
+    "loco moco with homemade gravy",
+    "red velvet pancakes"
+  ],
+  "parking": "Street parking on Kapahulu Ave; arrive early on weekends or you'll circle",
+  "hours": "Daily 7am–2pm",
+  "bestTime": "Weekdays before 9am to avoid the wait. Weekend lines can be 30–45 min by 9:30am",
+  "talkStory": "Sweet E's has been the Kapahulu brunch spot since opening, earning a devoted local following that rivals the more Instagrammed places. The French toast flight lets you try multiple signature flavors — crème brûlée, Fruity Pebbles, Oreo — without committing to one. The loco moco is a proper rendition with thick homemade gravy. The space is cozy (read: small), which is why the wait gets real on weekends. Not a tourist brunch spot — you'll be surrounded by local families and regulars. The Kapahulu corridor location puts you walking distance from Diamond Head and the zoo.",
+  "cashOnly": false,
+  "kamaaina": null
+}

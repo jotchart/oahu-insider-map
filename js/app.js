@@ -24,10 +24,7 @@ const map = L.map('map', {
 
 L.control.zoom({ position: 'topright' }).addTo(map);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '&copy; OpenStreetMap &middot; &copy; CARTO',
-  maxZoom: 19
-}).addTo(map);
+L.gridLayer.googleMutant({ type: 'terrain', maxZoom: 20 }).addTo(map);
 
 // ── Register map in core registry ──
 registerMap(map);

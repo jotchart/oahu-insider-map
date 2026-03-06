@@ -1,0 +1,22 @@
+{
+  "name": "Oh My Grill",
+  "tier": "B",
+  "lat": 21.3810,
+  "lng": -157.9418,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "genre": "local-grinds",
+  "tagline": "Aiea's go-to for late-night local comfort food — loco moco, garlic shrimp plates, and mixed plates until midnight.",
+  "area": "Aiea",
+  "price": "$",
+  "mustOrder": [
+    "loco moco — the 11pm standard, gravy-drenched and satisfying",
+    "garlic shrimp plate — solid execution of a North Shore classic",
+    "mixed plate — pick two proteins, rice, mac salad, done"
+  ],
+  "parking": "Shopping center lot on Kamehameha Hwy",
+  "hours": "Daily 9am-12am",
+  "talkStory": "When it's 11pm in Aiea and you need real food — not fast food, not convenience store — Oh My Grill is where you end up. Open 9am to midnight daily, it fills the late-night gap that most local restaurants leave wide open. The menu is classic local comfort: plate lunches, loco moco, burgers, garlic shrimp, and katsu. Nothing fancy, nothing trying to be — just consistent local grinds at hours when everything else is closed. Pearl City and Aiea locals have adopted this as their default late-night spot.",
+  "cashOnly": false,
+  "kamaaina": null
+}

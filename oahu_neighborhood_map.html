@@ -12,6 +12,8 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" onerror="document.getElementById('map').innerHTML='<p style=\'padding:40px;color:#e94560;font-size:18px;text-align:center\'>Could not load map library. Check your internet connection and reload.</p>'"></script>
 <script src="https://unpkg.com/@turf/turf@6/turf.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCWeYmpo43ruOCJ1JV0ZcZcTKG-G2Knen0" async defer></script>
+<script src="https://unpkg.com/leaflet.gridlayer.googlemutant@0.14.1/dist/Leaflet.GoogleMutant.js"></script>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;1,9..40,400&family=Playfair+Display:wght@700;900&display=swap');
 
@@ -574,10 +576,7 @@ const map = L.map('map', {
 
 L.control.zoom({ position: 'topright' }).addTo(map);
 
-L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-  attribution: '© OpenStreetMap · © CARTO',
-  maxZoom: 19
-}).addTo(map);
+L.gridLayer.googleMutant({ type: 'terrain', maxZoom: 20 }).addTo(map);
 
 // ── Popup HTML ──
 function getPopupHTML(n) {

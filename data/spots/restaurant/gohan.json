@@ -1,0 +1,22 @@
+{
+  "name": "Gohan",
+  "tier": "A",
+  "lat": 21.2993,
+  "lng": -157.8413,
+  "category": "restaurant",
+  "subcategory": "japanese",
+  "genre": "japanese",
+  "tagline": "Oahu's first craft musubi bar — premium Yamagata rice shaped to order with toppings that take the humble musubi dead serious.",
+  "area": "Makiki",
+  "price": "$$",
+  "mustOrder": [
+    "yuzu ikura musubi — briny, citrusy, the signature",
+    "salmon flake musubi with furikake — simple perfection",
+    "any daily special — they rotate with seasonal ingredients"
+  ],
+  "parking": "Street parking on S King St; small lot nearby",
+  "hours": "Mon-Sat 8am-2pm; closed Sun",
+  "talkStory": "Opened November 2024 by the team behind Sushi Que and Golden Pork ramen, Gohan is built on one premise: musubi deserves the same craft treatment as sushi. They use premium Tsuyahime rice from Yamagata, Japan — shaped warm and paired with toppings like yuzu-marinated ikura, house-cured salmon, and seasonal specials. Watch the musubi master work behind the counter. It's breakfast and lunch only, and the line builds fast on weekends. This is what happens when someone decides Hawaii's most iconic grab-and-go snack should be elevated to an art form.",
+  "cashOnly": false,
+  "kamaaina": null
+}

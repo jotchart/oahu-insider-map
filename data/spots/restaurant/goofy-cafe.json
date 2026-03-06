@@ -1,0 +1,23 @@
+{
+  "name": "GOOFY Cafe & Dine",
+  "tier": "B",
+  "lat": 21.2876,
+  "lng": -157.8402,
+  "category": "restaurant",
+  "subcategory": "healthy-hawaiian",
+  "genre": "casual",
+  "tagline": "Farm-to-table Hawaiian cafe near Ala Moana — acai bowls, loco moco with local beef, and a surfer-chic vibe.",
+  "area": "Ala Moana / Kakaako",
+  "price": "$$",
+  "mustOrder": [
+    "acai bowl with local honey and granola",
+    "loco moco with Big Island grass-fed beef",
+    "fresh-pressed green juice"
+  ],
+  "parking": "Street parking on Ala Moana Blvd; paid lots nearby",
+  "hours": "Daily 7am–3pm",
+  "bestTime": "Breakfast before 9am to beat the crowd. Great post-surf or post-beach refuel",
+  "talkStory": "GOOFY Cafe leans hard into the locavore movement — they source from over 20 Hawaii farms and make everything in-house. The acai bowls and smoothies are what draw people in, but the hot food (loco moco, eggs benedict, curry plates) is what keeps locals coming back. The space has a casual surf-culture vibe near Ala Moana. Solid option for health-conscious eaters who still want flavor.",
+  "cashOnly": false,
+  "kamaaina": null
+}

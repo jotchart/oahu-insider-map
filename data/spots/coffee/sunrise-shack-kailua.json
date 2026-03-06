@@ -1,0 +1,17 @@
+{
+  "name": "The Sunrise Shack - Kailua",
+  "tier": "B",
+  "lat": 21.3945,
+  "lng": -157.7402,
+  "category": "coffee",
+  "subcategory": "smoothie-coffee",
+  "tagline": "Instagram-famous but actually good — bulletproof coffee, acai bowls, and smoothies in a bright yellow Kailua shack.",
+  "area": "Windward (Kailua)",
+  "price": "$$",
+  "parking": "Street parking on Kailua Rd; small lot nearby",
+  "hours": "Daily 7am–4pm",
+  "bestTime": "Morning before or after Kailua/Lanikai beach. Weekday mornings are chill",
+  "talkStory": "Sunrise Shack started as a literal shack at Pipeline on the North Shore, serving bulletproof coffee and smoothie bowls to surfers. The Kailua location brings the same health-focused menu to the Windward side: cold brew with coconut oil, turmeric lattes, loaded acai bowls, and avocado toast. Yes, it's Instagram-famous and the aesthetic is curated, but the quality backs it up — they use local ingredients and the coffee is legit. The bright yellow storefront is a Kailua landmark at this point.",
+  "cashOnly": false,
+  "kamaaina": null
+}

@@ -1,0 +1,23 @@
+{
+  "name": "House Without a Key",
+  "tier": "S",
+  "lat": 21.2778,
+  "lng": -157.8292,
+  "category": "restaurant",
+  "subcategory": "hawaiian-fine-dining",
+  "genre": "sunset-dining",
+  "tagline": "Sunset hula under a century-old kiawe tree at the Halekulani — one of the most magical dining experiences in Hawaii.",
+  "area": "Waikiki",
+  "price": "$$$",
+  "mustOrder": [
+    "Halekulani coconut cake — the hotel's signature since 1984",
+    "any fresh catch with a mai tai at sunset",
+    "pupu platter to share while watching the hula dancer"
+  ],
+  "parking": "Halekulani valet ($45+) or street parking on Saratoga/Kalia Rd",
+  "hours": "Breakfast 7–11am, Lunch 11:30am–2pm, Dinner 5–9pm. Hula nightly at 5:30pm (no cover)",
+  "bestTime": "Arrive by 5pm for a good seat near the hula stage before the 5:30 performance. Sunset timing is everything",
+  "talkStory": "Named after the 1925 Earl Derr Biggers novel (which also created Charlie Chan), House Without a Key is the Halekulani's open-air oceanfront restaurant. The nightly hula performance under the kiawe tree — featuring former Miss Hawaii winners — is one of those only-in-Hawaii moments that genuinely lives up to the fantasy. It's not a luau show; it's a single elegant dancer performing traditional hula while a Hawaiian steel guitar trio plays. The food is solid upscale Hawaiian (not the star — the setting is), and the cocktail program is excellent. Even if you can't afford a Halekulani room, a sunset drink here is the move. Named one of the most romantic restaurant settings in the US by multiple publications.",
+  "cashOnly": false,
+  "kamaaina": null
+}

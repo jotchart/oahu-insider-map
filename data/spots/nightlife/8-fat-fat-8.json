@@ -1,0 +1,21 @@
+{
+  "name": "8 Fat Fat 8 Bar & Grille",
+  "tier": "A",
+  "lat": 21.3005,
+  "lng": -157.8406,
+  "category": "nightlife",
+  "subcategory": "dive-bar",
+  "tagline": "A 40-year Honolulu institution where dive bar meets Chinese-fusion kitchen — pool, darts, karaoke, and the 'Fat Fat Special Chicken.'",
+  "area": "Makiki",
+  "price": "$",
+  "mustOrder": [
+    "Fat Fat Special Chicken — the legendary house dish, crispy and saucy",
+    "stir-fried lettuce — sounds weird, tastes incredible",
+    "fried rice — simple but perfectly executed late-night fuel"
+  ],
+  "parking": "Street parking on S Beretania St",
+  "hours": "Daily, open late",
+  "talkStory": "Established in 1986, 8 Fat Fat 8 is the rare dive bar where the food is genuinely great. The Chinese-fusion kitchen turns out dishes that would hold up at a proper restaurant — the Fat Fat Special Chicken and stir-fried lettuce are legendary among regulars. The crowd is a cross-section of real Honolulu: off-duty service industry workers, UH students, neighborhood uncles shooting pool, and whoever wandered in for karaoke. No craft cocktails, no Instagram decor, no tourists. Just cheap drinks, good food, and 40 years of accumulated character on S Beretania St.",
+  "cashOnly": false,
+  "kamaaina": null
+}

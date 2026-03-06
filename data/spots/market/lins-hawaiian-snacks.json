@@ -1,0 +1,21 @@
+{
+  "name": "Lin's Hawaiian Snacks",
+  "tier": "B",
+  "lat": 21.2945,
+  "lng": -157.8514,
+  "category": "market",
+  "subcategory": "crack-seed",
+  "tagline": "A 35-year Kakaako crack seed and local snack shop — li hing everything, free samples, and gift-worthy snack boxes.",
+  "area": "Kakaako",
+  "price": "$",
+  "mustOrder": [
+    "li hing pineapple — their signature, tangy and addictive",
+    "crack seed sampler — ask for a mix if you don't know where to start",
+    "bubble tea — a surprisingly good side offering"
+  ],
+  "parking": "Lot at Kamakee/Queen St intersection",
+  "hours": "Daily 10am-7pm",
+  "talkStory": "The Lin family has been selling crack seed and local snacks in Honolulu for over 35 years. The Kakaako location on Kamakee St is stocked floor to ceiling with li hing mui everything — dried plum, mango, gummy bears, arare, rock salt plum, and dozens more varieties. They also serve shave ice and bubble tea. Free samples are part of the experience, and the staff is great at guiding newcomers through the overwhelming selection. The pre-made gift boxes are perfect for taking local snack culture home. More polished than old-school crack seed shops, but the product is legit.",
+  "cashOnly": false,
+  "kamaaina": null
+}

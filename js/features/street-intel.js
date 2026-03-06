@@ -115,7 +115,7 @@ function renderStreetPanel(data) {
     </div>`;
   });
 
-  html += '<div class="street-footer">10 corridors across Metro Honolulu &middot; Updated March 2026</div>';
+  html += '<div class="street-footer">59 corridors across Metro Honolulu &middot; Updated March 2026</div>';
 
   // Wire up interactions after render
   setTimeout(() => {

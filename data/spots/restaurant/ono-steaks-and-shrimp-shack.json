@@ -1,0 +1,23 @@
+{
+  "name": "Ono Steaks and Shrimp Shack",
+  "tier": "B",
+  "lat": 21.3462,
+  "lng": -157.7196,
+  "category": "restaurant",
+  "subcategory": "plate-lunch",
+  "genre": "casual",
+  "tagline": "Waimanalo's answer to the North Shore shrimp trucks — garlic shrimp, steak plates, and loco moco in a colorful roadside shack.",
+  "area": "Windward (Waimanalo)",
+  "price": "$",
+  "mustOrder": [
+    "garlic shrimp plate — rivals the North Shore trucks",
+    "steak and shrimp combo",
+    "loco moco for the full plate lunch experience"
+  ],
+  "parking": "Small gravel lot right at the shack, 41-037 Wailea St",
+  "hours": "Daily 10am–5pm (or until sold out)",
+  "bestTime": "Stop here on your East Side loop after Waimanalo Beach or Makapuu. Lunch hours are busiest",
+  "talkStory": "If you don't want to drive all the way to the North Shore for garlic shrimp, Ono Steaks and Shrimp Shack in Waimanalo is the move. Bright, funky roadside spot with outdoor picnic tables and mountain views. The garlic butter shrimp is loaded with flavor, and the steak plates use proper cuts. Located on the main road through Waimanalo, it's a natural pit stop on the East Side coastal drive between Makapuu and Kailua. Cash-friendly, no-frills, exactly what a roadside shack should be.",
+  "cashOnly": false,
+  "kamaaina": null
+}

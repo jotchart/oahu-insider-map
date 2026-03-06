@@ -1,0 +1,22 @@
+{
+  "name": "Sik Do Rak",
+  "tier": "A",
+  "lat": 21.2945,
+  "lng": -157.8413,
+  "category": "restaurant",
+  "subcategory": "korean-bbq",
+  "genre": "korean",
+  "tagline": "All-you-can-eat Korean BBQ open until 4am on Keeaumoku Street — the heart of Honolulu's late-night Koreatown scene.",
+  "area": "Ala Moana / Keeaumoku",
+  "price": "$$",
+  "mustOrder": [
+    "AYCE galbi — ~$20/person for 90 minutes of unlimited meat",
+    "bulgogi and pork belly combo — the crowd favorites",
+    "banchan spread — replenished as fast as you can eat it"
+  ],
+  "parking": "Samsung Plaza lot on Keeaumoku St; street parking",
+  "hours": "Daily 10am-4am (BBQ from 11am)",
+  "talkStory": "Keeaumoku Street is Honolulu's unofficial Koreatown — a strip of Korean BBQ joints, karaoke bars, and noodle shops that tourists almost never visit. Sik Do Rak is the anchor: all-you-can-eat Korean BBQ at about $20/person with a 90-minute time limit, open until 4am every night. The quality-to-price ratio is hard to beat, and the 4am closing time makes it the default destination for anyone who's hungry after the bars close. The banchan is solid, the ventilation could be better, and your clothes will smell like galbi for days. Worth it.",
+  "cashOnly": false,
+  "kamaaina": null
+}

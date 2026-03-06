@@ -1,0 +1,23 @@
+{
+  "name": "South Shore Grill",
+  "tier": "A",
+  "lat": 21.2687,
+  "lng": -157.8138,
+  "category": "restaurant",
+  "subcategory": "casual-american",
+  "genre": "casual",
+  "tagline": "Monsarrat Ave local favorite near Diamond Head — killer fish tacos, burgers, and acai bowls in a no-frills neighborhood joint.",
+  "area": "Kapahulu / Kaimuki",
+  "price": "$",
+  "mustOrder": [
+    "fish tacos — the signature, perfectly battered",
+    "garlic shrimp plate",
+    "acai bowl for a post-hike refuel"
+  ],
+  "parking": "Street parking on Monsarrat Ave; easier on weekdays",
+  "hours": "Daily 10:30am–9pm",
+  "bestTime": "Perfect post-Diamond Head lunch. Hit the trail early, then refuel here by 11am before the lunch rush",
+  "talkStory": "South Shore Grill is the neighborhood restaurant Monsarrat Ave deserves — family-owned, consistent, and zero pretense. The fish tacos are the star, with perfectly battered fresh catch in soft flour tortillas. The garlic shrimp plate rivals the North Shore trucks without the 45-minute drive. Located on the same Monsarrat strip as Diamond Head Market & Grill, Bogart's Café, and Monsarrat Shave Ice, it's part of the best post-hike food corridor on the island. Mostly a local crowd with some savvy tourists. BYOB-friendly (there's a liquor store nearby).",
+  "cashOnly": false,
+  "kamaaina": null
+}
